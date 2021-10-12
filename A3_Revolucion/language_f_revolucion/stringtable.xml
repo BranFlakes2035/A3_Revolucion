@@ -127,7 +127,7 @@
 			</Container>
 		</Container>
 		<Container name="Characters_F">
-            <Key ID="STR_A3_T_CfgVehicles_O_B_Bandit_Pistol_F0">
+            <Key ID="STR_A3_R_CfgVehicles_O_B_Bandit_Pistol_F0">
                 <Original>Bandit (Pistol)</Original>
                 <Chinese>Bandit (Pistol)</Chinese>
                 <French>Bandit (Pistol)</French>
@@ -144,7 +144,7 @@
                 <Japanese>Bandit (Pistol)</Japanese>
                 <Turkish>Bandit (Pistol)</Turkish>
             </Key>
-            <Key ID="STR_A3_T_CfgVehicles_O_B_Bandit_Rifle_F0">
+            <Key ID="STR_A3_R_CfgVehicles_O_B_Bandit_Rifle_F0">
                 <Original>Bandit (Rifle)</Original>
                 <Chinese>Bandit (Rifle)</Chinese>
                 <French>Bandit (Rifle)</French>
@@ -161,7 +161,7 @@
                 <Japanese>Bandit (Rifle)</Japanese>
                 <Turkish>Bandit (Rifle)</Turkish>
             </Key>
-            <Key ID="STR_A3_T_CfgVehicles_O_B_Bandit_SMG_F0">
+            <Key ID="STR_A3_R_CfgVehicles_O_B_Bandit_SMG_F0">
                 <Original>Bandit (SMG)</Original>
                 <Chinese>Bandit (SMG)</Chinese>
                 <French>Bandit (SMG)</French>
@@ -178,7 +178,7 @@
                 <Japanese>Bandit (SMG)</Japanese>
                 <Turkish>Bandit (SMG)</Turkish>
             </Key>
-            <Key ID="STR_A3_T_CfgVehicles_O_B_Bandit_SG_F0">
+            <Key ID="STR_A3_R_CfgVehicles_O_B_Bandit_SG_F0">
                 <Original>Bandit (Shotgun)</Original>
                 <Chinese>Bandit (Shotgun)</Chinese>
                 <French>Bandit (Shotgun)</French>
@@ -196,7 +196,7 @@
                 <Turkish>Bandit (Shotgun)</Turkish>
             </Key>
 			<Container name="Groups">
-				<Key ID="STR_A3_T_CfgGroups_East_OPF_B_F_Infantry_O_B_BanditGang0">
+				<Key ID="STR_A3_R_CfgGroups_East_OPF_B_F_Infantry_O_B_BanditGang0">
 					<Original>Bandit Patrol</Original>
 					<Chinese>Bandit Patrol</Chinese>
 					<French>Bandit Patrol</French>
@@ -213,7 +213,7 @@
 					<Japanese>Bandit Patrol</Japanese>
 					<Turkish>Bandit Patrol</Turkish>
 				</Key>
-				<Key ID="STR_A3_T_CfgGroups_East_OPF_B_F_Infantry_O_B_CriminalGang0">
+				<Key ID="STR_A3_R_CfgGroups_East_OPF_B_F_Infantry_O_B_CriminalGang0">
 					<Original>Bandit Gang</Original>
 					<Chinese>Bandit Gang</Chinese>
 					<French>Bandit Gang</French>
@@ -232,7 +232,7 @@
 				</Key>
 			</Container>
 			<Container name="Uniforms">
-				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_dgtl_F0">
+				<Key ID="STR_A3_R_CfgWeapons_U_B_NAAF_Uniform_01_dgtl_F0">
 					<Original>Combat Fatigues [NAAF]</Original>
 					<Chinese>Combat Fatigues [NAAF]</Chinese>
 					<French>Combat Fatigues [NAAF]</French>
@@ -249,7 +249,7 @@
 					<Japanese>Combat Fatigues [NAAF]</Japanese>
 					<Turkish>Combat Fatigues [NAAF]</Turkish>
 				</Key>
-				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F0">
+				<Key ID="STR_A3_R_CfgWeapons_U_B_NAAF_Uniform_01_shortsleeve_dgtl_F0">
 					<Original>Combat Fatigues [NAAF] (Rolled-up)</Original>
 					<Chinese>Combat Fatigues [NAAF] (Rolled-up)</Chinese>
 					<French>Combat Fatigues [NAAF] (Rolled-up)</French>
@@ -266,7 +266,7 @@
 					<Japanese>Combat Fatigues [NAAF] (Rolled-up)</Japanese>
 					<Turkish>Combat Fatigues [NAAF] (Rolled-up)</Turkish>
 				</Key>
-				<Key ID="STR_A3_T_CfgWeapons_U_B_NAAF_Officer_dgtl_F0">
+				<Key ID="STR_A3_R_CfgWeapons_U_B_NAAF_Officer_dgtl_F0">
 					<Original>Combat Fatigues [NAAF] (Officer)</Original>
 					<Chinese>Combat Fatigues [NAAF] (Officer)</Chinese>
 					<French>Combat Fatigues [NAAF] (Officer)</French>
@@ -285,7 +285,7 @@
 				</Key>
 			</Container>
 			<Container name="Vests">
-				<Key ID="STR_A3_T_CfgWeapons_V_PlateCarrierL_NAAF_grn_F0">
+				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_NAAF_grn_F0">
 					<Original>Carrier Lite [NAAF] (Green)</Original>
 					<Chinese>Carrier Lite [NAAF] (Green)</Chinese>
 					<French>Carrier Lite [NAAF] (Green)</French>
@@ -302,7 +302,7 @@
 					<Japanese>Carrier Lite [NAAF] (Green)</Japanese>
 					<Turkish>Carrier Lite [NAAF] (Green)</Turkish>
 				</Key>
-				<Key ID="STR_A3_T_CfgWeapons_V_PlateCarrierH_NAAF_grn_F0">
+				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierH_NAAF_grn_F0">
 					<Original>Carrier Rig [NAAF] (Green)</Original>
 					<Chinese>Carrier Rig [NAAF] (Green)</Chinese>
 					<French>Carrier Rig [NAAF] (Green)</French>
@@ -322,93 +322,144 @@
 			</Container>
 		</Container>
 		<Container name="UI_F">
-            <Key ID="STR_A3_T_CfgMarkers_flag_Remnants">
-                <Original>Remnants</Original>
-                <Chinese>Remnants</Chinese>
-                <French>Remnants</French>
-                <Spanish>Remnants</Spanish>
-                <Italian>Remnants</Italian>
-                <Polish>Remnants</Polish>
-                <Russian>Remnants</Russian>
-                <German>Remnants</German>
-                <Czech>Remnants</Czech>
-                <English>Remnants</English>
-                <Portuguese>Remnants</Portuguese>
-                <Korean>Remnants</Korean>
-                <Chinesesimp>Remnants</Chinesesimp>
-                <Japanese>Remnants</Japanese>
-                <Turkish>Remnants</Turkish>
+            <Key ID="STR_A3_R_CfgMarkers_flag_BDF">
+                <Original>BDF</Original>
+                <Chinese>BDF</Chinese>
+                <French>BDF</French>
+                <Spanish>BDF</Spanish>
+                <Italian>BDF</Italian>
+                <Polish>BDF</Polish>
+                <Russian>BDF</Russian>
+                <German>BDF</German>
+                <Czech>BDF</Czech>
+                <English>BDF</English>
+                <Portuguese>BDF</Portuguese>
+                <Korean>BDF</Korean>
+                <Chinesesimp>BDF</Chinesesimp>
+                <Japanese>BDF</Japanese>
+                <Turkish>BDF</Turkish>
             </Key>
-            <Key ID="STR_A3_T_CfgMarkers_flag_Bandits">
-                <Original>Bandits</Original>
-                <Chinese>Bandits</Chinese>
-                <French>Bandits</French>
-                <Spanish>Bandits</Spanish>
-                <Italian>Bandits</Italian>
-                <Polish>Bandits</Polish>
-                <Russian>Bandits</Russian>
-                <German>Bandits</German>
-                <Czech>Bandits</Czech>
-                <English>Bandits</English>
-                <Portuguese>Bandits</Portuguese>
-                <Korean>Bandits</Korean>
-                <Chinesesimp>Bandits</Chinesesimp>
-                <Japanese>Bandits</Japanese>
-                <Turkish>Bandits</Turkish>
+            <Key ID="STR_A3_R_CfgMarkers_flag_FASR">
+                <Original>FASR</Original>
+                <Chinese>FASR</Chinese>
+                <French>FASR</French>
+                <Spanish>FASR</Spanish>
+                <Italian>FASR</Italian>
+                <Polish>FASR</Polish>
+                <Russian>FASR</Russian>
+                <German>FASR</German>
+                <Czech>FASR</Czech>
+                <English>FASR</English>
+                <Portuguese>FASR</Portuguese>
+                <Korean>FASR</Korean>
+                <Chinesesimp>FASR</Chinesesimp>
+                <Japanese>FASR</Japanese>
+                <Turkish>FASR</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_CfgMarkers_flag_FRR">
+                <Original>FRR</Original>
+                <Chinese>FRR</Chinese>
+                <French>FRR</French>
+                <Spanish>FRR</Spanish>
+                <Italian>FRR</Italian>
+                <Polish>FRR</Polish>
+                <Russian>FRR</Russian>
+                <German>FRR</German>
+                <Czech>FRR</Czech>
+                <English>FRR</English>
+                <Portuguese>FRR</Portuguese>
+                <Korean>FRR</Korean>
+                <Chinesesimp>FRR</Chinesesimp>
+                <Japanese>FRR</Japanese>
+                <Turkish>FRR</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_CfgMarkers_flag_CDB">
+                <Original>Cartels</Original>
+                <Chinese>Cartels</Chinese>
+                <French>Cartels</French>
+                <Spanish>Cartels</Spanish>
+                <Italian>Cartels</Italian>
+                <Polish>Cartels</Polish>
+                <Russian>Cartels</Russian>
+                <German>Cartels</German>
+                <Czech>Cartels</Czech>
+                <English>Cartels</English>
+                <Portuguese>Cartels</Portuguese>
+                <Korean>Cartels</Korean>
+                <Chinesesimp>Cartels</Chinesesimp>
+                <Japanese>Cartels</Japanese>
+                <Turkish>Cartels</Turkish>
             </Key>
 		</Container>
 		<Container name="Structures_F">
 			<Container name="Flags">
-				<Key ID="STR_A3_T_CfgVehicles_Flag_Remnants_F0">
-					<Original>Flag (Remnants)</Original>
-					<Chinese>Flag (Remnants)</Chinese>
-					<French>Flag (Remnants)</French>
-					<Spanish>Flag (Remnants)</Spanish>
-					<Italian>Flag (Remnants)</Italian>
-					<Polish>Flag (Remnants)</Polish>
-					<Russian>Flag (Remnants)</Russian>
-					<German>Flag (Remnants)</German>
-					<Czech>Flag (Remnants)</Czech>
-					<English>Flag (Remnants)</English>
-					<Portuguese>Flag (Remnants)</Portuguese>
-					<Korean>Flag (Remnants)</Korean>
-					<Chinesesimp>Flag (Remnants)</Chinesesimp>
-					<Japanese>Flag (Remnants)</Japanese>
-					<Turkish>Flag (Remnants)</Turkish>
+				<Key ID="STR_A3_R_CfgVehicles_Flag_BDF_F0">
+					<Original>Flag (BDF)</Original>
+					<Chinese>Flag (BDF)</Chinese>
+					<French>Flag (BDF)</French>
+					<Spanish>Flag (BDF)</Spanish>
+					<Italian>Flag (BDF)</Italian>
+					<Polish>Flag (BDF)</Polish>
+					<Russian>Flag (BDF)</Russian>
+					<German>Flag (BDF)</German>
+					<Czech>Flag (BDF)</Czech>
+					<English>Flag (BDF)</English>
+					<Portuguese>Flag (BDF)</Portuguese>
+					<Korean>Flag (BDF)</Korean>
+					<Chinesesimp>Flag (BDF)</Chinesesimp>
+					<Japanese>Flag (BDF)</Japanese>
+					<Turkish>Flag (BDF)</Turkish>
 				</Key>
-				<Key ID="STR_A3_T_CfgVehicles_Flag_NAAF_F0">
-					<Original>Flag (NAAF)</Original>
-					<Chinese>Flag (NAAF)</Chinese>
-					<French>Flag (NAAF)</French>
-					<Spanish>Flag (NAAF)</Spanish>
-					<Italian>Flag (NAAF)</Italian>
-					<Polish>Flag (NAAF)</Polish>
-					<Russian>Flag (NAAF)</Russian>
-					<German>Flag (NAAF)</German>
-					<Czech>Flag (NAAF)</Czech>
-					<English>Flag (NAAF)</English>
-					<Portuguese>Flag (NAAF)</Portuguese>
-					<Korean>Flag (NAAF)</Korean>
-					<Chinesesimp>Flag (NAAF)</Chinesesimp>
-					<Japanese>Flag (NAAF)</Japanese>
-					<Turkish>Flag (NAAF)</Turkish>
+				<Key ID="STR_A3_R_CfgVehicles_Flag_FASR_F0">
+					<Original>Flag (FASR)</Original>
+					<Chinese>Flag (FASR)</Chinese>
+					<French>Flag (FASR)</French>
+					<Spanish>Flag (FASR)</Spanish>
+					<Italian>Flag (FASR)</Italian>
+					<Polish>Flag (FASR)</Polish>
+					<Russian>Flag (FASR)</Russian>
+					<German>Flag (FASR)</German>
+					<Czech>Flag (FASR)</Czech>
+					<English>Flag (FASR)</English>
+					<Portuguese>Flag (FASR)</Portuguese>
+					<Korean>Flag (FASR)</Korean>
+					<Chinesesimp>Flag (FASR)</Chinesesimp>
+					<Japanese>Flag (FASR)</Japanese>
+					<Turkish>Flag (FASR)</Turkish>
 				</Key>
-				<Key ID="STR_A3_T_CfgVehicles_Flag_Bandits_F0">
-					<Original>Flag (Bandits)</Original>
-					<Chinese>Flag (Bandits)</Chinese>
-					<French>Flag (Bandits)</French>
-					<Spanish>Flag (Bandits)</Spanish>
-					<Italian>Flag (Bandits)</Italian>
-					<Polish>Flag (Bandits)</Polish>
-					<Russian>Flag (Bandits)</Russian>
-					<German>Flag (Bandits)</German>
-					<Czech>Flag (Bandits)</Czech>
-					<English>Flag (Bandits)</English>
-					<Portuguese>Flag (Bandits)</Portuguese>
-					<Korean>Flag (Bandits)</Korean>
-					<Chinesesimp>Flag (Bandits)</Chinesesimp>
-					<Japanese>Flag (Bandits)</Japanese>
-					<Turkish>Flag (Bandits)</Turkish>
+				<Key ID="STR_A3_R_CfgVehicles_Flag_FRR_F0">
+					<Original>Flag (FRR)</Original>
+					<Chinese>Flag (FRR)</Chinese>
+					<French>Flag (FRR)</French>
+					<Spanish>Flag (FRR)</Spanish>
+					<Italian>Flag (FRR)</Italian>
+					<Polish>Flag (FRR)</Polish>
+					<Russian>Flag (FRR)</Russian>
+					<German>Flag (FRR)</German>
+					<Czech>Flag (FRR)</Czech>
+					<English>Flag (FRR)</English>
+					<Portuguese>Flag (FRR)</Portuguese>
+					<Korean>Flag (FRR)</Korean>
+					<Chinesesimp>Flag (FRR)</Chinesesimp>
+					<Japanese>Flag (FRR)</Japanese>
+					<Turkish>Flag (FRR)</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_Flag_CDB_F0">
+					<Original>Flag (Cartels)</Original>
+					<Chinese>Flag (Cartels)</Chinese>
+					<French>Flag (Cartels)</French>
+					<Spanish>Flag (Cartels)</Spanish>
+					<Italian>Flag (Cartels)</Italian>
+					<Polish>Flag (Cartels)</Polish>
+					<Russian>Flag (Cartels)</Russian>
+					<German>Flag (Cartels)</German>
+					<Czech>Flag (Cartels)</Czech>
+					<English>Flag (Cartels)</English>
+					<Portuguese>Flag (Cartels)</Portuguese>
+					<Korean>Flag (Cartels)</Korean>
+					<Chinesesimp>Flag (Cartels)</Chinesesimp>
+					<Japanese>Flag (Cartels)</Japanese>
+					<Turkish>Flag (Cartels)</Turkish>
 				</Key>
 			</Container>
 		</Container>
