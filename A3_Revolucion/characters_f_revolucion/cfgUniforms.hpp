@@ -24,8 +24,7 @@ class Revolucion_B_BDF_Uniform_01_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_CO.paa",
-		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa",
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa"
 	};
 };
 class Revolucion_B_BDF_Uniform_01_tanktop_F: I_E_Uniform_01_tanktop_F
@@ -61,7 +60,6 @@ class Rev_U_B_BDF_Uniform_01_ar_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
 	{
 		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_ar_CO.paa",
 		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_ar_CO.paa",
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
 };
 class Revolucion_B_BDF_Uniform_01_tanktop_ar_F: I_E_Uniform_01_tanktop_F
@@ -95,5 +93,45 @@ class Revolucion_O_FASR_Uniform_01_shortsleeve_F: I_soldier_lite_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_F_CombatFatigues_black_CO.paa"
+	};
+};
+class Revolucion_O_FASR_Uniform_02_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_FASR_Uniform_02_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_F_CombatFatigues_UCP_CO.paa"
+	};
+};
+class Revolucion_O_FASR_Uniform_02_shortsleeve_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_FASR_Uniform_02_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_F_CombatFatigues_UCP_CO.paa"
+	};
+};
+class Revolucion_O_FASR_Uniform_03_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_FASR_Uniform_03_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_F_CombatFatigues_type99_CO.paa"
+	};
+};
+class Revolucion_O_FASR_Uniform_03_shortsleeve_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_FASR_Uniform_03_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_rev\Characters_F_revolucion\Uniforms\Data\rev_U_F_CombatFatigues_type99_CO.paa"
 	};
 };

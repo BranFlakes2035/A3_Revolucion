@@ -368,6 +368,74 @@
 					<Japanese>Combat Fatigues (Rolled-up, Black)</Japanese>
 					<Turkish>Combat Fatigues (Rolled-up, Black)</Turkish>
 				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Uniform_02_F0">
+					<Original>Combat Fatigues (UCP)</Original>
+					<Chinese>Combat Fatigues (UCP)</Chinese>
+					<French>Combat Fatigues (UCP)</French>
+					<Spanish>Combat Fatigues (UCP)</Spanish>
+					<Italian>Combat Fatigues (UCP)</Italian>
+					<Polish>Combat Fatigues (UCP)</Polish>
+					<Russian>Combat Fatigues (UCP)</Russian>
+					<German>Combat Fatigues (UCP)</German>
+					<Czech>Combat Fatigues (UCP)</Czech>
+					<English>Combat Fatigues (UCP)</English>
+					<Portuguese>Combat Fatigues (UCP)</Portuguese>
+					<Korean>Combat Fatigues (UCP)</Korean>
+					<Chinesesimp>Combat Fatigues (UCP)</Chinesesimp>
+					<Japanese>Combat Fatigues (UCP)</Japanese>
+					<Turkish>Combat Fatigues (UCP)</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Uniform_02_shortsleeve_F0">
+					<Original>Combat Fatigues (Rolled-up, UCP)</Original>
+					<Chinese>Combat Fatigues (Rolled-up, UCP)</Chinese>
+					<French>Combat Fatigues (Rolled-up, UCP)</French>
+					<Spanish>Combat Fatigues (Rolled-up, UCP)</Spanish>
+					<Italian>Combat Fatigues (Rolled-up, UCP)</Italian>
+					<Polish>Combat Fatigues (Rolled-up, UCP)</Polish>
+					<Russian>Combat Fatigues (Rolled-up, UCP)</Russian>
+					<German>Combat Fatigues (Rolled-up, UCP)</German>
+					<Czech>Combat Fatigues (Rolled-up, UCP)</Czech>
+					<English>Combat Fatigues (Rolled-up, UCP)</English>
+					<Portuguese>Combat Fatigues (Rolled-up, UCP)</Portuguese>
+					<Korean>Combat Fatigues (Rolled-up, UCP)</Korean>
+					<Chinesesimp>Combat Fatigues (Rolled-up, UCP)</Chinesesimp>
+					<Japanese>Combat Fatigues (Rolled-up, UCP)</Japanese>
+					<Turkish>Combat Fatigues (Rolled-up, UCP)</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Uniform_03_F0">
+					<Original>Combat Fatigues (Type 99)</Original>
+					<Chinese>Combat Fatigues (Type 99)</Chinese>
+					<French>Combat Fatigues (Type 99)</French>
+					<Spanish>Combat Fatigues (Type 99)</Spanish>
+					<Italian>Combat Fatigues (Type 99)</Italian>
+					<Polish>Combat Fatigues (Type 99)</Polish>
+					<Russian>Combat Fatigues (Type 99)</Russian>
+					<German>Combat Fatigues (Type 99)</German>
+					<Czech>Combat Fatigues (Type 99)</Czech>
+					<English>Combat Fatigues (Type 99)</English>
+					<Portuguese>Combat Fatigues (Type 99)</Portuguese>
+					<Korean>Combat Fatigues (Type 99)</Korean>
+					<Chinesesimp>Combat Fatigues (Type 99)</Chinesesimp>
+					<Japanese>Combat Fatigues (Type 99)</Japanese>
+					<Turkish>Combat Fatigues (Type 99)</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Uniform_03_shortsleeve_F0">
+					<Original>Combat Fatigues (Rolled-up, Type 99)</Original>
+					<Chinese>Combat Fatigues (Rolled-up, Type 99)</Chinese>
+					<French>Combat Fatigues (Rolled-up, Type 99)</French>
+					<Spanish>Combat Fatigues (Rolled-up, Type 99)</Spanish>
+					<Italian>Combat Fatigues (Rolled-up, Type 99)</Italian>
+					<Polish>Combat Fatigues (Rolled-up, Type 99)</Polish>
+					<Russian>Combat Fatigues (Rolled-up, Type 99)</Russian>
+					<German>Combat Fatigues (Rolled-up, Type 99)</German>
+					<Czech>Combat Fatigues (Rolled-up, Type 99)</Czech>
+					<English>Combat Fatigues (Rolled-up, Type 99)</English>
+					<Portuguese>Combat Fatigues (Rolled-up, Type 99)</Portuguese>
+					<Korean>Combat Fatigues (Rolled-up, Type 99)</Korean>
+					<Chinesesimp>Combat Fatigues (Rolled-up, Type 99)</Chinesesimp>
+					<Japanese>Combat Fatigues (Rolled-up, Type 99)</Japanese>
+					<Turkish>Combat Fatigues (Rolled-up, Type 99)</Turkish>
+				</Key>
 			</Container>
 			<Container name="Vests">
 				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_BDF_grn_F0">
