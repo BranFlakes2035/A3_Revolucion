@@ -127,108 +127,91 @@
 			</Container>
 		</Container>
 		<Container name="Characters_F">
-            <Key ID="STR_A3_R_CfgVehicles_O_B_Bandit_Pistol_F0">
-                <Original>Bandit (Pistol)</Original>
-                <Chinese>Bandit (Pistol)</Chinese>
-                <French>Bandit (Pistol)</French>
-                <Spanish>Bandit (Pistol)</Spanish>
-                <Italian>Bandit (Pistol)</Italian>
-                <Polish>Bandit (Pistol)</Polish>
-                <Russian>Bandit (Pistol)</Russian>
-                <German>Bandit (Pistol)</German>
-                <Czech>Bandit (Pistol)</Czech>
-                <English>Bandit (Pistol)</English>
-                <Portuguese>Bandit (Pistol)</Portuguese>
-                <Korean>Bandit (Pistol)</Korean>
-                <Chinesesimp>Bandit (Pistol)</Chinesesimp>
-                <Japanese>Bandit (Pistol)</Japanese>
-                <Turkish>Bandit (Pistol)</Turkish>
+            <Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Bandit_SG_F0">
+                <Original>Sicario (Shotgun)</Original>
+                <Chinese>Sicario (Shotgun)</Chinese>
+                <French>Sicario (Shotgun)</French>
+                <Spanish>Sicario (Shotgun)</Spanish>
+                <Italian>Sicario (Shotgun)</Italian>
+                <Polish>Sicario (Shotgun)</Polish>
+                <Russian>Sicario (Shotgun)</Russian>
+                <German>Sicario (Shotgun)</German>
+                <Czech>Sicario (Shotgun)</Czech>
+                <English>Sicario (Shotgun)</English>
+                <Portuguese>Sicario (Shotgun)</Portuguese>
+                <Korean>Sicario (Shotgun)</Korean>
+                <Chinesesimp>Sicario (Shotgun)</Chinesesimp>
+                <Japanese>Sicario (Shotgun)</Japanese>
+                <Turkish>Sicario (Shotgun)</Turkish>
             </Key>
-            <Key ID="STR_A3_R_CfgVehicles_O_B_Bandit_Rifle_F0">
-                <Original>Bandit (Rifle)</Original>
-                <Chinese>Bandit (Rifle)</Chinese>
-                <French>Bandit (Rifle)</French>
-                <Spanish>Bandit (Rifle)</Spanish>
-                <Italian>Bandit (Rifle)</Italian>
-                <Polish>Bandit (Rifle)</Polish>
-                <Russian>Bandit (Rifle)</Russian>
-                <German>Bandit (Rifle)</German>
+            <Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Bandit_M_F0">
+                <Original>Hitman (DMR)</Original>
+                <Chinese>Hitman (DMR)</Chinese>
+                <French>Hitman (DMR)</French>
+                <Spanish>Hitman (DMR)</Spanish>
+                <Italian>Hitman (DMR)</Italian>
+                <Polish>Hitman (DMR)</Polish>
+                <Russian>Hitman (DMR)</Russian>
+                <German>Hitman (DMR)</German>
                 <Czech>Bandit (Rifle)</Czech>
-                <English>Bandit (Rifle)</English>
-                <Portuguese>Bandit (Rifle)</Portuguese>
-                <Korean>Bandit (Rifle)</Korean>
-                <Chinesesimp>Bandit (Rifle)</Chinesesimp>
-                <Japanese>Bandit (Rifle)</Japanese>
-                <Turkish>Bandit (Rifle)</Turkish>
+                <English>Hitman (DMR)</English>
+                <Portuguese>Hitman (DMR)</Portuguese>
+                <Korean>Hitman (DMR)</Korean>
+                <Chinesesimp>Hitman (DMR)</Chinesesimp>
+                <Japanese>Hitman (DMR)</Japanese>
+                <Turkish>Hitman (DMR)</Turkish>
             </Key>
-            <Key ID="STR_A3_R_CfgVehicles_O_B_Bandit_SMG_F0">
-                <Original>Bandit (SMG)</Original>
-                <Chinese>Bandit (SMG)</Chinese>
-                <French>Bandit (SMG)</French>
-                <Spanish>Bandit (SMG)</Spanish>
-                <Italian>Bandit (SMG)</Italian>
-                <Polish>Bandit (SMG)</Polish>
-                <Russian>Bandit (SMG)</Russian>
-                <German>Bandit (SMG)</German>
-                <Czech>Bandit (SMG)</Czech>
-                <English>Bandit (SMG)</English>
-                <Portuguese>Bandit (SMG)</Portuguese>
-                <Korean>Bandit (SMG)</Korean>
-                <Chinesesimp>Bandit (SMG)</Chinesesimp>
-                <Japanese>Bandit (SMG)</Japanese>
-                <Turkish>Bandit (SMG)</Turkish>
-            </Key>
-            <Key ID="STR_A3_R_CfgVehicles_O_B_Bandit_SG_F0">
-                <Original>Bandit (Shotgun)</Original>
-                <Chinese>Bandit (Shotgun)</Chinese>
-                <French>Bandit (Shotgun)</French>
-                <Spanish>Bandit (Shotgun)</Spanish>
-                <Italian>Bandit (Shotgun)</Italian>
-                <Polish>Bandit (Shotgun)</Polish>
-                <Russian>Bandit (Shotgun)</Russian>
-                <German>Bandit (Shotgun)</German>
-                <Czech>Bandit (Shotgun)</Czech>
-                <English>Bandit (Shotgun)</English>
-                <Portuguese>Bandit (Shotgun)</Portuguese>
-                <Korean>Bandit (Shotgun)</Korean>
-                <Chinesesimp>Bandit (Shotgun)</Chinesesimp>
-                <Japanese>Bandit (Shotgun)</Japanese>
-                <Turkish>Bandit (Shotgun)</Turkish>
+            <Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Bandit_Officer_F0">
+                <Original>Lieutenant</Original>
+                <Chinese>Lieutenant</Chinese>
+                <French>Lieutenant</French>
+                <Spanish>Lieutenant</Spanish>
+                <Italian>Lieutenant</Italian>
+                <Polish>Lieutenant</Polish>
+                <Russian>Lieutenant</Russian>
+                <German>Lieutenant</German>
+                <Czech>Lieutenant</Czech>
+                <English>Lieutenant</English>
+                <Portuguese>Lieutenant</Portuguese>
+                <Korean>Lieutenant</Korean>
+                <Chinesesimp>Lieutenant</Chinesesimp>
+                <Japanese>Lieutenant</Japanese>
+                <Turkish>Lieutenant</Turkish>
             </Key>
 			<Container name="Groups">
-				<Key ID="STR_A3_R_CfgGroups_East_OPF_B_F_Infantry_O_B_BanditGang0">
-					<Original>Bandit Patrol</Original>
-					<Chinese>Bandit Patrol</Chinese>
-					<French>Bandit Patrol</French>
-					<Spanish>Bandit Patrol</Spanish>
-					<Italian>Bandit Patrol</Italian>
-					<Polish>Bandit Patrol</Polish>
-					<Russian>Bandit Patrol</Russian>
-					<German>Bandit Patrol</German>
-					<Czech>Bandit Patrol</Czech>
-					<English>Bandit Patrol</English>
-					<Portuguese>Bandit Patrol</Portuguese>
-					<Korean>Bandit Patrol</Korean>
-					<Chinesesimp>Bandit Patrol</Chinesesimp>
-					<Japanese>Bandit Patrol</Japanese>
-					<Turkish>Bandit Patrol</Turkish>
+				<Key ID="STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_BanditGang0">
+					<Original>Cartel Patrol</Original>
+					<Chinese>Cartel Patrol</Chinese>
+					<French>Cartel Patrol</French>
+					<Spanish>Cartel Patrol</Spanish>
+					<Italian>Cartel Patrol</Italian>
+					<Polish>Cartel Patrol</Polish>
+					<Russian>Cartel Patrol</Russian>
+					<German>Cartel Patrol</German>
+					<Czech>Cartel Patrol</Czech>
+					<English>Cartel Patrol</English>
+					<Portuguese>Cartel Patrol</Portuguese>
+					<Korean>Cartel Patrol</Korean>
+					<Chinesesimp>Cartel Patrol</Chinesesimp>
+					<Japanese>Cartel Patrol</Japanese>
+					<Turkish>Cartel Patrol</Turkish>
 				</Key>
-				<Key ID="STR_A3_R_CfgGroups_East_OPF_B_F_Infantry_O_B_CriminalGang0">
-					<Original>Bandit Gang</Original>
-					<Chinese>Bandit Gang</Chinese>
-					<French>Bandit Gang</French>
-					<Spanish>Bandit Gang</Spanish>
-					<Italian>Bandit Gang</Italian>
-					<Polish>Bandit Gang</Polish>
-					<Russian>Bandit Gang</Russian>
-					<German>Bandit Gang</German>
-					<Czech>Bandit Gang</Czech>
-					<English>Bandit Gang</English>
-					<Portuguese>Bandit Gang</Portuguese>
-					<Korean>Bandit Gang</Korean>
-					<Chinesesimp>Bandit Gang</Chinesesimp>
-					<Japanese>Bandit Gang</Japanese>
-					<Turkish>Bandit Gang</Turkish>
+				<Key ID="STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_CriminalGang0">
+					<Original>Cartel Gang</Original>
+					<Chinese>Cartel Gang</Chinese>
+					<French>Cartel Gang</French>
+					<Spanish>Cartel Gang</Spanish>
+					<Italian>Cartel Gang</Italian>
+					<Polish>Cartel Gang</Polish>
+					<Russian>Cartel Gang</Russian>
+					<German>Cartel Gang</German>
+					<Czech>Cartel Gang</Czech>
+					<English>Cartel Gang</English>
+					<Portuguese>Cartel Gang</Portuguese>
+					<Korean>Cartel Gang</Korean>
+					<Chinesesimp>Cartel Gang</Chinesesimp>
+					<Japanese>Cartel Gang</Japanese>
+					<Turkish>Cartel Gang</Turkish>
 				</Key>
 			</Container>
 			<Container name="Uniforms">

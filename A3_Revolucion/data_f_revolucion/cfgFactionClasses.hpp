@@ -1,6 +1,6 @@
-/*class CfgFactionClasses
+class CfgFactionClasses
 {
-	class Revolucion_BLU_BDF_F										 // BDF
+	/*class Revolucion_BLU_BDF_F										 // BDF
 	{
 		displayName = $STR_A3_R_CfgFactionClasses_BLU_BDF_F0;
 		priority = 3;
@@ -31,7 +31,7 @@
 		side = TGuerrila;
 		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_BLU_FRR_CA.paa";
 		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_FRR_CO.paa";		
-	};
+	}; */
 	class Revolucion_IND_CDB_F 										// Cartels INDEP
 	{
 		displayName = $STR_A3_R_CfgFactionClasses_IND_CDB_F0;
@@ -39,7 +39,7 @@
 		side = TGuerrila;
 		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_IND_CDB_CA.paa";
 		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_CDB_CO.paa";		
-	};
+	}; /*
 	class Revolucion_IND_BNP_F 										// Baracan National Police
 	{
 		displayName = $STR_A3_R_CfgFactionClasses_IND_BNP_F0;
@@ -63,5 +63,5 @@
 		side = TEast;
 		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_BLU_FRR_CA.paa";
 		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_FRR_CO.paa";			
-	};
-};*/
+	};*/
+};
