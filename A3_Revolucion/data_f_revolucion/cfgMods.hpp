@@ -1,4 +1,4 @@
-class CfgMods
+/*class CfgMods
 {
 	class Mod_Base;
 	class Revolucion: Mod_Base
@@ -28,4 +28,4 @@ class CfgMods
 		overviewPicture = "\A3_Revolucion\Data_F_Revolucion\Images\Revolucion_overviewPicture_CO.paa";
 		dir = Revolucion;
 	};
-};
+};*/
