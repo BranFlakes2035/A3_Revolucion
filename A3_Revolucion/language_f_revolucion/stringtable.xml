@@ -351,7 +351,7 @@
 					<Japanese>Combat Fatigues [BDF] (Arid, Tanktop)</Japanese>
 					<Turkish>Combat Fatigues [BDF] (Arid, Tanktop)</Turkish>
 				</Key>
-				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Uniform_01_F0">
+				<Key ID="STR_A3_R_CfgWeapons_U_I_CDB_CombatUniform_F0">
 					<Original>Combat Fatigues (Black)</Original>
 					<Chinese>Combat Fatigues (Black)</Chinese>
 					<French>Combat Fatigues (Black)</French>
@@ -368,7 +368,7 @@
 					<Japanese>Combat Fatigues (Black)</Japanese>
 					<Turkish>Combat Fatigues (Black)</Turkish>
 				</Key>
-				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Uniform_01_shortsleeve_F0">
+				<Key ID="STR_A3_R_CfgWeapons_U_I_CDB_CombatUniform_shortsleeve_F0">
 					<Original>Combat Fatigues (Rolled-up, Black)</Original>
 					<Chinese>Combat Fatigues (Rolled-up, Black)</Chinese>
 					<French>Combat Fatigues (Rolled-up, Black)</French>

@@ -10,7 +10,7 @@ class Rev_U_B_BDF_Uniform_01_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Revolucion_B_BDF_Uniform_01_F;
+		uniformClass = Rev_B_BDF_Uniform_01_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
@@ -27,7 +27,7 @@ class Rev_U_B_BDF_Uniform_01_shortsleeve_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Revolucion_B_BDF_Uniform_01_shortsleeve_F;
+		uniformClass = Rev_B_BDF_Uniform_01_shortsleeve_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
@@ -44,7 +44,7 @@ class Rev_U_B_BDF_Uniform_01_tankop_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Revolucion_B_BDF_Uniform_01_tanktop_F;
+		uniformClass = Rev_B_BDF_Uniform_01_tanktop_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
@@ -61,7 +61,7 @@ class Rev_U_B_BDF_Uniform_01_ar_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Revolucion_B_BDF_Uniform_01_ar_F;
+		uniformClass = Rev_B_BDF_Uniform_01_ar_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
@@ -78,7 +78,7 @@ class Rev_U_B_BDF_Uniform_01_ar_shortsleeve_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Revolucion_B_BDF_Uniform_01_ar_shortsleeve_F;
+		uniformClass = Rev_B_BDF_Uniform_01_ar_shortsleeve_F;
 		containerClass = Supply40;
 		mass = 40;
 	};
@@ -95,7 +95,7 @@ class Rev_U_B_BDF_Uniform_01_tankop_ar_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Revolucion_B_BDF_Uniform_01_tanktop_ar_F;
+		uniformClass = Rev_B_BDF_Uniform_01_tanktop_ar_F;
 		containerClass = Supply40;
 		mass = 40;
 	};

@@ -8,5 +8,5 @@ class CfgWeapons
 
     /* Arsenal */
 	#include "cfgBDF.hpp"  // BDF
-    #include "cfgFASR.hpp"  // FASR
+    #include "cfgCartels.hpp"  // Cartels de Baracas
 };
