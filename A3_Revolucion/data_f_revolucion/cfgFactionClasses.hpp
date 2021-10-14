@@ -1,4 +1,4 @@
-class CfgFactionClasses
+/*class CfgFactionClasses
 {
 	class Revolucion_BLU_BDF_F										 // BDF
 	{
@@ -48,7 +48,7 @@ class CfgFactionClasses
 		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_IND_BNP_CA.paa";
 		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_BNP_CO.paa";		
 	}; */
-	class Revolucion_OPF_FASR_F 										// FASR
+	/*class Revolucion_OPF_FASR_F 										// FASR
 	{
 		displayName = $STR_A3_R_CfgFactionClasses_OPF_FASR_F0;
 		priority = 3;
@@ -64,4 +64,4 @@ class CfgFactionClasses
 		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_BLU_FRR_CA.paa";
 		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_FRR_CO.paa";			
 	};
-};
+};*/
