@@ -212,6 +212,125 @@
                 <Japanese>Lieutenant</Japanese>
                 <Turkish>Lieutenant</Turkish>
             </Key>
+			<Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_TL_F0">
+                <Original>Enforcer (Leader)</Original>
+                <Chinese>Enforcer (Leader)</Chinese>
+                <French>Enforcer (Leader)</French>
+                <Spanish>Enforcer (Leader)</Spanish>
+                <Italian>Enforcer (Leader)</Italian>
+                <Polish>Enforcer (Leader)</Polish>
+                <Russian>Enforcer (Leader)</Russian>
+                <German>Enforcer (Leader)</German>
+                <Czech>Enforcer (Leader)</Czech>
+                <English>Enforcer (Leader)</English>
+                <Portuguese>Enforcer (Leader)</Portuguese>
+                <Korean>Enforcer (Leader)</Korean>
+                <Chinesesimp>Enforcer (Leader)</Chinesesimp>
+                <Japanese>Enforcer (Leader)</Japanese>
+                <Turkish>Enforcer (Leader)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_GL_F0">
+                <Original>Enforcer (UGL)</Original>
+                <Chinese>Enforcer (UGL)</Chinese>
+                <French>Enforcer (UGL)</French>
+                <Spanish>Enforcer (UGL)</Spanish>
+                <Italian>Enforcer (UGL)</Italian>
+                <Polish>Enforcer (UGL)</Polish>
+                <Russian>Enforcer (UGL)</Russian>
+                <German>Enforcer (UGL)</German>
+                <Czech>Enforcer (UGL)</Czech>
+                <English>Enforcer (UGL)</English>
+                <Portuguese>Enforcer (UGL)</Portuguese>
+                <Korean>Enforcer (UGL)</Korean>
+                <Chinesesimp>Enforcer (UGL)</Chinesesimp>
+                <Japanese>Enforcer (UGL)</Japanese>
+                <Turkish>Enforcer (UGL)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_Medic_F0">
+                <Original>Enforcer (Medic)</Original>
+                <Chinese>Enforcer (Medic)</Chinese>
+                <French>Enforcer (Medic)</French>
+                <Spanish>Enforcer (Medic)</Spanish>
+                <Italian>Enforcer (Medic)</Italian>
+                <Polish>Enforcer (Medic)</Polish>
+                <Russian>Enforcer (Medic)</Russian>
+                <German>Enforcer (Medic)</German>
+                <Czech>Enforcer (Medic)</Czech>
+                <English>Enforcer (Medic)</English>
+                <Portuguese>Enforcer (Medic)</Portuguese>
+                <Korean>Enforcer (Medic)</Korean>
+                <Chinesesimp>Enforcer (Medic)</Chinesesimp>
+                <Japanese>Enforcer (Medic)</Japanese>
+                <Turkish>Enforcer (Medic)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_AT_F0">
+                <Original>Enforcer (AT)</Original>
+                <Chinese>Enforcer (AT)</Chinese>
+                <French>Enforcer (AT)</French>
+                <Spanish>Enforcer (AT)</Spanish>
+                <Italian>Enforcer (AT)</Italian>
+                <Polish>Enforcer (AT)</Polish>
+                <Russian>Enforcer (AT)</Russian>
+                <German>Enforcer (AT)</German>
+                <Czech>Enforcer (AT)</Czech>
+                <English>Enforcer (AT)</English>
+                <Portuguese>Enforcer (AT)</Portuguese>
+                <Korean>Enforcer (AT)</Korean>
+                <Chinesesimp>Enforcer (AT)</Chinesesimp>
+                <Japanese>Enforcer (AT)</Japanese>
+                <Turkish>Enforcer (AT)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_AR_F0">
+                <Original>Enforcer (LMG)</Original>
+                <Chinese>Enforcer (LMG)</Chinese>
+                <French>Enforcer (LMG)</French>
+                <Spanish>Enforcer (LMG)</Spanish>
+                <Italian>Enforcer (LMG)</Italian>
+                <Polish>Enforcer (LMG)</Polish>
+                <Russian>Enforcer (LMG)</Russian>
+                <German>Enforcer (LMG)</German>
+                <Czech>Enforcer (LMG)</Czech>
+                <English>Enforcer (LMG)</English>
+                <Portuguese>Enforcer (LMG)</Portuguese>
+                <Korean>Enforcer (LMG)</Korean>
+                <Chinesesimp>Enforcer (LMG)</Chinesesimp>
+                <Japanese>Enforcer (LMG)</Japanese>
+                <Turkish>Enforcer (LMG)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_M_F0">
+                <Original>Enforcer (Marksman)</Original>
+                <Chinese>Enforcer (Marksman)</Chinese>
+                <French>Enforcer (Marksman)</French>
+                <Spanish>Enforcer (Marksman)</Spanish>
+                <Italian>Enforcer (Marksman)</Italian>
+                <Polish>Enforcer (Marksman)</Polish>
+                <Russian>Enforcer (Marksman)</Russian>
+                <German>Enforcer (Marksman)</German>
+                <Czech>Enforcer (Marksman)</Czech>
+                <English>Enforcer (Marksman)</English>
+                <Portuguese>Enforcer (Marksman)</Portuguese>
+                <Korean>Enforcer (Marksman)</Korean>
+                <Chinesesimp>Enforcer (Marksman)</Chinesesimp>
+                <Japanese>Enforcer (Marksman)</Japanese>
+                <Turkish>Enforcer (Marksman)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Drug_Lord_F0">
+                <Original>Capo</Original>
+                <Chinese>Capo</Chinese>
+                <French>Capo</French>
+                <Spanish>Capo</Spanish>
+                <Italian>Capo</Italian>
+                <Polish>Capo</Polish>
+                <Russian>Capo</Russian>
+                <German>Capo</German>
+                <Czech>Capo</Czech>
+                <English>Capo</English>
+                <Portuguese>Capo</Portuguese>
+                <Korean>Capo</Korean>
+                <Chinesesimp>Capo</Chinesesimp>
+                <Japanese>Capo</Japanese>
+                <Turkish>Capo</Turkish>
+            </Key>
 			<Container name="Groups">
 				<Key ID="STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_BanditGang0">
 					<Original>Cartel Patrol</Original>
@@ -246,6 +365,40 @@
 					<Chinesesimp>Cartel Gang</Chinesesimp>
 					<Japanese>Cartel Gang</Japanese>
 					<Turkish>Cartel Gang</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_EnfSquad0">
+					<Original>Enforcer Squad</Original>
+					<Chinese>Enforcer Squad</Chinese>
+					<French>Enforcer Squad</French>
+					<Spanish>Enforcer Squad</Spanish>
+					<Italian>Enforcer Squad</Italian>
+					<Polish>Enforcer Squad</Polish>
+					<Russian>Enforcer Squad</Russian>
+					<German>Enforcer Squad</German>
+					<Czech>Enforcer Squad</Czech>
+					<English>Enforcer Squad</English>
+					<Portuguese>Enforcer Squad</Portuguese>
+					<Korean>Enforcer Squad</Korean>
+					<Chinesesimp>Enforcer Squad</Chinesesimp>
+					<Japanese>Enforcer Squad</Japanese>
+					<Turkish>Enforcer Squad</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_EnfTeam0">
+					<Original>Enforcer Team</Original>
+					<Chinese>Enforcer Team</Chinese>
+					<French>Enforcer Team</French>
+					<Spanish>Enforcer Team</Spanish>
+					<Italian>Enforcer Team</Italian>
+					<Polish>Enforcer Team</Polish>
+					<Russian>Enforcer Team</Russian>
+					<German>Enforcer Team</German>
+					<Czech>Enforcer Team</Czech>
+					<English>Enforcer Team</English>
+					<Portuguese>Enforcer Team</Portuguese>
+					<Korean>Enforcer Team</Korean>
+					<Chinesesimp>Enforcer Team</Chinesesimp>
+					<Japanese>Enforcer Team</Japanese>
+					<Turkish>Enforcer Team</Turkish>
 				</Key>
 			</Container>
 			<Container name="Uniforms">
@@ -369,21 +522,21 @@
 					<Turkish>Combat Fatigues (Black)</Turkish>
 				</Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_I_CDB_CombatUniform_shortsleeve_F0">
-					<Original>Combat Fatigues (Rolled-up, Black)</Original>
-					<Chinese>Combat Fatigues (Rolled-up, Black)</Chinese>
-					<French>Combat Fatigues (Rolled-up, Black)</French>
-					<Spanish>Combat Fatigues (Rolled-up, Black)</Spanish>
-					<Italian>Combat Fatigues (Rolled-up, Black)</Italian>
-					<Polish>Combat Fatigues (Rolled-up, Black)</Polish>
-					<Russian>Combat Fatigues (Rolled-up, Black)</Russian>
-					<German>Combat Fatigues (Rolled-up, Black)</German>
-					<Czech>Combat Fatigues (Rolled-up, Black)</Czech>
-					<English>Combat Fatigues (Rolled-up, Black)</English>
-					<Portuguese>Combat Fatigues (Rolled-up, Black)</Portuguese>
-					<Korean>Combat Fatigues (Rolled-up, Black)</Korean>
-					<Chinesesimp>Combat Fatigues (Rolled-up, Black)</Chinesesimp>
-					<Japanese>Combat Fatigues (Rolled-up, Black)</Japanese>
-					<Turkish>Combat Fatigues (Rolled-up, Black)</Turkish>
+					<Original>Combat Fatigues (Black, Rolled-up)</Original>
+					<Chinese>Combat Fatigues (Black, Rolled-up)</Chinese>
+					<French>Combat Fatigues (Black, Rolled-up)</French>
+					<Spanish>Combat Fatigues (Black, Rolled-up)</Spanish>
+					<Italian>Combat Fatigues (Black, Rolled-up)</Italian>
+					<Polish>Combat Fatigues (Black, Rolled-up)</Polish>
+					<Russian>Combat Fatigues (Black, Rolled-up)</Russian>
+					<German>Combat Fatigues (Black, Rolled-up)</German>
+					<Czech>Combat Fatigues (Black, Rolled-up)</Czech>
+					<English>Combat Fatigues (Black, Rolled-up)</English>
+					<Portuguese>Combat Fatigues (Black, Rolled-up)</Portuguese>
+					<Korean>Combat Fatigues (Black, Rolled-up)</Korean>
+					<Chinesesimp>Combat Fatigues (Black, Rolled-up)</Chinesesimp>
+					<Japanese>Combat Fatigues (Black, Rolled-up)</Japanese>
+					<Turkish>Combat Fatigues (Black, Rolled-up)</Turkish>
 				</Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Uniform_02_F0">
 					<Original>Combat Fatigues (UCP)</Original>

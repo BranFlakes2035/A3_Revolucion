@@ -11,6 +11,7 @@ class Rev_I_CDB_Soldier_base_F: I_C_Soldier_base_F
 		Head_Greek,
 		G_HAF_default
 	};
+	headgearList[]={};
 };
 class Rev_I_CDB_Soldier_Bandit_base_F: Rev_I_CDB_Soldier_base_F
 {
@@ -728,3 +729,451 @@ class Rev_I_CDB_Soldier_Bandit_Officer_F: Rev_I_CDB_Soldier_Bandit_base_F
 };
 
 // Men (Paramilitary)
+
+class Rev_I_CDB_Soldier_Para_TL_F: Rev_I_CDB_Soldier_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Para_TL_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_TL_F0;
+	cost = 100000;
+    role = Rifleman;
+	icon = iconManLeader;
+    camouflage = 2;
+    uniformClass = Rev_U_I_CDB_CombatUniform_shortsleeve_F;
+    weapons[] =
+	{
+		arifle_AK12_GL_ARCO_AK_FL_F,
+		hgun_Pistol_01_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AK12_GL_ARCO_AK_FL_F,
+		hgun_Pistol_01_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_762x39_AK12_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
+		mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_762x39_AK12_Mag_F),
+		mag_2(10Rnd_9x21_Mag),
+		mag_4(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer)
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetSpecB_light_black,
+		G_Balaclava_Combat,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetSpecB_light_black,
+		G_Balaclava_Combat,
+		DefaultManLinkedItems
+	};
+};
+class Rev_I_CDB_Soldier_Para_GL_F: Rev_I_CDB_Soldier_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Para_GL_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_GL_F0;
+    role = Grenadier;
+	cost = 200000;
+    uniformClass = Rev_U_I_CDB_CombatUniform_F;
+    weapons[] =
+	{
+		arifle_AK12_GL_ACO_AK_FL_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AK12_GL_ACO_AK_FL_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_762x39_AK12_Mag_F),
+		mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_762x39_AK12_Mag_F),
+		mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer)
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_Booniehat_blk,
+		G_Tactical_Black,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_Booniehat_blk,
+		G_Tactical_Black,
+		DefaultManLinkedItems
+	};
+};
+class Rev_I_CDB_Soldier_Para_Medic_F: Rev_I_CDB_Soldier_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_medic_s};
+			speechPlural[] = {veh_infantry_medic_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
+	nameSound = veh_infantry_medic_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Para_Medic_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_Medic_F0;
+	role = CombatLifeSaver;
+	icon = iconManMedic;
+	picture = pictureHeal;
+	camouflage = 1.6;
+	attendant = true;
+	uniformClass = Rev_U_I_CDB_CombatUniform_Shortsleeve_F;
+	backpack = B_Kitbag_blk_Para_Medic_F;
+	weapons[] =
+	{
+		arifle_AK12U_ACO_AK_FL_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AK12U_ACO_AK_FL_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_2(HandGrenade_Guer),
+		SmokeShell,
+        SMOKESHELLS_MEDIC
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_2(HandGrenade_Guer),
+		SmokeShell,
+        SMOKESHELLS_MEDIC
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetB_light_black,
+		G_Bandanna_shades,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetB_light_black,
+		G_Bandanna_shades,
+		DefaultManLinkedItems
+	};
+};
+class Rev_I_CDB_Soldier_Para_F: Rev_I_CDB_Soldier_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Para_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_I_C_Soldier_Para_2_F0;
+	cost = 100000;
+    role = Rifleman;
+    camouflage = 2;
+	uniformClass = Rev_U_I_CDB_CombatUniform_F;
+    weapons[] =
+	{
+		arifle_AK12_ACO_AK_FL_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AK12_ACO_AK_FL_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_762x39_AK12_Mag_F),
+        mag_2(HandGrenade_Guer)
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetB_light_black,
+		G_Balaclava_blk,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetB_light_black,
+		G_Balaclava_blk,
+		DefaultManLinkedItems
+	};
+};
+class Rev_I_CDB_Soldier_Para_AT_F: Rev_I_CDB_Soldier_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_AT_s};
+			speechPlural[] = {veh_infantry_AT_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
+	nameSound = veh_infantry_AT_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Para_AT_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_AT_F0;
+	role = MissileSpecialist;
+	icon = iconManAT;
+	cost = 130000;
+	threat[] =
+    {
+        0.8,    // Soft
+        0.8,    // Armor
+        0.3     // Air
+    };
+	secondaryAmmoCoef = 0.5;
+	uniformClass = Rev_U_I_CDB_CombatUniform_F;
+	backpack = B_Kitbag_blk_Para_AT_F;
+    weapons[] =
+	{
+		arifle_AK12U_ACO_AK_FL_F,
+		launch_RPG7_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AK12U_ACO_AK_FL_F,
+		launch_RPG7_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_5(30Rnd_762x39_AK12_Mag_F),
+		RPG7_F
+	};
+	respawnMagazines[] =
+	{
+		mag_5(30Rnd_762x39_AK12_Mag_F),
+		RPG7_F
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetB_light_black,
+		G_Bandanna_blk,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetB_light_black,
+		G_Bandanna_blk,
+		DefaultManLinkedItems
+	};
+};
+class Rev_I_CDB_Soldier_Para_AR_F: Rev_I_CDB_Soldier_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_MG_s};
+			speechPlural[] = {veh_infantry_MG_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
+	nameSound = veh_infantry_MG_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Para_AR_F.jpg";
+  	scope = public;
+  	scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_AR_F0;
+	role = MachineGunner;
+	icon = iconManMG;
+	cost = 125000;
+	threat[] =
+    {
+        1,      // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+    uniformClass = Rev_U_I_CDB_CombatUniform_Shortsleeve_F;
+	weapons[] =
+	{
+		arifle_RPK12_ACO_AK_FL_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_RPK12_ACO_AK_FL_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_5(75rnd_762x39_AK12_Mag_F),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] =
+	{
+		mag_5(75rnd_762x39_AK12_Mag_F),
+        mag_2(HandGrenade_Guer)
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetB_light_black,
+		G_Combat,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_HelmetB_light_black,
+		G_Combat,
+		DefaultManLinkedItems
+	};
+};
+class Rev_I_CDB_Soldier_Para_M_F: Rev_I_CDB_Soldier_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Para_M_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_I_CDB_Soldier_Para_M_F0;
+	role = Marksman;
+	cost = 250000;
+	uniformClass = Rev_U_I_CDB_CombatUniform_shortsleeve_F;
+    weapons[] =
+	{
+		srifle_DMR_03_ARCO_FL_BI_F,
+		Binocular,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		srifle_DMR_03_ARCO_FL_BI_F,
+		Binocular,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(20Rnd_762x51_Mag),
+		mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(20Rnd_762x51_Mag),
+		mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer)
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_Watchcap_blk_hs,
+		G_Balaclava_Skull1,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrier2_blk,
+		H_Watchcap_blk_hs,
+		G_Balaclava_Skull1,
+		DefaultManLinkedItems
+	};
+};
+class Rev_I_CDB_Soldier_Drug_Lord_F: Rev_I_CDB_Soldier_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_officer_s};
+			speechPlural[] = {veh_infantry_officer_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
+	nameSound = veh_infantry_officer_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Drug_Lord_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_R_cfgVehicles_I_CDB_Soldier_Drug_Lord_F0;
+    role = Rifleman;
+	icon = iconManOfficer;
+    cost = 600000;
+	camouflage = 1.6;
+	uniformClass = U_C_FormalSuit_01_tshirt_gray_F;
+	weapons[] =
+	{
+		arifle_AKM_F,
+		hgun_Pistol_heavy_02_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_AKM_F,
+		hgun_Pistol_heavy_02_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_4(30Rnd_762x39_Mag_F),
+		mag_3(6Rnd_45ACP_Cylinder)
+	};
+	respawnMagazines[] =
+	{
+		mag_4(30Rnd_762x39_Mag_F),
+		mag_3(6Rnd_45ACP_Cylinder)
+	};
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_Black_F,
+		G_Aviator,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_Black_F,
+		G_Aviator,
+		DefaultManGuerillaLinkedItems
+	};
+};

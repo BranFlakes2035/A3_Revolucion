@@ -227,6 +227,30 @@ class CfgGroups
 					GROUP_UNIT(5,TGuerrila,Rev_I_CDB_Soldier_Bandit_2_F,PRIVATE,15,-15);
 					GROUP_UNIT(6,TGuerrila,Rev_I_CDB_Soldier_Bandit_3_F,PRIVATE,-15,-15);
 				};
+				class I_CDB_EnforcerTeam
+				{
+					name = $STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_EnfTeam0;
+					side = TGuerrila;
+					faction = Revolucion_IND_CDB_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TGuerrila,Rev_I_CDB_Soldier_Para_GL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TGuerrila,Rev_I_CDB_Soldier_Para_F,PRIVATE,5,-5);
+					GROUP_UNIT(2,TGuerrila,Rev_I_CDB_Soldier_Para_M_F,CORPORAL,-5,-5);
+				};
+				class I_CDB_EnforcerSquad
+				{
+					name = $STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_EnfSquad0;
+					side = TGuerrila;
+					faction = Revolucion_IND_CDB_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TGuerrila,Rev_I_CDB_Soldier_Para_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TGuerrila,Rev_I_CDB_Soldier_Para_M_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TGuerrila,Rev_I_CDB_Soldier_Para_AT_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TGuerrila,Rev_I_CDB_Soldier_Para_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TGuerrila,Rev_I_CDB_Soldier_Para_GL_F,CORPORAL,-10,-10);
+					GROUP_UNIT(5,TGuerrila,Rev_I_CDB_Soldier_Para_AR_F,PRIVATE,15,-15);
+					GROUP_UNIT(6,TGuerrila,Rev_I_CDB_Soldier_Para_Medic_F,PRIVATE,-15,-15);
+				};
 			};
 		};
 	}; 

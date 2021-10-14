@@ -37,7 +37,16 @@ class CfgPatches
 			Rev_I_CDB_Soldier_Bandit_SMG_F,
 			Rev_I_CDB_Soldier_Bandit_lite_F,
 			Rev_I_CDB_Soldier_Pilot_F,
-			Rev_I_CDB_Soldier_Bandit_Officer_F
+			Rev_I_CDB_Soldier_Bandit_Officer_F,
+			Rev_I_CDB_Soldier_Para_F,
+			Rev_I_CDB_Soldier_Para_TL_F,
+			Rev_I_CDB_Soldier_Para_GL_F,
+			Rev_I_CDB_Soldier_Para_Medic_F,
+			Rev_I_CDB_Soldier_Para_AR_F,
+			Rev_I_CDB_Soldier_Para_AT_F,
+			Rev_I_CDB_Soldier_Para_M_F,
+			Rev_I_CDB_Soldier_Drug_Lord_F
+
 
             /* From "cfgFASR.hpp" */
 
