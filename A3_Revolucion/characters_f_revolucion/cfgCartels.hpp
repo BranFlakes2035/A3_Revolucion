@@ -524,6 +524,91 @@ class Rev_I_CDB_Soldier_Bandit_M_F: Rev_I_CDB_Soldier_Bandit_base_F
 		DefaultManGuerillaLinkedItems
 	};
 };
+class Rev_I_CDB_Soldier_Bandit_SMG_F: Rev_I_CDB_Soldier_Bandit_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Bandit_7_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_I_CDB_Soldier_Bandit_SMG_F0;
+	cost = 100000;
+    role = Rifleman;
+    camouflage = 2;
+    uniformClass = U_I_C_Soldier_Bandit_2_F;
+	backpack = B_Messenger_Black_F;
+	weapons[] =
+	{
+		hgun_PDW2000_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		hgun_PDW2000_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_9x21_Mag_v2)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_9x21_Mag_v2)
+	};
+	linkedItems[] =
+	{
+		V_Pocketed_black_F,
+		H_Hat_Brown,
+		G_shades_black,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_Pocketed_black_F,
+		H_Hat_Brown,
+		G_shades_black,
+		DefaultManGuerillaLinkedItems
+	};
+};
+class Rev_I_CDB_Soldier_Bandit_lite_F: Rev_I_CDB_Soldier_Bandit_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_I_CDB_Soldier_Bandit_7_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_I_CDB_Soldier_Bandit_lite_F0;
+	cost = 100000;
+    role = Rifleman;
+    camouflage = 2;
+    uniformClass = U_I_C_Soldier_Bandit_3_F;
+	weapons[] =
+	{
+		hgun_Pistol_01_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		hgun_Pistol_01_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_5(10Rnd_9x21_Mag)
+	};
+	respawnMagazines[] =
+	{
+		mag_5(10Rnd_9x21_Mag)
+	};
+	linkedItems[] =
+	{
+		H_Bandanna_Khk,
+		DefaultManGuerillaLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		H_Bandanna_Khk,
+		DefaultManGuerillaLinkedItems
+	};
+};
 class Rev_I_CDB_Soldier_Pilot_F: Rev_I_CDB_Soldier_Bandit_base_F
 {
 	author = $STR_A3_A_Ravenholme;

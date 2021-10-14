@@ -6,7 +6,7 @@ class CfgPatches
 	class A3_Revolucion_Characters_F_Revolucion
 	{
 		author = $STR_A3_A_BranFlakes;
-		name = "Arma 3 Revolucion - Characters and Clothing";
+		name = "Arma 3 Revolución - Characters and Clothing";
 		url = linkRevolucion;
 		requiredAddons[] =
 		{
@@ -34,6 +34,8 @@ class CfgPatches
 			Rev_I_CDB_Soldier_Bandit_8_F,
 			Rev_I_CDB_Soldier_Bandit_SG_F,
 			Rev_I_CDB_Soldier_Bandit_M_F,
+			Rev_I_CDB_Soldier_Bandit_SMG_F,
+			Rev_I_CDB_Soldier_Bandit_lite_F,
 			Rev_I_CDB_Soldier_Pilot_F,
 			Rev_I_CDB_Soldier_Bandit_Officer_F
 

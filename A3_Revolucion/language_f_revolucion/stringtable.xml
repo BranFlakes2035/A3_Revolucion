@@ -153,13 +153,47 @@
                 <Polish>Hitman (DMR)</Polish>
                 <Russian>Hitman (DMR)</Russian>
                 <German>Hitman (DMR)</German>
-                <Czech>Bandit (Rifle)</Czech>
+                <Czech>Hitman (DMR)</Czech>
                 <English>Hitman (DMR)</English>
                 <Portuguese>Hitman (DMR)</Portuguese>
                 <Korean>Hitman (DMR)</Korean>
                 <Chinesesimp>Hitman (DMR)</Chinesesimp>
                 <Japanese>Hitman (DMR)</Japanese>
                 <Turkish>Hitman (DMR)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Bandit_SMG_F0">
+                <Original>Runner (SMG)</Original>
+                <Chinese>Runner (SMG)</Chinese>
+                <French>Runner (SMG)</French>
+                <Spanish>Runner (SMG)</Spanish>
+                <Italian>Runner (SMG)</Italian>
+                <Polish>Runner (SMG)</Polish>
+                <Russian>Runner (SMG)</Russian>
+                <German>Runner (SMG)</German>
+                <Czech>Runner (SMG)</Czech>
+                <English>Runner (SMG)</English>
+                <Portuguese>Runner (SMG)</Portuguese>
+                <Korean>Runner (SMG)</Korean>
+                <Chinesesimp>Runner (SMG)</Chinesesimp>
+                <Japanese>Runner (SMG)</Japanese>
+                <Turkish>Runner (SMG)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Bandit_lite_F0">
+                <Original>Falcon (Pistol)</Original>
+                <Chinese>Falcon (Pistol)</Chinese>
+                <French>Falcon (Pistol)</French>
+                <Spanish>Falcon (Pistol)</Spanish>
+                <Italian>Falcon (Pistol)</Italian>
+                <Polish>Falcon (Pistol)</Polish>
+                <Russian>Falcon (Pistol)</Russian>
+                <German>Falcon (Pistol)</German>
+                <Czech>Falcon (Pistol)</Czech>
+                <English>Falcon (Pistol)</English>
+                <Portuguese>Falcon (Pistol)</Portuguese>
+                <Korean>Falcon (Pistol)</Korean>
+                <Chinesesimp>Falcon (Pistol)</Chinesesimp>
+                <Japanese>Falcon (Pistol)</Japanese>
+                <Turkish>Falcon (Pistol)</Turkish>
             </Key>
             <Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Bandit_Officer_F0">
                 <Original>Lieutenant</Original>
@@ -457,7 +491,7 @@
 				</Key>
 			</Container>
 			<Container name="Headgear">
-				<Key ID="STR_A3_A_CfgWeapons_H_mk7_atacsfg0">
+				<Key ID="STR_A3_R_CfgWeapons_H_mk7_atacsfg0">
 					<Original>MK7 (ATACS-FG)</Original>
 					<Chinese>MK7 (ATACS-FG)</Chinese>
 					<French>MK7 (ATACS-FG)</French>
@@ -474,7 +508,7 @@
 					<Japanese>MK7 (ATACS-FG)</Japanese>
 					<Turkish>MK7 (ATACS-FG)</Turkish>
 				</Key>
-				<Key ID="STR_A3_A_CfgWeapons_H_mk7_atacsau0">
+				<Key ID="STR_A3_R_CfgWeapons_H_mk7_atacsau0">
 					<Original>MK7 (ATACS-AU)</Original>
 					<Chinese>MK7 (ATACS-AU)</Chinese>
 					<French>MK7 (ATACS-AU)</French>
