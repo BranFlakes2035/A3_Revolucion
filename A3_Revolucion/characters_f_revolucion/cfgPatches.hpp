@@ -19,9 +19,7 @@ class CfgPatches
         {
             /* From "cfgBDF.hpp" */
 
-
             /* From "cfgFRR.hpp" */
-
 
             /* From "cfgCartels.hpp" */
 			Rev_I_CDB_Soldier_Bandit_1_F,
@@ -45,12 +43,28 @@ class CfgPatches
 			Rev_I_CDB_Soldier_Para_AR_F,
 			Rev_I_CDB_Soldier_Para_AT_F,
 			Rev_I_CDB_Soldier_Para_M_F,
-			Rev_I_CDB_Soldier_Drug_Lord_F
-
+			Rev_I_CDB_Soldier_Drug_Lord_F,
 
             /* From "cfgFASR.hpp" */
-
-
+			Rev_O_FASR_Soldier_A_F,
+			Rev_O_FASR_Soldier_AR_F,
+			Rev_O_FASR_Medic_F,
+			//Rev_O_FASR_Crew_F,
+			Rev_O_FASR_Engineer_F,
+			Rev_O_FASR_Soldier_Exp_F,
+			Rev_O_FASR_Soldier_GL_F,
+			//Rev_O_FASR_Helipilot_F,
+			Rev_O_FASR_Soldier_M_F,
+			Rev_O_FASR_Officer_F,
+			Rev_O_FASR_Soldier_F,
+			Rev_O_FASR_Soldier_AT_F,
+			Rev_O_FASR_Soldier_SL_F,
+			Rev_O_FASR_Soldier_TL_F,
+			//Rev_O_FASR_RadioOperator_F,
+			Rev_O_FASR_Soldier_lite_F,
+			Rev_O_FASR_Soldier_CQ_F,
+			Rev_O_FASR_Soldier_universal_F,
+			Rev_O_FASR_unarmed_F
         };
 		weapons[] = {/* Automated */};
 	};

@@ -12,7 +12,10 @@ class CfgPatches
 		units[] =
         {
             /* From "cfgCartels.hpp" */
-            Rev_I_CDB_Boat_Transport_01_F
+            Rev_I_CDB_Boat_Transport_01_F,
+
+            /* From "cfgFASR.hpp" */
+            Rev_O_FASR_Boat_Transport_01_F
         };
 		weapons[] = {/* Automated */};
 	};

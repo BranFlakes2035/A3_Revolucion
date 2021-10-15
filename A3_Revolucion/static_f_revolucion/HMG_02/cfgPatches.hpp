@@ -9,7 +9,11 @@ class CfgPatches
         {
             /* From "cfgCartels.hpp" */
             Rev_I_CDB_HMG_02_F,
-            Rev_I_CDB_HMG_02_high_F
+            Rev_I_CDB_HMG_02_high_F,
+
+			/* From "cfgFASR.hpp" */
+            Rev_O_FASR_HMG_02_F,
+            Rev_O_FASR_HMG_02_high_F
         };
 		weapons[] = {/* Automated */};
 	};
