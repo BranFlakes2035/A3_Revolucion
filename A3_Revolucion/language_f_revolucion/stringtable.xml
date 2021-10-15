@@ -606,6 +606,23 @@
 					<Japanese>Combat Fatigues (Rolled-up, Type 99)</Japanese>
 					<Turkish>Combat Fatigues (Rolled-up, Type 99)</Turkish>
 				</Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Jacket_01_F0">
+                    <Original>Field Jacket [FASR]</Original>
+                    <Chinese>Field Jacket [FASR]</Chinese>
+                    <French>Field Jacket [FASR]</French>
+                    <Spanish>Field Jacket [FASR]</Spanish>
+                    <Italian>Field Jacket [FASR]</Italian>
+                    <Polish>Field Jacket [FASR]</Polish>
+                    <Russian>Field Jacket [FASR]</Russian>
+                    <German>Field Jacket [FASR]</German>
+                    <Czech>Field Jacket [FASR]</Czech>
+                    <English>Field Jacket [FASR]</English>
+                    <Portuguese>Field Jacket [FASR]</Portuguese>
+                    <Korean>Field Jacket [FASR]</Korean>
+                    <Chinesesimp>Field Jacket [FASR]</Chinesesimp>
+                    <Japanese>Field Jacket [FASR]</Japanese>
+                    <Turkish>Field Jacket [FASR]</Turkish>
+                </Key>
 			</Container>
 			<Container name="Vests">
 				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_BDF_grn_F0">

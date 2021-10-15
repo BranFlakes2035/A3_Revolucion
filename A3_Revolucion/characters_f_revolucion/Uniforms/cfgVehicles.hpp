@@ -17,4 +17,7 @@ class CfgVehicles
 	/*From "cfgCartels.hpp" */
 	UNIFORM_HOLDER(Rev_U_I_CDB_CombatUniform_F,$STR_A3_R_CfgWeapons_U_I_CDB_CombatUniform_F0);
 	UNIFORM_HOLDER(Rev_U_I_CDB_CombatUniform_shortsleeve_F,$STR_A3_R_CfgWeapons_U_I_CombatUniform_shortsleeve_F0);
+
+	/*From "cfgFASR.hpp" */
+	UNIFORM_HOLDER(Rev_U_O_FASR_FieldJacket_F,$STR_A3_R_CfgWeapons_U_O_FASR_Jacket_01_F0);
 };

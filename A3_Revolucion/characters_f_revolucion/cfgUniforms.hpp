@@ -2,6 +2,7 @@
 class I_E_Uniform_01_F;
 class I_E_Uniform_01_shortsleeve_F;
 class I_E_Uniform_01_tanktop_F;
+class I_E_Uniform_01_officer_F;
 class Rev_B_BDF_Uniform_01_F: I_E_Uniform_01_F
 {
   	scope = protected;
@@ -91,5 +92,17 @@ class Rev_I_CDB_CombatUniform_shortsleeve_F: I_soldier_lite_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Rev_I_CDB_CombatFatigues_black_CO.paa"
+	};
+};
+/*FASR*/
+class Rev_O_FASR_FieldJacket_F: I_E_Uniform_01_officer_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_FASR_FieldJacket_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_FASR_FieldJacket_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_FASR_FieldJacket_02_CO.paa",
 	};
 };

@@ -149,3 +149,15 @@ class srifle_DMR_03_ARCO_FL_BI_F: srifle_DMR_03_F
 		};
     };
 };
+class rev_arifle_SPAR_01_blk_MRCO_F : arifle_SPAR_01_blk_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+	};
+};
