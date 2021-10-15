@@ -109,6 +109,110 @@ class arifle_AK12_GL_ARCO_AK_FL_F: arifle_AK12_GL_F
     };
 };
 
+// NCAR-15B 5.8 mm + ACO
+class arifle_NCAR15B_ACO_grn_F: arifle_NCAR15B_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+    };
+};
+
+// NCAR-15 5.8 mm + ACO
+class arifle_NCAR15_ACO_grn_F: arifle_NCAR15_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+    };
+};
+
+// NCAR-15 5.8 mm + ACO + Flashlight
+class arifle_NCAR15_ACO_grn_FL_F: arifle_NCAR15_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+    };
+};
+
+// NCAR-15 5.8 mm + MRCO + Flashlight
+class arifle_NCAR15_MRCO_FL_F: arifle_NCAR15_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+    };
+};
+
+// NCAR-15 GL 5.8 mm + ACO + Flashlight
+class arifle_NCAR15_GL_ACO_grn_FL_F: arifle_NCAR15_GL_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+    };
+};
+
+// CAR-95 GL 5.8 mm + MRCO + Flashlight
+class arifle_CTAR_GL_blk_MRCO_grn_FL_F: arifle_CTAR_GL_blk_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+    };
+};
+
 // SPAR-16 5.56mm (Black) + MRCO
 class rev_arifle_SPAR_01_blk_MRCO_F : arifle_SPAR_01_blk_F
 {
@@ -141,6 +245,39 @@ class arifle_RPK12_ACO_AK_FL_F: arifle_RPK12_F
 		{
 			slot = PointerSlot;
 			item = acc_flashlight;
+		};
+    };
+};
+
+// CAR-95-1 (black) 5.8 mm + ACO (Green) + Flashlight
+class arifle_CTARS_blk_ACO_grn_FL_F: arifle_CTARS_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+    };
+};
+
+// NCAR-15-1 5.8 mm + DMS (Old) - Actually used as a DMR variant
+class arifle_NCAR15_MG_DMS_Old_F: arifle_NCAR15_MG_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_DMS_weathered_F;
 		};
     };
 };
