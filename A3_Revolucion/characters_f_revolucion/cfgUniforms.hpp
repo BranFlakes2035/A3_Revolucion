@@ -50,7 +50,7 @@ class Rev_B_BDF_Uniform_01_ar_F: I_E_Uniform_01_F
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
 };
-class Rev_U_B_BDF_Uniform_01_ar_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
+class Rev_B_BDF_Uniform_01_ar_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
 {
   	scope = protected;
   	scopeCurator = private;
