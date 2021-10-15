@@ -1,9 +1,9 @@
 /*Baracas Defense Forces*/
-class I_Soldier_F;
 class Rev_B_BDF_Man_base_F: I_Soldier_F
 {
     scope = private;
-	faction = Revolucion_IND_CDB_F;
+	faction = Revolucion_BLU_BDF_F;
+	side = TWest;
 	genericNames = VenezuelanMen;
 	identityTypes[] =
 	{
