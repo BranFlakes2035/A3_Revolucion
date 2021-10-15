@@ -1,3 +1,5 @@
+/* Rifle Presets */
+
 // AKU-12 5.45 mm + ACO AK
 class arifle_AK12U_545_ACO_AK_F: arifle_AK12U_545_F
 {
@@ -107,6 +109,23 @@ class arifle_AK12_GL_ARCO_AK_FL_F: arifle_AK12_GL_F
     };
 };
 
+// SPAR-16 5.56mm (Black) + MRCO
+class rev_arifle_SPAR_01_blk_MRCO_F : arifle_SPAR_01_blk_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+	};
+};
+
+
+/* LMG Presets */
+
 // RPK-12 7.62 mm + ACO AK + Flashlight
 class arifle_RPK12_ACO_AK_FL_F: arifle_RPK12_F
 {
@@ -125,6 +144,9 @@ class arifle_RPK12_ACO_AK_FL_F: arifle_RPK12_F
 		};
     };
 };
+
+
+/* Sniper Rifle/DMR Presets */
 
 // MK-1 EMR 7.62 mm + ARCO + Flashlight + Bipod [NATO] (Black)
 class srifle_DMR_03_ARCO_FL_BI_F: srifle_DMR_03_F
@@ -149,16 +171,5 @@ class srifle_DMR_03_ARCO_FL_BI_F: srifle_DMR_03_F
 		};
     };
 };
-class arifle_SPAR_01_blk_F;
-class rev_arifle_SPAR_01_blk_MRCO_F : arifle_SPAR_01_blk_F
-{
-	author = $STR_A3_A_AveryTheKitty;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_MRCO;
-		};
-	};
-};
+
+/* Handgun Presets */
