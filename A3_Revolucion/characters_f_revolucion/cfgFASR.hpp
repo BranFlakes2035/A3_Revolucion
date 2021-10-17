@@ -176,7 +176,7 @@ class Rev_O_FASR_Medic_F: Rev_O_FASR_Soldier_Base_F
 		mag_6(30Rnd_580x42_Mag_F),
         mag_2(HandGrenade_Guer),
 		mag_2(Chemlight_Yellow),
-        mag_2(SmokeShell),
+        mag_3(SmokeShell),
         SMOKESHELLS_MEDIC
 	};
 	linkedItems[] =

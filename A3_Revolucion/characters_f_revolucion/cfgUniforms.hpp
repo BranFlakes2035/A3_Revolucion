@@ -30,7 +30,7 @@ class Rev_B_BDF_Uniform_01_tanktop_F: I_E_Uniform_01_tanktop_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Rev_U_B_BDF_Uniform_01_tankop_F;
+	uniformClass = Rev_U_B_BDF_Uniform_01_tanktop_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Atlas\Characters_F_Atlas\Uniforms\Data\B_G_Soldier_01_TankTop_CO.paa",
@@ -65,7 +65,7 @@ class Rev_B_BDF_Uniform_01_tanktop_ar_F: I_E_Uniform_01_tanktop_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Rev_U_B_BDF_Uniform_01_tankop_ar_F;
+	uniformClass = Rev_U_B_BDF_Uniform_01_tanktop_ar_F;
 	hiddenSelectionsTextures[] =
 	{
         "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_TankTop_arid_CO.paa",

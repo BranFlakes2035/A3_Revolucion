@@ -11,6 +11,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
+            /* From "cfgBDF.hpp" */
+            Rev_B_BDF_Boat_Transport_01_F,
+
             /* From "cfgCartels.hpp" */
             Rev_I_CDB_Boat_Transport_01_F,
 

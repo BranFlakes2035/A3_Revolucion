@@ -11,6 +11,7 @@ class CfgPatches
 		requiredAddons[] =
         {
             A3_Aegis_Data_F_Aegis,
+			A3_Atlas_Data_F_Atlas,
             A3_Boat_F_Destroyer_Destroyer_01,
             A3_Boat_F_Gamma_Boat_Civil_04,
             A3_Boat_F_Jets_Carrier_01

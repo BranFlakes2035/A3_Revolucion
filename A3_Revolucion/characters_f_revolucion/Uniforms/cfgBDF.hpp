@@ -32,7 +32,7 @@ class Rev_U_B_BDF_Uniform_01_shortsleeve_F: Uniform_Base
 		mass = 40;
 	};
 };
-class Rev_U_B_BDF_Uniform_01_tankop_F: Uniform_Base
+class Rev_U_B_BDF_Uniform_01_tanktop_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
 	scope = public;
@@ -83,7 +83,7 @@ class Rev_U_B_BDF_Uniform_01_ar_shortsleeve_F: Uniform_Base
 		mass = 40;
 	};
 };
-class Rev_U_B_BDF_Uniform_01_tankop_ar_F: Uniform_Base
+class Rev_U_B_BDF_Uniform_01_tanktop_ar_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
 	scope = public;

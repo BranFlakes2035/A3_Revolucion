@@ -226,19 +226,103 @@ class rev_arifle_SPAR_01_blk_MRCO_F : arifle_SPAR_01_blk_F
 		};
 	};
 };
-// MK-16 5.56 (Black) + ACO
-class rev_arifle_SCAR_L_black_ACO_F : arifle_SCAR_L_black_F
+
+// MK-16 5.56 (Black) + ACO + Flashlight
+class rev_arifle_SCAR_L_black_ACO_FL_F : arifle_SCAR_L_black_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_Ravenholme;
 	class LinkedItems
 	{
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_MRCO;
+			item = optic_ACO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
 		};
 	};
 };
+
+// MK-16 5.56 (Black) + LRCO + Flashlight
+class rev_arifle_SCAR_L_black_LRCO_FL_F : arifle_SCAR_L_black_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+
+// MK-16C 5.56 (Black) + ACO + Flashlight
+class rev_arifle_SCAR_L_short_black_ACO_FL_F : arifle_SCAR_L_short_black_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+
+// MK-16C GL 5.56 (Black) + ACO + Flashlight
+class rev_arifle_SCAR_L_GL_black_ACO_FL_F : arifle_SCAR_L_GL_black_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+
+// MK-16C GL 5.56 (Black) + LRCO + Flashlight
+class rev_arifle_SCAR_L_GL_black_LRCO_FL_F : arifle_SCAR_L_GL_black_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+	};
+};
+
+
 
 /* LMG Presets */
 
@@ -294,6 +378,20 @@ class arifle_NCAR15_MG_DMS_Old_F: arifle_NCAR15_MG_F
     };
 };
 
+// LIM-85 5.56 mm + Flashlight
+class LMG_03_FL_F: LMG_03_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+    };
+};
+
 
 /* Sniper Rifle/DMR Presets */
 
@@ -307,6 +405,30 @@ class srifle_DMR_03_ARCO_FL_BI_F: srifle_DMR_03_F
 		{
 			slot = CowsSlot;
 			item = optic_ARCO_blk_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+    };
+};
+
+// MK17 7.62 mm (Black) + DMS + Flashlight + Bipod [NATO] (Black)
+class arifle_SCAR_black_DMS_FL_BI_F: arifle_SCAR_black_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_DMS;
 		};
         class LinkedItemsAcc
 		{

@@ -7,6 +7,9 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
+			/* From "cfgBDF.hpp" */
+			Rev_B_BDF_Mortar_01_F,
+
             /* From "cfgFASR.hpp" */
             Rev_O_FASR_Mortar_01_F
         };
