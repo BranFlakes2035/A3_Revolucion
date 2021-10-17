@@ -48,7 +48,7 @@ class B_Carryall_oli_BDF_Exp_F: B_Carryall_oli
 		item_xx(MineDetector,1);
 	};
 };
-class B_AssaultPack_ssg_BDF_F: B_AssaultPack_ssg
+class B_AssaultPack_sgg_BDF_F: B_AssaultPack_sgg
 {
     author = $STR_A3_A_Ravenholme;
 	scope = protected;
@@ -58,7 +58,7 @@ class B_AssaultPack_ssg_BDF_F: B_AssaultPack_ssg
 		item_xx(FirstAidKit,10);
 	};
 };
-class B_AssaultPack_ssg_BDF_AT_F: B_AssaultPack_ssg
+class B_AssaultPack_sgg_BDF_AT_F: B_AssaultPack_sgg
 {
     author = $STR_A3_A_Ravenholme;
 	scope = protected;
