@@ -64,6 +64,53 @@ class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
 		DefaultManLinkedItems
 	};
 };
+class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AAA_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	role = Assistant;
+	displayName = $STR_O_SOLDIERU_AAA_F0;
+	backpack = B_Carryall_oli_BDF_AAA_F;
+	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	weapons[] =
+	{
+		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_556x45_Stanag),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_556x45_Stanag),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_TacVest_camo,
+		H_MK7_atacsfg_F,
+		Goggles_grn_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_camo,
+		H_MK7_atacsfg_F,
+		Goggles_grn_F,
+		DefaultManLinkedItems
+	};
+};
 class Rev_B_BDF_soldier_AAR_F: rev_B_BDF_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
@@ -1121,6 +1168,57 @@ class Rev_B_BDF_unarmed_F: Rev_B_BDF_Soldier_F
         0.1     // Air
     };
 };
+class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_UAV_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_B_SOLDIER_UAV_F0;
+	uavHacker = true;
+    cost = 150000;
+	role = SpecialOperative;
+    uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	backpack = B_UAV_01_backpack_F;
+	weapons[] =
+	{
+		rev_arifle_SCAR_L_black_ACO_FL_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		rev_arifle_SCAR_L_black_ACO_FL_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_10(30rnd_556x45_Stanag),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_10(30rnd_556x45_Stanag),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_TacVest_camo,
+		H_MK7_atacsfg_F,
+		Goggles_grn_F,
+		B_UavTerminal,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_camo,
+		H_MK7_atacsfg_F,
+		Goggles_grn_F,
+		B_UavTerminal,
+		DefaultManLinkedItems
+	};
+};
 /*class Rev_B_BDF_Pilot_F: Rev_B_BDF_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
@@ -1181,3 +1279,40 @@ class Rev_B_BDF_unarmed_F: Rev_B_BDF_Soldier_F
 }; */
 
 /* BDF Special Forces */
+class Rev_B_BDF_Soldier_recon_base: Rev_B_BDF_Soldier_Base_F
+{
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_SF_s};
+            speechPlural[] = {veh_infantry_SF_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
+    nameSound = veh_infantry_SF_s;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Head_Greek,
+		G_HAF_default
+	};
+	items[] =
+	{
+		FirstAidKit,
+		optic_NVS
+	};
+	respawnItems[] =
+	{
+		FirstAidKit,
+		optic_NVS
+	};
+	vehicleClass = MenRecon;
+	editorSubcategory = EdSubcat_Personnel_SpecialForces;
+	canHideBodies = false;
+    icon = iconManRecon;
+	role = Rifleman;
+	camouflage = 0.6;
+	detectSkill = 18;
+};

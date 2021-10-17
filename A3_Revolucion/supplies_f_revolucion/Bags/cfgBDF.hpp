@@ -48,6 +48,15 @@ class B_Carryall_oli_BDF_Exp_F: B_Carryall_oli
 		item_xx(MineDetector,1);
 	};
 };
+class B_Carryall_oli_BDF_AAA_F: B_Carryall_oli
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AA,3);
+	};
+};
 class B_AssaultPack_khk_BDF_Medic_F: B_AssaultPack_khk
 {
     author = $STR_A3_A_Ravenholme;

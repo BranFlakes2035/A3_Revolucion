@@ -74,7 +74,7 @@ class CfgGroups
 					GROUP_UNIT(0,TWest,Rev_B_BDF_soldier_TL_F,SERGEANT,0,0);
 					GROUP_UNIT(1,TWest,Rev_B_BDF_soldier_AA_F,CORPORAL,5,-5);
 					GROUP_UNIT(2,TWest,Rev_B_BDF_soldier_AA_F,PRIVATE,-5,-5);
-					GROUP_UNIT(3,TWest,Rev_B_BDF_soldier_F,PRIVATE,10,-10);
+					GROUP_UNIT(3,TWest,Rev_B_BDF_soldier_AAA_F,PRIVATE,10,-10);
 				};
 				class Rev_B_BDF_InfSentry
 				{
