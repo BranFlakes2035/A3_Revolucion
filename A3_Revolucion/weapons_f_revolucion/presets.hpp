@@ -226,7 +226,19 @@ class rev_arifle_SPAR_01_blk_MRCO_F : arifle_SPAR_01_blk_F
 		};
 	};
 };
-
+// MK-16 5.56 (Black) + ACO
+class rev_arifle_SCAR_L_black_ACO_F : arifle_SCAR_L_black_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+	};
+};
 
 /* LMG Presets */
 

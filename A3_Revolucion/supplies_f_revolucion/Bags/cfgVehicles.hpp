@@ -9,9 +9,11 @@ class CfgVehicles
     class B_FieldPack_green_F;
     class B_Kitbag_rgr;
     class B_Kitbag_blk;
+    class B_AssaultPack_ssg;
 
     /* Factions */
     #include "cfgCartels.hpp"   // Cartel De Baracas
     #include "cfgFASR.hpp"      // FASR
+    #include "cfgBDF.hpp"       //BDF
 
 };

@@ -12,6 +12,7 @@ class cfgWeapons
     class arifle_CTAR_GL_blk_F;
     class arifle_CTARS_blk_F;
     class srifle_DMR_03_F;
+    class arifle_SCAR_L_black_F;
 
     // Arma 3 Aegis/Atlas
     class arifle_NCAR15_F;
