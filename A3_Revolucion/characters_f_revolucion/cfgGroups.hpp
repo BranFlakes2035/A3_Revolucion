@@ -123,6 +123,43 @@ class CfgGroups
 					GROUP_UNIT(3,TWest,Rev_B_BDF_soldier_F,PRIVATE,10,-10);
 				};
 			};
+			class SpecOps
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_SpecOps0;
+				class Rev_B_BDF_ReconTeam
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconTeam0;
+					side = TWest;
+					faction = Revolucion_BLU_BDF_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Recon_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_Recon_M_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_BDF_Recon_Medic_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_BDF_Recon_AT_F,CORPORAL,10,-10);
+					GROUP_UNIT(4,TWest,Rev_B_BDF_Recon_JTAC_F,PRIVATE,-10,-10);
+					GROUP_UNIT(5,TWest,Rev_B_BDF_Recon_Exp_F,PRIVATE,15,-15);
+				};
+				class Rev_B_BDF_ReconPatrol
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconPatrol0;
+					side = TWest;
+					faction = BLU_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Recon_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_Recon_M_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_BDF_Recon_Medic_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_BDF_Recon_F,PRIVATE,10,-10);
+				};
+				class Rev_B_BDF_ReconSentry
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconSentry0;
+					side = TWest;
+					faction = BLU_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Recon_M_F,CORPORAL,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_Recon_F,PRIVATE,5,-5);
+				};
+			};
 			/*class Motorized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;
