@@ -127,6 +127,23 @@
 			</Container>
 		</Container>
 		<Container name="Characters_F">
+			<Key ID="STR_A3_R_cfgVehicles_B_BDF_Recon_GL_F0">
+                <Original>Scout (UGL)</Original>
+                <Chinese>Scout (UGL)</Chinese>
+                <French>Scout (UGL)</French>
+                <Spanish>Scout (UGL)</Spanish>
+                <Italian>Scout (UGL)</Italian>
+                <Polish>Scout (UGL)</Polish>
+                <Russian>Scout (UGL)</Russian>
+                <German>Scout (UGL)</German>
+                <Czech>Scout (UGL)</Czech>
+                <English>Scout (UGL)</English>
+                <Portuguese>Scout (UGL)</Portuguese>
+                <Korean>Scout (UGL)</Korean>
+                <Chinesesimp>Scout (UGL)</Chinesesimp>
+                <Japanese>Scout (UGL)</Japanese>
+                <Turkish>Scout (UGL)</Turkish>
+            </Key>
             <Key ID="STR_A3_R_cfgVehicles_I_CDB_Soldier_Bandit_SG_F0">
                 <Original>Sicario (Shotgun)</Original>
                 <Chinese>Sicario (Shotgun)</Chinese>

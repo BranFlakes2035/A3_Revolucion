@@ -322,6 +322,53 @@ class rev_arifle_SCAR_L_GL_black_LRCO_FL_F : arifle_SCAR_L_GL_black_F
 	};
 };
 
+// L85A3 5.56 mm (Black) + ARCO + IR Pointer + Silencer
+class arifle_SA80_blk_ARCO_IR_snds_F: arifle_SA80_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_H;
+		};
+    };
+};
+
+// L85A3 GL 5.56 mm (Black) + ARCO + IR Pointer + Silencer
+class arifle_SA80_GL_blk_ARCO_IR_snds_F: arifle_SA80_GL_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_H;
+		};
+    };
+};
 
 
 /* LMG Presets */
@@ -392,6 +439,30 @@ class LMG_03_FL_F: LMG_03_F
     };
 };
 
+// LIM-85 5.56 mm + ARCO + IR Pointer + Silencer Black
+class LMG_03_ARCO_IR_Snds_F: LMG_03_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+    };
+};
+
 
 /* Sniper Rifle/DMR Presets */
 
@@ -443,4 +514,45 @@ class arifle_SCAR_black_DMS_FL_BI_F: arifle_SCAR_black_F
     };
 };
 
+// MK17 7.62 mm (Black) + DMS + IR Pointer + Bipod [NATO] (Black) + Silencer
+class arifle_SCAR_black_DMS_IR_BI_Snds_F: arifle_SCAR_black_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_DMS;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B;
+		};
+    };
+};
+
 /* Handgun Presets */
+class Rev_hgun_P07_blk_snds_F: hgun_P07_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_L;
+		};
+	};
+};

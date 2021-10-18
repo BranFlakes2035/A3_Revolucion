@@ -13,6 +13,7 @@ class cfgWeapons
     class arifle_CTARS_blk_F;
     class srifle_DMR_03_F;
     class LMG_03_F;
+    class hgun_P07_blk_F;
 
     // Arma 3 Aegis/Atlas
     class arifle_NCAR15_F;
@@ -23,6 +24,8 @@ class cfgWeapons
     class arifle_SCAR_L_black_F;
     class arifle_SCAR_L_short_black_F;
     class arifle_SCAR_L_GL_black_F;
+    class arifle_SA80_blk_F;
+    class arifle_SA80_GL_blk_F;
    
     // Presets
     #include "presets.hpp"
