@@ -637,7 +637,7 @@ class Rev_B_BDF_Officer_F: Rev_B_BDF_Soldier_Base_F
 	icon = iconManOfficer;
     cost = 600000;
 	camouflage = 1.6;
-	//uniformClass = ;
+	uniformClass = Rev_U_B_BDF_Officer_01_F;
 	weapons[] =
 	{
 		SMG_05_F,
@@ -1220,7 +1220,7 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 		DefaultManLinkedItems
 	};
 };
-/*class Rev_B_BDF_Pilot_F: Rev_B_BDF_Soldier_Base_F
+class Rev_B_BDF_Pilot_F: Rev_B_BDF_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
@@ -1241,7 +1241,7 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	camouflage = 2;
     cost = 165000;
     role = Crewman;
-	uniformClass = ;
+	uniformClass = Rev_U_B_BDF_Coveralls_01_F;
 	backpack = B_Parachute;
 	weapons[] =
 	{
@@ -1255,13 +1255,13 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Yellow),
-        SMOKESHELLS_INDEP
+		mag_4(30rnd_9x21_mag_SMG_02),
+        mag_2(SmokeShellGreen)
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_9x21_Mag_SMG_02_Tracer_Yellow),
-        SMOKESHELLS_INDEP
+		mag_4(30Rnd_9x21_Mag_SMG_02),
+        mag_2(SmokeShellGreen)
 	};
     linkedItems[] =
     {
@@ -1277,7 +1277,7 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
         DefaultManLinkedItems,
 		NVGoggles_INDEP
     };
-}; */
+};
 
 /* BDF Special Forces */
 class Rev_B_BDF_Soldier_Recon_Base: Rev_B_BDF_Soldier_Base_F
@@ -1310,7 +1310,7 @@ class Rev_B_BDF_Soldier_Recon_Base: Rev_B_BDF_Soldier_Base_F
 	role = Rifleman;
 	camouflage = 0.6;
 	detectSkill = 18;
-	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_B_BDF_Sweater_01_F;
 };
 class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 {
