@@ -1266,14 +1266,14 @@ class Rev_B_BDF_Pilot_F: Rev_B_BDF_Soldier_Base_F
     linkedItems[] =
     {
 		V_TacVest_camo,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_I_E,
         DefaultManLinkedItems,
 		NVGoggles_INDEP
     };
     respawnLinkedItems[] =
     {
 		V_TacVest_camo,
-        H_PilotHelmetHeli_B,
+        H_PilotHelmetHeli_I_E,
         DefaultManLinkedItems,
 		NVGoggles_INDEP
     };
