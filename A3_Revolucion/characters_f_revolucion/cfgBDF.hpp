@@ -70,8 +70,9 @@ class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AAA_F.jpg";
 	scope = public;
 	scopeCurator = public;
+	cost = 220000;
 	role = Assistant;
-	displayName = $STR_O_SOLDIERU_AAA_F0;
+	displayName = $STR_B_soldier_AAA_F0;
 	backpack = B_Carryall_oli_BDF_AAA_F;
 	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
 	weapons[] =
