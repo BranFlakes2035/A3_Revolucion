@@ -693,6 +693,76 @@ class Rev_O_FASR_Soldier_AT_F: Rev_O_FASR_Soldier_Base_F
 		DefaultManLinkedItems
 	};
 };
+class Rev_O_FASR_Soldier_HAT_F: Rev_O_FASR_Soldier_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_AT_s};
+			speechPlural[] = {veh_infantry_AT_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
+	nameSound = veh_infantry_AT_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_HAT_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_CfgVehicles_O_Soldier_HAT_F0;
+	role = MissileSpecialist;
+	icon = iconManAT;
+	cost = 130000;
+	threat[] =
+    {
+        0.8,    // Soft
+        0.8,    // Armor
+        0.3     // Air
+    };
+	secondaryAmmoCoef = 0.5;
+    backpack = B_Kitbag_rgr_FASR_HAT_F;
+	weapons[] =
+	{
+		arifle_NCAR15B_ACO_grn_F,
+		launch_O_Vorona_green_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_NCAR15B_ACO_grn_F,
+		launch_O_Vorona_green_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_580x42_Mag_F),
+		Vorona_HEAT,
+        HandGrenade_Guer,
+		mag_2(Chemlight_Yellow),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_580x42_Mag_F),
+		Vorona_HEAT,
+        HandGrenade_Guer,
+		mag_2(Chemlight_Yellow),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		V_HarnessO_brn,
+		H_PASGT_Basic_Olive_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_brn,
+		H_PASGT_Basic_Olive_F,
+		DefaultManLinkedItems
+	};
+};
 class Rev_O_FASR_Soldier_SL_F: Rev_O_FASR_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;

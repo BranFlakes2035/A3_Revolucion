@@ -65,3 +65,13 @@ class B_Kitbag_rgr_FASR_AT_F: B_Kitbag_rgr
 		mag_xx(RPG32_F,3);
 	};
 };
+class B_Kitbag_rgr_FASR_HAT_F: B_Kitbag_rgr
+{
+    author = $STR_A3_A_Ravenholme;
+	scope = protected;
+    class TransportMagazines
+	{
+		mag_xx(Vorona_HEAT,2);
+	};
+};
+
