@@ -714,14 +714,14 @@ class Rev_I_CDB_Soldier_Bandit_Officer_F: Rev_I_CDB_Soldier_Bandit_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrier1_blk,
+		V_PlateCarrierL_cartel_F,
 		H_PASGT_Basic_Black_F,
         G_Headset_Light,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_blk,
+		V_PlateCarrierL_cartel_F,
 		H_PASGT_Basic_Black_F,
         G_Headset_Light,
 		DefaultManLinkedItems
@@ -770,14 +770,14 @@ class Rev_I_CDB_Soldier_Para_TL_F: Rev_I_CDB_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetSpecB_light_black,
 		G_Balaclava_Combat,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetSpecB_light_black,
 		G_Balaclava_Combat,
 		DefaultManLinkedItems
@@ -817,14 +817,14 @@ class Rev_I_CDB_Soldier_Para_GL_F: Rev_I_CDB_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_Booniehat_blk,
 		G_Tactical_Black,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_Booniehat_blk,
 		G_Tactical_Black,
 		DefaultManLinkedItems
@@ -881,14 +881,14 @@ class Rev_I_CDB_Soldier_Para_Medic_F: Rev_I_CDB_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetB_light_black,
 		G_Bandanna_shades,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetB_light_black,
 		G_Bandanna_shades,
 		DefaultManLinkedItems
@@ -927,14 +927,14 @@ class Rev_I_CDB_Soldier_Para_F: Rev_I_CDB_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetB_light_black,
 		G_Balaclava_blk,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetB_light_black,
 		G_Balaclava_blk,
 		DefaultManLinkedItems
@@ -994,14 +994,14 @@ class Rev_I_CDB_Soldier_Para_AT_F: Rev_I_CDB_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetB_light_black,
 		G_Bandanna_blk,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetB_light_black,
 		G_Bandanna_blk,
 		DefaultManLinkedItems
@@ -1057,14 +1057,14 @@ class Rev_I_CDB_Soldier_Para_AR_F: Rev_I_CDB_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetB_light_black,
 		G_Combat,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_HelmetB_light_black,
 		G_Combat,
 		DefaultManLinkedItems
@@ -1106,14 +1106,14 @@ class Rev_I_CDB_Soldier_Para_M_F: Rev_I_CDB_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_Watchcap_blk_hs,
 		G_Balaclava_Skull1,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_blk,
+		V_PlateCarrierH_cartel_F,
 		H_Watchcap_blk_hs,
 		G_Balaclava_Skull1,
 		DefaultManLinkedItems

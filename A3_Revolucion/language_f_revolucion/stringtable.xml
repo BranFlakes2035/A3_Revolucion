@@ -693,39 +693,39 @@
                 </Key>
 			</Container>
 			<Container name="Vests">
-				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_BDF_grn_F0">
-					<Original>Carrier Lite [BDF] (Green)</Original>
-					<Chinese>Carrier Lite [BDF] (Green)</Chinese>
-					<French>Carrier Lite [BDF] (Green)</French>
-					<Spanish>Carrier Lite [BDF] (Green)</Spanish>
-					<Italian>Carrier Lite [BDF] (Green)</Italian>
-					<Polish>Carrier Lite [BDF] (Green)</Polish>
-					<Russian>Carrier Lite [BDF] (Green)</Russian>
-					<German>Carrier Lite [BDF] (Green)</German>
-					<Czech>Carrier Lite [BDF] (Green)</Czech>
-					<English>Carrier Lite [BDF] (Green)</English>
-					<Portuguese>Carrier Lite [BDF] (Green)</Portuguese>
-					<Korean>Carrier Lite [BDF] (Green)</Korean>
-					<Chinesesimp>Carrier Lite [BDF] (Green)</Chinesesimp>
-					<Japanese>Carrier Lite [BDF] (Green)</Japanese>
-					<Turkish>Carrier Lite [BDF] (Green)</Turkish>
+				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_cartel_F0">
+					<Original>Carrier Lite [Cartel]</Original>
+					<Chinese>Carrier Lite [Cartel]</Chinese>
+					<French>Carrier Lite [Cartel]</French>
+					<Spanish>Carrier Lite [Cartel]</Spanish>
+					<Italian>Carrier Lite [Cartel]</Italian>
+					<Polish>Carrier Lite [Cartel]</Polish>
+					<Russian>Carrier Lite [Cartel]</Russian>
+					<German>Carrier Lite [Cartel]</German>
+					<Czech>Carrier Lite [Cartel]</Czech>
+					<English>Carrier Lite [Cartel]</English>
+					<Portuguese>Carrier Lite [Cartel]</Portuguese>
+					<Korean>Carrier Lite [Cartel]</Korean>
+					<Chinesesimp>Carrier Lite [Cartel]</Chinesesimp>
+					<Japanese>Carrier Lite [Cartel]</Japanese>
+					<Turkish>Carrier Lite [Cartel]</Turkish>
 				</Key>
-				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierH_BDF_grn_F0">
-					<Original>Carrier Rig [BDF] (Green)</Original>
-					<Chinese>Carrier Rig [BDF] (Green)</Chinese>
-					<French>Carrier Rig [BDF] (Green)</French>
-					<Spanish>Carrier Rig [BDF] (Green)</Spanish>
-					<Italian>Carrier Rig [BDF] (Green)</Italian>
-					<Polish>Carrier Rig [BDF] (Green)</Polish>
-					<Russian>Carrier Rig [BDF] (Green)</Russian>
-					<German>Carrier Rig [BDF] (Green)</German>
-					<Czech>Carrier Rig [BDF] (Green)</Czech>
-					<English>Carrier Rig [BDF] (Green)</English>
-					<Portuguese>Carrier Rig [BDF] (Green)</Portuguese>
-					<Korean>Carrier Rig [BDF] (Green)</Korean>
-					<Chinesesimp>Carrier Rig [BDF] (Green)</Chinesesimp>
-					<Japanese>Carrier Rig [BDF] (Green)</Japanese>
-					<Turkish>Carrier Rig [BDF] (Green)</Turkish>
+				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierH_cartel_F0">
+					<Original>Carrier Rig [Cartel]</Original>
+					<Chinese>Carrier Rig [Cartel]</Chinese>
+					<French>Carrier Rig [Cartel]</French>
+					<Spanish>Carrier Rig [Cartel]</Spanish>
+					<Italian>Carrier Rig [Cartel]</Italian>
+					<Polish>Carrier Rig [Cartel]</Polish>
+					<Russian>Carrier Rig [Cartel]</Russian>
+					<German>Carrier Rig [Cartel]</German>
+					<Czech>Carrier Rig [Cartel]</Czech>
+					<English>Carrier Rig [Cartel]</English>
+					<Portuguese>Carrier Rig [Cartel]</Portuguese>
+					<Korean>Carrier Rig [Cartel]</Korean>
+					<Chinesesimp>Carrier Rig [Cartel]</Chinesesimp>
+					<Japanese>Carrier Rig [Cartel]</Japanese>
+					<Turkish>Carrier Rig [Cartel]</Turkish>
 				</Key>
 			</Container>
 			<Container name="Headgear">

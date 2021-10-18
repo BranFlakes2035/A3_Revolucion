@@ -30,4 +30,10 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_HelmetSpecB_light_green,$STR_A3_A_CfgWeapons_H_HelmetSpecB_light_green0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_O_Helmet_canvas_owcamo,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_owcamo0,EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_O_Helmet_canvas_semiarid,$STR_A3_A_CfgWeapons_H_O_Helmet_canvas_semiarid0,EdSubcat_Helmets)
+	// Arma 3 Revolucion
+	HEADGEAR_HOLDER(H_MK7_atacsfg_F,$STR_A3_R_CfgWeapons_H_mk7_atacsfg0,EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_Booniehat_atacs_F,"Booniehat [BDF]",EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_Booniehat_m81_F,"Booniehat (M81)",EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_milcap_atacs_F,"Military Cap [BDF]",EdSubcat_Helmets)
+	HEADGEAR_HOLDER(H_milcap_m81_F,"Military Cap (M81)",EdSubcat_Helmets)
 };

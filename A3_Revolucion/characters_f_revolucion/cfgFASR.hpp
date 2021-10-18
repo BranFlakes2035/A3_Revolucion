@@ -52,13 +52,13 @@ class Rev_O_FASR_Soldier_A_F: Rev_O_FASR_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_HarnessO_brn,
-		H_Booniehat_oli,
+		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_brn,
-		H_Booniehat_oli,
+		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
 };
@@ -116,14 +116,14 @@ class Rev_O_FASR_Soldier_AR_F: Rev_O_FASR_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_HarnessO_brn,
-		H_Booniehat_oli_hs,
+		H_Booniehat_m81_F,
 		G_Shemag_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_brn,
-		H_Booniehat_oli_hs,
+		H_Booniehat_m81_F,
 		G_Shemag_oli,
 		DefaultManLinkedItems
 	};
@@ -396,13 +396,13 @@ class Rev_O_FASR_Soldier_GL_F: Rev_O_FASR_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_HarnessOGL_brn,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessOGL_brn,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
 };
@@ -568,13 +568,13 @@ class Rev_O_FASR_Officer_F: Rev_O_FASR_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_Rangemaster_belt_oli,
-		H_MilCap_grn,
+		H_milcap_m81_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_Rangemaster_belt_oli,
-		H_MilCap_grn,
+		H_milcap_m81_F,
 		DefaultManLinkedItems
 	};
 };
@@ -741,14 +741,14 @@ class Rev_O_FASR_Soldier_SL_F: Rev_O_FASR_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_HarnessOSpec_brn,
-		H_Booniehat_oli_hs,
+		H_Booniehat_m81_F,
         NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessOSpec_brn,
-		H_Booniehat_oli_hs,
+		H_Booniehat_m81_F,
         NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -897,13 +897,13 @@ class Rev_O_FASR_Soldier_lite_F: Rev_O_FASR_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_HarnessO_brn,
-		H_Booniehat_oli,
+		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_HarnessO_brn,
-		H_Booniehat_oli,
+		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
 };

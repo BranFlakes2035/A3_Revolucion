@@ -669,7 +669,7 @@ class Rev_B_BDF_Officer_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_Rangemaster_belt,
-		H_MilCap_grn,
+		H_milcap_atacs_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
@@ -1359,7 +1359,7 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1367,7 +1367,7 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1419,7 +1419,7 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1427,7 +1427,7 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1477,7 +1477,7 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1485,7 +1485,7 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1539,7 +1539,7 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1547,7 +1547,7 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1615,7 +1615,7 @@ class Rev_B_BDF_Recon_M_F: Rev_B_BDF_Soldier_Recon_Base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		G_Bandanna_oli,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1624,7 +1624,7 @@ class Rev_B_BDF_Recon_M_F: Rev_B_BDF_Soldier_Recon_Base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		G_Bandanna_oli,
 		ItemGPS,
 		DefaultManLinkedItems,
@@ -1682,7 +1682,7 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1690,7 +1690,7 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1736,7 +1736,7 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1744,7 +1744,7 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1803,7 +1803,7 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1811,7 +1811,7 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1870,7 +1870,7 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1878,7 +1878,7 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1937,7 +1937,7 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 	linkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
@@ -1945,7 +1945,7 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 	respawnLinkedItems[] =
 	{
 		V_Chestrig_rgr,
-		H_Booniehat_mgrn_hs,
+		H_Booniehat_atacs_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
