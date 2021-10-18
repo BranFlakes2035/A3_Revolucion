@@ -640,6 +640,57 @@
                     <Japanese>Field Jacket [FASR]</Japanese>
                     <Turkish>Field Jacket [FASR]</Turkish>
                 </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Officer_01_F0">
+                    <Original>Officer Fatigues [BDF]</Original>
+                    <Chinese>Officer Fatigues [BDF]</Chinese>
+                    <French>Officer Fatigues [BDF]</French>
+                    <Spanish>Officer Fatigues [BDF]</Spanish>
+                    <Italian>Officer Fatigues [BDF]</Italian>
+                    <Polish>Officer Fatigues [BDF]</Polish>
+                    <Russian>Officer Fatigues [BDF]</Russian>
+                    <German>Officer Fatigues [BDF]</German>
+                    <Czech>Officer Fatigues [BDF]</Czech>
+                    <English>Officer Fatigues [BDF]</English>
+                    <Portuguese>Officer Fatigues [BDF]</Portuguese>
+                    <Korean>Officer Fatigues [BDF]</Korean>
+                    <Chinesesimp>Officer Fatigues [BDF]</Chinesesimp>
+                    <Japanese>Officer Fatigues [BDF]</Japanese>
+                    <Turkish>Officer Fatigues [BDF]</Turkish>
+                </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Coveralls_01_F0">
+                    <Original>Coveralls [BDF]</Original>
+                    <Chinese>Coveralls [BDF]</Chinese>
+                    <French>Coveralls [BDF]</French>
+                    <Spanish>Coveralls [BDF]</Spanish>
+                    <Italian>Coveralls [BDF]</Italian>
+                    <Polish>Coveralls [BDF]</Polish>
+                    <Russian>Coveralls [BDF]</Russian>
+                    <German>Coveralls [BDF]</German>
+                    <Czech>Coveralls [BDF]</Czech>
+                    <English>Coveralls [BDF]</English>
+                    <Portuguese>Coveralls [BDF]</Portuguese>
+                    <Korean>Coveralls [BDF]</Korean>
+                    <Chinesesimp>Coveralls [BDF]</Chinesesimp>
+                    <Japanese>Coveralls [BDF]</Japanese>
+                    <Turkish>Coveralls [BDF]</Turkish>
+                </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Sweater_01_F0">
+                    <Original>Combat Fatigues [BDF, Sweater]</Original>
+                    <Chinese>Combat Fatigues [BDF, Sweater]</Chinese>
+                    <French>Combat Fatigues [BDF, Sweater]</French>
+                    <Spanish>Combat Fatigues [BDF, Sweater]</Spanish>
+                    <Italian>Combat Fatigues [BDF, Sweater]</Italian>
+                    <Polish>Combat Fatigues [BDF, Sweater]</Polish>
+                    <Russian>Combat Fatigues [BDF, Sweater]</Russian>
+                    <German>Combat Fatigues [BDF, Sweater]</German>
+                    <Czech>Combat Fatigues [BDF, Sweater]</Czech>
+                    <English>Combat Fatigues [BDF, Sweater]</English>
+                    <Portuguese>Combat Fatigues [BDF, Sweater]</Portuguese>
+                    <Korean>Combat Fatigues [BDF, Sweater]</Korean>
+                    <Chinesesimp>Combat Fatigues [BDF, Sweater]</Chinesesimp>
+                    <Japanese>Combat Fatigues [BDF, Sweater]</Japanese>
+                    <Turkish>Combat Fatigues [BDF, Sweater]</Turkish>
+                </Key>
 			</Container>
 			<Container name="Vests">
 				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_BDF_grn_F0">
