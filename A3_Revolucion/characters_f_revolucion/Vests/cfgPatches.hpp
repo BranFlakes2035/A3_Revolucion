@@ -6,6 +6,7 @@ class CfgPatches
 		requiredAddons[] =
 		{
 			A3_Aegis_Characters_F_Aegis,
+			A3_Atlas_Characters_F_Atlas,
 			A3_Revolucion_Characters_F_Revolucion,
 			A3_Characters_F,
 			A3_Characters_F_Enoch_Vests,
