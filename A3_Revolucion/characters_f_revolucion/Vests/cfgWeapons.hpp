@@ -48,4 +48,28 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_CTRG_CO.paa"};
     };
+    class V_CarrierRigKBT_01_whex_F: V_CarrierRigKBT_01_base_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_whex_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_whex_CO.paa"};
+    };
+    class V_CarrierRigKBT_01_light_whex_F: V_CarrierRigKBT_01_light_base_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_whex_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_whex_CO.paa"};
+    };
+    class V_CarrierRigKBT_01_heavy_whex_F: V_CarrierRigKBT_01_heavy_base_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_whex_F0;
+		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_whex_CO.paa"};
+    };
 };

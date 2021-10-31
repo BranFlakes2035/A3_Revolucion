@@ -778,6 +778,57 @@
                     <Japanese>モジュラーキャリア GL リグ[CTRG]</Japanese>
                     <Turkish>Modüler Taşıyıcı GL Yelek [CTRG]</Turkish>
                 </Key>
+                <Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_whex_F0">
+                    <Original>Modular Carrier Vest (Woodland Hex)</Original>
+                    <Chinese>模組化負載背心(Woodland Hex)</Chinese>
+                    <French>Gilet modifiable léger (Woodland Hex)</French>
+                    <Spanish>Chaleco con cartuchera modular (Woodland Hex)</Spanish>
+                    <Italian>Giubbotto tattico modulare (Woodland Hex)</Italian>
+                    <Polish>Kamizelka moduł. (Woodland Hex)</Polish>
+                    <Russian>Модульный разгрузочный жилет (Woodland Hex)</Russian>
+                    <German>Modularer Trageweste (Woodland Hex)</German>
+                    <Czech>Modulární nosič plátů (Woodland Hex)</Czech>
+                    <English>Modular Carrier Vest (Woodland Hex)</English>
+                    <Portuguese>Traje modular leve (Woodland Hex)</Portuguese>
+                    <Korean>모듈식 캐리어 조끼 (Woodland Hex)</Korean>
+                    <Chinesesimp>模块化背心(Woodland Hex)</Chinesesimp>
+                    <Japanese>モジュラーキャリアベスト(Woodland Hex)</Japanese>
+                    <Turkish>Modüler Taşıyıcı Yelek (Woodland Hex)</Turkish>
+                </Key>
+                <Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_whex_F0">
+                    <Original>Modular Carrier Lite (Woodland Hex)</Original>
+                    <Chinese>模組化輕型負載背心(Woodland Hex)</Chinese>
+                    <French>Gilet modifiable léger (Woodland Hex)</French>
+                    <Spanish>Cartuchera modular ligera (Woodland Hex)</Spanish>
+                    <Italian>Equipag. leggero modulare (Woodland Hex)</Italian>
+                    <Polish>Lekka kamizelka modułowa (Woodland Hex)</Polish>
+                    <Russian>Модульный облегченный жилет (Woodland Hex)</Russian>
+                    <German>Modularer leichter Tragegurt (Woodland Hex)</German>
+                    <Czech>Modulární lehký nosič plátů (Woodland Hex)</Czech>
+                    <English>Modular Carrier Lite (Woodland Hex)</English>
+                    <Portuguese>Colete modular leve (Woodland Hex)</Portuguese>
+                    <Korean>모듈식 캐리어 라이트 (Woodland Hex)</Korean>
+                    <Chinesesimp>模块化轻便背心(Woodland Hex)</Chinesesimp>
+                    <Japanese>モジュラーキャリア・ライト(Woodland Hex)</Japanese>
+                    <Turkish>Modüler Hafif Taşıyıcı (Woodland Hex)</Turkish>
+                </Key>
+                <Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_whex_F0">
+                    <Original>Modular Carrier GL Rig (Woodland Hex)</Original>
+                    <Chinese>模組化 GL 負載外掛 (Woodland Hex)</Chinese>
+                    <French>Gilet modifiable pour grenadier (Woodland Hex)</French>
+                    <Spanish>Cartuchera modular de GL (Woodland Hex)</Spanish>
+                    <Italian>Gilet tattico GL modulare (Woodland Hex)</Italian>
+                    <Polish>Modułowa kamizelka grenadiera (Woodland Hex)</Polish>
+                    <Russian>Модульный жилет гранатометчика (Woodland Hex)</Russian>
+                    <German>Modularer Granatwerfer-Tragegurt (Woodland Hex)</German>
+                    <Czech>Modulární nosič plátů GL (Woodland Hex)</Czech>
+                    <English>Modular Carrier GL Rig (Woodland Hex)</English>
+                    <Portuguese>Colete modular LG (Woodland Hex)</Portuguese>
+                    <Korean>모듈식 캐리어 GL 리그 (Woodland Hex)</Korean>
+                    <Chinesesimp>模块化背心 GL 装备(Woodland Hex)</Chinesesimp>
+                    <Japanese>モジュラーキャリア GL リグ(Woodland Hex)</Japanese>
+                    <Turkish>Modüler Taşıyıcı GL Yelek (Woodland Hex)</Turkish>
+                </Key>
 			</Container>
 			<Container name="Headgear">
 				<Key ID="STR_A3_R_CfgWeapons_H_mk7_atacsfg0">
