@@ -832,38 +832,38 @@
 			</Container>
 			<Container name="Headgear">
 				<Key ID="STR_A3_R_CfgWeapons_H_mk7_atacsfg0">
-					<Original>MK7 (ATACS-FG)</Original>
-					<Chinese>MK7 (ATACS-FG)</Chinese>
-					<French>MK7 (ATACS-FG)</French>
-					<Spanish>MK7 (ATACS-FG)</Spanish>
-					<Italian>MK7 (ATACS-FG)</Italian>
-					<Polish>MK7 (ATACS-FG)</Polish>
-					<Russian>MK7 (ATACS-FG)</Russian>
-					<German>MK7 (ATACS-FG)</German>
-					<Czech>MK7 (ATACS-FG)</Czech>
-					<English>MK7 (ATACS-FG)</English>
-					<Portuguese>MK7 (ATACS-FG)</Portuguese>
-					<Korean>MK7 (ATACS-FG)</Korean>
-					<Chinesesimp>MK7 (ATACS-FG)</Chinesesimp>
-					<Japanese>MK7 (ATACS-FG)</Japanese>
-					<Turkish>MK7 (ATACS-FG)</Turkish>
+					<Original>Service Helmet (ATACS-FG)</Original>
+					<Chinese>Service Helmet (ATACS-FG)</Chinese>
+					<French>Service Helmet (ATACS-FG)</French>
+					<Spanish>Service Helmet (ATACS-FG)</Spanish>
+					<Italian>Service Helmet (ATACS-FG)</Italian>
+					<Polish>Service Helmet (ATACS-FG)</Polish>
+					<Russian>Service Helmet (ATACS-FG)</Russian>
+					<German>Service Helmet (ATACS-FG)</German>
+					<Czech>Service Helmet (ATACS-FG)</Czech>
+					<English>Service Helmet (ATACS-FG)</English>
+					<Portuguese>Service Helmet (ATACS-FG)</Portuguese>
+					<Korean>Service Helmet (ATACS-FG)</Korean>
+					<Chinesesimp>Service Helmet (ATACS-FG)</Chinesesimp>
+					<Japanese>Service Helmet (ATACS-FG)</Japanese>
+					<Turkish>Service Helmet (ATACS-FG)</Turkish>
 				</Key>
-				<Key ID="STR_A3_R_CfgWeapons_H_mk7_atacsau0">
-					<Original>MK7 (ATACS-AU)</Original>
-					<Chinese>MK7 (ATACS-AU)</Chinese>
-					<French>MK7 (ATACS-AU)</French>
-					<Spanish>MK7 (ATACS-AU)</Spanish>
-					<Italian>MK7 (ATACS-AU)</Italian>
-					<Polish>MK7 (ATACS-AU)</Polish>
-					<Russian>MK7 (ATACS-AU)</Russian>
-					<German>MK7 (ATACS-AU)</German>
-					<Czech>MK7 (ATACS-AU)</Czech>
-					<English>MK7 (ATACS-AU)</English>
-					<Portuguese>MK7 (ATACS-AU)</Portuguese>
-					<Korean>MK7 (ATACS-AU)</Korean>
-					<Chinesesimp>MK7 (ATACS-AU)</Chinesesimp>
-					<Japanese>MK7 (ATACS-AU)</Japanese>
-					<Turkish>MK7 (ATACS-AU)</Turkish>
+				<Key ID="STR_A3_R_CfgWeapons_H_Service Helmet_atacsau0">
+					<Original>Service Helmet (ATACS-AU)</Original>
+					<Chinese>Service Helmet (ATACS-AU)</Chinese>
+					<French>Service Helmet (ATACS-AU)</French>
+					<Spanish>Service Helmet (ATACS-AU)</Spanish>
+					<Italian>Service Helmet (ATACS-AU)</Italian>
+					<Polish>Service Helmet (ATACS-AU)</Polish>
+					<Russian>Service Helmet (ATACS-AU)</Russian>
+					<German>Service Helmet (ATACS-AU)</German>
+					<Czech>Service Helmet (ATACS-AU)</Czech>
+					<English>Service Helmet (ATACS-AU)</English>
+					<Portuguese>Service Helmet (ATACS-AU)</Portuguese>
+					<Korean>Service Helmet (ATACS-AU)</Korean>
+					<Chinesesimp>Service Helmet (ATACS-AU)</Chinesesimp>
+					<Japanese>Service Helmet (ATACS-AU)</Japanese>
+					<Turkish>Service Helmet (ATACS-AU)</Turkish>
 				</Key>
 		</Container>
 		<Container name="UI_F">
