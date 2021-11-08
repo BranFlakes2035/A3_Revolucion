@@ -2,7 +2,7 @@ class CfgVehicles
 {
 	class FlagCarrier;
 	class FlagCarrier_Asym;
-	/*class Flag_BDF_F: FlagCarrier
+	class Flag_BDF_F: FlagCarrier
 	{
 		author = $STR_A3_A_BranFlakes;
 		class SimpleObject
@@ -17,7 +17,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_BDF_F.jpg";
+		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_BDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_R_CfgVehicles_Flag_BDF_F0;
@@ -41,7 +41,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_FASR_F.jpg";
+		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_FASR_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_R_CfgVehicles_Flag_FASR_F0;
@@ -50,7 +50,7 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\A3_Revolucion\Data_F_Revolucion\Flags\flag_FASR_CO.paa'";
 		};
 	};
-	class Flag_FRR_F: FlagCarrier
+	/*class Flag_FRR_F: FlagCarrier
 	{
 		author = $STR_A3_A_BranFlakes;
 		class SimpleObject
@@ -73,7 +73,7 @@ class CfgVehicles
 		{
 			init = "(_this select 0) setFlagTexture '\A3_Revolucion\Data_F_Revolucion\Flags\flag_FRR_CO.paa'";
 		};
-	};
+	};*/
 	class Flag_Cartels_F: FlagCarrier
 	{
 		author = $STR_A3_A_BranFlakes;
@@ -89,7 +89,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_CDB_F.jpg";
+		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_CDB_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_R_CfgVehicles_Flag_CDB_F0;
@@ -97,5 +97,5 @@ class CfgVehicles
 		{
 			init = "(_this select 0) setFlagTexture '\A3_Revolucion\Data_F_Revolucion\Flags\flag_CDB_CO.paa'";
 		};
-	};*/
+	};
 };
