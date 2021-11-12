@@ -51,14 +51,14 @@ class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -99,14 +99,14 @@ class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -147,14 +147,14 @@ class Rev_B_BDF_soldier_AAR_F: rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -216,14 +216,14 @@ class Rev_B_BDF_Soldier_AR_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -283,14 +283,14 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -391,14 +391,14 @@ class Rev_B_BDF_Engineer_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_EOD_olive_F,
 		H_MK7_atacsfg_F,
 		G_Combat,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_EOD_olive_F,
 		H_MK7_atacsfg_F,
 		G_Combat,
 		DefaultManLinkedItems
@@ -446,14 +446,14 @@ class Rev_B_BDF_Soldier_Exp_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_EOD_olive_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_EOD_olive_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -496,14 +496,14 @@ class Rev_B_BDF_Soldier_GL_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIAGL_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIAGL_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -604,13 +604,13 @@ class Rev_B_BDF_Soldier_M_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_Booniehat_mgrn_hs,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_Booniehat_mgrn_hs,
 		DefaultManLinkedItems
 	};
@@ -711,14 +711,14 @@ class Rev_B_BDF_Soldier_F: Rev_B_BDF_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -775,14 +775,14 @@ class Rev_B_BDF_soldier_AA_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -846,14 +846,14 @@ class Rev_B_BDF_Soldier_AT_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -905,14 +905,14 @@ class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -967,14 +967,14 @@ class Rev_B_BDF_Soldier_TL_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIAGL_oli,
 		H_MK7_atacsfg_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIAGL_oli,
 		H_MK7_atacsfg_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -1010,14 +1010,14 @@ class Rev_B_BDF_RadioOperator_F: Rev_B_BDF_Soldier_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -1104,14 +1104,14 @@ class Rev_B_BDF_Soldier_CQ_F: Rev_B_BDF_Soldier_Base_F
     };
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA2_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -1149,14 +1149,14 @@ class Rev_B_BDF_unarmed_F: Rev_B_BDF_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -1205,7 +1205,7 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		B_UavTerminal,
@@ -1213,7 +1213,7 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_TacVest_camo,
+		V_PlateCarrierIA1_oli,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		B_UavTerminal,
