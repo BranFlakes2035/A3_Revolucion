@@ -209,10 +209,10 @@ class rev_B_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	textureList[] = {BDF,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_wdl_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_wdl_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\RCWS30_wdl_CO.paa",
-		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_wdl_CO.paa",
+		"\A3_revolucion\Armor_F_Revolucion\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_BDF_CO.paa",
+		"\A3_revolucion\Armor_F_Revolucion\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_BDF_CO.paa",
+		"\A3_revolucion\Armor_F_Revolucion\APC_Wheeled_03\Data\RCWS30_BDF_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_olive_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
 	};
