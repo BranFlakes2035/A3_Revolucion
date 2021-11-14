@@ -1,0 +1,30 @@
+class CfgPatches
+{
+	class A3_Revolucion_Soft_F_Revolucion_Truck_02
+	{
+		addonRootClass = A3_Revolucion_Soft_F_Revolucion;
+		requiredAddons[] =
+		{
+			A3_Revolucion_Soft_F_Revolucion,
+			A3_Soft_F_Beta_Truck_02,
+			A3_Soft_F_Enoch_Truck_02,
+			A3_Soft_F_Exp_Truck_02,
+			A3_Soft_F_Gamma_Truck_02,
+			A3_Soft_F_Orange_Truck_02
+		};
+		requiredVersion = 0.1;
+		units[] =
+        {
+            /* From "cfgBDF.hpp" */
+            rev_B_Truck_02_F,
+            rev_B_Truck_02_transport_F,
+            rev_B_Truck_02_box_F,
+            rev_B_Truck_02_medical_F,
+            rev_B_Truck_02_Ammo_F,
+            rev_B_Truck_02_fuel_F,
+            rev_B_Truck_02_cargo_F,
+            rev_B_Truck_02_flatbed_F,
+        };
+		weapons[] = {/* Automated */};
+	};
+};
