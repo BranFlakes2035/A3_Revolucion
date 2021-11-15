@@ -5,4 +5,5 @@ class CfgVehicles
     class I_C_Heli_Light_01_civil_F;
     /* Factions */
 	#include "cfgCartels.hpp"     // Cartels De Baracas
+    #include "cfgBDF.hpp"         // Baracan Defence Forces
 };
