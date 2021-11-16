@@ -721,14 +721,14 @@ class Rev_B_FRR_Soldier_AT_F: Rev_B_FRR_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30Rnd_556x45_Stanag),
 		MRAWS_HEAT55_F,
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30Rnd_556x45_Stanag),
 		MRAWS_HEAT55_F,
         HandGrenade,
         SmokeShell
@@ -790,14 +790,14 @@ class Rev_B_FRR_Soldier_LAT_F: Rev_B_FRR_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30Rnd_556x45_Stanag),
 		RPG7_F,
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30Rnd_556x45_Stanag),
 		RPG7_F,
         HandGrenade,
         SmokeShell
