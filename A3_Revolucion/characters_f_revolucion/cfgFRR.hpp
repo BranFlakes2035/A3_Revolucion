@@ -1115,7 +1115,7 @@ class Rev_B_FRR_Soldier_universal_F: Rev_B_FRR_Soldier_F
 	canDeactivateMines = true;
 	role = Rifleman;
 };
-class Rev_B_FRR_unarmed_F: Rev_B_FRR_Soldier_F
+class Rev_B_FRR_Soldier_unarmed_F: Rev_B_FRR_Soldier_F
 {
 	author = $STR_A3_A_Ravenholme;
 	displayName = $STR_A3_CfgVehicles_b_soldier_unarmed_f_displayName;
@@ -1198,6 +1198,239 @@ class Rev_B_FRR_Soldier_TechSpec_F: Rev_B_FRR_engineer_F
 
 // Men (Story)
 
+
 // FRR INDEP
+class Rev_I_FRR_Soldier_A_F: Rev_B_FRR_Soldier_A_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_AR_F: Rev_B_FRR_Soldier_AR_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Medic_F: Rev_B_FRR_Medic_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Crew_F: Rev_B_FRR_Crew_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Engineer_F: Rev_B_FRR_Engineer_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_Exp_F: Rev_B_FRR_Soldier_Exp_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_GL_F: Rev_B_FRR_Soldier_GL_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_M_F: Rev_B_FRR_Soldier_M_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Officer_F: Rev_B_FRR_Officer_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_F: Rev_B_FRR_Soldier_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_AT_F: Rev_B_FRR_Soldier_AT_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_LAT_F: Rev_B_FRR_Soldier_LAT_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_SL_F: Rev_B_FRR_Soldier_SL_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_TL_F: Rev_B_FRR_Soldier_TL_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_lite_F: Rev_B_FRR_Soldier_lite_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_CQ_F: Rev_B_FRR_Soldier_CQ_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Sharpshooter_F: Rev_B_FRR_Sharpshooter_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_universal_F: Rev_B_FRR_Soldier_universal_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_unarmed_F: Rev_B_FRR_Soldier_unarmed_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+};
+class Rev_I_FRR_Soldier_TechSpec_F: Rev_B_FRR_Soldier_TechSpec_F
+{
+	faction = Revolucion_IND_FRR_F;
+	side = TGuerrila;
+	linkedItems[] =
+    {
+        H_Bandanna_sgg,
+        G_Shemag_shades,
+        V_TacVest_camo,
+        I_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        H_Bandanna_sgg,
+        G_Shemag_shades,
+        V_TacVest_camo,
+        I_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+};
 
 // FRR OPFOR
+class Rev_O_FRR_Soldier_A_F: Rev_B_FRR_Soldier_A_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_AR_F: Rev_B_FRR_Soldier_AR_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Medic_F: Rev_B_FRR_Medic_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Crew_F: Rev_B_FRR_Crew_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Engineer_F: Rev_B_FRR_Engineer_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_Exp_F: Rev_B_FRR_Soldier_Exp_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_GL_F: Rev_B_FRR_Soldier_GL_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_M_F: Rev_B_FRR_Soldier_M_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Officer_F: Rev_B_FRR_Officer_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_F: Rev_B_FRR_Soldier_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_AT_F: Rev_B_FRR_Soldier_AT_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_LAT_F: Rev_B_FRR_Soldier_LAT_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_SL_F: Rev_B_FRR_Soldier_SL_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_TL_F: Rev_B_FRR_Soldier_TL_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_lite_F: Rev_B_FRR_Soldier_lite_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_CQ_F: Rev_B_FRR_Soldier_CQ_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Sharpshooter_F: Rev_B_FRR_Sharpshooter_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_universal_F: Rev_B_FRR_Soldier_universal_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_unarmed_F: Rev_B_FRR_Soldier_unarmed_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+};
+class Rev_O_FRR_Soldier_TechSpec_F: Rev_B_FRR_Soldier_TechSpec_F
+{
+	faction = Revolucion_OPF_FRR_F;
+	side = TEast;
+	linkedItems[] =
+    {
+        H_Bandanna_sgg,
+        G_Shemag_shades,
+        V_TacVest_camo,
+        O_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+    respawnLinkedItems[] =
+    {
+        H_Bandanna_sgg,
+        G_Shemag_shades,
+        V_TacVest_camo,
+        O_UAVTerminal,
+        DefaultManGuerillaLinkedItems
+    };
+};
