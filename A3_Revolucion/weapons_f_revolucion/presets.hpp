@@ -227,6 +227,34 @@ class rev_arifle_SPAR_01_blk_MRCO_F : arifle_SPAR_01_blk_F
 	};
 };
 
+// SPAR-16 5.56mm (Black) + ACO (Green)
+class rev_arifle_SPAR_01_blk_ACO_grn_F : arifle_SPAR_01_blk_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+	};
+};
+
+// SPAR-16 GL 5.56mm (Black) + MRCO
+class rev_arifle_SPAR_01_GL_blk_ACO_grn_F : arifle_SPAR_01_GL_blk_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+	};
+};
+
 // MK-16 5.56 (Black) + ACO + Flashlight
 class rev_arifle_SCAR_L_black_ACO_FL_F : arifle_SCAR_L_black_F
 {

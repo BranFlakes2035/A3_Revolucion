@@ -267,7 +267,7 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30Rnd_556x45_Stanag),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         mag_2(SmokeShell),
@@ -275,7 +275,7 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30Rnd_556x45_Stanag),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         mag_2(SmokeShell),
@@ -441,7 +441,7 @@ class Rev_B_BDF_Soldier_Exp_F: Rev_B_BDF_Soldier_Base_F
 	{
 		mag_6(30Rnd_556x45_Stanag),
         mag_3(APERSMine_Range_Mag),
-        mag_2(HandGrenade_Guer),
+        mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	linkedItems[] =
@@ -654,14 +654,14 @@ class Rev_B_BDF_Officer_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30rnd_9x21_mag_SMG_02),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(SmokeShell),
         SmokeShellGreen
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_580x42_Mag_F),
+		mag_4(30rnd_9x21_mag_SMG_02),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(SmokeShell),
         SmokeShellGreen
@@ -675,7 +675,7 @@ class Rev_B_BDF_Officer_F: Rev_B_BDF_Soldier_Base_F
 	respawnLinkedItems[] =
 	{
 		V_Rangemaster_belt,
-		H_MilCap_grn,
+		H_milcap_atacs_F,
 		DefaultManLinkedItems
 	};
 };
@@ -832,14 +832,14 @@ class Rev_B_BDF_Soldier_AT_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30Rnd_556x45_Stanag),
 		MRAWS_HEAT55_F,
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30Rnd_556x45_Stanag),
 		MRAWS_HEAT55_F,
         HandGrenade,
         mag_2(SmokeShell)
