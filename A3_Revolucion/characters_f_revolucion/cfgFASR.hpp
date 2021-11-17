@@ -151,7 +151,7 @@ class Rev_O_FASR_Medic_F: Rev_O_FASR_Soldier_Base_F
 	picture = pictureHeal;
 	camouflage = 1.6;
 	attendant = true;
-    //uniformClass = ;
+    uniformClass = Rev_U_O_FASR_FieldJacket_tshirt_F;
 	backpack = B_Kitbag_rgr_FASR_Medic_F;
     weapons[] =
 	{
@@ -192,18 +192,18 @@ class Rev_O_FASR_Medic_F: Rev_O_FASR_Soldier_Base_F
 		DefaultManLinkedItems
 	};
 };
-/*class Rev_O_FASR_Crew_F: Rev_O_FASR_Soldier_Base_F
+class Rev_O_FASR_Crew_F: Rev_O_FASR_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Crew_F.jpg";
-    scope = protected;
-    scopeCurator = private;
+    scope = public;
+  	scopeCurator = public;
 	displayName = $STR_B_crew_F0;
 	role = Crewman;
 	cost = 90000;
 	camouflage = 1.6;
     engineer = true;
-	uniformClass = ; // Uniform needed
+	uniformClass = Rev_U_O_FASR_Sweater_01_F;
 	weapons[] =
 	{
 		SMG_02_F,
@@ -238,7 +238,7 @@ class Rev_O_FASR_Medic_F: Rev_O_FASR_Soldier_Base_F
 		H_Tank_Black_F,
 		DefaultManLinkedItems
 	};
-}; */
+};
 class Rev_O_FASR_Engineer_F: Rev_O_FASR_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
@@ -721,6 +721,7 @@ class Rev_O_FASR_Soldier_HAT_F: Rev_O_FASR_Soldier_Base_F
         0.3     // Air
     };
 	secondaryAmmoCoef = 0.5;
+	uniformClass = Rev_U_O_FASR_FieldJacket_tanktop_F;
     backpack = B_Kitbag_rgr_FASR_HAT_F;
 	weapons[] =
 	{
@@ -939,6 +940,7 @@ class Rev_O_FASR_Soldier_lite_F: Rev_O_FASR_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_lite_F0;
+	uniformClass = Rev_U_O_FASR_FieldJacket_tshirt_F;
 	cost = 100000;
 	weapons[] =
 	{
@@ -984,6 +986,7 @@ class Rev_O_FASR_Soldier_CQ_F: Rev_O_FASR_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	cost = 100000;
+	uniformClass = Rev_U_O_FASR_FieldJacket_tanktop_F;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
     weapons[] =
 	{

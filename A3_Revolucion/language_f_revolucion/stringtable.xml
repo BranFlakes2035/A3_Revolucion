@@ -641,21 +641,21 @@
 					<Turkish>Combat Fatigues (Rolled-up, Type 99)</Turkish>
 				</Key>
                 <Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Jacket_01_F0">
-                    <Original>Field Jacket [FASR]</Original>
-                    <Chinese>Field Jacket [FASR]</Chinese>
-                    <French>Field Jacket [FASR]</French>
-                    <Spanish>Field Jacket [FASR]</Spanish>
-                    <Italian>Field Jacket [FASR]</Italian>
-                    <Polish>Field Jacket [FASR]</Polish>
-                    <Russian>Field Jacket [FASR]</Russian>
-                    <German>Field Jacket [FASR]</German>
-                    <Czech>Field Jacket [FASR]</Czech>
-                    <English>Field Jacket [FASR]</English>
-                    <Portuguese>Field Jacket [FASR]</Portuguese>
-                    <Korean>Field Jacket [FASR]</Korean>
-                    <Chinesesimp>Field Jacket [FASR]</Chinesesimp>
-                    <Japanese>Field Jacket [FASR]</Japanese>
-                    <Turkish>Field Jacket [FASR]</Turkish>
+                    <Original>Field Uniform [FASR]</Original>
+                    <Chinese>Field Uniform [FASR]</Chinese>
+                    <French>Field Uniform [FASR]</French>
+                    <Spanish>Field Uniform [FASR]</Spanish>
+                    <Italian>Field Uniform [FASR]</Italian>
+                    <Polish>Field Uniform [FASR]</Polish>
+                    <Russian>Field Uniform [FASR]</Russian>
+                    <German>Field Uniform [FASR]</German>
+                    <Czech>Field Uniform [FASR]</Czech>
+                    <English>Field Uniform [FASR]</English>
+                    <Portuguese>Field Uniform [FASR]</Portuguese>
+                    <Korean>Field Uniform [FASR]</Korean>
+                    <Chinesesimp>Field Uniform [FASR]</Chinesesimp>
+                    <Japanese>Field Uniform [FASR]</Japanese>
+                    <Turkish>Field Uniform [FASR]</Turkish>
                 </Key>
                 <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Officer_01_F0">
                     <Original>Officer Fatigues [BDF]</Original>
@@ -709,21 +709,55 @@
                     <Turkish>Combat Fatigues [BDF, Sweater]</Turkish>
                 </Key>
                 <Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Sweater_01_F0">
-                    <Original>Tanker Fatigues [FASR]</Original>
-                    <Chinese>Tanker Fatigues [FASR]</Chinese>
-                    <French>Tanker Fatigues [FASR]</French>
-                    <Spanish>Tanker Fatigues [FASR]</Spanish>
-                    <Italian>Tanker Fatigues [FASR]</Italian>
-                    <Polish>Tanker Fatigues [FASR]</Polish>
-                    <Russian>Tanker Fatigues [FASR]</Russian>
-                    <German>Tanker Fatigues [FASR]</German>
-                    <Czech>Tanker Fatigues [FASR]</Czech>
-                    <English>Tanker Fatigues [FASR]</English>
-                    <Portuguese>Tanker Fatigues [FASRr]</Portuguese>
-                    <Korean>Tanker Fatigues [FASR]</Korean>
-                    <Chinesesimp>Tanker Fatigues [FASR]</Chinesesimp>
-                    <Japanese>Tanker Fatigues [FASR]</Japanese>
-                    <Turkish>Tanker Fatigues [FASR]</Turkish>
+                    <Original>Field Uniform [FASR] (Sweater)</Original>
+                    <Chinese>Field Uniform [FASR] (Sweater)</Chinese>
+                    <French>Field Uniform [FASR] (Sweater)</French>
+                    <Spanish>Field Uniform [FASR] (Sweater)</Spanish>
+                    <Italian>Field Uniform [FASR] (Sweater)</Italian>
+                    <Polish>Field Uniform [FASR] (Sweater)</Polish>
+                    <Russian>Field Uniform [FASR] (Sweater)</Russian>
+                    <German>Field Uniform [FASR] (Sweater)</German>
+                    <Czech>Field Uniform [FASR] (Sweater)</Czech>
+                    <English>Field Uniform [FASR] (Sweater)</English>
+                    <Portuguese>Field Uniform [FASR] (Sweater)</Portuguese>
+                    <Korean>Field Uniform [FASR] (Sweater)</Korean>
+                    <Chinesesimp>Field Uniform [FASR] (Sweater)</Chinesesimp>
+                    <Japanese>Field Uniform [FASR] (Sweater)</Japanese>
+                    <Turkish>Field Uniform [FASR] (Sweater)</Turkish>
+                </Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_FieldJacket_tshirt_F0">
+                    <Original>Field Uniform [FASR] (Tee)</Original>
+                    <Chinese>Field Uniform [FASR] (Tee)</Chinese>
+                    <French>Field Uniform [FASR] (Tee)</French>
+                    <Spanish>Field Uniform [FASR] (Tee)</Spanish>
+                    <Italian>Field Uniform [FASR] (Tee)</Italian>
+                    <Polish>Field Uniform [FASR] (Tee)</Polish>
+                    <Russian>Field Uniform [FASR] (Tee)</Russian>
+                    <German>Field Uniform [FASR] (Tee)</German>
+                    <Czech>Field Uniform [FASR] (Tee)</Czech>
+                    <English>Field Uniform [FASR] (Tee)</English>
+                    <Portuguese>Field Uniform [FASR] (Tee)</Portuguese>
+                    <Korean>Field Uniform [FASR] (Tee)</Korean>
+                    <Chinesesimp>Field Uniform [FASR] (Tee)</Chinesesimp>
+                    <Japanese>Field Uniform [FASR] (Tee)</Japanese>
+                    <Turkish>Field Uniform [FASR] (Tee)</Turkish>
+                </Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_FieldJacket_tanktop_F0">
+                    <Original>Field Uniform [FASR] (Tank Top)</Original>
+                    <Chinese>Field Uniform [FASR] (Tank Top)</Chinese>
+                    <French>Field Uniform [FASR] (Tank Top)</French>
+                    <Spanish>Field Uniform [FASR] (Tank Top)</Spanish>
+                    <Italian>Field Uniform [FASR] (Tank Top)</Italian>
+                    <Polish>Field Uniform [FASR] (Tank Top)</Polish>
+                    <Russian>Field Uniform [FASR] (Tank Top)</Russian>
+                    <German>Field Uniform [FASR] (Tank Top)</German>
+                    <Czech>Field Uniform [FASR] (Tank Top)</Czech>
+                    <English>Field Uniform [FASR] (Tank Top)</English>
+                    <Portuguese>Field Uniform [FASR] (Tank Top)</Portuguese>
+                    <Korean>Field Uniform [FASR] (Tank Top)</Korean>
+                    <Chinesesimp>Field Uniform [FASR] (Tank Top)</Chinesesimp>
+                    <Japanese>Field Uniform [FASR] (Tank Top)</Japanese>
+                    <Turkish>Field Uniform [FASR] (Tank Top)</Turkish>
                 </Key>
 			</Container>
 			<Container name="Vests">
