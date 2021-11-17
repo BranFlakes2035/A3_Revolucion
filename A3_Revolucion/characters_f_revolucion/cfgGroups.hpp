@@ -486,8 +486,8 @@ class CfgGroups
 					side = TEast;
 					faction = Revolucion_OPF_FASR_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_motor_inf.paa";
-					GROUP_UNIT(0,TWest,Rev_O_FASR_Offroad_01_armed_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TWest,Rev_O_FASR_soldier_AT_F,PRIVATE,5,-5);
+					GROUP_UNIT(0,TEast,Rev_O_FASR_Offroad_01_armed_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_FASR_soldier_AT_F,PRIVATE,5,-5);
 				};
 				class Rev_O_FASR_MotInf_Reinforcements
 				{
@@ -495,23 +495,23 @@ class CfgGroups
 					side = TEast;
 					faction = Revolucion_OPF_FASR_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_motor_inf.paa";
-					GROUP_UNIT(0,TWest,Rev_O_FASR_Truck_02_transport_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TWest,Rev_O_FASR_soldier_SL_F,SERGEANT,5,0);
-					GROUP_UNIT(2,TWest,Rev_O_FASR_RadioOperator_F,PRIVATE,5,-2);
-					GROUP_UNIT(3,TWest,Rev_O_FASR_soldier_AT_F,CORPORAL,5,-4);
-					GROUP_UNIT(4,TWest,Rev_O_FASR_soldier_M_F,PRIVATE,5,-6);
-					GROUP_UNIT(5,TWest,Rev_O_FASR_soldier_TL_F,SERGEANT,5,-8);
-					GROUP_UNIT(6,TWest,Rev_O_FASR_soldier_AR_F,CORPORAL,5,-10);
-					GROUP_UNIT(7,TWest,Rev_O_FASR_soldier_A_F,PRIVATE,5,-12);
-					GROUP_UNIT(8,TWest,Rev_O_FASR_medic_F,PRIVATE,5,-14);
-					GROUP_UNIT(9,TWest,Rev_O_FASR_soldier_SL_F,SERGEANT,-5,0);
-					GROUP_UNIT(10,TWest,Rev_O_FASR_RadioOperator_F,PRIVATE,-5,-2);
-					GROUP_UNIT(11,TWest,Rev_O_FASR_soldier_AT_F,CORPORAL,-5,-4);
-					GROUP_UNIT(12,TWest,Rev_O_FASR_soldier_M_F,PRIVATE,-5,-6);
-					GROUP_UNIT(13,TWest,Rev_O_FASR_soldier_TL_F,SERGEANT,-5,-8);
-					GROUP_UNIT(14,TWest,Rev_O_FASR_soldier_AR_F,CORPORAL,-5,-10);
-					GROUP_UNIT(15,TWest,Rev_O_FASR_soldier_A_F,PRIVATE,-5,-12);
-					GROUP_UNIT(16,TWest,Rev_O_FASR_medic_F,PRIVATE,-5,-14);
+					GROUP_UNIT(0,TEast,Rev_O_FASR_Truck_02_transport_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_FASR_soldier_SL_F,SERGEANT,5,0);
+					GROUP_UNIT(2,TEast,Rev_O_FASR_RadioOperator_F,PRIVATE,5,-2);
+					GROUP_UNIT(3,TEast,Rev_O_FASR_soldier_AT_F,CORPORAL,5,-4);
+					GROUP_UNIT(4,TEast,Rev_O_FASR_soldier_M_F,PRIVATE,5,-6);
+					GROUP_UNIT(5,TEast,Rev_O_FASR_soldier_TL_F,SERGEANT,5,-8);
+					GROUP_UNIT(6,TEast,Rev_O_FASR_soldier_AR_F,CORPORAL,5,-10);
+					GROUP_UNIT(7,TEast,Rev_O_FASR_soldier_A_F,PRIVATE,5,-12);
+					GROUP_UNIT(8,TEast,Rev_O_FASR_medic_F,PRIVATE,5,-14);
+					GROUP_UNIT(9,TEast,Rev_O_FASR_soldier_SL_F,SERGEANT,-5,0);
+					GROUP_UNIT(10,TEast,Rev_O_FASR_RadioOperator_F,PRIVATE,-5,-2);
+					GROUP_UNIT(11,TEast,Rev_O_FASR_soldier_AT_F,CORPORAL,-5,-4);
+					GROUP_UNIT(12,TEast,Rev_O_FASR_soldier_M_F,PRIVATE,-5,-6);
+					GROUP_UNIT(13,TEast,Rev_O_FASR_soldier_TL_F,SERGEANT,-5,-8);
+					GROUP_UNIT(14,TEast,Rev_O_FASR_soldier_AR_F,CORPORAL,-5,-10);
+					GROUP_UNIT(15,TEast,Rev_O_FASR_soldier_A_F,PRIVATE,-5,-12);
+					GROUP_UNIT(16,TEast,Rev_O_FASR_medic_F,PRIVATE,-5,-14);
 				};
 			};
 			class Mechanized
@@ -523,15 +523,15 @@ class CfgGroups
 					side = TEast;
 					faction = Revolucion_OPF_FASR_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_mech_inf.paa";
-					GROUP_UNIT(0,TWest,Rev_O_FASR_APC_Wheeled_03_cannon_F,LIEUTENANT,0,0);
-					GROUP_UNIT(1,TWest,Rev_O_FASR_soldier_SL_F,SERGEANT,5,-5);
-					GROUP_UNIT(2,TWest,Rev_O_FASR_RadioOperator_F,PRIVATE,-5,-5);
-					GROUP_UNIT(3,TWest,Rev_O_FASR_soldier_AT_F,CORPORAL,10,-10);
-					GROUP_UNIT(4,TWest,Rev_O_FASR_soldier_M_F,PRIVATE,-10,-10);
-					GROUP_UNIT(5,TWest,Rev_O_FASR_soldier_TL_F,SERGEANT,15,-15);
-					GROUP_UNIT(6,TWest,Rev_O_FASR_soldier_AR_F,CORPORAL,-15,-15);
-					GROUP_UNIT(7,TWest,Rev_O_FASR_soldier_A_F,PRIVATE,20,-20);
-					GROUP_UNIT(8,TWest,Rev_O_FASR_medic_F,PRIVATE,-20,-20);
+					GROUP_UNIT(0,TEast,Rev_O_FASR_APC_Wheeled_03_cannon_F,LIEUTENANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_FASR_soldier_SL_F,SERGEANT,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_FASR_RadioOperator_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_FASR_soldier_AT_F,CORPORAL,10,-10);
+					GROUP_UNIT(4,TEast,Rev_O_FASR_soldier_M_F,PRIVATE,-10,-10);
+					GROUP_UNIT(5,TEast,Rev_O_FASR_soldier_TL_F,SERGEANT,15,-15);
+					GROUP_UNIT(6,TEast,Rev_O_FASR_soldier_AR_F,CORPORAL,-15,-15);
+					GROUP_UNIT(7,TEast,Rev_O_FASR_soldier_A_F,PRIVATE,20,-20);
+					GROUP_UNIT(8,TEast,Rev_O_FASR_medic_F,PRIVATE,-20,-20);
 				};
 			};*/
 		};
