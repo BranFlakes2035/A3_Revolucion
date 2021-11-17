@@ -691,6 +691,23 @@
                     <Japanese>Combat Fatigues [BDF, Sweater]</Japanese>
                     <Turkish>Combat Fatigues [BDF, Sweater]</Turkish>
                 </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Sweater_01_F0">
+                    <Original>Tanker Fatigues [FASR]</Original>
+                    <Chinese>Tanker Fatigues [FASR]</Chinese>
+                    <French>Tanker Fatigues [FASR]</French>
+                    <Spanish>Tanker Fatigues [FASR]</Spanish>
+                    <Italian>Tanker Fatigues [FASR]</Italian>
+                    <Polish>Tanker Fatigues [FASR]</Polish>
+                    <Russian>Tanker Fatigues [FASR]</Russian>
+                    <German>Tanker Fatigues [FASR]</German>
+                    <Czech>Tanker Fatigues [FASR]</Czech>
+                    <English>Tanker Fatigues [FASR]</English>
+                    <Portuguese>Tanker Fatigues [FASRr]</Portuguese>
+                    <Korean>Tanker Fatigues [FASR]</Korean>
+                    <Chinesesimp>Tanker Fatigues [FASR]</Chinesesimp>
+                    <Japanese>Tanker Fatigues [FASR]</Japanese>
+                    <Turkish>Tanker Fatigues [FASR]</Turkish>
+                </Key>
 			</Container>
 			<Container name="Vests">
 				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_cartel_F0">

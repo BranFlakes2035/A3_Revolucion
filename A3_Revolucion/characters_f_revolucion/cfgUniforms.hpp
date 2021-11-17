@@ -71,41 +71,6 @@ class Rev_B_BDF_Coveralls_01_F: B_Soldier_04_f
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\coveralls_BDF_CO.paa",
 	};
 };
-/*class Rev_B_BDF_Uniform_01_ar_F: I_E_Uniform_01_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Rev_U_B_BDF_Uniform_01_ar_F;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_ar_CO.paa",
-		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_ar_CO.paa",
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
-	};
-};
-class Rev_B_BDF_Uniform_01_ar_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Rev_U_B_BDF_Uniform_01_ar_shortsleeve_F;
-	hiddenSelectionsTextures[] =
-	{
-		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_ar_CO.paa",
-		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_ar_CO.paa",
-	};
-};
-class Rev_B_BDF_Uniform_01_tanktop_ar_F: I_E_Uniform_01_tanktop_F
-{
-  	scope = protected;
-  	scopeCurator = private;
-	uniformClass = Rev_U_B_BDF_Uniform_01_tanktop_ar_F;
-	hiddenSelectionsTextures[] =
-	{
-        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_TankTop_arid_CO.paa",
-		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_ar_CO.paa",
-		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
-	};
-};*/
 /* Cartels */
 class Rev_I_CDB_CombatUniform_F: I_soldier_F
 {
@@ -137,5 +102,15 @@ class Rev_O_FASR_FieldJacket_F: I_E_Uniform_01_officer_F
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_FASR_FieldJacket_CO.paa",
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_FASR_FieldJacket_02_CO.paa",
+	};
+};
+class Rev_O_FASR_Sweater_01_F: I_E_Uniform_01_sweater_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_FASR_Sweater_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_Sweater_CO.paa",
 	};
 };
