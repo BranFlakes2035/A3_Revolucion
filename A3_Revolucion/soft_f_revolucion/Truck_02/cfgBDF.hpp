@@ -1,6 +1,6 @@
 /* BDF */
 class O_Truck_02_covered_F;
-class rev_B_Truck_02_F: O_Truck_02_covered_F
+class Rev_B_BDF_Truck_02_F: O_Truck_02_covered_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
@@ -110,7 +110,7 @@ class rev_B_Truck_02_F: O_Truck_02_covered_F
 	};
 };
 class O_Truck_02_transport_F;
-class rev_B_Truck_02_transport_F: O_Truck_02_transport_F
+class Rev_B_BDF_Truck_02_transport_F: O_Truck_02_transport_F
 {
     author = $STR_A3_A_BranFlakes;
 	class SimpleObject
@@ -220,7 +220,7 @@ class rev_B_Truck_02_transport_F: O_Truck_02_transport_F
 	};
 };
 class O_Truck_02_box_F;
-class rev_B_Truck_02_box_F: O_Truck_02_box_F
+class Rev_B_BDF_Truck_02_box_F: O_Truck_02_box_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
@@ -330,7 +330,7 @@ class rev_B_Truck_02_box_F: O_Truck_02_box_F
 	};
 };
 class O_Truck_02_medical_F;
-class rev_B_Truck_02_medical_F: O_Truck_02_medical_F
+class Rev_B_BDF_Truck_02_medical_F: O_Truck_02_medical_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
@@ -440,7 +440,7 @@ class rev_B_Truck_02_medical_F: O_Truck_02_medical_F
 	};
 };
 class O_Truck_02_Ammo_F;
-class rev_B_Truck_02_Ammo_F: O_Truck_02_Ammo_F
+class Rev_B_BDF_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
@@ -552,7 +552,7 @@ class rev_B_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	};
 };
 class O_Truck_02_fuel_F;
-class rev_B_Truck_02_fuel_F: O_Truck_02_fuel_F
+class Rev_B_BDF_Truck_02_fuel_F: O_Truck_02_fuel_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
@@ -661,7 +661,7 @@ class rev_B_Truck_02_fuel_F: O_Truck_02_fuel_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
-class rev_B_Truck_02_cargo_F: Truck_02_cargo_base_F
+class Rev_B_BDF_Truck_02_cargo_F: Truck_02_cargo_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
@@ -771,7 +771,7 @@ class rev_B_Truck_02_cargo_F: Truck_02_cargo_base_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
-class rev_B_Truck_02_flatbed_F: Truck_02_flatbed_base_F
+class Rev_B_BDF_Truck_02_flatbed_F: Truck_02_flatbed_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject

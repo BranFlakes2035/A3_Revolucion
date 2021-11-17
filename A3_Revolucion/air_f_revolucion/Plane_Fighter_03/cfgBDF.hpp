@@ -1,4 +1,4 @@
-class rev_b_Ejection_Seat_Plane_Fighter_03_F: Ejection_Seat_Plane_Fighter_03_base_F
+class Rev_B_BDF_Ejection_Seat_Plane_Fighter_03_F: Ejection_Seat_Plane_Fighter_03_base_F
 {
 	class SimpleObject
 	{
@@ -23,7 +23,7 @@ class rev_b_Ejection_Seat_Plane_Fighter_03_F: Ejection_Seat_Plane_Fighter_03_bas
 	faction = Revolucion_BLU_BDF_F;
 	crew = Rev_B_BDF_Pilot_F;
 };
-class rev_b_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_F
+class Rev_B_BDF_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
@@ -291,6 +291,6 @@ class rev_b_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoadout_b
 	};
 	class EjectionSystem: EjectionSystem
 	{
-		EjectionSeatClass = O_Ejection_Seat_Plane_Fighter_03_F;
+		EjectionSeatClass = Rev_B_BDF_Ejection_Seat_Plane_Fighter_03_F;
 	};
 };

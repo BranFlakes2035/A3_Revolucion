@@ -1,5 +1,5 @@
 /* Bundeswehr */
-class rev_B_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
+class Rev_B_BDF_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject

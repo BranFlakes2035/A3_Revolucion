@@ -1,5 +1,5 @@
-/* US */
-class rev_B_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_F
+/* BDF */
+class Rev_B_BDF_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Plane_Transport_01_infantry_F.jpg";
@@ -19,7 +19,7 @@ class rev_B_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_F
 		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
 	};
 };
-class rev_B_Plane_Transport_01_vehicle_F: Plane_Transport_01_vehicle_base_F
+class Rev_B_BDF_Plane_Transport_01_vehicle_F: Plane_Transport_01_vehicle_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Plane_Transport_01_vehicle_F.jpg";

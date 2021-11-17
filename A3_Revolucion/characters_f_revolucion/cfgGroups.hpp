@@ -160,43 +160,43 @@ class CfgGroups
 					GROUP_UNIT(1,TWest,Rev_B_BDF_Recon_F,PRIVATE,5,-5);
 				};
 			};
-			/*class Motorized
+			class Motorized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;
-				class B_N_MotInf_Team
+				class Rev_B_BDF_MotInf_Team
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Team0;
 					side = TWest;
-					faction = Theseus_BLU_N_F;
+					faction = Revolucion_BLU_BDF_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_motor_inf.paa";
-					GROUP_UNIT(0,TWest,Theseus_B_N_MRAP_03_gmg_wdl_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TWest,Theseus_B_N_soldier_LAT_F,PRIVATE,5,-5);
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Offroad_01_armed_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_soldier_AT_F,PRIVATE,5,-5);
 				};
-				class B_N_MotInf_Reinforcements
+				class Rev_B_BDF_MotInf_Reinforcements
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Motorized_BUS_MotInf_Reinforce0;
 					side = TWest;
-					faction = Theseus_BLU_N_F;
+					faction = Revolucion_BLU_BDF_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\n_motor_inf.paa";
-					GROUP_UNIT(0,TWest,Theseus_B_N_Truck_02_transport_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TWest,Theseus_B_N_soldier_SL_F,SERGEANT,5,0);
-					GROUP_UNIT(2,TWest,Theseus_B_N_RadioOperator_F,PRIVATE,5,-2);
-					GROUP_UNIT(3,TWest,Theseus_B_N_soldier_LAT_F,CORPORAL,5,-4);
-					GROUP_UNIT(4,TWest,Theseus_B_N_soldier_M_F,PRIVATE,5,-6);
-					GROUP_UNIT(5,TWest,Theseus_B_N_soldier_TL_F,SERGEANT,5,-8);
-					GROUP_UNIT(6,TWest,Theseus_B_N_soldier_AR_F,CORPORAL,5,-10);
-					GROUP_UNIT(7,TWest,Theseus_B_N_soldier_A_F,PRIVATE,5,-12);
-					GROUP_UNIT(8,TWest,Theseus_B_N_medic_F,PRIVATE,5,-14);
-					GROUP_UNIT(9,TWest,Theseus_B_N_soldier_SL_F,SERGEANT,-5,0);
-					GROUP_UNIT(10,TWest,Theseus_B_N_RadioOperator_F,PRIVATE,-5,-2);
-					GROUP_UNIT(11,TWest,Theseus_B_N_soldier_LAT_F,CORPORAL,-5,-4);
-					GROUP_UNIT(12,TWest,Theseus_B_N_soldier_M_F,PRIVATE,-5,-6);
-					GROUP_UNIT(13,TWest,Theseus_B_N_soldier_TL_F,SERGEANT,-5,-8);
-					GROUP_UNIT(14,TWest,Theseus_B_N_soldier_AR_F,CORPORAL,-5,-10);
-					GROUP_UNIT(15,TWest,Theseus_B_N_soldier_A_F,PRIVATE,-5,-12);
-					GROUP_UNIT(16,TWest,Theseus_B_N_medic_F,PRIVATE,-5,-14);
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Truck_02_transport_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_soldier_SL_F,SERGEANT,5,0);
+					GROUP_UNIT(2,TWest,Rev_B_BDF_RadioOperator_F,PRIVATE,5,-2);
+					GROUP_UNIT(3,TWest,Rev_B_BDF_soldier_AT_F,CORPORAL,5,-4);
+					GROUP_UNIT(4,TWest,Rev_B_BDF_soldier_M_F,PRIVATE,5,-6);
+					GROUP_UNIT(5,TWest,Rev_B_BDF_soldier_TL_F,SERGEANT,5,-8);
+					GROUP_UNIT(6,TWest,Rev_B_BDF_soldier_AR_F,CORPORAL,5,-10);
+					GROUP_UNIT(7,TWest,Rev_B_BDF_soldier_A_F,PRIVATE,5,-12);
+					GROUP_UNIT(8,TWest,Rev_B_BDF_medic_F,PRIVATE,5,-14);
+					GROUP_UNIT(9,TWest,Rev_B_BDF_soldier_SL_F,SERGEANT,-5,0);
+					GROUP_UNIT(10,TWest,Rev_B_BDF_RadioOperator_F,PRIVATE,-5,-2);
+					GROUP_UNIT(11,TWest,Rev_B_BDF_soldier_AT_F,CORPORAL,-5,-4);
+					GROUP_UNIT(12,TWest,Rev_B_BDF_soldier_M_F,PRIVATE,-5,-6);
+					GROUP_UNIT(13,TWest,Rev_B_BDF_soldier_TL_F,SERGEANT,-5,-8);
+					GROUP_UNIT(14,TWest,Rev_B_BDF_soldier_AR_F,CORPORAL,-5,-10);
+					GROUP_UNIT(15,TWest,Rev_B_BDF_soldier_A_F,PRIVATE,-5,-12);
+					GROUP_UNIT(16,TWest,Rev_B_BDF_medic_F,PRIVATE,-5,-14);
 				};
-			};*/
+			};
 		};
 		class Revolucion_BLU_FRR_F
 		{

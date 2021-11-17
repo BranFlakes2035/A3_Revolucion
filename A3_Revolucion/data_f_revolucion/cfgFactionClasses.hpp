@@ -32,7 +32,7 @@ class CfgFactionClasses
 		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_BLU_FRR_CA.paa";
 		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_FRR_CO.paa";		
 	};
-	class Revolucion_IND_CDB_F 										// Cartels INDEP
+	class Revolucion_IND_CDB_F 										// Cartels
 	{
 		displayName = $STR_A3_R_CfgFactionClasses_IND_CDB_F0;
 		priority = 3;
