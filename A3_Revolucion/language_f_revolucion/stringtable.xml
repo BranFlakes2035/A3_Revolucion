@@ -349,7 +349,7 @@
                 <Turkish>Capo</Turkish>
             </Key>
 			<Container name="Groups">
-				<Key ID="STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_BanditGang0">
+				<Key ID="STR_A3_R_CfgGroups_Indep_IND_Infantry_I_CDB_BanditGang0">
 					<Original>Cartel Patrol</Original>
 					<Chinese>Cartel Patrol</Chinese>
 					<French>Cartel Patrol</French>
@@ -366,7 +366,7 @@
 					<Japanese>Cartel Patrol</Japanese>
 					<Turkish>Cartel Patrol</Turkish>
 				</Key>
-				<Key ID="STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_CriminalGang0">
+				<Key ID="STR_A3_R_CfgGroups_Indep_IND_Infantry_I_CDB_CriminalGang0">
 					<Original>Cartel Gang</Original>
 					<Chinese>Cartel Gang</Chinese>
 					<French>Cartel Gang</French>
@@ -383,7 +383,7 @@
 					<Japanese>Cartel Gang</Japanese>
 					<Turkish>Cartel Gang</Turkish>
 				</Key>
-				<Key ID="STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_EnfSquad0">
+				<Key ID="STR_A3_R_CfgGroups_Indep_IND_Infantry_I_CDB_EnfSquad0">
 					<Original>Enforcer Squad</Original>
 					<Chinese>Enforcer Squad</Chinese>
 					<French>Enforcer Squad</French>
@@ -400,7 +400,7 @@
 					<Japanese>Enforcer Squad</Japanese>
 					<Turkish>Enforcer Squad</Turkish>
 				</Key>
-				<Key ID="STR_A3_R_CfgGroups_Indep_IND_B_F_Infantry_I_CDB_EnfTeam0">
+				<Key ID="STR_A3_R_CfgGroups_Indep_IND_Infantry_I_CDB_EnfTeam0">
 					<Original>Enforcer Team</Original>
 					<Chinese>Enforcer Team</Chinese>
 					<French>Enforcer Team</French>
@@ -416,6 +416,23 @@
 					<Chinesesimp>Enforcer Team</Chinesesimp>
 					<Japanese>Enforcer Team</Japanese>
 					<Turkish>Enforcer Team</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_Indep_IND_Motorized_MTP_I_CDB_MotInfTeam0">
+					<Original>Hit Squad</Original>
+					<Chinese>Hit Squad</Chinese>
+					<French>Hit Squad</French>
+					<Spanish>Hit Squad</Spanish>
+					<Italian>Hit Squad</Italian>
+					<Polish>Hit Squad</Polish>
+					<Russian>Hit Squad</Russian>
+					<German>Hit Squad</German>
+					<Czech>Hit Squad</Czech>
+					<English>Hit Squad</English>
+					<Portuguese>Hit Squad</Portuguese>
+					<Korean>Hit Squad</Korean>
+					<Chinesesimp>Hit Squad</Chinesesimp>
+					<Japanese>Hit Squad</Japanese>
+					<Turkish>Hit Squad</Turkish>
 				</Key>
 			</Container>
 			<Container name="Uniforms">
