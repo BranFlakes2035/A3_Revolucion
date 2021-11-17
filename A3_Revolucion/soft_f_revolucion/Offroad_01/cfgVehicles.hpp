@@ -52,8 +52,14 @@ class CfgVehicles
         class EventHandlers;
     };
     class Offroad_01_military_comms_base_F: Offroad_01_military_covered_base_F{};
+	class B_G_Offroad_01_F;
+	class B_G_Offroad_01_AT_F;
+	class B_G_Offroad_01_armed_F;
+	class B_G_Offroad_01_repair_F;
 
     
 	// Arma 3 Revolucion
 	#include "cfgBDF.hpp"               // BDF
+	#include "cfgFRR.hpp"				// FRR
+	//#include "cfgFASR.hpp"				// FASR
 };

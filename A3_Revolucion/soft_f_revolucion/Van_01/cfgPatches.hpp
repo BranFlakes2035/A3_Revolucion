@@ -14,7 +14,15 @@ class CfgPatches
 		{
 			// Cartel De Baracas
 			Rev_I_CDB_Van_01_transport_F,
-			Rev_I_CDB_Van_01_box_F
+			Rev_I_CDB_Van_01_box_F,
+
+			// FRR
+			Rev_B_FRR_Van_01_Transport_F,
+			Rev_B_FRR_Van_01_Fuel_F,
+			Rev_I_FRR_Van_01_Transport_F,
+			Rev_I_FRR_Van_01_Fuel_F,
+			Rev_O_FRR_Van_01_Transport_F,
+			Rev_O_FRR_Van_01_Fuel_F
 		};
 		weapons[] = {/* Automated */};
 	};

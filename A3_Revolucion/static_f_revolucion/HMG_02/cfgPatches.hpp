@@ -13,7 +13,16 @@ class CfgPatches
 
 			/* From "cfgFASR.hpp" */
             Rev_O_FASR_HMG_02_F,
-            Rev_O_FASR_HMG_02_high_F
+            Rev_O_FASR_HMG_02_high_F,
+
+			/* From "cfgFRR.hpp" */
+			Rev_B_FRR_HMG_02_F,
+            Rev_B_FRR_HMG_02_high_F,
+			Rev_I_FRR_HMG_02_F,
+            Rev_I_FRR_HMG_02_high_F,
+			Rev_O_FRR_HMG_02_F,
+            Rev_O_FRR_HMG_02_high_F
+
         };
 		weapons[] = {/* Automated */};
 	};

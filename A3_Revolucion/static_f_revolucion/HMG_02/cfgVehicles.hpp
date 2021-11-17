@@ -9,4 +9,5 @@ class CfgVehicles
 	/* Factions */
     #include "cfgCartels.hpp"	// Cartel de Baracas
 	#include "cfgFASR.hpp"		// FASR
+	#include "cfgFRR.hpp"		// FRR
 };

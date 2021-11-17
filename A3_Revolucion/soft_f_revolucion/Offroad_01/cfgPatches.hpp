@@ -7,9 +7,25 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            rev_B_B_Offroad_01_F,
-            rev_B_B_Offroad_01_armed_F,
-            rev_B_B_Offroad_01_covered_F
+			// Baracan Defence Force
+            Rev_B_BDF_Offroad_01_F,
+            Rev_B_BDF_Offroad_01_armed_F,
+            Rev_B_BDF_Offroad_01_covered_F,
+			Rev_B_BDF_Offroad_01_Comms_F,
+
+			// FRR
+			Rev_B_FRR_Offroad_01_F,
+			Rev_B_FRR_Offroad_01_armed_F,
+			Rev_B_FRR_Offroad_01_AT_F,
+			Rev_B_FRR_Offroad_01_repair_F,
+			Rev_I_FRR_Offroad_01_F,
+			Rev_I_FRR_Offroad_01_armed_F,
+			Rev_I_FRR_Offroad_01_AT_F,
+			Rev_I_FRR_Offroad_01_repair_F,
+			Rev_O_FRR_Offroad_01_F,
+			Rev_O_FRR_Offroad_01_armed_F,
+			Rev_O_FRR_Offroad_01_AT_F,
+			Rev_O_FRR_Offroad_01_repair_F
         };
 		weapons[] = {/* Automated */};
 	};

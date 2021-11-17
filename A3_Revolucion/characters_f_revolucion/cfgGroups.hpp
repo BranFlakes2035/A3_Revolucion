@@ -341,7 +341,7 @@ class CfgGroups
 					GROUP_UNIT(3,TWest,Rev_B_FRR_engineer_F,PRIVATE,10,-10);
 				};
 			};
-			/*class Motorized_MTP
+			class Motorized_MTP
 			{
 				name = $STR_A3_CfgGroups_Indep_Guerilla_Motorized_MTP0;
 				class Rev_B_FRR_MotInf_Team
@@ -367,7 +367,7 @@ class CfgGroups
 					GROUP_UNIT(1,TWest,Rev_B_FRR_Offroad_01_armed_F,SERGEANT,10,-10);
 					GROUP_UNIT(2,TWest,Rev_B_FRR_Offroad_01_AT_F,CORPORAL,-10,-10);
 				};
-			};*/
+			};
 		};
 	}; 
 	class East
@@ -658,7 +658,7 @@ class CfgGroups
 					GROUP_UNIT(3,TEast,Rev_O_FRR_engineer_F,PRIVATE,10,-10);
 				};
 			};
-			/*class Motorized_MTP
+			class Motorized_MTP
 			{
 				name = $STR_A3_CfgGroups_Indep_Guerilla_Motorized_MTP0;
 				class Rev_O_FRR_MotInf_Team
@@ -684,7 +684,7 @@ class CfgGroups
 					GROUP_UNIT(1,TEast,Rev_O_FRR_Offroad_01_armed_F,SERGEANT,10,-10);
 					GROUP_UNIT(2,TEast,Rev_O_FRR_Offroad_01_AT_F,CORPORAL,-10,-10);
 				};
-			};*/
+			};
 		};
 	};
 	class Indep
@@ -895,7 +895,7 @@ class CfgGroups
 					GROUP_UNIT(3,TGuerrila,Rev_I_FRR_engineer_F,PRIVATE,10,-10);
 				};
 			};
-			/*class Motorized_MTP
+			class Motorized_MTP
 			{
 				name = $STR_A3_CfgGroups_Indep_Guerilla_Motorized_MTP0;
 				class Rev_I_FRR_MotInf_Team
@@ -921,7 +921,7 @@ class CfgGroups
 					GROUP_UNIT(1,TGuerrila,Rev_I_FRR_Offroad_01_armed_F,SERGEANT,10,-10);
 					GROUP_UNIT(2,TGuerrila,Rev_I_FRR_Offroad_01_AT_F,CORPORAL,-10,-10);
 				};
-			};*/
+			};
 		};
 	}; 
 };

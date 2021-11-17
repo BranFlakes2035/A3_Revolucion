@@ -13,7 +13,12 @@ class CfgPatches
 		units[] = 
 		{
 			// Cartel De Baracas
-			Rev_I_CDB_Quadbike_01_F	
+			Rev_I_CDB_Quadbike_01_F,
+
+			// FRR
+			Rev_B_FRR_Quadbike_01_F,
+			Rev_I_FRR_Quadbike_01_F,
+			Rev_O_FRR_Quadbike_01_F
 		};
 		weapons[] = {/* Automated */};
 	};

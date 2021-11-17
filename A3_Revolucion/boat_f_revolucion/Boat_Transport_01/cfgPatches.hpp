@@ -18,7 +18,12 @@ class CfgPatches
             Rev_I_CDB_Boat_Transport_01_F,
 
             /* From "cfgFASR.hpp" */
-            Rev_O_FASR_Boat_Transport_01_F
+            Rev_O_FASR_Boat_Transport_01_F,
+
+            /* From "cfgFRR.hpp" */
+            Rev_B_FRR_Boat_Transport_01_F,
+            Rev_I_FRR_Boat_Transport_01_F,
+            Rev_O_FRR_Boat_Transport_01_F
         };
 		weapons[] = {/* Automated */};
 	};
