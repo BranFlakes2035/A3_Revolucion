@@ -10,7 +10,7 @@ class B_Carryall_oli_FRR_Ammo_F: B_Carryall_oli
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(20rnd_762x51_Mag,2);
+		mag_xx(20rnd_762x51_slr_lxWS,2);
 	};
     class TransportItems
 	{

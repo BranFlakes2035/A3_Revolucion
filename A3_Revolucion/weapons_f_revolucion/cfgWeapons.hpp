@@ -16,17 +16,21 @@ class cfgWeapons
     class LMG_03_F;
     class hgun_P07_blk_F;
 
+    // Arma 3 West Sahara CDLC
+    class arifle_Velko_lxWS;
+    class arifle_Galat_lxWS;
+    class arifle_SLR_lxWS;
+    class arifle_SLR_V_lxWS;
+    class arifle_SLR_V_GL_lxWS;
+
     // Arma 3 Aegis/Atlas
     class arifle_NCAR15_F;
     class arifle_NCAR15_GL_F;
     class arifle_NCAR15_MG_F;
     class arifle_NCAR15B_F;
-    class arifle_SCAR_black_F;
-    class arifle_SCAR_L_black_F;
-    class arifle_SCAR_L_short_black_F;
-    class arifle_SCAR_L_GL_black_F;
     class arifle_SA80_blk_F;
     class arifle_SA80_GL_blk_F;
+    class arifle_SCAR_black_F;
    
     // Presets
     #include "presets.hpp"

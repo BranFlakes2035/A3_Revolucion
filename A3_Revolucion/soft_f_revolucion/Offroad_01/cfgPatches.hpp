@@ -25,7 +25,16 @@ class CfgPatches
 			Rev_O_FRR_Offroad_01_F,
 			Rev_O_FRR_Offroad_01_armed_F,
 			Rev_O_FRR_Offroad_01_AT_F,
-			Rev_O_FRR_Offroad_01_repair_F
+			Rev_O_FRR_Offroad_01_repair_F,
+			Rev_B_FRR_Offroad_01_armor_base_F,
+			Rev_B_FRR_Offroad_01_armor_armed_F,
+			Rev_B_FRR_Offroad_01_armor_AT_F,
+			Rev_I_FRR_Offroad_01_armor_base_F,
+			Rev_I_FRR_Offroad_01_armor_armed_F,
+			Rev_I_FRR_Offroad_01_armor_AT_F,
+			Rev_O_FRR_Offroad_01_armor_base_F,
+			Rev_O_FRR_Offroad_01_armor_armed_F,
+			Rev_O_FRR_Offroad_01_armor_AT_F
         };
 		weapons[] = {/* Automated */};
 	};

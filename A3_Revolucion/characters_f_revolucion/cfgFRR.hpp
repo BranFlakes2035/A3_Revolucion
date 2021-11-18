@@ -58,7 +58,13 @@ class Rev_B_FRR_Man_base_F: I_G_Soldier_base_F
         H_Hat_Safari_olive_F,
         H_PASGT_basic_black_F,
         H_PASGT_basic_green_F,
-        H_PASGT_basic_olive_F
+        H_PASGT_basic_olive_F,
+		lxWS_H_bmask_base,
+		lxWS_H_bmask_camo02,
+		lxWS_H_bmask_yellow,
+		lxWS_H_ssh40_green,
+		lxWS_H_ssh40_sand,
+		lxWS_H_ssh40_black
     };
     headgearList[] =
     {
@@ -108,6 +114,12 @@ class Rev_B_FRR_Man_base_F: I_G_Soldier_base_F
         H_PASGT_basic_black_F,1,
         H_PASGT_basic_green_F,1,
         H_PASGT_basic_olive_F,1,
+		lxWS_H_bmask_base,1,
+		lxWS_H_bmask_camo02,1,
+		lxWS_H_bmask_yellow,1,
+		lxWS_H_ssh40_green,1,
+		lxWS_H_ssh40_sand,1,
+		lxWS_H_ssh40_black,1
         H_FakeHeadgear_F,1
     };
 };
@@ -358,23 +370,23 @@ class Rev_B_FRR_Engineer_F: Rev_B_FRR_Soldier_Base_F
 	backpack = B_Carryall_oli_FRR_Eng_F;
 	weapons[] =
 	{
-		arifle_AKS_F,
+		arifle_Galat_lxWS,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AKS_F,
+		arifle_Galat_lxWS,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_545x39_Mag_F),
+		mag_6(30Rnd_762x39_Mag_F),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_545x39_Mag_F),
+		mag_6(30Rnd_762x39_Mag_F),
         HandGrenade,
         mag_2(SmokeShell)
 	};
@@ -519,25 +531,25 @@ class Rev_B_FRR_Soldier_M_F: Rev_B_FRR_Soldier_Base_F
 	uniformClass = U_I_C_Soldier_Para_3_F;
 	weapons[] =
 	{
-		srifle_DMR_06_hunter_F, // Should be a Galil with an MRCO
+		rev_arifle_Galat_lxWS_MRCO_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_06_hunter_F,
+		rev_arifle_Galat_lxWS_MRCO_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_6(20rnd_762x51_Mag),
+		mag_6(30Rnd_762x39_Mag_F),
         HandGrenade,
 		SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(20rnd_762x51_Mag),
+		mag_6(30Rnd_762x39_Mag_F),
         HandGrenade,
 		SmokeShell
 	};
@@ -778,26 +790,26 @@ class Rev_B_FRR_Soldier_LAT_F: Rev_B_FRR_Soldier_Base_F
 	uniformClass = U_BG_Guerilla1_2_F;
 	weapons[] =
 	{
-		arifle_SPAR_01_blk_F,	// Change this out for a Galat post WS
+		arifle_Galat_lxWS,	// Change this out for a Galat post WS
 		launch_RPG7_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_F,
+		arifle_Galat_lxWS,
 		launch_RPG7_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(30Rnd_762x39_Mag_F),
 		RPG7_F,
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(30Rnd_762x39_Mag_F),
 		RPG7_F,
         HandGrenade,
         SmokeShell
@@ -1058,25 +1070,25 @@ class Rev_B_FRR_Sharpshooter_F: Rev_B_FRR_Soldier_Base_F
 	uniformClass = U_BG_Guerilla1_2_F;
 	weapons[] =
 	{
-		srifle_DMR_06_hunter_F, // Should be an SLR with Kahlia
+		rev_arifle_SLR_lxWS_KHS_old_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		srifle_DMR_06_hunter_F,
+		rev_arifle_SLR_lxWS_KHS_old_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_6(20rnd_762x51_Mag),
+		mag_6(20rnd_762x51_slr_lxWS),
         HandGrenade,
 		SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(20rnd_762x51_Mag),
+		mag_6(20rnd_762x51_slr_lxWS),
         HandGrenade,
 		SmokeShell
 	};
@@ -1158,23 +1170,23 @@ class Rev_B_FRR_Soldier_TechSpec_F: Rev_B_FRR_engineer_F
     backpack = B_Kitbag_rgr_G_TechSpec;
     weapons[] =
 	{
-		SMG_05_F,
+		arifle_Galat_lxWS,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		SMG_05_F,
+		arifle_Galat_lxWS,
         DefaultManWeapons
 	};
     magazines[] =
     {
-        mag_4(30rnd_9x21_mag_SMG_02),
+        mag_4(30Rnd_762x39_Mag_F),
         HandGrenade,
         SmokeShell
     };
     respawnMagazines[] =
     {
-        mag_4(30rnd_9x21_mag_SMG_02),
+        mag_4(30Rnd_762x39_Mag_F),
         HandGrenade,
         SmokeShell
     };

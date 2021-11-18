@@ -51,13 +51,13 @@ class Rev_O_FASR_Soldier_A_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
@@ -115,14 +115,14 @@ class Rev_O_FASR_Soldier_AR_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_Booniehat_m81_F,
 		G_Shemag_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_Booniehat_m81_F,
 		G_Shemag_oli,
 		DefaultManLinkedItems
@@ -181,13 +181,13 @@ class Rev_O_FASR_Medic_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};
@@ -287,14 +287,14 @@ class Rev_O_FASR_Engineer_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
         G_Combat_Goggles_tna_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
         G_Combat_Goggles_tna_F,
 		DefaultManLinkedItems
@@ -343,14 +343,14 @@ class Rev_O_FASR_Soldier_Exp_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
         G_Shemag_oli,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
         G_Shemag_oli,
 		DefaultManLinkedItems
@@ -503,13 +503,13 @@ class Rev_O_FASR_Soldier_M_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_Shemag_olive_hs,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_Shemag_olive_hs,
 		DefaultManLinkedItems
 	};
@@ -612,13 +612,13 @@ class Rev_O_FASR_Soldier_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};
@@ -682,13 +682,13 @@ class Rev_O_FASR_Soldier_AT_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};
@@ -753,13 +753,13 @@ class Rev_O_FASR_Soldier_HAT_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};
@@ -811,14 +811,14 @@ class Rev_O_FASR_Soldier_SL_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_Booniehat_m81_F,
         NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_Booniehat_m81_F,
         NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -920,14 +920,14 @@ class Rev_O_FASR_Soldier_TL_F: Rev_O_FASR_Soldier_Base_F
     };
 	linkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
         G_Headset_Light,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
         G_Headset_Light,
 		DefaultManLinkedItems
@@ -968,13 +968,13 @@ class Rev_O_FASR_Soldier_lite_F: Rev_O_FASR_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_Booniehat_m81_F,
 		DefaultManLinkedItems
 	};
@@ -1016,14 +1016,14 @@ class Rev_O_FASR_Soldier_CQ_F: Rev_O_FASR_Soldier_Base_F
     };
 	linkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_PASGT_Basic_Olive_F,
         G_Balaclava_combat,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessOSpec_brn,
+		V_lxWS_TacVestIR_Oli,
 		H_PASGT_Basic_Olive_F,
         G_Balaclava_combat,
 		DefaultManLinkedItems
@@ -1062,13 +1062,13 @@ class Rev_O_FASR_unarmed_F: Rev_O_FASR_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_HarnessO_brn,
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};

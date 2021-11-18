@@ -255,101 +255,6 @@ class rev_arifle_SPAR_01_GL_blk_ACO_grn_F : arifle_SPAR_01_GL_blk_F
 	};
 };
 
-// MK-16 5.56 (Black) + ACO + Flashlight
-class rev_arifle_SCAR_L_black_ACO_FL_F : arifle_SCAR_L_black_F
-{
-	author = $STR_A3_A_Ravenholme;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_ACO;
-		};
-		class LinkedItemsAcc
-		{
-			slot = PointerSlot;
-			item = acc_flashlight;
-		};
-	};
-};
-
-// MK-16 5.56 (Black) + LRCO + Flashlight
-class rev_arifle_SCAR_L_black_LRCO_FL_F : arifle_SCAR_L_black_F
-{
-	author = $STR_A3_A_Ravenholme;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_LRCO_blk_F;
-		};
-		class LinkedItemsAcc
-		{
-			slot = PointerSlot;
-			item = acc_flashlight;
-		};
-	};
-};
-
-// MK-16C 5.56 (Black) + ACO + Flashlight
-class rev_arifle_SCAR_L_short_black_ACO_FL_F : arifle_SCAR_L_short_black_F
-{
-	author = $STR_A3_A_Ravenholme;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_ACO;
-		};
-		class LinkedItemsAcc
-		{
-			slot = PointerSlot;
-			item = acc_flashlight;
-		};
-	};
-};
-
-// MK-16C GL 5.56 (Black) + ACO + Flashlight
-class rev_arifle_SCAR_L_GL_black_ACO_FL_F : arifle_SCAR_L_GL_black_F
-{
-	author = $STR_A3_A_Ravenholme;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_ACO;
-		};
-		class LinkedItemsAcc
-		{
-			slot = PointerSlot;
-			item = acc_flashlight;
-		};
-	};
-};
-
-// MK-16C GL 5.56 (Black) + LRCO + Flashlight
-class rev_arifle_SCAR_L_GL_black_LRCO_FL_F : arifle_SCAR_L_GL_black_F
-{
-	author = $STR_A3_A_Ravenholme;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_LRCO_blk_F;
-		};
-		class LinkedItemsAcc
-		{
-			slot = PointerSlot;
-			item = acc_flashlight;
-		};
-	};
-};
-
 // L85A3 5.56 mm (Black) + ARCO + IR Pointer + Silencer
 class arifle_SA80_blk_ARCO_IR_snds_F: arifle_SA80_blk_F
 {
@@ -398,6 +303,89 @@ class arifle_SA80_GL_blk_ARCO_IR_snds_F: arifle_SA80_GL_blk_F
     };
 };
 
+// Velko R4 5.56 mm + ACO (red)
+class rev_arifle_Velko_lxWS_ACO_F: arifle_Velko_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO;
+		};
+    };
+};
+
+// Velko R4 5.56 mm + LRCO (black)
+class rev_arifle_Velko_lxWS_LRCO_blk_F: arifle_Velko_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+    };
+};
+
+// SLR 7.62 mm + DMS
+class rev_arifle_SLR_V_lxWS_DMS_F: arifle_SLR_V_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_DMS;
+		};
+    };
+};
+
+// SLR GL 7.62 mm + LRCO (Black)
+class rev_arifle_SLR_V_GL_lxWS_LRCO_blk_F: arifle_SLR_V_GL_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+    };
+};
+
+// Galat ARM 7.62 mm + MRCO
+class rev_arifle_Galat_lxWS_MRCO_F: arifle_Galat_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+    };
+};
+
+// SLR 7.62 mm (Wood) + Kahlia (Old)
+class rev_arifle_SLR_lxWS_KHS_old_F: arifle_SLR_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_KHS_old;
+		};
+    };
+};
 
 /* LMG Presets */
 
@@ -504,30 +492,6 @@ class srifle_DMR_03_ARCO_FL_BI_F: srifle_DMR_03_F
 		{
 			slot = CowsSlot;
 			item = optic_ARCO_blk_F;
-		};
-        class LinkedItemsAcc
-		{
-			slot = PointerSlot;
-			item = acc_flashlight;
-		};
-		class LinkedItemsUnder
-		{
-			slot = UnderBarrelSlot;
-			item = bipod_01_F_blk;
-		};
-    };
-};
-
-// MK17 7.62 mm (Black) + DMS + Flashlight + Bipod [NATO] (Black)
-class arifle_SCAR_black_DMS_FL_BI_F: arifle_SCAR_black_F
-{
-	author = $STR_A3_A_Ravenholme;
-	class LinkedItems
-	{
-		class LinkedItemsOptic
-		{
-			slot = CowsSlot;
-			item = optic_DMS;
 		};
         class LinkedItemsAcc
 		{

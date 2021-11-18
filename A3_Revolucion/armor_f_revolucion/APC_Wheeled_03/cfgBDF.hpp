@@ -236,30 +236,28 @@ class Rev_B_BDF_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
     /* Inventory */
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_65x39_caseless_msbs_mag,12);
-		mag_xx(200Rnd_65x39_cased_box_Red,3);
+		mag_xx(35Rnd_556x45_velko_lxWS,12);
+		mag_xx(200Rnd_556x45_Box_F,3);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(1Rnd_Smoke_Grenade_shell,3);
-		mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
-		mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
-		mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+		mag_xx(6Rnd_HE_Grenade_shell,2);
+		mag_xx(6Rnd_Smoke_Grenade_shell,1);
+		mag_xx(6Rnd_SmokeGreen_Grenade_shell,1);
+		mag_xx(6Rnd_SmokeOrange_Grenade_shell,1);
+		mag_xx(6Rnd_SmokeBlue_Grenade_shell,1);
 		mag_xx(SmokeShell,8);
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellOrange,8);
 		mag_xx(SmokeShellBlue,8);
-		mag_xx(MRAWS_HEAT_F,5);
-		mag_xx(Titan_AT,2);
-		mag_xx(Titan_AP,2);
+		mag_xx(MRAWS_HEAT55_F,6);
 		mag_xx(Titan_AA,2);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_G36_F,2);
+		weap_xx(arifle_Velko_lxWS,2);
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_wdl_F,2);
+		bag_xx(B_AssaultPack_khk,2);
 	};
 };

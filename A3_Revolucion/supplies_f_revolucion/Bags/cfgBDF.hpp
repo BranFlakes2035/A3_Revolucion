@@ -4,13 +4,13 @@ class B_Carryall_oli_BDF_Ammo_F: B_Carryall_oli
 	scope = protected;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_stanag,6);
+		mag_xx(35Rnd_556x45_velko_lxWS,6);
 		mag_xx(200Rnd_556x45_Box_F,1);
 		mag_xx(MRAWS_HEAT55_F,1);
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
-		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(20rnd_762x51_Mag,2);
+		mag_xx(6Rnd_HE_Grenade_shell,1);
+		mag_xx(20rnd_762x51_slr_lxWS,2);
 	};
     class TransportItems
 	{

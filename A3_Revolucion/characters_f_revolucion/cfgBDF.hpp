@@ -29,23 +29,23 @@ class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
 	backpack = B_Carryall_oli_BDF_Ammo_F;	
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -77,23 +77,23 @@ class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
 	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -123,25 +123,25 @@ class Rev_B_BDF_soldier_AAR_F: rev_B_BDF_Soldier_Base_F
 	backpack = B_AssaultPack_khk_BDF_AAR_F;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -255,19 +255,19 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	backpack = B_AssaultPack_khk_BDF_Medic_F;
     weapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons,
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons,
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         mag_2(SmokeShell),
@@ -275,7 +275,7 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         mag_2(SmokeShell),
@@ -369,23 +369,23 @@ class Rev_B_BDF_Engineer_F: Rev_B_BDF_Soldier_Base_F
 	backpack = B_Carryall_oli_BDF_Eng_F;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         mag_2(SmokeShell)
 	};
@@ -422,24 +422,24 @@ class Rev_B_BDF_Soldier_Exp_F: Rev_B_BDF_Soldier_Base_F
     backpack = B_Carryall_oli_BDF_Exp_F;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -470,29 +470,31 @@ class Rev_B_BDF_Soldier_GL_F: Rev_B_BDF_Soldier_Base_F
 	cost = 200000;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_GL_black_ACO_FL_F,
+		GL_M32_F,
+		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_GL_black_ACO_FL_F,
+		GL_M32_F,
+		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_8(30Rnd_556x45_Stanag),
-        mag_6(1Rnd_HE_Grenade_shell),
+		mag_4(16rnd_9x21_mag_v2),
+        mag_3(6Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(SmokeShell),
-        mag_2(1Rnd_Smoke_Grenade_shell)
+        6Rnd_Smoke_Grenade_shell
 	};
 	respawnMagazines[] =
 	{
-		mag_8(30Rnd_556x45_Stanag),
-        mag_6(1Rnd_HE_Grenade_shell),
+		mag_4(16rnd_9x21_mag_v2),
+        mag_3(6Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
         mag_2(SmokeShell),
-        mag_2(1Rnd_Smoke_Grenade_shell)
+        6Rnd_Smoke_Grenade_shell
 	};
 	linkedItems[] =
 	{
@@ -580,25 +582,25 @@ class Rev_B_BDF_Soldier_M_F: Rev_B_BDF_Soldier_Base_F
 	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
 	weapons[] =
 	{
-		arifle_SCAR_black_DMS_FL_BI_F,
+		rev_arifle_SLR_V_lxWS_DMS_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_SCAR_black_DMS_FL_BI_F,
+		rev_arifle_SLR_V_lxWS_DMS_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_6(20rnd_762x51_Mag),
+		mag_8(20rnd_762x51_slr_lxWS),
         HandGrenade,
 		SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(20rnd_762x51_Mag),
+		mag_8(20rnd_762x51_slr_lxWS),
         HandGrenade,
 		SmokeShell
 	};
@@ -689,23 +691,23 @@ class Rev_B_BDF_Soldier_F: Rev_B_BDF_Soldier_base_F
 	cost = 100000;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30rnd_556x45_Stanag),
+		mag_10(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30rnd_556x45_Stanag),
+		mag_10(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -749,26 +751,26 @@ class Rev_B_BDF_soldier_AA_F: Rev_B_BDF_Soldier_Base_F
 	threat[] = {1,0.7,0.3};
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		launch_B_Titan_olive_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_short_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		launch_B_Titan_olive_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         Titan_AA,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         Titan_AA,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -820,26 +822,26 @@ class Rev_B_BDF_Soldier_AT_F: Rev_B_BDF_Soldier_Base_F
 	uniform = Rev_U_B_BDF_Uniform_01_tanktop_F;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		launch_MRAWS_Green_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		launch_MRAWS_Green_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
 		MRAWS_HEAT55_F,
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
 		MRAWS_HEAT55_F,
         HandGrenade,
         mag_2(SmokeShell)
@@ -873,22 +875,21 @@ class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 	uniform = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_black_LRCO_FL_F,
+		rev_arifle_Velko_lxWS_LRCO_blk_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_black_LRCO_FL_F,
+		rev_arifle_Velko_lxWS_LRCO_blk_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
-		mag_2(30Rnd_556x45_Stanag_Tracer_Yellow),
+		mag_8(35Rnd_556x45_velko_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         mag_4(SmokeShell),
@@ -896,8 +897,7 @@ class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30Rnd_556x45_Stanag),
-		mag_2(30Rnd_556x45_Stanag_Tracer_Yellow),
+		mag_8(35Rnd_556x45_velko_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         mag_4(SmokeShell),
@@ -931,39 +931,39 @@ class Rev_B_BDF_Soldier_TL_F: Rev_B_BDF_Soldier_Base_F
 	camouflage = 1.4;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_GL_black_LRCO_FL_F,
+		rev_arifle_SLR_V_GL_lxWS_LRCO_blk_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_GL_black_LRCO_FL_F,
+		rev_arifle_SLR_V_GL_lxWS_LRCO_blk_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_8(30Rnd_556x45_Stanag),
+		mag_6(20rnd_762x51_slr_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
-		mag_5(1Rnd_HE_Grenade_shell),
+		mag_4(1rnd_40mm_HE_lxWS),
+		mag_2(1rnd_58mm_AT_lxWS),
+		mag_2(1rnd_50mm_smoke_lxWS),
         HandGrenade,
         mag_2(SmokeShell),
-        SmokeShellGreen,
-        mag_2(1Rnd_Smoke_Grenade_shell),
-		mag_2(1Rnd_SmokeGreen_Grenade_shell)
+        SmokeShellGreen
 	};
 	respawnMagazines[] =
 	{
-		mag_8(30Rnd_556x45_Stanag),
+		mag_6(20rnd_762x51_slr_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
-		mag_4(1Rnd_HE_Grenade_shell),
+		mag_4(1rnd_40mm_HE_lxWS),
+		mag_2(1rnd_58mm_AT_lxWS),
+		mag_2(1rnd_50mm_smoke_lxWS),
         HandGrenade,
         mag_2(SmokeShell),
-        SmokeShellGreen,
-        mag_2(1Rnd_Smoke_Grenade_shell),
-		mag_2(1Rnd_SmokeGreenGrenade_shell)
+        SmokeShellGreen
 	};
 	linkedItems[] =
 	{
@@ -988,23 +988,23 @@ class Rev_B_BDF_RadioOperator_F: Rev_B_BDF_Soldier_F
 	backpack = B_RadioBag_01_green_F;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30rnd_556x45_Stanag),
+		mag_10(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30rnd_556x45_Stanag),
+		mag_10(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -1044,13 +1044,13 @@ class Rev_B_BDF_Soldier_lite_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(30rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(30rnd_556x45_Stanag),
+		mag_6(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -1183,23 +1183,23 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	backpack = B_UAV_01_backpack_F;
 	weapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SCAR_L_black_ACO_FL_F,
+		rev_arifle_Velko_lxWS_ACO_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30rnd_556x45_Stanag),
+		mag_10(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30rnd_556x45_Stanag),
+		mag_10(35Rnd_556x45_velko_lxWS),
         HandGrenade,
         SmokeShell
 	};

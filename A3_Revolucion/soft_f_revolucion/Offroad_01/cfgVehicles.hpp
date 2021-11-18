@@ -56,6 +56,9 @@ class CfgVehicles
 	class B_G_Offroad_01_AT_F;
 	class B_G_Offroad_01_armed_F;
 	class B_G_Offroad_01_repair_F;
+	class B_G_Offroad_01_armor_base_lxWS;
+	class B_G_Offroad_01_armor_AT_lxWS;
+	class B_G_Offroad_01_armor_armed_lxWS;
 
     
 	// Arma 3 Revolucion
