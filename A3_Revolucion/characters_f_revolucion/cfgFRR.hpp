@@ -119,7 +119,7 @@ class Rev_B_FRR_Man_base_F: I_G_Soldier_base_F
 		lxWS_H_bmask_yellow,1,
 		lxWS_H_ssh40_green,1,
 		lxWS_H_ssh40_sand,1,
-		lxWS_H_ssh40_black,1
+		lxWS_H_ssh40_black,1,
         H_FakeHeadgear_F,1
     };
 };
