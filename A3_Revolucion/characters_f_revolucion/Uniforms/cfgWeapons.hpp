@@ -10,4 +10,5 @@ class CfgWeapons
 	#include "cfgBDF.hpp"  // BDF
     #include "cfgCartels.hpp"  // Cartels de Baracas
     #include "cfgFASR.hpp"  //FASR
+    #include "cfgFRR.hpp"   //FRR
 };

@@ -166,3 +166,43 @@ class Rev_O_FASR_FieldJacket_tanktop_F: I_E_Uniform_01_tanktop_F
 		};
 	};
 };
+/*FRR*/
+class Rev_FRR_Soldier_1_F: I_C_Soldier_base_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_FRR_Uniform_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_1_co.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_FASR_FieldJacket_02_CO.paa"
+	};
+};
+class Rev_FRR_Soldier_2_F: I_C_Soldier_base_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_FRR_Uniform_02_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\a3\Characters_F_Orange\Uniforms\Data\c_cloth1_olive_co.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa"
+	};
+};
+class I_G_Soldier_SL_F;
+class Rev_FRR_Soldier_3_F: I_G_Soldier_SL_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_FRR_Uniform_03_F;
+	hiddenSelections[] =
+	{
+		camo1,
+		camo2
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\M81_Deserter_CO.paa",
+		"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_CO.paa"
+	};
+};
