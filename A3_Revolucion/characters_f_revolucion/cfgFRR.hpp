@@ -125,7 +125,7 @@ class Rev_B_FRR_Man_base_F: I_G_Soldier_base_F
 };
 class Rev_B_FRR_Soldier_base_F: Rev_B_FRR_Man_base_F
 {
-	uniformClass = U_I_C_Soldier_Para_1_F;  // Placeholder
+	uniformClass = Rev_U_B_FRR_Uniform_01_F;
 };
 class Rev_B_FRR_Soldier_A_F: Rev_B_FRR_Soldier_base_F
 {
@@ -135,7 +135,8 @@ class Rev_B_FRR_Soldier_A_F: Rev_B_FRR_Soldier_base_F
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
 	cost = 100000;
-	backpack = B_Carryall_oli_BDF_Ammo_F;	
+	backpack = B_Carryall_oli_BDF_Ammo_F;
+	uniformClass = U_I_L_Uniform_01_tshirt_black_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_F,
@@ -307,7 +308,7 @@ class Rev_B_FRR_Crew_F: Rev_B_FRR_Soldier_Base_F
 	cost = 90000;
 	camouflage = 1.6;
     engineer = true;
-	uniformClass = U_I_C_Soldier_Para_4_F;
+	uniformClass = Rev_U_B_FRR_Uniform_04_F;
 	weapons[] =
 	{
 		SMG_05_F,
@@ -366,7 +367,7 @@ class Rev_B_FRR_Engineer_F: Rev_B_FRR_Soldier_Base_F
         0.1     // Air
     };
 	camouflage = 1.6;
-	uniformClass = U_BG_Guerilla1_2_F;
+	uniformClass = U_C_Mechanic_01_F;
 	backpack = B_Carryall_oli_FRR_Eng_F;
 	weapons[] =
 	{
@@ -417,7 +418,7 @@ class Rev_B_FRR_Soldier_Exp_F: Rev_B_FRR_Soldier_Base_F
 	icon = iconManExplosive;
 	picture = pictureExplosive;
 	role = Sapper;
-	uniform = U_I_L_Uniform_01_camo_F;
+	uniformClass = Rev_U_B_FRR_Uniform_01_F;
     backpack = B_Carryall_oli_FRR_Exp_F;
 	weapons[] =
 	{
@@ -479,7 +480,7 @@ class Rev_B_FRR_Soldier_GL_F: Rev_B_FRR_Soldier_Base_F
 	displayName = $STR_B_Soldier_GL_F0;
     role = Grenadier;
 	cost = 200000;
-	uniformClass = U_I_C_Soldier_Para_2_F;
+	uniformClass = Rev_U_B_FRR_Uniform_05_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_GL_blk_F,
@@ -588,7 +589,7 @@ class Rev_B_FRR_Officer_F: Rev_B_FRR_Soldier_Base_F
 	icon = iconManOfficer;
     cost = 600000;
 	camouflage = 1.6;
-	uniformClass = U_BG_Leader;	// This one with Police-Blue Pants and a BDF ATACS Jacket?
+	uniformClass = Rev_U_B_FRR_Uniform_03_F;	// This one with Police-Blue Pants and a BDF ATACS Jacket?
 	weapons[] =
 	{
 		rev_arifle_SPAR_01_blk_ACO_grn_F,
@@ -718,7 +719,7 @@ class Rev_B_FRR_Soldier_AT_F: Rev_B_FRR_Soldier_Base_F
     };
 	secondaryAmmoCoef = 0.5;
     backpack = B_FieldPack_green_F_FRR_AT_F;
-	uniform = U_I_C_Soldier_Para_2_F;
+	uniformClass = Rev_U_O_FASR_FieldJacket_tshirt_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_F,
@@ -787,10 +788,10 @@ class Rev_B_FRR_Soldier_LAT_F: Rev_B_FRR_Soldier_Base_F
     };
 	secondaryAmmoCoef = 0.5;
     backpack = B_FieldPack_green_F_FRR_LAT_F;
-	uniformClass = U_BG_Guerilla1_2_F;
+	uniformClass = Rev_U_B_FRR_Uniform_02_F;
 	weapons[] =
 	{
-		arifle_Galat_lxWS,	// Change this out for a Galat post WS
+		arifle_Galat_lxWS,
 		launch_RPG7_F,
         DefaultManWeapons
 	};
@@ -838,7 +839,7 @@ class Rev_B_FRR_Soldier_SL_F: Rev_B_FRR_Soldier_Base_F
 	icon = iconManLeader;
     cost = 500000;
 	camouflage = 1.4;
-	uniform = U_I_C_Soldier_Para_2_F;
+	uniformClass = Rev_U_B_FRR_Uniform_05_F;
 	weapons[] =
 	{
 		rev_arifle_SPAR_01_blk_MRCO_F,
@@ -907,7 +908,7 @@ class Rev_B_FRR_Soldier_TL_F: Rev_B_FRR_Soldier_Base_F
 	icon = iconManLeader;
     cost = 250000;
 	camouflage = 1.4;
-	uniform = U_I_C_Soldier_Para_3_F;
+	uniformClass = Rev_U_O_FASR_FieldJacket_tanktop_F;
 	weapons[] =
 	{
 		rev_arifle_SPAR_01_GL_blk_ACO_grn_F,
@@ -967,7 +968,7 @@ class Rev_B_FRR_Soldier_lite_F: Rev_B_FRR_Soldier_Base_F
     scopeCurator = public;
 	displayName = $STR_B_Soldier_lite_F0;
 	cost = 100000;
-	uniform = U_I_C_Soldier_Para_4_F;
+	uniformClass = U_I_C_Soldier_Bandit_3_F;
 	weapons[] =
 	{
 		arifle_SPAR_01_blk_F,
@@ -1011,7 +1012,7 @@ class Rev_B_FRR_Soldier_CQ_F: Rev_B_FRR_Soldier_Base_F
     scopeCurator = public;
 	cost = 100000;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
-	uniform = U_I_C_Soldier_Para_1_F;
+	uniformClass = Rev_U_B_FRR_Uniform_04_F;
     weapons[] =
 	{
 		sgun_M4_F,
@@ -1067,7 +1068,7 @@ class Rev_B_FRR_Sharpshooter_F: Rev_B_FRR_Soldier_Base_F
 	nameSound = veh_infantry_sniper_s;
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Sharpshooter_F.jpg";
 	displayName = $STR_A3_cfgVehicles_B_Sharpshooter_F0;
-	uniformClass = U_BG_Guerilla1_2_F;
+	uniformClass = Rev_U_B_FRR_Uniform_02_F;
 	weapons[] =
 	{
 		rev_arifle_SLR_lxWS_KHS_old_F,
@@ -1166,7 +1167,7 @@ class Rev_B_FRR_Soldier_TechSpec_F: Rev_B_FRR_engineer_F
     canDeactivateMines = false;
     cost = 150000;
 	role = SpecialOperative;
-    uniformClass = U_I_C_Soldier_Para_3_F;
+    uniformClass = U_BG_Guerilla2_2;
     backpack = B_Kitbag_rgr_G_TechSpec;
     weapons[] =
 	{

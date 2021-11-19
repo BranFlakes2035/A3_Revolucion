@@ -206,3 +206,47 @@ class Rev_FRR_Soldier_3_F: I_G_Soldier_SL_F
 		"\A3\Characters_F\Civil\Data\c_cloth1_kabeiroi_CO.paa"
 	};
 };
+class Rev_FRR_Soldier_4_F: I_E_Uniform_01_tanktop_F
+{
+	author = $STR_A3_A_Ravenholme;
+    scope = protected;
+	model = "\A3\Characters_F_Exp\Syndikat\I_C_Soldier_Para_4_F.p3d";
+	uniformClass = Rev_U_B_FRR_Uniform_04_F;
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Characters_F_Aegis\Uniforms\Data\I_E_Soldier_01_TankTop_arid_CO.paa",
+        "\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa"
+    };
+	class Wounds
+	{
+		tex[] = {};
+		mat[] =
+		{
+			"A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1.rvmat",
+			"A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_injury.rvmat",
+			"A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Bandit_5_F_1_injury.rvmat",
+			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing.rvmat",
+			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat",
+			"A3\Characters_F_Beta\INDEP\Data\IA_Soldier_01_clothing_injury.rvmat",
+			INJURY_PERSONALITY_MATERIALS
+		};
+	};
+};
+class Rev_FRR_Soldier_5_F: I_C_Soldier_Camo_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_FRR_Uniform_05_F;
+	identityTypes[] = {};
+	hiddenSelections[]=
+	{
+		"camo1",
+		"camo2",
+		"insignia"
+	};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_FASR_FieldJacket_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa",
+	};
+};

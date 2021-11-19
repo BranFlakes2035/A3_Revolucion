@@ -657,58 +657,7 @@
                     <Japanese>Field Uniform [FASR]</Japanese>
                     <Turkish>Field Uniform [FASR]</Turkish>
                 </Key>
-                <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Officer_01_F0">
-                    <Original>Officer Fatigues [BDF]</Original>
-                    <Chinese>Officer Fatigues [BDF]</Chinese>
-                    <French>Officer Fatigues [BDF]</French>
-                    <Spanish>Officer Fatigues [BDF]</Spanish>
-                    <Italian>Officer Fatigues [BDF]</Italian>
-                    <Polish>Officer Fatigues [BDF]</Polish>
-                    <Russian>Officer Fatigues [BDF]</Russian>
-                    <German>Officer Fatigues [BDF]</German>
-                    <Czech>Officer Fatigues [BDF]</Czech>
-                    <English>Officer Fatigues [BDF]</English>
-                    <Portuguese>Officer Fatigues [BDF]</Portuguese>
-                    <Korean>Officer Fatigues [BDF]</Korean>
-                    <Chinesesimp>Officer Fatigues [BDF]</Chinesesimp>
-                    <Japanese>Officer Fatigues [BDF]</Japanese>
-                    <Turkish>Officer Fatigues [BDF]</Turkish>
-                </Key>
-                <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Coveralls_01_F0">
-                    <Original>Coveralls [BDF]</Original>
-                    <Chinese>Coveralls [BDF]</Chinese>
-                    <French>Coveralls [BDF]</French>
-                    <Spanish>Coveralls [BDF]</Spanish>
-                    <Italian>Coveralls [BDF]</Italian>
-                    <Polish>Coveralls [BDF]</Polish>
-                    <Russian>Coveralls [BDF]</Russian>
-                    <German>Coveralls [BDF]</German>
-                    <Czech>Coveralls [BDF]</Czech>
-                    <English>Coveralls [BDF]</English>
-                    <Portuguese>Coveralls [BDF]</Portuguese>
-                    <Korean>Coveralls [BDF]</Korean>
-                    <Chinesesimp>Coveralls [BDF]</Chinesesimp>
-                    <Japanese>Coveralls [BDF]</Japanese>
-                    <Turkish>Coveralls [BDF]</Turkish>
-                </Key>
-                <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Sweater_01_F0">
-                    <Original>Combat Fatigues [BDF, Sweater]</Original>
-                    <Chinese>Combat Fatigues [BDF, Sweater]</Chinese>
-                    <French>Combat Fatigues [BDF, Sweater]</French>
-                    <Spanish>Combat Fatigues [BDF, Sweater]</Spanish>
-                    <Italian>Combat Fatigues [BDF, Sweater]</Italian>
-                    <Polish>Combat Fatigues [BDF, Sweater]</Polish>
-                    <Russian>Combat Fatigues [BDF, Sweater]</Russian>
-                    <German>Combat Fatigues [BDF, Sweater]</German>
-                    <Czech>Combat Fatigues [BDF, Sweater]</Czech>
-                    <English>Combat Fatigues [BDF, Sweater]</English>
-                    <Portuguese>Combat Fatigues [BDF, Sweater]</Portuguese>
-                    <Korean>Combat Fatigues [BDF, Sweater]</Korean>
-                    <Chinesesimp>Combat Fatigues [BDF, Sweater]</Chinesesimp>
-                    <Japanese>Combat Fatigues [BDF, Sweater]</Japanese>
-                    <Turkish>Combat Fatigues [BDF, Sweater]</Turkish>
-                </Key>
-                <Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Sweater_01_F0">
+				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Sweater_01_F0">
                     <Original>Field Uniform [FASR] (Sweater)</Original>
                     <Chinese>Field Uniform [FASR] (Sweater)</Chinese>
                     <French>Field Uniform [FASR] (Sweater)</French>
@@ -758,6 +707,142 @@
                     <Chinesesimp>Field Uniform [FASR] (Tank Top)</Chinesesimp>
                     <Japanese>Field Uniform [FASR] (Tank Top)</Japanese>
                     <Turkish>Field Uniform [FASR] (Tank Top)</Turkish>
+                </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Officer_01_F0">
+                    <Original>Officer Fatigues [BDF]</Original>
+                    <Chinese>Officer Fatigues [BDF]</Chinese>
+                    <French>Officer Fatigues [BDF]</French>
+                    <Spanish>Officer Fatigues [BDF]</Spanish>
+                    <Italian>Officer Fatigues [BDF]</Italian>
+                    <Polish>Officer Fatigues [BDF]</Polish>
+                    <Russian>Officer Fatigues [BDF]</Russian>
+                    <German>Officer Fatigues [BDF]</German>
+                    <Czech>Officer Fatigues [BDF]</Czech>
+                    <English>Officer Fatigues [BDF]</English>
+                    <Portuguese>Officer Fatigues [BDF]</Portuguese>
+                    <Korean>Officer Fatigues [BDF]</Korean>
+                    <Chinesesimp>Officer Fatigues [BDF]</Chinesesimp>
+                    <Japanese>Officer Fatigues [BDF]</Japanese>
+                    <Turkish>Officer Fatigues [BDF]</Turkish>
+                </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Coveralls_01_F0">
+                    <Original>Coveralls [BDF]</Original>
+                    <Chinese>Coveralls [BDF]</Chinese>
+                    <French>Coveralls [BDF]</French>
+                    <Spanish>Coveralls [BDF]</Spanish>
+                    <Italian>Coveralls [BDF]</Italian>
+                    <Polish>Coveralls [BDF]</Polish>
+                    <Russian>Coveralls [BDF]</Russian>
+                    <German>Coveralls [BDF]</German>
+                    <Czech>Coveralls [BDF]</Czech>
+                    <English>Coveralls [BDF]</English>
+                    <Portuguese>Coveralls [BDF]</Portuguese>
+                    <Korean>Coveralls [BDF]</Korean>
+                    <Chinesesimp>Coveralls [BDF]</Chinesesimp>
+                    <Japanese>Coveralls [BDF]</Japanese>
+                    <Turkish>Coveralls [BDF]</Turkish>
+                </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Sweater_01_F0">
+                    <Original>Combat Fatigues [BDF] (Sweater)</Original>
+                    <Chinese>Combat Fatigues [BDF] (Sweater)</Chinese>
+                    <French>Combat Fatigues [BDF] (Sweater)</French>
+                    <Spanish>Combat Fatigues [BDF] (Sweater)</Spanish>
+                    <Italian>Combat Fatigues [BDF] (Sweater)</Italian>
+                    <Polish>Combat Fatigues [BDF] (Sweater)</Polish>
+                    <Russian>Combat Fatigues [BDF] (Sweater)</Russian>
+                    <German>Combat Fatigues [BDF] (Sweater)</German>
+                    <Czech>Combat Fatigues [BDF] (Sweater)</Czech>
+                    <English>Combat Fatigues [BDF] (Sweater)</English>
+                    <Portuguese>Combat Fatigues [BDF] (Sweater)</Portuguese>
+                    <Korean>Combat Fatigues [BDF] (Sweater)</Korean>
+                    <Chinesesimp>Combat Fatigues [BDF] (Sweater)</Chinesesimp>
+                    <Japanese>Combat Fatigues [BDF] (Sweater)</Japanese>
+                    <Turkish>Combat Fatigues [BDF] (Sweater)</Turkish>
+                </Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_B_FRR_Uniform_01_F0">
+                    <Original>Guerilla Garb (M81)</Original>
+                    <Chinese>Guerilla Garb (M81)</Chinese>
+                    <French>Guerilla Garb (M81)</French>
+                    <Spanish>Guerilla Garb (M81)</Spanish>
+                    <Italian>Guerilla Garb (M81)</Italian>
+                    <Polish>Guerilla Garb (M81)</Polish>
+                    <Russian>Guerilla Garb (M81)</Russian>
+                    <German>Guerilla Garb (M81)</German>
+                    <Czech>Guerilla Garb (M81)</Czech>
+                    <English>Guerilla Garb (M81)</English>
+                    <Portuguese>Guerilla Garb (M81)</Portuguese>
+                    <Korean>Guerilla Garb (M81)</Korean>
+                    <Chinesesimp>Guerilla Garb (M81)</Chinesesimp>
+                    <Japanese>Guerilla Garb (M81)</Japanese>
+                    <Turkish>Guerilla Garb (M81)</Turkish>
+                </Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_B_FRR_Uniform_02_F0">
+                    <Original>Guerilla Garb (ATACS)</Original>
+                    <Chinese>Guerilla Garb (ATACS)</Chinese>
+                    <French>Guerilla Garb (ATACS)</French>
+                    <Spanish>Guerilla Garb (ATACS)</Spanish>
+                    <Italian>Guerilla Garb (ATACS)</Italian>
+                    <Polish>Guerilla Garb (ATACS)</Polish>
+                    <Russian>Guerilla Garb (ATACS)</Russian>
+                    <German>Guerilla Garb (ATACS)</German>
+                    <Czech>Guerilla Garb (ATACS)</Czech>
+                    <English>Guerilla Garb (ATACS)</English>
+                    <Portuguese>Guerilla Garb (ATACS)</Portuguese>
+                    <Korean>Guerilla Garb (ATACS)</Korean>
+                    <Chinesesimp>Guerilla Garb (ATACS)</Chinesesimp>
+                    <Japanese>Guerilla Garb (ATACS)</Japanese>
+                    <Turkish>Guerilla Garb (ATACS)</Turkish>
+                </Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_B_FRR_Uniform_03_F0">
+                    <Original>Deserter Clothes (M81)</Original>
+                    <Chinese>Deserter Clothes (M81)</Chinese>
+                    <French>Deserter Clothes (M81)</French>
+                    <Spanish>Deserter Clothes (M81)</Spanish>
+                    <Italian>Deserter Clothes (M81)</Italian>
+                    <Polish>Deserter Clothes (M81)</Polish>
+                    <Russian>Deserter Clothes (M81)</Russian>
+                    <German>Deserter Clothes (M81)</German>
+                    <Czech>Deserter Clothes (M81)</Czech>
+                    <English>Deserter Clothes (M81)</English>
+                    <Portuguese>Deserter Clothes (M81)</Portuguese>
+                    <Korean>Deserter Clothes (M81)</Korean>
+                    <Chinesesimp>Deserter Clothes (M81)</Chinesesimp>
+                    <Japanese>Deserter Clothes (M81)</Japanese>
+                    <Turkish>Deserter Clothes (M81)</Turkish>
+                </Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_B_FRR_Uniform_04_F0">
+                    <Original>Guerilla Garb (ATACS, Tank Top)</Original>
+                    <Chinese>Guerilla Garb (ATACS, Tank Top)</Chinese>
+                    <French>Guerilla Garb (ATACS, Tank Top)</French>
+                    <Spanish>Guerilla Garb (ATACS, Tank Top)</Spanish>
+                    <Italian>Guerilla Garb (ATACS, Tank Top)</Italian>
+                    <Polish>Guerilla Garb (ATACS, Tank Top)</Polish>
+                    <Russian>Guerilla Garb (ATACS, Tank Top)</Russian>
+                    <German>Guerilla Garb (ATACS, Tank Top)</German>
+                    <Czech>Guerilla Garb (ATACS, Tank Top)</Czech>
+                    <English>Guerilla Garb (ATACS, Tank Top)</English>
+                    <Portuguese>Guerilla Garb (ATACS, Tank Top)</Portuguese>
+                    <Korean>Guerilla Garb (ATACS, Tank Top)</Korean>
+                    <Chinesesimp>Guerilla Garb (ATACS, Tank Top)</Chinesesimp>
+                    <Japanese>Guerilla Garb (ATACS, Tank Top)</Japanese>
+                    <Turkish>Guerilla Garb (ATACS, Tank Top)</Turkish>
+                </Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_B_FRR_Uniform_05_F0">
+                    <Original>Guerilla Garb</Original>
+                    <Chinese>Guerilla Garb</Chinese>
+                    <French>Guerilla Garb</French>
+                    <Spanish>Guerilla Garb</Spanish>
+                    <Italian>Guerilla Garb</Italian>
+                    <Polish>Guerilla Garb</Polish>
+                    <Russian>Guerilla Garb</Russian>
+                    <German>Guerilla Garb</German>
+                    <Czech>Guerilla Garb</Czech>
+                    <English>Guerilla Garb</English>
+                    <Portuguese>Guerilla Garb</Portuguese>
+                    <Korean>Guerilla Garb</Korean>
+                    <Chinesesimp>Guerilla Garb</Chinesesimp>
+                    <Japanese>Guerilla Garb</Japanese>
+                    <Turkish>Guerilla Garb</Turkish>
                 </Key>
 			</Container>
 			<Container name="Vests">
