@@ -46,6 +46,15 @@ class B_Carryall_oli_FASR_Exp_F: B_Carryall_oli
 		item_xx(MineDetector,1);
 	};
 };
+class B_Carryall_oli_FASR_AAA_F: B_Carryall_oli
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AA,3);
+	};
+};
 class B_Kitbag_rgr_FASR_Medic_F: B_Kitbag_rgr
 {
     author = $STR_A3_A_Ravenholme;
@@ -54,6 +63,15 @@ class B_Kitbag_rgr_FASR_Medic_F: B_Kitbag_rgr
 	{
 		item_xx(Medikit,1);
 		item_xx(FirstAidKit,10);
+	};
+};
+class B_Kitbag_rgr_FASR_AA_F: B_Kitbag_rgr
+{
+    author = $STR_A3_A_Ravenholme;
+	scope = protected;
+    class TransportMagazines
+	{
+		mag_xx(Titan_AA,1);
 	};
 };
 class B_Kitbag_rgr_FASR_AT_F: B_Kitbag_rgr

@@ -62,6 +62,54 @@ class Rev_O_FASR_Soldier_A_F: Rev_O_FASR_Soldier_Base_F
 		DefaultManLinkedItems
 	};
 };
+class Rev_O_FASR_Soldier_AAA_F: Rev_O_FASR_Soldier_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_AAA_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	cost = 220000;
+	role = Assistant;
+	displayName = $STR_B_soldier_AAA_F0;
+	backpack = B_Carryall_oli_FASR_AAA_F;
+	uniformClass = Rev_U_O_FASR_FieldJacket_tshirt_F;
+	weapons[] =
+	{
+		arifle_NCAR15B_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_NCAR15B_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+		mag_2(Chemlight_Yellow),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_580x42_Mag_F),
+        mag_2(HandGrenade_Guer),
+		mag_2(Chemlight_Yellow),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		V_lxWS_HarnessO_oli,
+		H_Booniehat_m81_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_lxWS_HarnessO_oli,
+		H_Booniehat_m81_F,
+		DefaultManLinkedItems
+	};
+};
 class Rev_O_FASR_Soldier_AR_F: Rev_O_FASR_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
@@ -406,7 +454,7 @@ class Rev_O_FASR_Soldier_GL_F: Rev_O_FASR_Soldier_Base_F
 		DefaultManLinkedItems
 	};
 };
-/*class Rev_O_FASR_Helipilot_F: Rev_O_FASR_Soldier_Base_F
+class Rev_O_FASR_Helipilot_F: Rev_O_FASR_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
 	class SpeechVariants
@@ -422,13 +470,12 @@ class Rev_O_FASR_Soldier_GL_F: Rev_O_FASR_Soldier_Base_F
 	nameSound = veh_infantry_pilot_s;
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Helipilot_F.jpg";
     scope = public;
-    scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
 	role = Crewman;
 	cost = 160000;
 	camouflage = 2;
-	//uniformClass = ;
+	uniformClass = Rev_U_O_FASR_FieldJacket_tanktop_F;
 	weapons[] =
 	{
 		SMG_02_F,
@@ -465,7 +512,7 @@ class Rev_O_FASR_Soldier_GL_F: Rev_O_FASR_Soldier_Base_F
         DefaultManLinkedItems,
         NVGoggles_INDEP
     };
-};*/
+};
 class Rev_O_FASR_Soldier_M_F: Rev_O_FASR_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
@@ -619,6 +666,70 @@ class Rev_O_FASR_Soldier_F: Rev_O_FASR_Soldier_Base_F
 	respawnLinkedItems[] =
 	{
 		V_lxWS_TacVestIR_Oli,
+		H_PASGT_Basic_Olive_F,
+		DefaultManLinkedItems
+	};
+};
+class Rev_O_FASR_soldier_AA_F: Rev_O_FASR_Soldier_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_AT_s};
+			speechPlural[] = {veh_infantry_AT_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
+	nameSound = veh_infantry_AT_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_AA_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_B_Soldier_AA_F0;
+	backpack = B_Kitbag_rgr_FASR_AA_F;
+	cost = 200000;
+	icon = iconManAT;
+	role = MissileSpecialist;
+	threat[] = {1,0.7,0.3};
+	weapons[] =
+	{
+		arifle_NCAR15B_F,
+		launch_B_Titan_olive_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_NCAR15B_F,
+		launch_B_Titan_olive_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(30Rnd_580x42_Mag_F),
+		Titan_AA,
+        HandGrenade_Guer,
+		mag_2(Chemlight_Yellow),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_6(30Rnd_580x42_Mag_F),
+		Titan_AA,
+        HandGrenade_Guer,
+		mag_2(Chemlight_Yellow),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		V_lxWS_HarnessO_oli,
+		H_PASGT_Basic_Olive_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_lxWS_HarnessO_oli,
 		H_PASGT_Basic_Olive_F,
 		DefaultManLinkedItems
 	};

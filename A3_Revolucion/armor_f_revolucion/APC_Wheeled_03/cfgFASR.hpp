@@ -1,5 +1,5 @@
-/* Baracan Defence Force */
-class Rev_B_BDF_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
+/* FASR */
+class Rev_O_FASR_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
@@ -202,16 +202,16 @@ class Rev_B_BDF_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_G_APC_Wheeled_03_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	side = TWest;
-	faction = Revolucion_BLU_BDF_F;
-	crew = Rev_B_BDF_Crew_F;
-	typicalCargo[] = {Rev_B_BDF_Crew_F};
-	textureList[] = {BDF,1};
+	side = TEast;
+	faction = Revolucion_OPF_FASR_F;
+	crew = Rev_O_FASR_Crew_F;
+	typicalCargo[] = {Rev_O_FASR_Crew_F};
+	textureList[] = {Olive_01,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_revolucion\Armor_F_Revolucion\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_BDF_CO.paa",
-		"\A3_revolucion\Armor_F_Revolucion\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_BDF_CO.paa",
-		"\A3_revolucion\Armor_F_Revolucion\APC_Wheeled_03\Data\RCWS30_BDF_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext2_olive_CO.paa",
+		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\RCWS30_olive_CO.paa",
 		"\A3_Atlas\Armor_F_Atlas\APC_Wheeled_03\Data\APC_Wheeled_03_Ext_alpha_olive_CO.paa",
 		"\A3\Armor_F\Data\camonet_NATO_Green_CO.paa",
 		"\A3\Armor_F\Data\cage_olive_CO.paa"
@@ -236,28 +236,28 @@ class Rev_B_BDF_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
     /* Inventory */
 	class TransportMagazines
 	{
-		mag_xx(35Rnd_556x45_velko_lxWS,12);
-		mag_xx(150rnd_762x51_box_yellow,3);
-		mag_xx(HandGrenade,6);
-		mag_xx(MiniGrenade,6);
-		mag_xx(6Rnd_HE_Grenade_shell,2);
-		mag_xx(6Rnd_Smoke_Grenade_shell,1);
-		mag_xx(6Rnd_SmokeGreen_Grenade_shell,1);
-		mag_xx(6Rnd_SmokeOrange_Grenade_shell,1);
-		mag_xx(6Rnd_SmokeBlue_Grenade_shell,1);
+		mag_xx(30Rnd_580x42_Mag_F,12);
+		mag_xx(100Rnd_580x42_Mag_F,5);
+		mag_xx(HandGrenade_Guer,12);
+		mag_xx(1Rnd_HE_Grenade_shell,8);
+		mag_xx(1Rnd_Smoke_Grenade_shell,6);
+		mag_xx(1Rnd_SmokeGreen_Grenade_shell,6);
+		mag_xx(1Rnd_SmokeOrange_Grenade_shell,6);
+		mag_xx(1Rnd_SmokeRed_Grenade_shell,6);
 		mag_xx(SmokeShell,8);
 		mag_xx(SmokeShellGreen,8);
 		mag_xx(SmokeShellOrange,8);
-		mag_xx(SmokeShellBlue,8);
-		mag_xx(MRAWS_HEAT55_F,6);
+		mag_xx(SmokeShellRed,8);
+		mag_xx(RPG32_F,4);
+        mag_xx(RPG32_HE_F,2);
 		mag_xx(Titan_AA,2);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_Velko_lxWS,2);
+		weap_xx(arifle_NCAR15_F,2);
 	};
 	class TransportBackpacks
 	{
-		bag_xx(B_AssaultPack_khk,2);
+		bag_xx(B_Kitbag_rgr,2);
 	};
 };

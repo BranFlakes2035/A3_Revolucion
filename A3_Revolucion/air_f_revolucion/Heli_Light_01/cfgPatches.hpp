@@ -11,8 +11,16 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
+			/* From "cfgBDF.hpp" */
+			Rev_B_BDF_Heli_Light_01_F,
+			Rev_B_BDF_Heli_Light_01_dynamicLoadout_F,
+
             /* From "cfgCartels.hpp" */
-			Rev_I_CDB_Heli_Light_01_F
+			Rev_I_CDB_Heli_Light_01_F,
+
+			/* From "cfgFASR.hpp" */
+			Rev_O_FASR_Heli_Light_01_F,
+			Rev_O_FASR_Heli_Light_01_dynamicLoadout_F
         };
 		weapons[] = {/* Automated */};
 	};

@@ -7,13 +7,20 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-			// Baracan Defence Force
+			/* From "cfgBDF.hpp" */
             Rev_B_BDF_Offroad_01_F,
             Rev_B_BDF_Offroad_01_armed_F,
             Rev_B_BDF_Offroad_01_covered_F,
 			Rev_B_BDF_Offroad_01_Comms_F,
 
-			// FRR
+			/* From "cfgFASR.hpp" */
+			Rev_O_FASR_Offroad_01_F,
+            Rev_O_FASR_Offroad_01_armed_F,
+			Rev_O_FASR_Offroad_01_AT_F,
+            Rev_O_FASR_Offroad_01_covered_F,
+			Rev_O_FASR_Offroad_01_Comms_F,
+
+			/* From "cfgFRR.hpp" */
 			Rev_B_FRR_Offroad_01_F,
 			Rev_B_FRR_Offroad_01_armed_F,
 			Rev_B_FRR_Offroad_01_AT_F,

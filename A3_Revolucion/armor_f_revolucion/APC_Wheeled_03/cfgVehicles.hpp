@@ -46,5 +46,6 @@ class CfgVehicles
 			class MainTurret: MainTurret{};
 		};
 	};
-    #include "cfgBDF.hpp"   // Bundeswehr
+    #include "cfgBDF.hpp"   // BDF
+	#include "cfgFASR.hpp"	// FASR
 };
