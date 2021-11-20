@@ -441,8 +441,8 @@ class arifle_NCAR15_MG_DMS_Old_F: arifle_NCAR15_MG_F
     };
 };
 
-// LIM-85 5.56 mm + Flashlight
-class LMG_03_FL_F: LMG_03_F
+// Zafir 7.62 mm (Black) + Flashlight
+class LMG_Zafir_black_FL_F: LMG_Zafir_black_F
 {
 	author = $STR_A3_A_Ravenholme;
 	class LinkedItems
@@ -455,8 +455,8 @@ class LMG_03_FL_F: LMG_03_F
     };
 };
 
-// LIM-85 5.56 mm + ARCO + IR Pointer + Silencer Black
-class LMG_03_ARCO_IR_Snds_F: LMG_03_F
+// Zafir 7.62 mm (Black) + ARCO + IR Pointer + Silencer Black
+class LMG_Zafir_black_ARCO_IR_Snds_F: LMG_Zafir_black_F
 {
 	author = $STR_A3_A_Ravenholme;
 	class LinkedItems

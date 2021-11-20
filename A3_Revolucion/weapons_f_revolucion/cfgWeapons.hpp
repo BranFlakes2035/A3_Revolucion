@@ -14,6 +14,7 @@ class cfgWeapons
     class arifle_CTARS_blk_F;
     class srifle_DMR_03_F;
     class LMG_03_F;
+    class LMG_Zafir_black_F;
     class hgun_P07_blk_F;
 
     // Arma 3 West Sahara CDLC

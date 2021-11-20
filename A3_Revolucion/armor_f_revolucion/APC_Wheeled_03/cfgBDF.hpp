@@ -237,7 +237,7 @@ class Rev_B_BDF_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	class TransportMagazines
 	{
 		mag_xx(35Rnd_556x45_velko_lxWS,12);
-		mag_xx(200Rnd_556x45_Box_F,3);
+		mag_xx(150rnd_762x51_box_yellow,3);
 		mag_xx(HandGrenade,6);
 		mag_xx(MiniGrenade,6);
 		mag_xx(6Rnd_HE_Grenade_shell,2);

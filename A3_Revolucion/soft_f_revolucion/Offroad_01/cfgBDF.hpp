@@ -14,6 +14,21 @@ class Rev_B_BDF_Offroad_01_F: Offroad_01_military_base_F
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_BDF_CO.paa",
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_BDF_CO.paa"
 	};
+	/* Inventory */
+	class TransportMagazines
+	{
+		mag_xx(35Rnd_556x45_velko_lxWS,8);
+		mag_xx(HandGrenade,4);
+		mag_xx(SmokeShell,4);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_Velko_lxWS,2);
+	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,4);
+	};
 };
 class Rev_B_BDF_Offroad_01_armed_F: Offroad_01_armed_base_F
 {
@@ -30,6 +45,21 @@ class Rev_B_BDF_Offroad_01_armed_F: Offroad_01_armed_base_F
 	{
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_BDF_CO.paa",
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_BDF_CO.paa"
+	};
+	/* Inventory */
+	class TransportMagazines
+	{
+		mag_xx(35Rnd_556x45_velko_lxWS,8);
+		mag_xx(HandGrenade,4);
+		mag_xx(SmokeShell,4);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_Velko_lxWS,2);
+	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,4);
 	};
 };
 class Rev_B_BDF_Offroad_01_covered_F: Offroad_01_military_covered_base_F
@@ -57,6 +87,21 @@ class Rev_B_BDF_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_BDF_CO.paa",
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_BDF_CO.paa",
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_cover_BDF_CO.paa"
+	};
+	/* Inventory */
+	class TransportMagazines
+	{
+		mag_xx(35Rnd_556x45_velko_lxWS,8);
+		mag_xx(HandGrenade,4);
+		mag_xx(SmokeShell,4);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_Velko_lxWS,2);
+	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,4);
 	};
 
 	/* Scripts */
@@ -89,5 +134,20 @@ class Rev_B_BDF_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_BDF_CO.paa",
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_BDF_CO.paa",
 		"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_cover_BDF_CO.paa"
+	};
+	/* Inventory */
+	class TransportMagazines
+	{
+		mag_xx(35Rnd_556x45_velko_lxWS,8);
+		mag_xx(HandGrenade,4);
+		mag_xx(SmokeShell,4);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_Velko_lxWS,2);
+	};
+	class TransportItems
+	{
+		item_xx(FirstAidKit,4);
 	};
 };

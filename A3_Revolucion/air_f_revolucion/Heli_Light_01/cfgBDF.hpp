@@ -10,6 +10,27 @@ class Rev_B_BDF_Heli_Light_01_F: I_Heli_Light_01_F
 		Digital,1,
 	};
 	hiddenSelectionsTextures[]={"\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"};
+	/* Inventory */
+	class TransportMagazines
+	{
+		mag_xx(35Rnd_556x45_velko_lxWS,4);
+		mag_xx(SmokeShell,2);
+		mag_xx(SmokeShellGreen,2);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_Velko_lxWS,2);
+	};
+	class TransportItems
+	{
+		item_xx(ToolKit,1);
+		item_xx(ItemGPS,1);
+		item_xx(FirstAidKit,4);
+	};
+	class TransportBackpacks
+	{
+		bag_xx(B_Parachute,4);
+	};
 };
 class Rev_B_BDF_Heli_Light_01_dynamicLoadout_F: I_Heli_Light_01_dynamicLoadout_F
 {
@@ -22,4 +43,21 @@ class Rev_B_BDF_Heli_Light_01_dynamicLoadout_F: I_Heli_Light_01_dynamicLoadout_F
 		Digital,1,
 	};
 	hiddenSelectionsTextures[]={"\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"};
+	/* Inventory */
+	class TransportMagazines
+	{
+		mag_xx(35Rnd_556x45_velko_lxWS,4);
+		mag_xx(SmokeShell,2);
+		mag_xx(SmokeShellGreen,2);
+	};
+	class TransportWeapons
+	{
+		weap_xx(arifle_Velko_lxWS,2);
+	};
+	class TransportItems
+	{
+		item_xx(ToolKit,1);
+		item_xx(ItemGPS,1);
+		item_xx(FirstAidKit,4);
+	};
 };

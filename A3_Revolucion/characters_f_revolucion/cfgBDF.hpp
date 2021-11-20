@@ -190,26 +190,26 @@ class Rev_B_BDF_Soldier_AR_F: Rev_B_BDF_Soldier_Base_F
 	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
     weapons[] =
 	{
-		LMG_03_FL_F,
+		LMG_Zafir_black_FL_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_03_FL_F,
+		LMG_Zafir_black_FL_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_3(200Rnd_556x45_Box_F),
+		mag_3(150rnd_762x51_box_yellow),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_3(200Rnd_556x45_Box_F),
+		mag_3(150rnd_762x51_box_yellow),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         SmokeShell
@@ -1330,19 +1330,19 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 	};
 	weapons[] =
     {
-        LMG_03_ARCO_IR_Snds_F,
+        LMG_Zafir_black_ARCO_IR_Snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        LMG_03_ARCO_IR_Snds_F,
+        LMG_Zafir_black_ARCO_IR_Snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_4(200Rnd_556x45_Box_F),
+        mag_3(150rnd_762x51_box_yellow),
 		mag_2(16rnd_9x21_mag_v2),
         MiniGrenade,
         mag_2(SmokeShell),
@@ -1350,7 +1350,7 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
     };
     respawnMagazines[] =
     {
-        mag_4(200Rnd_556x45_Box_F),
+        mag_3(150rnd_762x51_box_yellow),
 		mag_2(16rnd_9x21_mag_v2),
         MiniGrenade,
         mag_2(SmokeShell),

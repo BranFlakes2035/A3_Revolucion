@@ -5,7 +5,7 @@ class B_Carryall_oli_BDF_Ammo_F: B_Carryall_oli
 	class TransportMagazines
 	{
 		mag_xx(35Rnd_556x45_velko_lxWS,6);
-		mag_xx(200Rnd_556x45_Box_F,1);
+		mag_xx(150rnd_762x51_box_yellow,1);
 		mag_xx(MRAWS_HEAT55_F,1);
 		mag_xx(HandGrenade,2);
 		mag_xx(MiniGrenade,2);
@@ -91,8 +91,8 @@ class B_AssaultPack_khk_BDF_AAR_F: B_AssaultPack_khk
 	scope = protected;
     class TransportMagazines
 	{
-		mag_xx(200Rnd_556x45_Box_F,2);
-		mag_xx(200Rnd_556x45_Box_Tracer_F,1);
+		mag_xx(150rnd_762x51_box_yellow,2);
+		mag_xx(150rnd_762x51_box_tracer_yellow,1);
 	};
 };
 class B_AssaultPack_khk_BDF_ReconMedic_F: B_AssaultPack_khk
