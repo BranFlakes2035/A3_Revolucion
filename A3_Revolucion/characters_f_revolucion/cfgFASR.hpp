@@ -999,7 +999,7 @@ class Rev_O_FASR_Soldier_TL_F: Rev_O_FASR_Soldier_Base_F
 		DefaultManLinkedItems
 	};
 };
-/*class Rev_O_FASR_RadioOperator_F: Rev_O_FASR_Soldier_F
+class Rev_O_FASR_RadioOperator_F: Rev_O_FASR_Soldier_F
 {
 	author = $STR_A3_A_Ravenholme;
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_RadioOperator_F.jpg";
@@ -1043,7 +1043,7 @@ class Rev_O_FASR_Soldier_TL_F: Rev_O_FASR_Soldier_Base_F
         G_Headset_Light,
 		DefaultManLinkedItems
 	};
-};*/
+};
 class Rev_O_FASR_Soldier_lite_F: Rev_O_FASR_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;

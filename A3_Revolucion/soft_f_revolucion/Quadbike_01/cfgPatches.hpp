@@ -12,10 +12,16 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] = 
 		{
-			// Cartel De Baracas
+			/* From "cfgBDF.hpp" */
+			Rev_B_BDF_Quadbike_01_F,
+
+			/* From "cfgCartels.hpp" */
 			Rev_I_CDB_Quadbike_01_F,
 
-			// FRR
+			/* From "cfgFASR.hpp" */
+			Rev_O_FASR_Quadbike_01_F,
+
+			/* From "cfgFRR.hpp" */
 			Rev_B_FRR_Quadbike_01_F,
 			Rev_I_FRR_Quadbike_01_F,
 			Rev_O_FRR_Quadbike_01_F

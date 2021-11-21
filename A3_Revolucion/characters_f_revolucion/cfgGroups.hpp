@@ -385,7 +385,7 @@ class CfgGroups
 					faction = Revolucion_OPF_FASR_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
 					GROUP_UNIT(0,TEast,Rev_O_FASR_soldier_SL_F,SERGEANT,0,0);
-					//GROUP_UNIT(1,TEast,Rev_O_FASR_RadioOperator_F,PRIVATE,5,-5);
+					GROUP_UNIT(1,TEast,Rev_O_FASR_RadioOperator_F,PRIVATE,5,-5);
 					GROUP_UNIT(2,TEast,Rev_O_FASR_soldier_AT_F,CORPORAL,-5,-5);
 					GROUP_UNIT(3,TEast,Rev_O_FASR_soldier_M_F,PRIVATE,10,-10);
 					GROUP_UNIT(4,TEast,Rev_O_FASR_soldier_TL_F,SERGEANT,-10,-10);
@@ -418,6 +418,17 @@ class CfgGroups
 					GROUP_UNIT(1,TEast,Rev_O_FASR_soldier_AR_F,CORPORAL,5,-5);
 					GROUP_UNIT(2,TEast,Rev_O_FASR_soldier_GL_F,PRIVATE,-5,-5);
 					GROUP_UNIT(3,TEast,Rev_O_FASR_soldier_AT_F,PRIVATE,10,-10);
+				};
+				class Rev_O_FASR_InfTeam_AA
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AA0;
+					side = TEast;
+					faction = Revolucion_OPF_FASR_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TEast,Rev_O_FASR_soldier_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_FASR_soldier_AA_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_FASR_soldier_AA_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_FASR_soldier_AAA_F,PRIVATE,10,-10);
 				};
 				class Rev_O_FASR_InfTeam_AT
 				{
@@ -477,7 +488,7 @@ class CfgGroups
 					GROUP_UNIT(3,TEast,Rev_O_FASR_soldier_F,PRIVATE,10,-10);
 				};
 			};
-			/*class Motorized
+			class Motorized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;
 				class Rev_O_FASR_MotInf_Team
@@ -533,7 +544,7 @@ class CfgGroups
 					GROUP_UNIT(7,TEast,Rev_O_FASR_soldier_A_F,PRIVATE,20,-20);
 					GROUP_UNIT(8,TEast,Rev_O_FASR_medic_F,PRIVATE,-20,-20);
 				};
-			};*/
+			};
 		};
 		class Revolucion_OPF_FRR_F
 		{

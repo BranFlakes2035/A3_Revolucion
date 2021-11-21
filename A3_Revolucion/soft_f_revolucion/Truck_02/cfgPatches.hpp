@@ -16,14 +16,26 @@ class CfgPatches
 		units[] =
         {
             /* From "cfgBDF.hpp" */
-            rev_B_Truck_02_F,
-            rev_B_Truck_02_transport_F,
-            rev_B_Truck_02_box_F,
-            rev_B_Truck_02_medical_F,
-            rev_B_Truck_02_Ammo_F,
-            rev_B_Truck_02_fuel_F,
-            rev_B_Truck_02_cargo_F,
-            rev_B_Truck_02_flatbed_F,
+            Rev_B_BDF_Truck_02_F,
+            Rev_B_BDF_Truck_02_transport_F,
+            Rev_B_BDF_Truck_02_box_F,
+            Rev_B_BDF_Truck_02_medical_F,
+            Rev_B_BDF_Truck_02_Ammo_F,
+            Rev_B_BDF_Truck_02_fuel_F,
+            Rev_B_BDF_Truck_02_cargo_F,
+            Rev_B_BDF_Truck_02_flatbed_F,
+
+			/* From "cfgFASR.hpp" */
+            Rev_O_FASR_Truck_02_F,
+            Rev_O_FASR_Truck_02_transport_F,
+            Rev_O_FASR_Truck_02_box_F,
+            Rev_O_FASR_Truck_02_medical_F,
+            Rev_O_FASR_Truck_02_Ammo_F,
+            Rev_O_FASR_Truck_02_fuel_F,
+            Rev_O_FASR_Truck_02_cargo_F,
+            Rev_O_FASR_Truck_02_flatbed_F,
+			Rev_O_FASR_Truck_02_MRL_F,
+			Rev_O_FASR_Truck_02_AA_F
         };
 		weapons[] = {/* Automated */};
 	};

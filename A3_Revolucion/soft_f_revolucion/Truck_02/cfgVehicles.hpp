@@ -182,7 +182,9 @@ class CfgVehicles
 			};
 		};
 	};
+	class Truck_02_aa_base_lxWS;
 
     /* Factions */
     #include "cfgBDF.hpp" // BDF
+	#include "cfgFASR.hpp"	// FASR
 };
