@@ -1004,7 +1004,7 @@ class Rev_O_FASR_RadioOperator_F: Rev_O_FASR_Soldier_F
 	author = $STR_A3_A_Ravenholme;
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	backpack = ;    // Requires Radio Bag
+	backpack = B_RadioBag_01_m81_F;
 	weapons[] =
     {
         arifle_NCAR15_ACO_grn_F,

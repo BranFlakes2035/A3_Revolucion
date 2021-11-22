@@ -12,7 +12,7 @@ class CfgVehicles
     class B_AssaultPack_khk;
     class B_RadioBag_01_base_F;
 
-    class B_RadioBag_01_aucamo_F: B_RadioBag_01_base_F
+    class B_RadioBag_01_m81_F: B_RadioBag_01_base_F
     {
         author = $STR_A3_A_BranFlakes;
         scope = public;
