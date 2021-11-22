@@ -844,6 +844,23 @@
                     <Japanese>Guerilla Garb</Japanese>
                     <Turkish>Guerilla Garb</Turkish>
                 </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_B_FRR_Uniform_El_Jefe_F0">
+                    <Original>Guerilla Garb (Commander)</Original>
+                    <Chinese>Guerilla Garb (Commander)</Chinese>
+                    <French>Guerilla Garb (Commander)</French>
+                    <Spanish>Guerilla Garb (Commander)</Spanish>
+                    <Italian>Guerilla Garb (Commander)</Italian>
+                    <Polish>Guerilla Garb (Commander)</Polish>
+                    <Russian>Guerilla Garb (Commander)</Russian>
+                    <German>Guerilla Garb (Commander)</German>
+                    <Czech>Guerilla Garb (Commander)</Czech>
+                    <English>Guerilla Garb (Commander)</English>
+                    <Portuguese>Guerilla Garb (Commander)</Portuguese>
+                    <Korean>Guerilla Garb (Commander)</Korean>
+                    <Chinesesimp>Guerilla Garb (Commander)</Chinesesimp>
+                    <Japanese>Guerilla Garb (Commander)</Japanese>
+                    <Turkish>Guerilla Garb (Commander)</Turkish>
+                </Key>
 			</Container>
 			<Container name="Vests">
 				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_cartel_F0">

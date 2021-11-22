@@ -83,12 +83,11 @@ class Rev_U_B_FRR_Uniform_05_F: Uniform_Base
 		mass = 40;
 	};
 };
-class Rev_U_B_FRR_Uniform_eljefe_F: Uniform_Base
+class Rev_U_B_FRR_Uniform_El_Jefe_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
 	scope = public;
-	//displayName = $STR_A3_R_CfgWeapons_U_B_FRR_Uniform_05_F0;
-	displayName = "Deserter Jacket (El Jefe)";
+	displayName = $STR_A3_R_CfgWeapons_U_B_FRR_Uniform_El_Jefe_F0;
 	picture = "\A3\Characters_F_Beta\Data\UI\icon_U_IR_CrewUniform_rucamo_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -96,7 +95,7 @@ class Rev_U_B_FRR_Uniform_eljefe_F: Uniform_Base
 	class ItemInfo: UniformItem
 	{
 		uniformModel = "-";
-		uniformClass = Rev_FRR_eljefe_F;
+		uniformClass = Rev_FRR_Story_El_Jefe_F;
 		containerClass = Supply40;
 		mass = 40;
 	};

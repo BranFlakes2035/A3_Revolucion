@@ -589,7 +589,7 @@ class Rev_B_FRR_Officer_F: Rev_B_FRR_Soldier_Base_F
 	icon = iconManOfficer;
     cost = 600000;
 	camouflage = 1.6;
-	uniformClass = Rev_U_B_FRR_Uniform_03_F;	// This one with Police-Blue Pants and a BDF ATACS Jacket?
+	uniformClass = Rev_U_B_FRR_Uniform_03_F;
 	weapons[] =
 	{
 		rev_arifle_SPAR_01_blk_ACO_grn_F,
@@ -606,14 +606,14 @@ class Rev_B_FRR_Officer_F: Rev_B_FRR_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(30Rnd_580x42_Mag_F),
+		mag_6(30rnd_556x45_Stanag),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(SmokeShell),
         SmokeShellGreen
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_580x42_Mag_F),
+		mag_4(30rnd_556x45_Stanag),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(SmokeShell),
         SmokeShellGreen
@@ -1210,7 +1210,84 @@ class Rev_B_FRR_Soldier_TechSpec_F: Rev_B_FRR_engineer_F
 };
 
 // Men (Story)
-
+class Rev_B_FRR_Story_El_Jefe: Rev_B_FRR_Soldier_Base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Revolucion_FRR_El_Jefe
+	};
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_officer_s};
+			speechPlural[] = {veh_infantry_officer_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
+	nameSound = veh_infantry_officer_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Jefe.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "El Jefe";
+	editorSubcategory = EdSubcat_Personnel_Story;
+    role = Rifleman;
+	icon = iconManOfficer;
+    cost = 600000;
+	camouflage = 1.6;
+	uniformClass = Rev_U_B_FRR_Uniform_El_Jefe_F;
+	weapons[] =
+	{
+		Rev_arifle_SPAR_03_blk_MRCO_BI_F,
+		hgun_ACPC2_black_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] =
+	{
+		Rev_arifle_SPAR_03_blk_MRCO_BI_F,
+		hgun_ACPC2_black_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	magazines[] =
+	{
+		mag_6(20Rnd_762x51_Mag),
+		mag_2(9Rnd_45ACP_Mag),
+        mag_2(SmokeShell),
+        SmokeShellGreen
+	};
+	respawnMagazines[] =
+	{
+		mag_6(20Rnd_762x51_Mag),
+		mag_2(9Rnd_45ACP_Mag),
+        mag_2(SmokeShell),
+        SmokeShellGreen
+	};
+	linkedItems[] =
+	{
+		V_CarrierRigKBT_01_black_F,
+		H_Beret_blk_POLICE,
+		G_Aviator,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_CarrierRigKBT_01_black_F,
+		H_Beret_blk_POLICE,
+		G_Aviator,
+		DefaultManLinkedItems
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+		{
+			init = "(_this select 0) setIdentity ""Revolucion_FRR_El_Jefe"";";
+		};
+};
 
 // FRR INDEP
 class Rev_I_FRR_Soldier_A_F: Rev_B_FRR_Soldier_A_F

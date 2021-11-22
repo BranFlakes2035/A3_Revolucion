@@ -535,6 +535,26 @@ class arifle_SCAR_black_DMS_IR_BI_Snds_F: arifle_SCAR_black_F
     };
 };
 
+// SPAR-17 7.62 mm (Black) + MRCO + Bipod [NATO] Black
+class Rev_arifle_SPAR_03_blk_MRCO_BI_F: arifle_SPAR_03_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+    };
+};
+
+
 /* Handgun Presets */
 class Rev_hgun_P07_blk_snds_F: hgun_P07_blk_F
 {

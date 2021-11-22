@@ -250,11 +250,11 @@ class Rev_FRR_Soldier_5_F: I_C_Soldier_Camo_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa",
 	};
 };
-class Rev_FRR_eljefe_F: I_E_Uniform_01_officer_F
+class Rev_FRR_Story_El_Jefe_F: I_E_Uniform_01_officer_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Rev_U_B_FRR_Uniform_eljefe_F;
+	uniformClass = Rev_U_B_FRR_Uniform_El_Jefe_F;
 	identityTypes[] = {};
 	hiddenSelections[]=
 	{
