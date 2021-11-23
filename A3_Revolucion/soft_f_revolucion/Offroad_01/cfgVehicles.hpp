@@ -24,6 +24,22 @@ class CfgVehicles
 				};
 				faction[] = {Revolucion_BLU_BDF_F};
 			};
+			class Cartel
+			{
+				displayName = "Cartel";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_Cartel_CO.paa",
+					"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_Cartel_CO.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {Revolucion_IND_CDB_F};
+			};
 		};
     };
     class Offroad_01_armed_base_F: Offroad_01_military_base_F{};
@@ -64,6 +80,7 @@ class CfgVehicles
     
 	// Arma 3 Revolucion
 	#include "cfgBDF.hpp"               // BDF
+	#include "cfgCartel.hpp"			//Cartel
 	#include "cfgFRR.hpp"				// FRR
 	#include "cfgFASR.hpp"				// FASR
 };
