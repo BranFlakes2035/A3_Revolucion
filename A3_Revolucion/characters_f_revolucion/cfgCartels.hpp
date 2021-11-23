@@ -771,16 +771,30 @@ class Rev_I_CDB_Soldier_Para_TL_F: Rev_I_CDB_Soldier_base_F
 	linkedItems[] =
 	{
 		V_PlateCarrierH_cartel_F,
-		H_HelmetSpecB_light_black,
+		lxWS_H_bmask_base,
 		G_Balaclava_Combat,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierH_cartel_F,
-		H_HelmetSpecB_light_black,
+		lxWS_H_bmask_base,
 		G_Balaclava_Combat,
 		DefaultManLinkedItems
+	};
+	allowedHeadgear[] = 
+	{
+		lxWS_H_bmask_base,
+		lxWS_H_bmask_yellow,
+		lxWS_H_bmask_white,
+		H_HelmetSpecB_light_black
+	};
+    headgearList[] = 
+	{
+		lxWS_H_bmask_base,1,
+		lxWS_H_bmask_yellow,1,
+		lxWS_H_bmask_white,1,
+		H_HelmetSpecB_light_black,1
 	};
 };
 class Rev_I_CDB_Soldier_Para_GL_F: Rev_I_CDB_Soldier_base_F
@@ -828,6 +842,22 @@ class Rev_I_CDB_Soldier_Para_GL_F: Rev_I_CDB_Soldier_base_F
 		H_Booniehat_blk,
 		G_Tactical_Black,
 		DefaultManLinkedItems
+	};
+	allowedHeadgear[] = 
+	{
+		lxWS_H_bmask_base,
+		lxWS_H_bmask_yellow,
+		lxWS_H_bmask_white,
+		H_HelmetSpecB_light_black,
+		H_Booniehat_blk
+	};
+    headgearList[] = 
+	{
+		lxWS_H_bmask_base,1,
+		lxWS_H_bmask_yellow,1,
+		lxWS_H_bmask_white,1,
+		H_HelmetSpecB_light_black,1,
+		H_Booniehat_blk,1
 	};
 };
 class Rev_I_CDB_Soldier_Para_Medic_F: Rev_I_CDB_Soldier_base_F
@@ -893,6 +923,20 @@ class Rev_I_CDB_Soldier_Para_Medic_F: Rev_I_CDB_Soldier_base_F
 		G_Bandanna_shades,
 		DefaultManLinkedItems
 	};
+	allowedHeadgear[] = 
+	{
+		lxWS_H_bmask_base,
+		lxWS_H_bmask_yellow,
+		lxWS_H_bmask_white,
+		H_HelmetSpecB_light_black
+	};
+    headgearList[] = 
+	{
+		lxWS_H_bmask_base,1,
+		lxWS_H_bmask_yellow,1,
+		lxWS_H_bmask_white,1,
+		H_HelmetSpecB_light_black,1
+	};
 };
 class Rev_I_CDB_Soldier_Para_F: Rev_I_CDB_Soldier_base_F
 {
@@ -938,6 +982,20 @@ class Rev_I_CDB_Soldier_Para_F: Rev_I_CDB_Soldier_base_F
 		H_HelmetB_light_black,
 		G_Balaclava_blk,
 		DefaultManLinkedItems
+	};
+	allowedHeadgear[] = 
+	{
+		lxWS_H_bmask_base,
+		lxWS_H_bmask_yellow,
+		lxWS_H_bmask_white,
+		H_HelmetSpecB_light_black
+	};
+    headgearList[] = 
+	{
+		lxWS_H_bmask_base,1,
+		lxWS_H_bmask_yellow,1,
+		lxWS_H_bmask_white,1,
+		H_HelmetSpecB_light_black,1
 	};
 };
 class Rev_I_CDB_Soldier_Para_AT_F: Rev_I_CDB_Soldier_base_F
@@ -1006,6 +1064,20 @@ class Rev_I_CDB_Soldier_Para_AT_F: Rev_I_CDB_Soldier_base_F
 		G_Bandanna_blk,
 		DefaultManLinkedItems
 	};
+	allowedHeadgear[] = 
+	{
+		lxWS_H_bmask_base,
+		lxWS_H_bmask_yellow,
+		lxWS_H_bmask_white,
+		H_HelmetSpecB_light_black
+	};
+    headgearList[] = 
+	{
+		lxWS_H_bmask_base,1,
+		lxWS_H_bmask_yellow,1,
+		lxWS_H_bmask_white,1,
+		H_HelmetSpecB_light_black,1
+	};
 };
 class Rev_I_CDB_Soldier_Para_AR_F: Rev_I_CDB_Soldier_base_F
 {
@@ -1058,16 +1130,30 @@ class Rev_I_CDB_Soldier_Para_AR_F: Rev_I_CDB_Soldier_base_F
 	linkedItems[] =
 	{
 		V_PlateCarrierH_cartel_F,
-		H_HelmetB_light_black,
+		lxWS_H_bmask_white,
 		G_Combat,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrierH_cartel_F,
-		H_HelmetB_light_black,
+		lxWS_H_bmask_white,
 		G_Combat,
 		DefaultManLinkedItems
+	};
+	allowedHeadgear[] = 
+	{
+		lxWS_H_bmask_base,
+		lxWS_H_bmask_yellow,
+		lxWS_H_bmask_white,
+		H_HelmetSpecB_light_black
+	};
+    headgearList[] = 
+	{
+		lxWS_H_bmask_base,1,
+		lxWS_H_bmask_yellow,1,
+		lxWS_H_bmask_white,1,
+		H_HelmetSpecB_light_black,1
 	};
 };
 class Rev_I_CDB_Soldier_Para_M_F: Rev_I_CDB_Soldier_base_F

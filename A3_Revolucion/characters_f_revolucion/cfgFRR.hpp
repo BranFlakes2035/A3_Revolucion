@@ -1284,9 +1284,123 @@ class Rev_B_FRR_Story_El_Jefe: Rev_B_FRR_Soldier_Base_F
 	allowedHeadgear[] = {};
     headgearList[] = {};
 	class EventHandlers: EventHandlers
-		{
-			init = "(_this select 0) setIdentity ""Revolucion_FRR_El_Jefe"";";
-		};
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_FRR_El_Jefe"";";
+	};
+};
+
+class Rev_B_FRR_Story_El_Mula: Rev_B_FRR_Soldier_Exp_F
+{
+	author = $STR_A3_A_Ravenholme;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Revolucion_FRR_El_Mula
+	};
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "El Mula";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = U_B_CombatUniform_mcam_tshirt;
+	backpack = B_LegStrapBag_Coyote_F;
+	weapons[] =
+	{
+		hgun_ACPC2_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		hgun_ACPC2_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_2(9Rnd_45ACP_Mag),
+        mag_2(SmokeShell),
+        SmokeShellGreen
+	};
+	respawnMagazines[] =
+	{
+		mag_2(9Rnd_45ACP_Mag),
+        mag_2(SmokeShell),
+        SmokeShellGreen
+	};
+	linkedItems[] =
+	{
+		H_bandanna_mcamo_hs,
+		G_Squares,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		H_bandanna_mcamo_hs,
+		G_Squares,
+		DefaultManLinkedItems
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_FRR_El_Mula"";";
+	};
+};
+
+class Rev_B_FRR_Story_Diego: Rev_B_FRR_Engineer_F
+{
+	author = $STR_A3_A_Ravenholme;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Revolucion_FRR_Diego
+	};
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_Diego.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Diego";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = U_BG_Guerilla2_2;
+	backpack = ;
+	weapons[] =
+	{
+		hgun_ACPC2_black_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		hgun_ACPC2_black_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_2(9Rnd_45ACP_Mag),
+        mag_2(SmokeShell),
+        SmokeShellGreen
+	};
+	respawnMagazines[] =
+	{
+		mag_2(9Rnd_45ACP_Mag),
+        mag_2(SmokeShell),
+        SmokeShellGreen
+	};
+	linkedItems[] =
+	{
+		V_Pocketed_Coyote_F,
+		H_Watchcap_camo_hs,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_Pocketed_Coyote_F,
+		H_Watchcap_camo_hs,
+		DefaultManLinkedItems
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_FRR_Diego"";";
+	};
 };
 
 // FRR INDEP
