@@ -8,7 +8,9 @@
 		units[] =
         {
             /* From "cfgFRR.hpp" */
-            Rev_frr_APC_Wheeled_04_cannon_F,
+            Rev_B_FRR_APC_Wheeled_04_cannon_F,
+			Rev_I_FRR_APC_Wheeled_04_cannon_F,
+			Rev_O_FRR_APC_Wheeled_04_cannon_F
         };
 		weapons[] = {/* Automated */};
 	};

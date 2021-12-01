@@ -15,8 +15,8 @@ class CfgVehicles
                     "\A3_revolucion\Armor_F_revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_body_FRR_CO.paa",
                     "\A3_revolucion\Armor_F_revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_body2_FRR_CO.paa",
                     "\A3_revolucion\Armor_F_revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_tow_FRR_CO.paa",
-                    "\A3_revolucion\Armor_F_revolucion\Data\camonet_RUS_Green_CO.paa",
-                    "\A3_revolucion\Armor_F_revolucion\Data\cage_RUkhk_CO.paa"
+                    "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
+                    "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
                 };
             };
 

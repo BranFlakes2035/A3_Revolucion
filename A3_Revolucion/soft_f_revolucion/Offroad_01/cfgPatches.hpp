@@ -13,6 +13,12 @@ class CfgPatches
             Rev_B_BDF_Offroad_01_covered_F,
 			Rev_B_BDF_Offroad_01_Comms_F,
 
+			/* From "cfgCartel.hpp" */
+			Rev_I_CDB_Offroad_01_F,
+			Rev_I_CDB_Offroad_armed_01_F,
+			Rev_I_CDB_Offroad_AT_01_F,
+			Rev_I_CDB_Offroad_01_covered_F,
+
 			/* From "cfgFASR.hpp" */
 			Rev_O_FASR_Offroad_01_F,
             Rev_O_FASR_Offroad_01_armed_F,

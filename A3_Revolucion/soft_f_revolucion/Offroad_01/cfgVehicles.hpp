@@ -64,6 +64,23 @@ class CfgVehicles
 				};
 				faction[] = {Revolucion_BLU_BDF_F};
 			};
+			class Cartel
+			{
+				displayName = "Cartel";
+				author = $STR_A3_A_BranFlakes;
+				textures[] =
+				{
+					"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_Cartel_CO.paa",
+					"\A3_revolucion\Soft_F_revolucion\Offroad_01\Data\Offroad_01_ext_Cartel_CO.paa",
+					"\A3\Soft_F_Enoch\Offroad_01\Data\offroad_01_cover_blk_co.paa"
+				};
+				materials[] =
+				{
+					"\A3_Aegis\Soft_F_Aegis\Offroad_01\Data\Offroad_01_ext_IG.rvmat",
+					"\A3\Soft_F\Offroad_01\Data\Offroad_01_ext_plastic.rvmat"
+				};
+				faction[] = {Revolucion_IND_CDB_F};
+			};
         };
         class EventHandlers;
     };
