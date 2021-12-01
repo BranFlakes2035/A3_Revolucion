@@ -1,0 +1,29 @@
+class CfgVehicles
+{
+    /* Inheritance Tree */
+    class Wheeled_APC_F;
+    class APC_Wheeled_04_base_F: Wheeled_APC_F
+    {
+        class TextureSources
+        {
+            class UNO
+            {
+                displayName = $STR_A3_R_CfgMarkers_flag_FRR;
+                author = "BranFlakes";
+                textures[] =
+                {
+                    "\A3_revolucion\Armor_F_revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_body_FRR_CO.paa",
+                    "\A3_revolucion\Armor_F_revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_body2_FRR_CO.paa",
+                    "\A3_revolucion\Armor_F_revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_tow_FRR_CO.paa",
+                    "\A3_revolucion\Armor_F_revolucion\Data\camonet_RUS_Green_CO.paa",
+                    "\A3_revolucion\Armor_F_revolucion\Data\cage_RUkhk_CO.paa"
+                };
+            };
+
+        };
+    };
+    class O_R_APC_Wheeled_04_cannon_F: APC_Wheeled_04_base_F{};
+
+    /* Factions */
+    #include "cfgFRR.hpp"   // FRR
+};
