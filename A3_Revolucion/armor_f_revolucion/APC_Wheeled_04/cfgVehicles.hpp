@@ -6,7 +6,7 @@ class CfgVehicles
     {
         class TextureSources
         {
-            class UNO
+            class Guerrila_FRR
             {
                 displayName = $STR_A3_R_CfgMarkers_flag_FRR;
                 author = "BranFlakes";
