@@ -1034,12 +1034,12 @@ class Rev_B_BDF_Soldier_lite_F: Rev_B_BDF_Soldier_Base_F
 	uniform = Rev_U_B_BDF_Uniform_01_tanktop_F;
 	weapons[] =
 	{
-		arifle_SCAR_L_black_F,
+		arifle_Velko_lxWS,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SCAR_L_black_F,
+		arifle_Velko_lxWS,
 		DefaultManWeapons
 	};
 	magazines[] =
