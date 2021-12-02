@@ -1,18 +1,10 @@
 class CfgUnitInsignia
 {
-	class MinotaurSquad
+	class CTRG9
 	{
-		displayName = "Minotaur Squad";		            						            // Name displayed in Arsenal
+		displayName = "CTRG 9 - NATO";		            						            // Name displayed in Arsenal
 		author = "TheMightySultan";	    										            // Author displayed in Arsenal
-		texture = "\A3_Theseus\ui_f_Theseus\data\UnitInsignia\MinotaurInsignia.paa";			// Image path
-		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";         	// .rvmat path
-		textureVehicle = "";													            // Does nothing, reserved for future use
-	};
-    class Icarus
-	{
-		displayName = "Icarus";		            						                    // Name displayed in Arsenal
-		author = "TheMightySultan";	    										            // Author displayed in Arsenal
-		texture = "\A3_Theseus\ui_f_Theseus\data\UnitInsignia\IcarusInsignia.paa";			// Image path
+		texture = "\A3_revolucion\ui_f_revolucion\data\UnitInsignia\group9.paa";			// Image path
 		material = "\A3\Ui_f\data\GUI\Cfg\UnitInsignia\default_insignia.rvmat";         	// .rvmat path
 		textureVehicle = "";													            // Does nothing, reserved for future use
 	};
