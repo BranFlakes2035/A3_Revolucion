@@ -259,7 +259,7 @@ class Rev_I_CDB_Soldier_Bandit_5_F: Rev_I_CDB_Soldier_Bandit_base_F
 	cost = 100000;
     role = Rifleman;
     camouflage = 2;
-    uniformClass = U_I_L_Uniform_01_Deserter_F;
+    uniformClass = Rev_U_B_FRR_Uniform_01_F;
 	weapons[] =
 	{
 		arifle_AK12_545_ACO_AK_FL_F,

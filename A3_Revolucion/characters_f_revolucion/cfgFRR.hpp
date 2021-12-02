@@ -529,7 +529,7 @@ class Rev_B_FRR_Soldier_M_F: Rev_B_FRR_Soldier_Base_F
 	displayName = $STR_B_soldier_M_F0;
 	role = Marksman;
 	cost = 250000;
-	uniformClass = U_I_C_Soldier_Para_3_F;
+	uniformClass = Rev_U_B_FRR_Uniform_06_F;
 	weapons[] =
 	{
 		rev_arifle_Galat_lxWS_MRCO_F,

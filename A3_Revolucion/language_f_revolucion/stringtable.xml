@@ -844,6 +844,23 @@
                     <Japanese>Guerilla Garb</Japanese>
                     <Turkish>Guerilla Garb</Turkish>
                 </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_B_FRR_Uniform_06_F0">
+                    <Original>Guerilla Garb (M81, Shirt)</Original>
+                    <Chinese>Guerilla Garb (M81, Shirt)</Chinese>
+                    <French>Guerilla Garb (M81, Shirt)</French>
+                    <Spanish>Guerilla Garb (M81, Shirt)</Spanish>
+                    <Italian>Guerilla Garb (M81, Shirt)</Italian>
+                    <Polish>Guerilla Garb (M81, Shirt)</Polish>
+                    <Russian>Guerilla Garb (M81, Shirt)</Russian>
+                    <German>Guerilla Garb (M81, Shirt)</German>
+                    <Czech>Guerilla Garb (M81, Shirt)</Czech>
+                    <English>Guerilla Garb (M81, Shirt)</English>
+                    <Portuguese>Guerilla Garb (M81, Shirt)</Portuguese>
+                    <Korean>Guerilla Garb (M81, Shirt)</Korean>
+                    <Chinesesimp>Guerilla Garb (M81, Shirt)</Chinesesimp>
+                    <Japanese>Guerilla Garb (M81, Shirt)</Japanese>
+                    <Turkish>Guerilla Garb (M81, Shirt)</Turkish>
+                </Key>
                 <Key ID="STR_A3_R_CfgWeapons_U_B_FRR_Uniform_El_Jefe_F0">
                     <Original>Guerilla Garb (Commander)</Original>
                     <Chinese>Guerilla Garb (Commander)</Chinese>

@@ -87,7 +87,7 @@ class Rev_U_B_FRR_Uniform_06_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
 	scope = public;
-	displayName = "Guerilla Outfit (M81)";
+	displayName = $STR_A3_R_CfgWeapons_U_B_FRR_Uniform_06_F0;
 	picture = "\A3\Characters_F_Beta\Data\UI\icon_U_IR_CrewUniform_rucamo_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
