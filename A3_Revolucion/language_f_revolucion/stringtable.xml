@@ -57,21 +57,21 @@
 			</Container>
 			<Container name="Faction_Classes">
 				<Key ID="STR_A3_R_CfgFactionClasses_BLU_BDF_F0">
-					<Original>BDF</Original>
-					<Chinese>BDF</Chinese>
-					<French>BDF</French>
-					<Spanish>BDF</Spanish>
-					<Italian>BDF</Italian>
-					<Polish>BDF</Polish>
-					<Russian>BDF</Russian>
-					<German>BDF</German>
-					<Czech>BDF</Czech>
-					<English>BDF</English>
-					<Portuguese>BDF</Portuguese>
-					<Korean>BDF</Korean>
-					<Chinesesimp>BDF</Chinesesimp>
-					<Japanese>BDF</Japanese>
-					<Turkish>BDF</Turkish>
+					<Original>FDB</Original>
+					<Chinese>FDB</Chinese>
+					<French>FDB</French>
+					<Spanish>FDB</Spanish>
+					<Italian>FDB</Italian>
+					<Polish>FDB</Polish>
+					<Russian>FDB</Russian>
+					<German>FDB</German>
+					<Czech>FDB</Czech>
+					<English>FDB</English>
+					<Portuguese>FDB</Portuguese>
+					<Korean>FDB</Korean>
+					<Chinesesimp>FDB</Chinesesimp>
+					<Japanese>FDB</Japanese>
+					<Turkish>FDB</Turkish>
 				</Key>
 				<Key ID="STR_A3_R_CfgFactionClasses_BLU_FRR_F0">
 					<Original>FRR</Original>
