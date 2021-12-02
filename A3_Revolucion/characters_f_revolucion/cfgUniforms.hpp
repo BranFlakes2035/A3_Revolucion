@@ -250,6 +250,21 @@ class Rev_FRR_Soldier_5_F: I_C_Soldier_Camo_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa",
 	};
 };
+class I_C_Soldier_Para_3_F;
+class Rev_FRR_Soldier_6_F: I_C_Soldier_Para_3_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_FRR_Uniform_06_F;
+	identityTypes[] = {};
+	hiddenSelections[]=
+	{
+		"camo1",
+		"camo2",
+		"insignia"
+	};
+	hiddenSelectionsTextures[] = {"\a3_revolucion\Characters_F_revolucion\uniforms\Data\frr_6_CO.paa","\A3\Characters_F_Exp\Syndikat\Data\U_I_C_Soldier_Para_1_F_2_co.paa"};
+};
 class Rev_FRR_Story_El_Jefe_F: I_E_Uniform_01_officer_F
 {
   	scope = protected;
