@@ -61,9 +61,9 @@ class CfgVehicles
 			};
 		};
 	};
-	class Truck_02_box_base_F: Truck_02_base_F
+	class Truck_02_box_base_lxWS: Truck_02_Base_F
 	{
-        /* Liveries */
+		/* Liveries */
 		class TextureSources
 		{
 			class BDF
@@ -75,13 +75,14 @@ class CfgVehicles
 					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_BDF_CO.paa",
 					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_repair_BDF_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
 		};
 	};
-	class Truck_02_medical_base_F: Truck_02_box_base_F
+	class Truck_02_medical_base_F: Truck_02_box_base_lxWS
 	{
         /* Liveries */
 		class TextureSources
@@ -95,13 +96,14 @@ class CfgVehicles
 					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_BDF_CO.paa",
 					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kuz_BDF_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
 		};
 	};
-	class Truck_02_Ammo_base_F: Truck_02_base_F
+	class Truck_02_Ammo_base_lxWS: Truck_02_base_F
 	{
         /* Liveries */
 		class TextureSources
@@ -115,7 +117,8 @@ class CfgVehicles
 					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_BDF_CO.paa",
 					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_repair_BDF_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
@@ -141,10 +144,10 @@ class CfgVehicles
 			};
 		};
 	};
-	class Truck_02_viv_base_F;
-	class Truck_02_cargo_base_F: Truck_02_viv_base_F
+	class Truck_02_cargo_base_lxWS: Truck_02_Base_F
 	{
-        /* Liveries */
+		hiddenSelections[] = {camo1, camo2, camo3, camo4, camo9};
+		/* Liveries */
 		class TextureSources
 		{
 			class BDF
@@ -156,32 +159,14 @@ class CfgVehicles
 					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_BDF_CO.paa",
 					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kuz_BDF_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
+					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 				};
 				factions[] = {};
 			};
 		};
 	};
-	class Truck_02_flatbed_base_F: Truck_02_viv_base_F
-	{
-        /* Liveries */
-		class TextureSources
-		{
-			class BDF
-			{
-				displayName = "BDF";
-				author = $STR_A3_A_BranFlakes;
-				textures[] =
-				{
-					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_BDF_CO.paa",
-					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kuz_BDF_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
-					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
-				};
-				factions[] = {};
-			};
-		};
-	};
+	class Truck_02_flatbed_base_lxWS: Truck_02_cargo_base_lxWS{};
 	class Truck_02_aa_base_lxWS;
 
     /* Factions */
