@@ -64,4 +64,12 @@ class CfgFactionClasses
 		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_BLU_FRR_CA.paa";
 		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_FRR_CO.paa";			
 	};
+	class Revolucion_OPF_V_F									// CSAT Venezuela
+	{
+		displayName = $STR_A3_R_CfgFactionClasses_OPF_V_F0;
+		priority = 3;
+		side = TEast;
+		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_OPF_V_CA.paa";
+		flag = "\A3_Atlas\Data_F_Revolucion\Flags\flag_Venezuela_CO.paa";
+	};
 };

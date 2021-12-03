@@ -124,6 +124,23 @@
 					<Japanese>Cartels</Japanese>
 					<Turkish>Cartels</Turkish>
 				</Key>
+                <Key ID="STR_A3_R_CfgFactionClasses_OPF_V_F0">
+                    <Original>Venezuela</Original>
+                    <Chinese>委內瑞拉</Chinese>
+                    <French>Venezuela</French>
+                    <Spanish>Venezuela</Spanish>
+                    <Italian>Venezuela</Italian>
+                    <Polish>Wenezuela</Polish>
+                    <Russian>Венесуэла</Russian>
+                    <German>Venezuela</German>
+                    <Czech>Venezuela</Czech>
+                    <English>Venezuela</English>
+                    <Portuguese>Venezuela</Portuguese>
+                    <Korean>베네수엘라</Korean>
+                    <Chinesesimp>委内瑞拉</Chinesesimp>
+                    <Japanese>ベネズエラ</Japanese>
+                    <Turkish>Venezuela</Turkish>
+				</Key>
 			</Container>
 		</Container>
 		<Container name="Characters_F">
