@@ -26,6 +26,7 @@ class CfgVehicles
     #include "cfgFRR.hpp"   // FRR
     #include "cfgCartels.hpp"  // Cartels
     #include "cfgFASR.hpp"   // FASR
+    #include "cfgVenezuela.hpp" // CSAT Venezuela
 
     /* Uniforms */
     #include "cfgUniforms.hpp"

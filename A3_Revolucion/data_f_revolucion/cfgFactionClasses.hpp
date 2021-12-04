@@ -70,6 +70,6 @@ class CfgFactionClasses
 		priority = 3;
 		side = TEast;
 		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_OPF_V_CA.paa";
-		flag = "\A3_Atlas\Data_F_Revolucion\Flags\flag_Venezuela_CO.paa";
+		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_Venezuela_CO.paa";
 	};
 };
