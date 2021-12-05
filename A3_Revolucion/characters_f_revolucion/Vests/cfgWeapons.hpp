@@ -72,4 +72,16 @@ class CfgWeapons
 		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_whex_CO.paa"};
     };
+    class V_lxWS_UN_Vest_F;
+	class v_lxWS_VZ_Vest_F: V_lxWS_UN_Vest_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		displayName = "VZ Infantry Vest (Woodland Hex)";
+		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_grn_CA.paa";
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\equip_IA_Vest01_whex_CO.paa",
+			"\A3_Atlas\Characters_F_Atlas\Vests\Data\GA_Carrier_GL_Rig_whex_CO.paa"
+		};
+	};
 };
