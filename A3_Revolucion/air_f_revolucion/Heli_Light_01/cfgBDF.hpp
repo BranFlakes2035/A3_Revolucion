@@ -5,6 +5,7 @@ class Rev_B_BDF_Heli_Light_01_F: I_Heli_Light_01_F
 	faction = Revolucion_BLU_BDF_F;
 	crew = Rev_B_BDF_Helipilot_F;
 	typicalCargo[] = {Rev_B_BDF_Helipilot_F};
+	editorPreview = "\A3_revolucion\EditorPreviews_F_revolucion\Data\CfgVehicles\Rev_B_BDF_Heli_Light_01_F.jpg";
     textureList[]=
 	{
 		Digital,1,
@@ -38,6 +39,7 @@ class Rev_B_BDF_Heli_Light_01_dynamicLoadout_F: I_Heli_Light_01_dynamicLoadout_F
 	faction = Revolucion_BLU_BDF_F;
 	crew = Rev_B_BDF_Helipilot_F;
 	typicalCargo[] = {Rev_B_BDF_Helipilot_F};
+	editorPreview = "\A3_revolucion\EditorPreviews_F_revolucion\Data\CfgVehicles\Rev_B_BDF_Heli_Light_01_dynamicLoadout_F.jpg";
     textureList[]=
 	{
 		Digital,1,

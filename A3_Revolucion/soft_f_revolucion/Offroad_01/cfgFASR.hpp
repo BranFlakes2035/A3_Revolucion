@@ -2,7 +2,7 @@
 class Rev_O_FASR_Offroad_01_F: Offroad_01_military_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_01_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -34,7 +34,7 @@ class Rev_O_FASR_Offroad_01_F: Offroad_01_military_base_F
 class Rev_O_FASR_Offroad_01_armed_F: Offroad_01_armed_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_armed_01_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_01_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -66,7 +66,7 @@ class Rev_O_FASR_Offroad_01_armed_F: Offroad_01_armed_base_F
 class Rev_O_FASR_Offroad_01_AT_F: Offroad_01_AT_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_AT_01_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_01_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -98,7 +98,7 @@ class Rev_O_FASR_Offroad_01_AT_F: Offroad_01_AT_base_F
 class Rev_O_FASR_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_covered_01_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_01_covered_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	accuracy = 1.25;
@@ -146,7 +146,7 @@ class Rev_O_FASR_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 class Rev_O_FASR_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_comms_01_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_01_comms_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	accuracy = 1.25;

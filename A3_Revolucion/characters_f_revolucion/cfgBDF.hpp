@@ -20,7 +20,7 @@ class Rev_B_BDF_Soldier_base_F: Rev_B_BDF_Man_base_F
 class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_A_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_A_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
@@ -67,7 +67,7 @@ class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
 class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AAA_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AAA_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	cost = 220000;
@@ -115,7 +115,7 @@ class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_soldier_AAR_F: rev_B_BDF_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AAR_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AAR_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	role = Assistant;
@@ -174,7 +174,7 @@ class Rev_B_BDF_Soldier_AR_F: Rev_B_BDF_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
 	nameSound = veh_infantry_MG_s;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AR_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AR_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
@@ -243,7 +243,7 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
 	nameSound = veh_infantry_medic_s;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Medic_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Medic_F.jpg";
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
@@ -299,7 +299,7 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Crew_F: Rev_B_BDF_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Crew_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Crew_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_crew_F0;
@@ -348,7 +348,7 @@ class Rev_B_BDF_Crew_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Engineer_F: Rev_B_BDF_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Engineer_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Engineer_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
@@ -407,7 +407,7 @@ class Rev_B_BDF_Engineer_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Soldier_Exp_F: Rev_B_BDF_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_Exp_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_Exp_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
@@ -462,7 +462,7 @@ class Rev_B_BDF_Soldier_Exp_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Soldier_GL_F: Rev_B_BDF_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_GL_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_GL_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_GL_F0;
@@ -525,7 +525,7 @@ class Rev_B_BDF_Helipilot_F: Rev_B_BDF_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Helipilot_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Helipilot_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Helipilot_F0;
@@ -573,7 +573,7 @@ class Rev_B_BDF_Helipilot_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Soldier_M_F: Rev_B_BDF_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_M_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_M_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
@@ -631,7 +631,7 @@ class Rev_B_BDF_Officer_F: Rev_B_BDF_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
 	nameSound = veh_infantry_officer_s;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Officer_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Officer_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_officer_F0;
@@ -684,7 +684,7 @@ class Rev_B_BDF_Officer_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Soldier_F: Rev_B_BDF_Soldier_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
@@ -740,7 +740,7 @@ class Rev_B_BDF_soldier_AA_F: Rev_B_BDF_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AA_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AA_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_AA_F0;
@@ -804,7 +804,7 @@ class Rev_B_BDF_Soldier_AT_F: Rev_B_BDF_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
 	nameSound = veh_infantry_AT_s;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AT_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AT_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_soldier_LAT_F0;
@@ -864,7 +864,7 @@ class Rev_B_BDF_Soldier_AT_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_SL_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_SL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_SL_F0;
@@ -921,7 +921,7 @@ class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Soldier_TL_F: Rev_B_BDF_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_TL_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_TL_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
@@ -983,7 +983,7 @@ class Rev_B_BDF_Soldier_TL_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_RadioOperator_F: Rev_B_BDF_Soldier_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_RadioOperator_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	backpack = B_RadioBag_01_green_F;
 	weapons[] =
@@ -1026,7 +1026,7 @@ class Rev_B_BDF_RadioOperator_F: Rev_B_BDF_Soldier_F
 class Rev_B_BDF_Soldier_lite_F: Rev_B_BDF_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_lite_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_lite_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_lite_F0;
@@ -1070,7 +1070,7 @@ class Rev_B_BDF_Soldier_lite_F: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Soldier_CQ_F: Rev_B_BDF_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_CQ_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_CQ_F.jpg";
     scope = public;
     scopeCurator = public;
 	cost = 100000;
@@ -1172,7 +1172,7 @@ class Rev_B_BDF_unarmed_F: Rev_B_BDF_Soldier_F
 class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_UAV_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_UAV_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_SOLDIER_UAV_F0;
@@ -1234,7 +1234,7 @@ class Rev_B_BDF_Pilot_F: Rev_B_BDF_Soldier_Base_F
 	textSingular = $STR_A3_nameSound_veh_infantry_pilot_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_pilot_p;
 	nameSound = veh_infantry_pilot_s;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Pilot_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Pilot_F.jpg";
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Pilot_F0;
@@ -1315,7 +1315,7 @@ class Rev_B_BDF_Soldier_Recon_Base: Rev_B_BDF_Soldier_Base_F
 class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_AR_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_AR_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_AR_F0;
@@ -1376,7 +1376,7 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_Exp_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_Exp_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_B_CTRG_Soldier_Exp_tna_F0;
@@ -1436,7 +1436,7 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
 class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_GL_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_GL_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_R_cfgVehicles_B_BDF_Recon_GL_F0;
@@ -1494,7 +1494,7 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
 class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_JTAC_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_JTAC_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_B_CTRG_Soldier_JTAC_tna_F0;
@@ -1567,7 +1567,7 @@ class Rev_B_BDF_Recon_M_F: Rev_B_BDF_Soldier_Recon_Base
 	textSingular = $STR_A3_nameSound_veh_infantry_sniper_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_sniper_p;
 	nameSound = veh_infantry_sniper_s;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_M_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_M_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_soldier_M_F0;
@@ -1634,7 +1634,7 @@ class Rev_B_BDF_Recon_M_F: Rev_B_BDF_Soldier_Recon_Base
 class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_Medic_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_Medic_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_B_CTRG_Soldier_Medic_tna_F0;
@@ -1699,7 +1699,7 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
 class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_Medic_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_Medic_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_B_CTRG_Soldier_tna_F0;
@@ -1753,7 +1753,7 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
 class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_AT_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_B_CTRG_Soldier_LAT_tna_F0;
@@ -1820,7 +1820,7 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
 class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_LAT_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_LAT_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_CTRG_Soldier_LAT2_tna_F0;
@@ -1887,7 +1887,7 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
 class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_TL_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Recon_TL_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_TL_F0;

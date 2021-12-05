@@ -2,7 +2,7 @@
 class Rev_B_BDF_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Plane_Transport_01_infantry_F.jpg";
+	editorPreview = "\A3_revolucion\EditorPreviews_F_revolucion\Data\CfgVehicles\Rev_B_BDF_Plane_Transport_01_infantry_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Plane_Transport_01_infantry_base_F0;
@@ -22,7 +22,7 @@ class Rev_B_BDF_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_
 class Rev_B_BDF_Plane_Transport_01_vehicle_F: Plane_Transport_01_vehicle_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_Plane_Transport_01_vehicle_F.jpg";
+	editorPreview = "\A3_revolucion\EditorPreviews_F_revolucion\Data\CfgVehicles\Rev_B_BDF_Plane_Transport_01_infantry_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Plane_Transport_01_vehicle_base_F0;

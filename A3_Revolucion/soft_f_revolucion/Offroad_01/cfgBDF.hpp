@@ -1,7 +1,7 @@
 class Rev_B_BDF_Offroad_01_F: Offroad_01_military_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_01_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_01_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -33,7 +33,7 @@ class Rev_B_BDF_Offroad_01_F: Offroad_01_military_base_F
 class Rev_B_BDF_Offroad_01_armed_F: Offroad_01_armed_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_armed_01_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_01_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;
@@ -65,7 +65,7 @@ class Rev_B_BDF_Offroad_01_armed_F: Offroad_01_armed_base_F
 class Rev_B_BDF_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_covered_01_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_01_covered_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	accuracy = 1.25;
@@ -113,7 +113,7 @@ class Rev_B_BDF_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 class Rev_B_BDF_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_comms_01_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_01_comms_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	accuracy = 1.25;

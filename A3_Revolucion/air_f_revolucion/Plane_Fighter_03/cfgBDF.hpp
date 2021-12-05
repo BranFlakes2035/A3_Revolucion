@@ -121,7 +121,7 @@ class Rev_B_BDF_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoado
 		verticalOffsetWorld = 0.025;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_Plane_Fighter_03_dynamicLoadout_F.jpg";
+	editorPreview = "\A3_revolucion\EditorPreviews_F_revolucion\Data\CfgVehicles\Rev_B_BDF_Plane_Fighter_03_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_Plane_Fighter_03_base_F0;

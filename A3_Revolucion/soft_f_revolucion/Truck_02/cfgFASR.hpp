@@ -883,7 +883,7 @@ class Rev_O_FASR_Truck_02_MRL_F: O_R_Truck_02_MRL_F
 class Rev_O_FASR_Truck_02_AA_F: Truck_02_aa_base_lxWS
 {
     author= $STR_A3_A_BranFlakes;
-    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Truck_02_AA_F.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Truck_02_AA_F.jpg";
     scope = public;
 	scopeCurator = public;
 	side = TEast;

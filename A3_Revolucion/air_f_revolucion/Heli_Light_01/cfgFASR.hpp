@@ -5,6 +5,7 @@ class Rev_O_FASR_Heli_Light_01_F: I_Heli_Light_01_F
 	faction = Revolucion_OPF_FASR_F;
 	crew = Rev_O_FASR_Helipilot_F;
 	typicalCargo[] = {Rev_O_FASR_Helipilot_F};
+	editorPreview = "\A3_revolucion\EditorPreviews_F_revolucion\Data\CfgVehicles\Rev_O_FASR_Heli_Light_01_F.jpg";
     textureList[]=
 	{
 		Blu,1,
@@ -38,6 +39,7 @@ class Rev_O_FASR_Heli_Light_01_dynamicLoadout_F: I_Heli_Light_01_dynamicLoadout_
 	faction = Revolucion_OPF_FASR_F;
 	crew = Rev_O_FASR_Helipilot_F;
 	typicalCargo[] = {Rev_O_FASR_Helipilot_F};
+	editorPreview = "\A3_revolucion\EditorPreviews_F_revolucion\Data\CfgVehicles\Rev_O_FASR_Heli_Light_01_dynamicLoadout_F.jpg";
     textureList[]=
 	{
 		Blu,1,
