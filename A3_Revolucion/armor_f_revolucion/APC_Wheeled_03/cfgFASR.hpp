@@ -202,7 +202,7 @@ class Rev_O_FASR_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_APC_Wheeled_03_cannon_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = "AFV-4 Chupacabra";
+	displayName = "AFV-4 Basilisco";
 	side = TEast;
 	faction = Revolucion_OPF_FASR_F;
 	crew = Rev_O_FASR_Crew_F;
