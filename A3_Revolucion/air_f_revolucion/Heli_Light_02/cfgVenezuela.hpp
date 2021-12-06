@@ -281,7 +281,7 @@ class revolucion_O_VZ_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
 	forceInGarage = false;
 	side = TEast;
 	faction = Revolucion_OPF_VZ_F;
-    displayName = "Po-30 Tucán";
+    displayName = "Po-30 Tucán (Unarmed)";
 	crew = Rev_O_VZ_Helipilot_F;
 	typicalCargo[] = {Rev_O_VZ_Helipilot_F};
 	textureList[] =

@@ -172,4 +172,5 @@ class CfgVehicles
     /* Factions */
     #include "cfgBDF.hpp" // BDF
 	#include "cfgFASR.hpp"	// FASR
+	#include "cfgVenezuela.hpp"	//Venezuela
 };

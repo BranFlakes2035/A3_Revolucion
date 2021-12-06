@@ -87,9 +87,9 @@ class revolucion_O_VZ_LSV_02_armed_F: LSV_02_armed_base_F
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
-	displayName = "Quimera (Armed)";
+	displayName = "Quimera (Minigun)";
 	side = TEast;
-	faction = revolucion_OPF_V_F;
+	faction = revolucion_OPF_VZ_F;
 	crew = revolucion_O_VZ_Soldier_F;
 	typicalCargo[] = {revolucion_O_VZ_Soldier_F};
 	textureList[] =
@@ -220,7 +220,7 @@ class revolucion_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	scopeCurator = public;
     displayName = "Quimera";
     side = TEast;
-    faction = revolucion_OPF_V_F;
+    faction = revolucion_OPF_VZ_F;
     crew = revolucion_O_VZ_Soldier_F;
     typicalCargo[] = {revolucion_O_VZ_Soldier_F};
 	textureList[] =
@@ -348,7 +348,7 @@ class revolucion_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
 	scopeCurator = public;
     displayName = "Quimera (AT)";
     side = TEast;
-    faction = revolucion_OPF_V_F;
+    faction = revolucion_OPF_VZ_F;
     crew = revolucion_O_VZ_Soldier_F;
     typicalCargo[] = {revolucion_O_VZ_Soldier_F};
 	textureList[] =
