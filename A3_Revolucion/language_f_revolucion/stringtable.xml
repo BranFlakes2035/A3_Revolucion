@@ -1087,6 +1087,214 @@
                     <Turkish>Avcı Miğfer (Cover W)</Turkish>
                 </Key>
 		</Container>
+        <Container name="Supplies_F">
+			<Container name="Ammoboxes">
+				<Key ID="STR_A3_R_CfgVehicles_Box_FRR_Wps_F0">
+					<Original>Basic Weapons [FRR]</Original>
+					<Chinese>基本武器（FRR）</Chinese>
+					<French>Armes de base [FRR]</French>
+					<Spanish>Armas básicas [FRR]</Spanish>
+					<Italian>Armi di base [FRR]</Italian>
+					<Polish>Broń podstawowa [FRR]</Polish>
+					<Russian>Основное оружие [FRR]</Russian>
+					<German>Standardwaffen [FRR]</German>
+					<Czech>Základní zbraně [FRR]</Czech>
+					<English>Basic Weapons [FRR]</English>
+					<Portuguese>Armas básicas [FRR]</Portuguese>
+					<Korean>기본무기[FRR]</Korean>
+					<Chinesesimp>基本武器 [FRR]</Chinesesimp>
+					<Japanese>基本武器[FRR]</Japanese>
+					<Turkish>Temel Silahlar [FRR]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_Box_FRR_Ammo_F0">
+					<Original>Basic Ammo [FRR]</Original>
+					<Chinese>基本彈藥（FRR）</Chinese>
+					<French>Munitions de base [FRR]</French>
+					<Spanish>Munición básica [FRR]</Spanish>
+					<Italian>Munizioni di base [FRR]</Italian>
+					<Polish>Amunicja podstawowa [FRR]</Polish>
+					<Russian>Основные боеприпасы [FRR]</Russian>
+					<German>Standardmunition [FRR]</German>
+					<Czech>Základní munice [FRR]</Czech>
+					<English>Basic Ammo [FRR]</English>
+					<Portuguese>Munição básica [FRR]</Portuguese>
+					<Korean>기본 탄약[FRR]</Korean>
+					<Chinesesimp>基本弹药 [FRR]</Chinesesimp>
+					<Japanese>基本弾薬[FRR]</Japanese>
+					<Turkish>Temel Mühimmat [FRR]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_Box_FRR_WpsLaunch_F0">
+					<Original>Launchers [FRR]</Original>
+					<Chinese>發射器（FRR）</Chinese>
+					<French>Lanceurs [FRR]</French>
+					<Spanish>Lanzadores [FRR]</Spanish>
+					<Italian>Lanciatori [FRR]</Italian>
+					<Polish>Wyrzutnie [FRR]</Polish>
+					<Russian>Пусковые установки [FRR]</Russian>
+					<German>Werfer [FRR]</German>
+					<Czech>Raketomety [FRR]</Czech>
+					<English>Launchers [FRR]</English>
+					<Portuguese>Lançadores [FRR]</Portuguese>
+					<Korean>발사기[FRR]</Korean>
+					<Chinesesimp>发射器 [FRR]</Chinesesimp>
+					<Japanese>ランチャー[FRR]</Japanese>
+					<Turkish>Fırlatıcılar [FRR]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_B_FRR_supplyCrate_F0">
+					<Original>Supply Box [FRR]</Original>
+					<Chinese>補給盒（FRR）</Chinese>
+					<French>Caisse de ravitaillements [FRR]</French>
+					<Spanish>Caja de suministros [FRR]</Spanish>
+					<Italian>Scatola di rifornimenti [FRR]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [FRR]</Polish>
+					<Russian>Ящик с припасами [FRR]</Russian>
+					<German>Nachschubkiste [FRR]</German>
+					<Czech>Bedna se zásobami [FRR]</Czech>
+					<English>Supply Box [FRR]</English>
+					<Portuguese>Caixa de suprimentos [FRR]</Portuguese>
+					<Korean>보급상자[FRR]</Korean>
+					<Chinesesimp>供给箱 [FRR]</Chinesesimp>
+					<Japanese>物資箱[FRR]</Japanese>
+					<Turkish>İkmal Kutusu [FRR]</Turkish>
+				</Key>
+                <Key ID="STR_A3_R_CfgVehicles_Box_FASR_Wps_F0">
+					<Original>Basic Weapons [FASR]</Original>
+					<Chinese>基本武器（FASR）</Chinese>
+					<French>Armes de base [FASR]</French>
+					<Spanish>Armas básicas [FASR]</Spanish>
+					<Italian>Armi di base [FASR]</Italian>
+					<Polish>Broń podstawowa [FASR]</Polish>
+					<Russian>Основное оружие [FASR]</Russian>
+					<German>Standardwaffen [FASR]</German>
+					<Czech>Základní zbraně [FASR]</Czech>
+					<English>Basic Weapons [FASR]</English>
+					<Portuguese>Armas básicas [FASR]</Portuguese>
+					<Korean>기본무기[FASR]</Korean>
+					<Chinesesimp>基本武器 [FASR]</Chinesesimp>
+					<Japanese>基本武器[FASR]</Japanese>
+					<Turkish>Temel Silahlar [FASR]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_Box_FASR_Ammo_F0">
+					<Original>Basic Ammo [FASR]</Original>
+					<Chinese>基本彈藥（FASR）</Chinese>
+					<French>Munitions de base [FASR]</French>
+					<Spanish>Munición básica [FASR]</Spanish>
+					<Italian>Munizioni di base [FASR]</Italian>
+					<Polish>Amunicja podstawowa [FASR]</Polish>
+					<Russian>Основные боеприпасы [FASR]</Russian>
+					<German>Standardmunition [FASR]</German>
+					<Czech>Základní munice [FASR]</Czech>
+					<English>Basic Ammo [FASR]</English>
+					<Portuguese>Munição básica [FASR]</Portuguese>
+					<Korean>기본 탄약[FASR]</Korean>
+					<Chinesesimp>基本弹药 [FASR]</Chinesesimp>
+					<Japanese>基本弾薬[FASR]</Japanese>
+					<Turkish>Temel Mühimmat [FASR]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_Box_FASR_WpsLaunch_F0">
+					<Original>Launchers [FASR]</Original>
+					<Chinese>發射器（FASR）</Chinese>
+					<French>Lanceurs [FASR]</French>
+					<Spanish>Lanzadores [FASR]</Spanish>
+					<Italian>Lanciatori [FASR]</Italian>
+					<Polish>Wyrzutnie [FASR]</Polish>
+					<Russian>Пусковые установки [FASR]</Russian>
+					<German>Werfer [FASR]</German>
+					<Czech>Raketomety [FASR]</Czech>
+					<English>Launchers [FASR]</English>
+					<Portuguese>Lançadores [FASR]</Portuguese>
+					<Korean>발사기[FASR]</Korean>
+					<Chinesesimp>发射器 [FASR]</Chinesesimp>
+					<Japanese>ランチャー[FASR]</Japanese>
+					<Turkish>Fırlatıcılar [FASR]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_O_FASR_supplyCrate_F0">
+					<Original>Supply Box [FASR]</Original>
+					<Chinese>補給盒（FASR）</Chinese>
+					<French>Caisse de ravitaillements [FASR]</French>
+					<Spanish>Caja de suministros [FASR]</Spanish>
+					<Italian>Scatola di rifornimenti [FASR]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [FASR]</Polish>
+					<Russian>Ящик с припасами [FASR]</Russian>
+					<German>Nachschubkiste [FASR]</German>
+					<Czech>Bedna se zásobami [FASR]</Czech>
+					<English>Supply Box [FASR]</English>
+					<Portuguese>Caixa de suprimentos [FASR]</Portuguese>
+					<Korean>보급상자[FASR]</Korean>
+					<Chinesesimp>供给箱 [FASR]</Chinesesimp>
+					<Japanese>物資箱[FASR]</Japanese>
+					<Turkish>İkmal Kutusu [FASR]</Turkish>
+				</Key>
+                <Key ID="STR_A3_R_CfgVehicles_Box_BDF_Wps_F0">
+					<Original>Basic Weapons [FDB]</Original>
+					<Chinese>基本武器（FDB）</Chinese>
+					<French>Armes de base [FDB]</French>
+					<Spanish>Armas básicas [FDB]</Spanish>
+					<Italian>Armi di base [FDB]</Italian>
+					<Polish>Broń podstawowa [FDB]</Polish>
+					<Russian>Основное оружие [FDB]</Russian>
+					<German>Standardwaffen [FDB]</German>
+					<Czech>Základní zbraně [FDB]</Czech>
+					<English>Basic Weapons [FDB]</English>
+					<Portuguese>Armas básicas [FDB]</Portuguese>
+					<Korean>기본무기[FDB]</Korean>
+					<Chinesesimp>基本武器 [FDB]</Chinesesimp>
+					<Japanese>基本武器[FDB]</Japanese>
+					<Turkish>Temel Silahlar [FDB]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_Box_BDF_Ammo_F0">
+					<Original>Basic Ammo [FDB]</Original>
+					<Chinese>基本彈藥（FDB）</Chinese>
+					<French>Munitions de base [FDB]</French>
+					<Spanish>Munición básica [FDB]</Spanish>
+					<Italian>Munizioni di base [FDB]</Italian>
+					<Polish>Amunicja podstawowa [FDB]</Polish>
+					<Russian>Основные боеприпасы [FDB]</Russian>
+					<German>Standardmunition [FDB]</German>
+					<Czech>Základní munice [FDB]</Czech>
+					<English>Basic Ammo [FDB]</English>
+					<Portuguese>Munição básica [FDB]</Portuguese>
+					<Korean>기본 탄약[FDB]</Korean>
+					<Chinesesimp>基本弹药 [FDB]</Chinesesimp>
+					<Japanese>基本弾薬[FDB]</Japanese>
+					<Turkish>Temel Mühimmat [FDB]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_Box_BDF_WpsLaunch_F0">
+					<Original>Launchers [FDB]</Original>
+					<Chinese>發射器（FDB）</Chinese>
+					<French>Lanceurs [FDB]</French>
+					<Spanish>Lanzadores [FDB]</Spanish>
+					<Italian>Lanciatori [FDB]</Italian>
+					<Polish>Wyrzutnie [FDB]</Polish>
+					<Russian>Пусковые установки [FDB]</Russian>
+					<German>Werfer [FDB]</German>
+					<Czech>Raketomety [FDB]</Czech>
+					<English>Launchers [FDB]</English>
+					<Portuguese>Lançadores [FDB]</Portuguese>
+					<Korean>발사기[FDB]</Korean>
+					<Chinesesimp>发射器 [FDB]</Chinesesimp>
+					<Japanese>ランチャー[FDB]</Japanese>
+					<Turkish>Fırlatıcılar [FDB]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgVehicles_B_BDF_supplyCrate_F0">
+					<Original>Supply Box [FDB]</Original>
+					<Chinese>補給盒（FDB）</Chinese>
+					<French>Caisse de ravitaillements [FDB]</French>
+					<Spanish>Caja de suministros [FDB]</Spanish>
+					<Italian>Scatola di rifornimenti [FDB]</Italian>
+					<Polish>Skrzynia z zaopatrzeniem [FDB]</Polish>
+					<Russian>Ящик с припасами [FDB]</Russian>
+					<German>Nachschubkiste [FDB]</German>
+					<Czech>Bedna se zásobami [FDB]</Czech>
+					<English>Supply Box [FDB]</English>
+					<Portuguese>Caixa de suprimentos [FDB]</Portuguese>
+					<Korean>보급상자[FDB]</Korean>
+					<Chinesesimp>供给箱 [FDB]</Chinesesimp>
+					<Japanese>物資箱[FDB]</Japanese>
+					<Turkish>İkmal Kutusu [FDB]</Turkish>
+				</Key>
+			</Container>
+        </Container>
 		<Container name="UI_F">
             <Key ID="STR_A3_R_CfgMarkers_flag_BDF">
                 <Original>BDF</Original>

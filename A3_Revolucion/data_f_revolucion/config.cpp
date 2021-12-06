@@ -8,3 +8,5 @@
 #include "cfgAddons.hpp"
 #include "cfgFactionClasses.hpp"
 #include "cfgMods.hpp"
+#include "cfgEditorCategories.hpp"
+#include "cfgEditorSubCategories.hpp"
