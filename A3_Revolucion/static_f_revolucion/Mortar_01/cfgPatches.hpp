@@ -11,7 +11,9 @@ class CfgPatches
 			Rev_B_BDF_Mortar_01_F,
 
             /* From "cfgFASR.hpp" */
-            Rev_O_FASR_Mortar_01_F
+            Rev_O_FASR_Mortar_01_F,
+            /* From "cfgVenezuela.hpp" */
+            revolucion_O_VZ_Mortar_01_F
         };
 		weapons[] = {/* Automated */};
 	};

@@ -96,8 +96,8 @@ class revolucion_O_VZ_Truck_02_F: O_Truck_02_covered_F
 	scopeCurator = public;
 	side = TEast;
 	faction = revolucion_OPF_VZ_F;
-	crew = revolucion_O_VZ_Soldier_F;
-	typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+	crew = Rev_O_VZ_Soldier_F;
+	typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -205,8 +205,8 @@ class Atlas_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
     scopeCurator = public;
     side = TEast;
     faction = revolucion_OPF_VZ_F;
-    crew = revolucion_O_VZ_Soldier_F;
-    typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+    crew = Rev_O_VZ_Soldier_F;
+    typicalCargo[] = {Rev_O_VZ_Soldier_F};
     textureList[] = {GreenHex,1};
     hiddenSelectionsTextures[] =
     {
@@ -224,8 +224,8 @@ class revolucion_O_VZ_Truck_02_box_F: O_Truck_02_box_F
 	scopeCurator = public;
 	side = TEast;
 	faction = revolucion_OPF_VZ_F;
-	crew = revolucion_O_VZ_Soldier_F;
-	typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+	crew = Rev_O_VZ_Soldier_F;
+	typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -334,8 +334,8 @@ class revolucion_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
 	scopeCurator = public;
 	side = TEast;
 	faction = revolucion_OPF_VZ_F;
-	crew = revolucion_O_VZ_Soldier_F;
-	typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+	crew = Rev_O_VZ_Soldier_F;
+	typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -445,8 +445,8 @@ class revolucion_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	forceInGarage = false;
 	side = TEast;
 	faction = revolucion_OPF_VZ_F;
-	crew = revolucion_O_VZ_Soldier_F;
-	typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+	crew = Rev_O_VZ_Soldier_F;
+	typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -555,8 +555,8 @@ class revolucion_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
 	scopeCurator = public;
 	side = TEast;
 	faction = revolucion_OPF_VZ_F;
-	crew = revolucion_O_VZ_Soldier_F;
-	typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+	crew = Rev_O_VZ_Soldier_F;
+	typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -584,8 +584,8 @@ class revolucion_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_cargo_base_F0;
 	side = TEast;
 	faction = revolucion_OPF_VZ_F;
-	crew = revolucion_O_VZ_Soldier_F;
-	typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+	crew = Rev_O_VZ_Soldier_F;
+	typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
 	{
@@ -614,8 +614,8 @@ class revolucion_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_flatbed_base_F0;
 	side = TEast;
 	faction = revolucion_OPF_VZ_F;
-	crew = revolucion_O_VZ_Soldier_F;
-	typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+	crew = Rev_O_VZ_Soldier_F;
+	typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] = {GreenHex,1};
 	hiddenSelectionsTextures[] =
 	{

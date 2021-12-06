@@ -7,8 +7,8 @@ class Atlas_O_VZ_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
     displayName = "BTR-100 Cazador";
 	side = TEast;
 	faction = Revolucion_OPF_VZ_F;
-	crew = revolucion_O_VZ_Crew_F;
-	typicalCargo[] = {revolucion_O_VZ_Crew_F};
+	crew = REV_O_VZ_Crew_F;
+	typicalCargo[] = {REV_O_VZ_Crew_F};
     textureList[] = {Green,1};
 	hiddenSelectionsTextures[] =
     {
