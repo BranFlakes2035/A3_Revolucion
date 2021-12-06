@@ -51,4 +51,17 @@ class CfgWeapons
         //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
         hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\cappatrol_m81_CO.paa"};
     };
+    class H_HelmetSpecter_cover_base_F;
+    class rev_H_HelmetSpecter_cover_whex_CO: H_HelmetSpecter_cover_base_F
+    {
+        author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
+        scope = public;
+        displayName = $STR_A3_A_CfgWeapons_rev_H_HelmetSpecter_cover_whex_F0;
+        //picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecter_cover_whex_F_CA.paa";
+        hiddenSelectionsTextures[] =
+        {
+            "\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_CO.paa",
+            "\A3_revolucion\Characters_F_Revolucion\Headgear\Data\H_HelmetSpecter_cover_whex_CO.paa"
+        };
+    };
 };

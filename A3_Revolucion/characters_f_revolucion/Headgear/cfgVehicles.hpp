@@ -36,4 +36,5 @@ class CfgVehicles
 	HEADGEAR_HOLDER(H_Booniehat_m81_F,"Booniehat (M81)",EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_milcap_atacs_F,"Military Cap [BDF]",EdSubcat_Helmets)
 	HEADGEAR_HOLDER(H_milcap_m81_F,"Military Cap (M81)",EdSubcat_Helmets)
+	HEADGEAR_HOLDER(rev_H_HelmetSpecter_cover_whex_CO,$STR_A3_A_CfgWeapons_rev_H_HelmetSpecter_cover_whex_F0,EdSubcat_Helmets)
 };

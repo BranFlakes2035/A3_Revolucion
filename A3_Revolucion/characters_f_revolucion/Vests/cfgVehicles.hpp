@@ -15,4 +15,7 @@ class CfgVehicles
     VEST_HOLDER(V_CarrierRigKBT_01_whex_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_whex_F0);
     VEST_HOLDER(V_CarrierRigKBT_01_light_whex_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_whex_F0);
     VEST_HOLDER(V_CarrierRigKBT_01_heavy_whex_F,$STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_whex_F0);
+    VEST_HOLDER(v_lxWS_VZ_Vest_F,"VZ Infantry Vest (Woodland Hex)");
+    VEST_HOLDER(rev_V_PlateCarrierIA1_whex,"VZ Light Vest (Woodland Hex)");
+    VEST_HOLDER(rev_V_PlateCarrierIAGL_whex,"VZ Infantry GL Vest (Woodland Hex)");
 };
