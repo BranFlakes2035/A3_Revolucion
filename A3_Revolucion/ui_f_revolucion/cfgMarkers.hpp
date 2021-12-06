@@ -24,5 +24,11 @@ class CfgMarkers
 		name = $STR_A3_R_CfgMarkers_flag_CDB;
 		icon = "\A3_Revolucion\UI_F_Revolucion\Data\CfgMarkers\CDB_CA.paa";
 		texture = "\A3_Revolucion\UI_F_Revolucion\Data\CfgMarkers\CDB_CA.paa";
+	};
+	class flag_VZ: flag_NATO
+	{
+		name = $STR_A3_R_CfgMarkers_flag_VZ;
+		icon = "\A3_Revolucion\UI_F_Revolucion\Data\CfgMarkers\VZ_CA.paa";
+		texture = "\A3_Revolucion\UI_F_Revolucion\Data\CfgMarkers\VZ_CA.paa";
 	};*/
 };

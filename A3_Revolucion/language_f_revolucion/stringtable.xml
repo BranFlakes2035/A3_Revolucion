@@ -1156,6 +1156,23 @@
                 <Japanese>Cartels</Japanese>
                 <Turkish>Cartels</Turkish>
             </Key>
+            <Key ID="STR_A3_R_CfgMarkers_flag_VZ">
+                <Original>Venezuela</Original>
+                <Chinese>Venezuela</Chinese>
+                <French>Venezuela</French>
+                <Spanish>Venezuela</Spanish>
+                <Italian>Venezuela</Italian>
+                <Polish>Venezuela</Polish>
+                <Russian>Venezuela</Russian>
+                <German>Venezuela</German>
+                <Czech>Venezuela</Czech>
+                <English>Venezuela</English>
+                <Portuguese>Venezuela</Portuguese>
+                <Korean>Venezuela</Korean>
+                <Chinesesimp>Venezuela</Chinesesimp>
+                <Japanese>Venezuela</Japanese>
+                <Turkish>Venezuela</Turkish>
+            </Key>
 		</Container>
 		<Container name="Structures_F">
 			<Container name="Flags">
@@ -1226,6 +1243,23 @@
 					<Chinesesimp>Flag (Cartels)</Chinesesimp>
 					<Japanese>Flag (Cartels)</Japanese>
 					<Turkish>Flag (Cartels)</Turkish>
+				</Key>
+                <Key ID="STR_A3_R_CfgVehicles_Flag_VZ_F0">
+					<Original>Flag (Venezuela)</Original>
+					<Chinese>Flag (Venezuela)</Chinese>
+					<French>Flag (Venezuela)</French>
+					<Spanish>Flag (Venezuela)</Spanish>
+					<Italian>Flag (Venezuela)</Italian>
+					<Polish>Flag (Venezuela)</Polish>
+					<Russian>Flag (Venezuela)</Russian>
+					<German>Flag (Venezuela)</German>
+					<Czech>Flag (Venezuela)</Czech>
+					<English>Flag (Venezuela)</English>
+					<Portuguese>Flag (Venezuela)</Portuguese>
+					<Korean>Flag (Venezuela)</Korean>
+					<Chinesesimp>Flag (Venezuela)</Chinesesimp>
+					<Japanese>Flag (Venezuela)</Japanese>
+					<Turkish>Flag (Venezuela)</Turkish>
 				</Key>
 			</Container>
 		</Container>

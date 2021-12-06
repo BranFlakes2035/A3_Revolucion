@@ -98,4 +98,28 @@ class CfgVehicles
 			init = "(_this select 0) setFlagTexture '\A3_Revolucion\Data_F_Revolucion\Flags\flag_CDB_CO.paa'";
 		};
 	};
+	class Flag_VZ_F: FlagCarrier
+	{
+		author = $STR_A3_A_BranFlakes;
+		class SimpleObject
+		{
+			eden = false;
+			animate[] =
+			{
+				{flag,0}
+			};
+			hide[] = {};
+			verticalOffset = 3.977;
+			verticalOffsetWorld = 0;
+			init = "''";
+		};
+		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_VZ_F.jpg";
+		scope = public;
+		scopeCurator = public;
+		displayName = $STR_A3_R_CfgVehicles_Flag_VZ_F0;
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture '\A3_Revolucion\Data_F_Revolucion\Flags\flag_Venezuela_CO.paa'";
+		};
+	};
 };
