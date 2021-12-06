@@ -5,6 +5,7 @@ class CfgVehicles
 	class Offroad_01_base_F: Car_F{};
     class Offroad_01_military_base_F: Offroad_01_base_F
     {
+		class Turrets;
         class AnimationSources;
 		class TextureSources
 		{
@@ -42,7 +43,6 @@ class CfgVehicles
 			};
 		};
     };
-	class I_E_Offroad_01_F: Offroad_01_military_base_F{};
     class Offroad_01_armed_base_F: Offroad_01_military_base_F{};
     class Offroad_01_military_covered_base_F: Offroad_01_military_base_F
     {
