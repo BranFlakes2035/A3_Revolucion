@@ -148,6 +148,7 @@ class CfgVehicles
 			showCamonetTurret,0,
 			showLog,1
 		};
+		class O_MBT_02_cannon_F;
 
         /* Inventory */
 		class TransportItems

@@ -15,4 +15,5 @@ class CfgVehicles
 	/* Factions */
 	#include "cfgBDF.hpp"		// Baracan Defence Force
     #include "cfgFASR.hpp"		// FASR
+    #include "cfgVenezuela.hpp" //Venezuela
 };

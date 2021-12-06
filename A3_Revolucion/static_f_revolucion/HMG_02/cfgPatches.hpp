@@ -21,8 +21,11 @@ class CfgPatches
 			Rev_I_FRR_HMG_02_F,
             Rev_I_FRR_HMG_02_high_F,
 			Rev_O_FRR_HMG_02_F,
-            Rev_O_FRR_HMG_02_high_F
+            Rev_O_FRR_HMG_02_high_F,
 
+            /*From "cfgVenezuela.hpp" */
+            revolucion_O_VZ_HMG_02_F,
+            revolucion_O_VZ_HMG_02_high_F
         };
 		weapons[] = {/* Automated */};
 	};

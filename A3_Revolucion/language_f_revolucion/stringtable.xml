@@ -1069,6 +1069,23 @@
 					<Japanese>Service Helmet (ATACS-AU)</Japanese>
 					<Turkish>Service Helmet (ATACS-AU)</Turkish>
 				</Key>
+                <Key ID="STR_A3_A_CfgWeapons_rev_H_HelmetSpecter_cover_whex_F0">
+                    <Original>Raven Helmet (Cover W)</Original>
+                    <Chinese>Raven 頭盔 (Cover W)</Chinese>
+                    <French>Casque Raven (Cover W)</French>
+                    <Spanish>Casco de Raven (Cover W)</Spanish>
+                    <Italian>Elmetto Raven (Cover W)</Italian>
+                    <Polish>Hełm Raven (Cover W)</Polish>
+                    <Russian>Шлем Raven (Cover W)</Russian>
+                    <German>Raven Helm (Cover W)</German>
+                    <Czech>Přilba Raven (Cover W)</Czech>
+                    <English>Raven Helmet (Cover W)</English>
+                    <Portuguese>Capacete Raven (Cover W)</Portuguese>
+                    <Korean>레이븐 헬멧 (Cover W)</Korean>
+                    <Chinesesimp>Raven 头盔 (Cover W)</Chinesesimp>
+                    <Japanese>レイヴンヘルメット (Cover W)</Japanese>
+                    <Turkish>Avcı Miğfer (Cover W)</Turkish>
+                </Key>
 		</Container>
 		<Container name="UI_F">
             <Key ID="STR_A3_R_CfgMarkers_flag_BDF">
