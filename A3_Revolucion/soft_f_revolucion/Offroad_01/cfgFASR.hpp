@@ -1,5 +1,5 @@
 /* FASR */
-class Rev_O_FASR_Offroad_01_F: Offroad_01_military_base_F
+class Rev_O_FASR_Offroad_01_F: I_E_Offroad_01_F
 {
 	author = $STR_A3_A_BranFlakes;
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Offroad_01_F.jpg";
