@@ -204,6 +204,7 @@ class Rev_B_BDF_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 	scopeCurator = public;
 	side = TWest;
 	faction = Revolucion_BLU_BDF_F;
+	displayName = "AFV-4 Chupacabra";
 	crew = Rev_B_BDF_Crew_F;
 	typicalCargo[] = {Rev_B_BDF_Crew_F};
 	textureList[] = {BDF,1};

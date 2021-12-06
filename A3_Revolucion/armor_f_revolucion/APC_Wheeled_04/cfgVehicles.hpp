@@ -26,4 +26,5 @@ class CfgVehicles
 
     /* Factions */
     #include "cfgFRR.hpp"   // FRR
+    #include "cfgVenezuela.hpp" // Venezuela
 };
