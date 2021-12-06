@@ -122,7 +122,73 @@ class arifle_NCAR15B_ACO_grn_F: arifle_NCAR15B_F
 		};
     };
 };
-
+// NCAR-15B 5.8 mm + ARCO + Silencer
+class arifle_NCAR15B_ARCO_snds_F: arifle_NCAR15B_F
+{
+    author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_58_blk_F;
+		};
+    };
+};
+class arifle_NCAR15_ARCO_snds_F: arifle_NCAR15_F
+{
+    author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_58_blk_F;
+		};
+    };
+};
+class arifle_NCAR15_GL_ARCO_snds_F: arifle_NCAR15_GL_F
+{
+    author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_58_blk_F;
+		};
+    };
+};
 // NCAR-15 5.8 mm + ACO
 class arifle_NCAR15_ACO_grn_F: arifle_NCAR15_F
 {
@@ -152,6 +218,28 @@ class arifle_NCAR15_ACO_grn_FL_F: arifle_NCAR15_F
 		{
 			slot = PointerSlot;
 			item = acc_flashlight;
+		};
+    };
+};
+class arifle_NCAR15_MG_DMS_snds_F: arifle_NCAR15_MG_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_DMS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_58_blk_F;
 		};
     };
 };
@@ -423,6 +511,28 @@ class arifle_CTARS_blk_ACO_grn_FL_F: arifle_CTARS_blk_F
 		{
 			slot = PointerSlot;
 			item = acc_flashlight;
+		};
+    };
+};
+class arifle_CTARS_blk_ARCO_snds_F: arifle_CTARS_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_58_blk_F;
 		};
     };
 };
