@@ -1,4 +1,4 @@
-class Atlas_O_VZ_Heli_Light_02_dynamicLoadout_F: Heli_Light_02_dynamicLoadout_base_F
+class Rev_O_VZ_Heli_Light_02_dynamicLoadout_F: Heli_Light_02_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject
@@ -148,7 +148,7 @@ class Atlas_O_VZ_Heli_Light_02_dynamicLoadout_F: Heli_Light_02_dynamicLoadout_ba
 		weap_xx(arifle_NCAR15B_F,2);
 	};
 };
-class revolucion_O_VZ_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
+class Rev_O_VZ_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject

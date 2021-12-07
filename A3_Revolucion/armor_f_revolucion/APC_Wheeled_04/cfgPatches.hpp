@@ -11,6 +11,9 @@
             Rev_B_FRR_APC_Wheeled_04_cannon_F,
 			Rev_I_FRR_APC_Wheeled_04_cannon_F,
 			Rev_O_FRR_APC_Wheeled_04_cannon_F
+
+			/* From "cfgVenezuela.hpp" */
+			Rev_O_VZ_APC_Wheeled_04_Cannon_F
         };
 		weapons[] = {/* Automated */};
 	};

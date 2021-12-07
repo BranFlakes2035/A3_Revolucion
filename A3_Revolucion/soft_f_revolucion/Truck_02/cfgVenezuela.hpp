@@ -1,4 +1,4 @@
-class revolucion_O_VZ_Truck_02_F: O_Truck_02_covered_F
+class Rev_O_VZ_Truck_02_F: O_Truck_02_covered_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -216,7 +216,7 @@ class Atlas_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
         "\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
     };
 };
-class revolucion_O_VZ_Truck_02_box_F: O_Truck_02_box_F
+class Rev_O_VZ_Truck_02_box_F: O_Truck_02_box_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_box_F.jpg";
@@ -236,7 +236,7 @@ class revolucion_O_VZ_Truck_02_box_F: O_Truck_02_box_F
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
-class revolucion_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
+class Rev_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -345,7 +345,7 @@ class revolucion_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
 	};
 };
-class revolucion_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
+class Rev_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -457,7 +457,7 @@ class revolucion_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
-class revolucion_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
+class Rev_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -566,7 +566,7 @@ class revolucion_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
 	};
 };
-class revolucion_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
+class Rev_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -596,7 +596,7 @@ class revolucion_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 	"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
-class revolucion_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
+class Rev_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject

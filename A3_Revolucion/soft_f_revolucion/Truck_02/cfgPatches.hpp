@@ -35,7 +35,17 @@ class CfgPatches
             Rev_O_FASR_Truck_02_cargo_F,
             Rev_O_FASR_Truck_02_flatbed_F,
 			Rev_O_FASR_Truck_02_MRL_F,
-			Rev_O_FASR_Truck_02_AA_F
+			Rev_O_FASR_Truck_02_AA_F,
+
+			/*From "cfgVenezuela.hpp" */
+			Rev_O_VZ_Truck_02_F,
+			Atlas_O_VZ_Truck_02_transport_F,
+			Rev_O_VZ_Truck_02_box_F,
+			Rev_O_VZ_Truck_02_medical_F,
+			Rev_O_VZ_Truck_02_Ammo_F,
+			Rev_O_VZ_Truck_02_fuel_F,
+			Rev_O_VZ_Truck_02_cargo_F,
+			Rev_O_VZ_Truck_02_flatbed_F
         };
 		weapons[] = {/* Automated */};
 	};

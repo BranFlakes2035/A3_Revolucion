@@ -1,4 +1,4 @@
-class revolucion_O_VZ_LSV_02_armed_F: LSV_02_armed_base_F
+class Rev_O_VZ_LSV_02_armed_F: LSV_02_armed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -90,8 +90,8 @@ class revolucion_O_VZ_LSV_02_armed_F: LSV_02_armed_base_F
 	displayName = "Quimera (Minigun)";
 	side = TEast;
 	faction = revolucion_OPF_VZ_F;
-	crew = revolucion_O_VZ_Soldier_F;
-	typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+	crew = Rev_O_VZ_Soldier_F;
+	typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] =
 	{
 		Black,0,
@@ -129,7 +129,7 @@ class revolucion_O_VZ_LSV_02_armed_F: LSV_02_armed_base_F
 		weap_xx(arifle_NCAR15_F,2);
 	};
 };
-class revolucion_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
+class Rev_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -221,8 +221,8 @@ class revolucion_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
     displayName = "Quimera";
     side = TEast;
     faction = revolucion_OPF_VZ_F;
-    crew = revolucion_O_VZ_Soldier_F;
-    typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+    crew = Rev_O_VZ_Soldier_F;
+    typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] =
 	{
 		GreenHex,1
@@ -259,7 +259,7 @@ class revolucion_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 		weap_xx(arifle_NCAR15_F,2);
 	};
 };
-class revolucion_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
+class Rev_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject
@@ -349,8 +349,8 @@ class revolucion_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
     displayName = "Quimera (AT)";
     side = TEast;
     faction = revolucion_OPF_VZ_F;
-    crew = revolucion_O_VZ_Soldier_F;
-    typicalCargo[] = {revolucion_O_VZ_Soldier_F};
+    crew = Rev_O_VZ_Soldier_F;
+    typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] =
 	{
 		GreenHex,1

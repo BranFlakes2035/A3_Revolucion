@@ -8,7 +8,7 @@
 		units[] =
         {
             // Venezuela
-            revolucion_O_VZ_MBT_02_cannon_ghex_F
+            Rev_O_VZ_MBT_02_cannon_ghex_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

@@ -1,4 +1,4 @@
-class Atlas_O_VZ_Ejection_Seat_Plane_CAS_02_F: Ejection_Seat_Plane_CAS_02_base_F
+class Rev_O_VZ_Ejection_Seat_Plane_CAS_02_F: Ejection_Seat_Plane_CAS_02_base_F
 {
 	class SimpleObject
 	{
@@ -23,7 +23,7 @@ class Atlas_O_VZ_Ejection_Seat_Plane_CAS_02_F: Ejection_Seat_Plane_CAS_02_base_F
 	faction = Atlas_OPF_V_F;
 	crew = Atlas_O_VZ_Fighter_Pilot_F;
 };
-class Atlas_O_VZ_Plane_CAS_02_dynamicLoadout_ghex_F: Plane_CAS_02_dynamicLoadout_base_F
+class Rev_O_VZ_Plane_CAS_02_dynamicLoadout_ghex_F: Plane_CAS_02_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject

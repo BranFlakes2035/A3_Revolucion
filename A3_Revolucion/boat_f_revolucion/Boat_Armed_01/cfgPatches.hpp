@@ -13,7 +13,7 @@ class CfgPatches
 		units[] =
         {
             /* From "cfgVenezuela.hpp" */
-            revolucion_O_VZ_Boat_Armed_01_hmg_F,
+            Rev_O_VZ_Boat_Armed_01_hmg_F,
         };
 		weapons[] = {/* Automated */};
 	};

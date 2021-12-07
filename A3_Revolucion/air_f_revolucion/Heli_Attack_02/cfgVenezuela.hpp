@@ -1,4 +1,4 @@
-class revolucion_O_VZ_Heli_Attack_02_dynamicLoadout_F: Heli_Attack_02_dynamicLoadout_base_F
+class Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F: Heli_Attack_02_dynamicLoadout_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
     class SimpleObject

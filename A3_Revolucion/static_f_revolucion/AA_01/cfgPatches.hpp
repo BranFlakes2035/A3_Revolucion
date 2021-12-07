@@ -7,7 +7,7 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            revolucion_O_VZ_Static_AA_F
+            Rev_O_VZ_Static_AA_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

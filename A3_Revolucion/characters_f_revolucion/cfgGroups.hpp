@@ -776,7 +776,7 @@ class CfgGroups
 					GROUP_UNIT(1,TEast,Rev_O_VZ_soldier_F,PRIVATE,5,-5);
 				};
 			};
-			/*class Motorized
+			class Motorized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;
 				class O_VZ_MotInf_Team
@@ -911,7 +911,7 @@ class CfgGroups
 					GROUP_UNIT(0,TEast,Rev_O_VZ_MBT_02_cannon_ghex_F,LIEUTENANT,0,0);
 					GROUP_UNIT(1,TEast,Rev_O_VZ_MBT_02_cannon_ghex_F,SERGEANT,10,-10);
 				};
-			};*/
+			};
 		};
 	};
 	class Indep

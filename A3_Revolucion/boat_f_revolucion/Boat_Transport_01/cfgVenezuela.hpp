@@ -1,4 +1,4 @@
-class Revolucion_O_VZ_Boat_Transport_01_F: I_C_Boat_Transport_01_F
+class Rev_O_VZ_Boat_Transport_01_F: I_C_Boat_Transport_01_F
 {
     author = $STR_A3_A_Ravenholme;
 	side = TEast;

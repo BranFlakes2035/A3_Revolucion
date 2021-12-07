@@ -12,8 +12,8 @@ class CfgPatches
 		units[] =
         {
             /* From "cfgRUS.hpp" */
-            revolucion_O_VZ_Heli_Light_02_dynamicLoadout_F,
-            revolucion_O_VZ_Heli_Light_02_unarmed_F,
+            Rev_O_VZ_Heli_Light_02_dynamicLoadout_F,
+            Rev_O_VZ_Heli_Light_02_unarmed_F,
         };
 		weapons[] = {/* Automated */};
 	};

@@ -8,7 +8,7 @@ class CfgPatches
 		units[] =
         {
 			//Venezuela
-			revolucion_O_VZ_Heli_Attack_02_dynamicLoadout_F
+			Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

@@ -1,4 +1,4 @@
-class revolucion_O_VZ_Static_AT_F: O_static_AT_F
+class Rev_O_VZ_Static_AT_F: O_static_AT_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject

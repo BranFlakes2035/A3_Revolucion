@@ -1,4 +1,4 @@
-class revolucion_O_VZ_Boat_Armed_01_hmg_F: Boat_Armed_01_base_F
+class Rev_O_VZ_Boat_Armed_01_hmg_F: Boat_Armed_01_base_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	class SimpleObject

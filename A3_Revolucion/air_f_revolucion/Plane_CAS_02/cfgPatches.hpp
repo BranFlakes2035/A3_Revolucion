@@ -8,8 +8,8 @@ class CfgPatches
 		units[] =
         {
 			//Venezuela
-			revolucion_O_VZ_Ejection_Seat_Plane_CAS_02_F,
-			revolucion_O_VZ_Plane_CAS_02_dynamicLoadout_ghex_F
+			Rev_O_VZ_Ejection_Seat_Plane_CAS_02_F,
+			Rev_O_VZ_Plane_CAS_02_dynamicLoadout_ghex_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};

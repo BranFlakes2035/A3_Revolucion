@@ -8,10 +8,10 @@ class CfgPatches
 		units[] =
         {
             // Venezuela
-            revolucion_O_VZ_LSV_02_armed_F,
-            revolucion_O_VZ_LSV_02_armed_viper_F,
-            revolucion_O_VZ_LSV_02_AT_F,
-            revolucion_O_VZ_LSV_02_unarmed_F
+            Rev_O_VZ_LSV_02_armed_F,
+            Rev_O_VZ_LSV_02_armed_viper_F,
+            Rev_O_VZ_LSV_02_AT_F,
+            Rev_O_VZ_LSV_02_unarmed_F
         };
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
