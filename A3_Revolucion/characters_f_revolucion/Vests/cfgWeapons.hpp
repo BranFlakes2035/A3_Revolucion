@@ -14,14 +14,14 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_BranFlakes;
 		displayName = $STR_A3_R_CfgWeapons_V_PlateCarrierL_cartel_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierL_CTRG_grn_F_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\V_PlateCarrierL_cartel_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\vest_cartel_CO.paa"};
 	};
 	class V_PlateCarrierH_cartel_F: V_PlateCarrier2_rgr
 	{
 		author = $STR_A3_A_BranFlakes;
 		displayName = $STR_A3_R_CfgWeapons_V_PlateCarrierH_cartel_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\V_PlateCarrierH_cartel_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\vest_cartel_CO.paa"};
     };
     class V_CarrierRigKBT_01_ctrg_F: V_CarrierRigKBT_01_base_F
@@ -29,7 +29,7 @@ class CfgWeapons
 		author = $STR_A3_A_BranFlakes;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_ctrg_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\V_CarrierRigKBT_01_ctrg_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_CTRG_CO.paa"};
     };
     class V_CarrierRigKBT_01_light_ctrg_F: V_CarrierRigKBT_01_light_base_F
@@ -37,7 +37,7 @@ class CfgWeapons
 		author = $STR_A3_A_BranFlakes;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_ctrg_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\V_CarrierRigKBT_01_light_ctrg_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_CTRG_CO.paa"};
     };
     class V_CarrierRigKBT_01_heavy_ctrg_F: V_CarrierRigKBT_01_heavy_base_F
@@ -45,7 +45,7 @@ class CfgWeapons
 		author = $STR_A3_A_BranFlakes;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_ctrg_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\V_CarrierRigKBT_01_heavy_ctrg_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_CTRG_CO.paa"};
     };
     /*class V_CarrierRigKBT_01_whex_F: V_CarrierRigKBT_01_base_F
@@ -77,7 +77,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_BranFlakes;
 		displayName = "VZ Infantry Vest (Woodland Hex)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_grn_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\icon_V_PlateCarrierIA2_whex_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\equip_IA_Vest01_whex_CO.paa",
@@ -90,7 +90,7 @@ class CfgWeapons
 		author = $STR_A3_A_BranFlakes;
 		scope = public;
 		displayName = "VZ Light Vest (Woodland Hex)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIA1_grn_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\icon_V_PlateCarrierIA1_whex_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\equip_IA_Vest01_whex_CO.paa"};
 	};
 	class V_PlateCarrierIAGL_dgtl;
@@ -99,7 +99,7 @@ class CfgWeapons
 		author = $STR_A3_A_BranFlakes;
 		scope = public;
 		displayName = "VZ Infantry GL Vest (Woodland Hex)";
-		picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\icon_V_PlateCarrierIAGL_grn_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\icon_V_PlateCarrierIAGL_whex_ca.paa";
 		hiddenSelectionsTextures[] =
 		{
 			"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\equip_IA_Vest01_whex_CO.paa",

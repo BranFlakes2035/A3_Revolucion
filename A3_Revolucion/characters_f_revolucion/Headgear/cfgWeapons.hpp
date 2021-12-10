@@ -13,7 +13,7 @@ class CfgWeapons
         author = "Bran Flakes and TacticalDruid";
         scope = public;
         displayName = $STR_A3_R_CfgWeapons_H_mk7_atacsfg0;
-        //picture = "Picture path";
+        picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\H_MK7_atacsfg_F_CA.paa";
         model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_Mk7_F";
         hiddenSelections[] = { "Camo","Camo2","Camo3" };
         hiddenSelectionsTextures[] =
@@ -27,28 +27,28 @@ class CfgWeapons
     {
         author = "Bran Flakes";
         displayName = "Booniehat [BDF]";
-        //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
+        picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\H_Booniehat_atacs_F_CA.paa";
         hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\booniehat_atacs_CO.paa"};
     };
     class H_Booniehat_m81_F: H_Booniehat_khk
     {
         author = "Bran Flakes";
         displayName = "Booniehat (M81)";
-        //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
+        picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\H_Booniehat_m81_F_CA.paa";
         hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\booniehat_m81_CO.paa"};
     };
     class H_milcap_atacs_F: H_MilCap_ocamo
     {
         author = "Bran Flakes";
         displayName = "Military Cap [BDF]";
-        //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
+        picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\H_milcap_atacs_F_CA.paa";
         hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\cappatrol_atacs_CO.paa"};
     };
     class H_milcap_m81_F: H_MilCap_ocamo
     {
         author = "Bran Flakes";
         displayName = "Military Cap (M81)";
-        //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_Booniehat_whex_F_CA.paa";
+        picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\H_milcap_m81_F_CA.paa";
         hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\cappatrol_m81_CO.paa"};
     };
     class H_HelmetSpecter_cover_base_F;
@@ -57,7 +57,7 @@ class CfgWeapons
         author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
         scope = public;
         displayName = $STR_A3_A_CfgWeapons_rev_H_HelmetSpecter_cover_whex_F0;
-        //picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\icon_H_HelmetSpecter_cover_whex_F_CA.paa";
+        picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\rev_H_HelmetSpecter_cover_whex_CO_CA.paa";
         hiddenSelectionsTextures[] =
         {
             "\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_CO.paa",

@@ -17,7 +17,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_BDF_F.jpg";
+		editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_BDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_R_CfgVehicles_Flag_BDF_F0;
@@ -41,7 +41,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_FASR_F.jpg";
+		editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_BDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_R_CfgVehicles_Flag_FASR_F0;
@@ -65,7 +65,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_FRR_F.jpg";
+		editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_BDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_R_CfgVehicles_Flag_FRR_F0;
@@ -89,7 +89,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_CDB_F.jpg";
+		editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_BDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_R_CfgVehicles_Flag_CDB_F0;
@@ -113,7 +113,7 @@ class CfgVehicles
 			verticalOffsetWorld = 0;
 			init = "''";
 		};
-		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_VZ_F.jpg";
+		editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_BDF_F.jpg";
 		scope = public;
 		scopeCurator = public;
 		displayName = $STR_A3_R_CfgVehicles_Flag_VZ_F0;
