@@ -454,106 +454,55 @@
 			</Container>
 			<Container name="Uniforms">
 				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Uniform_01_F0">
-					<Original>Combat Fatigues [BDF]</Original>
-					<Chinese>Combat Fatigues [BDF]</Chinese>
-					<French>Combat Fatigues [BDF]</French>
-					<Spanish>Combat Fatigues [BDF]</Spanish>
-					<Italian>Combat Fatigues [BDF]</Italian>
-					<Polish>Combat Fatigues [BDF]</Polish>
-					<Russian>Combat Fatigues [BDF]</Russian>
-					<German>Combat Fatigues [BDF]</German>
-					<Czech>Combat Fatigues [BDF]</Czech>
-					<English>Combat Fatigues [BDF]</English>
-					<Portuguese>Combat Fatigues [BDF]</Portuguese>
-					<Korean>Combat Fatigues [BDF]</Korean>
-					<Chinesesimp>Combat Fatigues [BDF]</Chinesesimp>
-					<Japanese>Combat Fatigues [BDF]</Japanese>
-					<Turkish>Combat Fatigues [BDF]</Turkish>
+					<Original>Combat Fatigues [FDB]</Original>
+					<Chinese>Combat Fatigues [FDB]</Chinese>
+					<French>Combat Fatigues [FDB]</French>
+					<Spanish>Combat Fatigues [FDB]</Spanish>
+					<Italian>Combat Fatigues [FDB]</Italian>
+					<Polish>Combat Fatigues [FDB]</Polish>
+					<Russian>Combat Fatigues [FDB]</Russian>
+					<German>Combat Fatigues [FDB]</German>
+					<Czech>Combat Fatigues [FDB]</Czech>
+					<English>Combat Fatigues [FDB]</English>
+					<Portuguese>Combat Fatigues [FDB]</Portuguese>
+					<Korean>Combat Fatigues [FDB]</Korean>
+					<Chinesesimp>Combat Fatigues [FDB]</Chinesesimp>
+					<Japanese>Combat Fatigues [FDB]</Japanese>
+					<Turkish>Combat Fatigues [FDB]</Turkish>
 				</Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Uniform_01_shortsleeve_F0">
-					<Original>Combat Fatigues [BDF] (Rolled-up)</Original>
-					<Chinese>Combat Fatigues [BDF] (Rolled-up)</Chinese>
-					<French>Combat Fatigues [BDF] (Rolled-up)</French>
-					<Spanish>Combat Fatigues [BDF] (Rolled-up)</Spanish>
-					<Italian>Combat Fatigues [BDF] (Rolled-up)</Italian>
-					<Polish>Combat Fatigues [BDF] (Rolled-up)</Polish>
-					<Russian>Combat Fatigues [BDF] (Rolled-up)</Russian>
-					<German>Combat Fatigues [BDF] (Rolled-up)</German>
-					<Czech>Combat Fatigues [BDF] (Rolled-up)</Czech>
-					<English>Combat Fatigues [BDF] (Rolled-up)</English>
-					<Portuguese>Combat Fatigues [BDF] (Rolled-up)</Portuguese>
-					<Korean>Combat Fatigues [BDF] (Rolled-up)</Korean>
-					<Chinesesimp>Combat Fatigues [BDF] (Rolled-up)</Chinesesimp>
-					<Japanese>Combat Fatigues [BDF] (Rolled-up)</Japanese>
-					<Turkish>Combat Fatigues [BDF] (Rolled-up)</Turkish>
+					<Original>Combat Fatigues [FDB] (Rolled-up)</Original>
+					<Chinese>Combat Fatigues [FDB] (Rolled-up)</Chinese>
+					<French>Combat Fatigues [FDB] (Rolled-up)</French>
+					<Spanish>Combat Fatigues [FDB] (Rolled-up)</Spanish>
+					<Italian>Combat Fatigues [FDB] (Rolled-up)</Italian>
+					<Polish>Combat Fatigues [FDB] (Rolled-up)</Polish>
+					<Russian>Combat Fatigues [FDB] (Rolled-up)</Russian>
+					<German>Combat Fatigues [FDB] (Rolled-up)</German>
+					<Czech>Combat Fatigues [FDB] (Rolled-up)</Czech>
+					<English>Combat Fatigues [FDB] (Rolled-up)</English>
+					<Portuguese>Combat Fatigues [FDB] (Rolled-up)</Portuguese>
+					<Korean>Combat Fatigues [FDB] (Rolled-up)</Korean>
+					<Chinesesimp>Combat Fatigues [FDB] (Rolled-up)</Chinesesimp>
+					<Japanese>Combat Fatigues [FDB] (Rolled-up)</Japanese>
+					<Turkish>Combat Fatigues [FDB] (Rolled-up)</Turkish>
 				</Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Uniform_01_tanktop_F0">
-					<Original>Combat Fatigues [BDF] (Tank Top)</Original>
-					<Chinese>Combat Fatigues [BDF] (Tank Top)</Chinese>
-					<French>Combat Fatigues [BDF] (Tank Top)</French>
-					<Spanish>Combat Fatigues [BDF] (Tank Top)</Spanish>
-					<Italian>Combat Fatigues [BDF] (Tank Top)</Italian>
-					<Polish>Combat Fatigues [BDF] (Tank Top)</Polish>
-					<Russian>Combat Fatigues [BDF] (Tank Top)</Russian>
-					<German>Combat Fatigues [BDF] (Tank Top)</German>
-					<Czech>Combat Fatigues [BDF] (Tank Top)</Czech>
-					<English>Combat Fatigues [BDF] (Tank Top)</English>
-					<Portuguese>Combat Fatigues [BDF] (Tank Top)</Portuguese>
-					<Korean>Combat Fatigues [BDF] (Tank Top)</Korean>
-					<Chinesesimp>Combat Fatigues [BDF] (Tank Top)</Chinesesimp>
-					<Japanese>Combat Fatigues [BDF] (Tank Top)</Japanese>
-					<Turkish>Combat Fatigues [BDF] (Tank Top)</Turkish>
-				</Key>
-				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Uniform_01_ar_F0">
-					<Original>Combat Fatigues [BDF] (Arid)</Original>
-					<Chinese>Combat Fatigues [BDF] (Arid)</Chinese>
-					<French>Combat Fatigues [BDF] (Arid)</French>
-					<Spanish>Combat Fatigues [BDF] (Arid)</Spanish>
-					<Italian>Combat Fatigues [BDF] (Arid)</Italian>
-					<Polish>Combat Fatigues [BDF] (Arid)</Polish>
-					<Russian>Combat Fatigues [BDF] (Arid)</Russian>
-					<German>Combat Fatigues [BDF] (Arid)</German>
-					<Czech>Combat Fatigues [BDF] (Arid)</Czech>
-					<English>Combat Fatigues [BDF] (Arid)</English>
-					<Portuguese>Combat Fatigues [BDF] (Arid)</Portuguese>
-					<Korean>Combat Fatigues [BDF] (Arid)</Korean>
-					<Chinesesimp>Combat Fatigues [BDF] (Arid)</Chinesesimp>
-					<Japanese>Combat Fatigues [BDF] (Arid)</Japanese>
-					<Turkish>Combat Fatigues [BDF] (Arid)</Turkish>
-				</Key>
-				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Uniform_01_shortsleeve_ar_F0">
-					<Original>Combat Fatigues [BDF] (Rolled-up, Arid)</Original>
-					<Chinese>Combat Fatigues [BDF] (Rolled-up, Arid)</Chinese>
-					<French>Combat Fatigues [BDF] (Rolled-up, Arid)</French>
-					<Spanish>Combat Fatigues [BDF] (Rolled-up, Arid)</Spanish>
-					<Italian>Combat Fatigues [BDF] (Rolled-up, Arid)</Italian>
-					<Polish>Combat Fatigues [BDF] (Rolled-up, Arid)</Polish>
-					<Russian>Combat Fatigues [BDF] (Rolled-up, Arid)</Russian>
-					<German>Combat Fatigues [BDF] (Rolled-up, Arid)</German>
-					<Czech>Combat Fatigues [BDF] (Rolled-up, Arid)</Czech>
-					<English>Combat Fatigues [BDF] (Rolled-up, Arid)</English>
-					<Portuguese>Combat Fatigues [BDF] (Rolled-up, Arid)</Portuguese>
-					<Korean>Combat Fatigues [BDF] (Rolled-up, Arid)</Korean>
-					<Chinesesimp>Combat Fatigues [BDF] (Rolled-up, Arid)</Chinesesimp>
-					<Japanese>Combat Fatigues [BDF] (Rolled-up, Arid)</Japanese>
-					<Turkish>Combat Fatigues [BDF] (Rolled-up, Arid)</Turkish>
-				</Key>
-				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Uniform_01_tanktop_ar_F0">
-					<Original>Combat Fatigues [BDF] (Arid, Tank Top)</Original>
-					<Chinese>Combat Fatigues [BDF] (Arid, Tank Top)</Chinese>
-					<French>Combat Fatigues [BDF] (Arid, Tank Top)</French>
-					<Spanish>Combat Fatigues [BDF] (Arid, Tank Top)</Spanish>
-					<Italian>Combat Fatigues [BDF] (Arid, Tank Top)</Italian>
-					<Polish>Combat Fatigues [BDF] (Arid, Tank Top)</Polish>
-					<Russian>Combat Fatigues [BDF] (Arid, Tank Top)</Russian>
-					<German>Combat Fatigues [BDF] (Arid, Tank Top)</German>
-					<Czech>Combat Fatigues [BDF] (Arid, Tank Top)</Czech>
-					<English>Combat Fatigues [BDF] (Arid, Tank Top)</English>
-					<Portuguese>Combat Fatigues [BDF] (Arid, Tank Top)</Portuguese>
-					<Korean>Combat Fatigues [BDF] (Arid, Tank Top)</Korean>
-					<Chinesesimp>Combat Fatigues [BDF] (Arid, Tank Top)</Chinesesimp>
-					<Japanese>Combat Fatigues [BDF] (Arid, Tank Top)</Japanese>
-					<Turkish>Combat Fatigues [BDF] (Arid, Tank Top)</Turkish>
+					<Original>Combat Fatigues [FDB] (Tank Top)</Original>
+					<Chinese>Combat Fatigues [FDB] (Tank Top)</Chinese>
+					<French>Combat Fatigues [FDB] (Tank Top)</French>
+					<Spanish>Combat Fatigues [FDB] (Tank Top)</Spanish>
+					<Italian>Combat Fatigues [FDB] (Tank Top)</Italian>
+					<Polish>Combat Fatigues [FDB] (Tank Top)</Polish>
+					<Russian>Combat Fatigues [FDB] (Tank Top)</Russian>
+					<German>Combat Fatigues [FDB] (Tank Top)</German>
+					<Czech>Combat Fatigues [FDB] (Tank Top)</Czech>
+					<English>Combat Fatigues [FDB] (Tank Top)</English>
+					<Portuguese>Combat Fatigues [FDB] (Tank Top)</Portuguese>
+					<Korean>Combat Fatigues [FDB] (Tank Top)</Korean>
+					<Chinesesimp>Combat Fatigues [FDB] (Tank Top)</Chinesesimp>
+					<Japanese>Combat Fatigues [FDB] (Tank Top)</Japanese>
+					<Turkish>Combat Fatigues [FDB] (Tank Top)</Turkish>
 				</Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_I_CDB_CombatUniform_F0">
 					<Original>Combat Fatigues (Black)</Original>
@@ -726,55 +675,55 @@
                     <Turkish>Field Uniform [FASR] (Tank Top)</Turkish>
                 </Key>
                 <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Officer_01_F0">
-                    <Original>Officer Fatigues [BDF]</Original>
-                    <Chinese>Officer Fatigues [BDF]</Chinese>
-                    <French>Officer Fatigues [BDF]</French>
-                    <Spanish>Officer Fatigues [BDF]</Spanish>
-                    <Italian>Officer Fatigues [BDF]</Italian>
-                    <Polish>Officer Fatigues [BDF]</Polish>
-                    <Russian>Officer Fatigues [BDF]</Russian>
-                    <German>Officer Fatigues [BDF]</German>
-                    <Czech>Officer Fatigues [BDF]</Czech>
-                    <English>Officer Fatigues [BDF]</English>
-                    <Portuguese>Officer Fatigues [BDF]</Portuguese>
-                    <Korean>Officer Fatigues [BDF]</Korean>
-                    <Chinesesimp>Officer Fatigues [BDF]</Chinesesimp>
-                    <Japanese>Officer Fatigues [BDF]</Japanese>
-                    <Turkish>Officer Fatigues [BDF]</Turkish>
+                    <Original>Officer Fatigues [FDB]</Original>
+                    <Chinese>Officer Fatigues [FDB]</Chinese>
+                    <French>Officer Fatigues [FDB]</French>
+                    <Spanish>Officer Fatigues [FDB]</Spanish>
+                    <Italian>Officer Fatigues [FDB]</Italian>
+                    <Polish>Officer Fatigues [FDB]</Polish>
+                    <Russian>Officer Fatigues [FDB]</Russian>
+                    <German>Officer Fatigues [FDB]</German>
+                    <Czech>Officer Fatigues [FDB]</Czech>
+                    <English>Officer Fatigues [FDB]</English>
+                    <Portuguese>Officer Fatigues [FDB]</Portuguese>
+                    <Korean>Officer Fatigues [FDB]</Korean>
+                    <Chinesesimp>Officer Fatigues [FDB]</Chinesesimp>
+                    <Japanese>Officer Fatigues [FDB]</Japanese>
+                    <Turkish>Officer Fatigues [FDB]</Turkish>
                 </Key>
                 <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Coveralls_01_F0">
-                    <Original>Coveralls [BDF]</Original>
-                    <Chinese>Coveralls [BDF]</Chinese>
-                    <French>Coveralls [BDF]</French>
-                    <Spanish>Coveralls [BDF]</Spanish>
-                    <Italian>Coveralls [BDF]</Italian>
-                    <Polish>Coveralls [BDF]</Polish>
-                    <Russian>Coveralls [BDF]</Russian>
-                    <German>Coveralls [BDF]</German>
-                    <Czech>Coveralls [BDF]</Czech>
-                    <English>Coveralls [BDF]</English>
-                    <Portuguese>Coveralls [BDF]</Portuguese>
-                    <Korean>Coveralls [BDF]</Korean>
-                    <Chinesesimp>Coveralls [BDF]</Chinesesimp>
-                    <Japanese>Coveralls [BDF]</Japanese>
-                    <Turkish>Coveralls [BDF]</Turkish>
+                    <Original>Coveralls [FDB]</Original>
+                    <Chinese>Coveralls [FDB]</Chinese>
+                    <French>Coveralls [FDB]</French>
+                    <Spanish>Coveralls [FDB]</Spanish>
+                    <Italian>Coveralls [FDB]</Italian>
+                    <Polish>Coveralls [FDB]</Polish>
+                    <Russian>Coveralls [FDB]</Russian>
+                    <German>Coveralls [FDB]</German>
+                    <Czech>Coveralls [FDB]</Czech>
+                    <English>Coveralls [FDB]</English>
+                    <Portuguese>Coveralls [FDB]</Portuguese>
+                    <Korean>Coveralls [FDB]</Korean>
+                    <Chinesesimp>Coveralls [FDB]</Chinesesimp>
+                    <Japanese>Coveralls [FDB]</Japanese>
+                    <Turkish>Coveralls [FDB]</Turkish>
                 </Key>
                 <Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Sweater_01_F0">
-                    <Original>Combat Fatigues [BDF] (Sweater)</Original>
-                    <Chinese>Combat Fatigues [BDF] (Sweater)</Chinese>
-                    <French>Combat Fatigues [BDF] (Sweater)</French>
-                    <Spanish>Combat Fatigues [BDF] (Sweater)</Spanish>
-                    <Italian>Combat Fatigues [BDF] (Sweater)</Italian>
-                    <Polish>Combat Fatigues [BDF] (Sweater)</Polish>
-                    <Russian>Combat Fatigues [BDF] (Sweater)</Russian>
-                    <German>Combat Fatigues [BDF] (Sweater)</German>
-                    <Czech>Combat Fatigues [BDF] (Sweater)</Czech>
-                    <English>Combat Fatigues [BDF] (Sweater)</English>
-                    <Portuguese>Combat Fatigues [BDF] (Sweater)</Portuguese>
-                    <Korean>Combat Fatigues [BDF] (Sweater)</Korean>
-                    <Chinesesimp>Combat Fatigues [BDF] (Sweater)</Chinesesimp>
-                    <Japanese>Combat Fatigues [BDF] (Sweater)</Japanese>
-                    <Turkish>Combat Fatigues [BDF] (Sweater)</Turkish>
+                    <Original>Combat Fatigues [FDB] (Sweater)</Original>
+                    <Chinese>Combat Fatigues [FDB] (Sweater)</Chinese>
+                    <French>Combat Fatigues [FDB] (Sweater)</French>
+                    <Spanish>Combat Fatigues [FDB] (Sweater)</Spanish>
+                    <Italian>Combat Fatigues [FDB] (Sweater)</Italian>
+                    <Polish>Combat Fatigues [FDB] (Sweater)</Polish>
+                    <Russian>Combat Fatigues [FDB] (Sweater)</Russian>
+                    <German>Combat Fatigues [FDB] (Sweater)</German>
+                    <Czech>Combat Fatigues [FDB] (Sweater)</Czech>
+                    <English>Combat Fatigues [FDB] (Sweater)</English>
+                    <Portuguese>Combat Fatigues [FDB] (Sweater)</Portuguese>
+                    <Korean>Combat Fatigues [FDB] (Sweater)</Korean>
+                    <Chinesesimp>Combat Fatigues [FDB] (Sweater)</Chinesesimp>
+                    <Japanese>Combat Fatigues [FDB] (Sweater)</Japanese>
+                    <Turkish>Combat Fatigues [FDB] (Sweater)</Turkish>
                 </Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_B_FRR_Uniform_01_F0">
                     <Original>Guerilla Garb (M81)</Original>
