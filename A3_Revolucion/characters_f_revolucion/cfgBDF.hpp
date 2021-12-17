@@ -663,7 +663,7 @@ class Rev_B_BDF_Officer_F: Rev_B_BDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30rnd_9x21_mag_SMG_02),
+		mag_6(30rnd_9x21_mag_SMG_02),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(SmokeShell),
         SmokeShellGreen

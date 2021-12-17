@@ -27,6 +27,7 @@ class CfgVehicles
     #include "cfgCartels.hpp"  // Cartels
     #include "cfgFASR.hpp"   // FASR
     #include "cfgVenezuela.hpp" // CSAT Venezuela
+    #include "cfgPNB.hpp"     // Policia Nacional de Baracas
 
     /* Uniforms */
     #include "cfgUniforms.hpp"

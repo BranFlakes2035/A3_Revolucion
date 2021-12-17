@@ -73,6 +73,23 @@
 					<Japanese>FDB</Japanese>
 					<Turkish>FDB</Turkish>
 				</Key>
+				<Key ID="STR_A3_R_CfgFactionClasses_BLU_PNB_F0">
+					<Original>PNB</Original>
+					<Chinese>PNB</Chinese>
+					<French>PNB</French>
+					<Spanish>PNB</Spanish>
+					<Italian>PNB</Italian>
+					<Polish>PNB</Polish>
+					<Russian>PNB</Russian>
+					<German>PNB</German>
+					<Czech>PNB</Czech>
+					<English>PNB</English>
+					<Portuguese>PNB</Portuguese>
+					<Korean>PNB</Korean>
+					<Chinesesimp>PNB</Chinesesimp>
+					<Japanese>PNB</Japanese>
+					<Turkish>PNB</Turkish>
+				</Key>
 				<Key ID="STR_A3_R_CfgFactionClasses_BLU_FRR_F0">
 					<Original>FRR</Original>
 					<Chinese>FRR</Chinese>
@@ -365,6 +382,142 @@
                 <Japanese>Capo</Japanese>
                 <Turkish>Capo</Turkish>
             </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Soldier_F0">
+                <Original>Policía (SMG)</Original>
+                <Chinese>Policía (SMG)</Chinese>
+                <French>Policía (SMG)</French>
+                <Spanish>Policía (SMG)</Spanish>
+                <Italian>Policía (SMG)</Italian>
+                <Polish>Policía (SMG)</Polish>
+                <Russian>Policía (SMG)</Russian>
+                <German>Policía (SMG)</German>
+                <Czech>Policía (SMG)</Czech>
+                <English>Policía (SMG)</English>
+                <Portuguese>Policía (SMG)</Portuguese>
+                <Korean>Policía (SMG)</Korean>
+                <Chinesesimp>Policía (SMG)</Chinesesimp>
+                <Japanese>Policía (SMG)</Japanese>
+                <Turkish>Policía (SMG)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Soldier_AR_F0">
+                <Original>Policía (Machine Gun)</Original>
+                <Chinese>Policía (Machine Gun)</Chinese>
+                <French>Policía (Machine Gun)</French>
+                <Spanish>Policía (Machine Gun)</Spanish>
+                <Italian>Policía (Machine Gun)</Italian>
+                <Polish>Policía (Machine Gun)</Polish>
+                <Russian>Policía (Machine Gun)</Russian>
+                <German>Policía (Machine Gun)</German>
+                <Czech>Policía (Machine Gun)</Czech>
+                <English>Policía (Machine Gun)</English>
+                <Portuguese>Policía (Machine Gun)</Portuguese>
+                <Korean>Policía (Machine Gun)</Korean>
+                <Chinesesimp>Policía (Machine Gun)</Chinesesimp>
+                <Japanese>Policía (Machine Gun)</Japanese>
+                <Turkish>Policía (Machine Gun)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Soldier_LAT_F0">
+                <Original>Policía (AT)</Original>
+                <Chinese>Policía (AT)</Chinese>
+                <French>Policía (AT)</French>
+                <Spanish>Policía (AT)</Spanish>
+                <Italian>Policía (AT)</Italian>
+                <Polish>Policía (AT)</Polish>
+                <Russian>Policía (AT)</Russian>
+                <German>Policía (AT)</German>
+                <Czech>Policía (AT)</Czech>
+                <English>Policía (AT)</English>
+                <Portuguese>Policía (AT)</Portuguese>
+                <Korean>Policía (AT)</Korean>
+                <Chinesesimp>Policía (AT)</Chinesesimp>
+                <Japanese>Policía (AT)</Japanese>
+                <Turkish>Policía (AT)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Soldier_M_F0">
+                <Original>Policía (Marksman)</Original>
+                <Chinese>Policía (Marksman)</Chinese>
+                <French>Policía (Marksman)</French>
+                <Spanish>Policía (Marksman)</Spanish>
+                <Italian>Policía (Marksman)</Italian>
+                <Polish>Policía (Marksman)</Polish>
+                <Russian>Policía (Marksman)</Russian>
+                <German>Policía (Marksman)</German>
+                <Czech>Policía (Marksman)</Czech>
+                <English>Policía (Marksman)</English>
+                <Portuguese>Policía (Marksman)</Portuguese>
+                <Korean>Policía (Marksman)</Korean>
+                <Chinesesimp>Policía (Marksman)</Chinesesimp>
+                <Japanese>Policía (Marksman)</Japanese>
+                <Turkish>Policía (Marksman)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Soldier_Rifle_F0">
+                <Original>Policía (Rifle)</Original>
+                <Chinese>Policía (Rifle)</Chinese>
+                <French>Policía (Rifle)</French>
+                <Spanish>Policía (Rifle)</Spanish>
+                <Italian>Policía (Rifle)</Italian>
+                <Polish>Policía (Rifle)</Polish>
+                <Russian>Policía (Rifle)</Russian>
+                <German>Policía (Rifle)</German>
+                <Czech>Policía (Rifle)</Czech>
+                <English>Policía (Rifle)</English>
+                <Portuguese>Policía (Rifle)</Portuguese>
+                <Korean>Policía (Rifle)</Korean>
+                <Chinesesimp>Policía (Rifle)</Chinesesimp>
+                <Japanese>Policía (Rifle)</Japanese>
+                <Turkish>Policía (Rifle)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Soldier_SG_F0">
+                <Original>Policía (Shotgun)</Original>
+                <Chinese>Policía (Shotgun)</Chinese>
+                <French>Policía (Shotgun)</French>
+                <Spanish>Policía (Shotgun)</Spanish>
+                <Italian>Policía (Shotgun)</Italian>
+                <Polish>Policía (Shotgun)</Polish>
+                <Russian>Policía (Shotgun)</Russian>
+                <German>Policía (Shotgun)</German>
+                <Czech>Policía (Shotgun)</Czech>
+                <English>Policía (Shotgun)</English>
+                <Portuguese>Policía (Shotgun)</Portuguese>
+                <Korean>Policía (Shotgun)</Korean>
+                <Chinesesimp>Policía (Shotgun)</Chinesesimp>
+                <Japanese>Policía (Shotgun)</Japanese>
+                <Turkish>Policía (Shotgun)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Soldier_Exp_F0">
+                <Original>Policía (EOD)</Original>
+                <Chinese>Policía (EOD)</Chinese>
+                <French>Policía (EOD)</French>
+                <Spanish>Policía (EOD)</Spanish>
+                <Italian>Policía (EOD)</Italian>
+                <Polish>Policía (EOD)</Polish>
+                <Russian>Policía (EOD)</Russian>
+                <German>Policía (EOD)</German>
+                <Czech>Policía (EOD)</Czech>
+                <English>Policía (EOD)</English>
+                <Portuguese>Policía (EOD)</Portuguese>
+                <Korean>Policía (EOD)</Korean>
+                <Chinesesimp>Policía (EOD)</Chinesesimp>
+                <Japanese>Policía (EOD)</Japanese>
+                <Turkish>Policía (EOD)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Commander_F0">
+                <Original>Policía Primero</Original>
+                <Chinese>Policía Primero</Chinese>
+                <French>Policía Primero</French>
+                <Spanish>Policía Primero</Spanish>
+                <Italian>Policía Primero</Italian>
+                <Polish>Policía Primero</Polish>
+                <Russian>Policía Primero</Russian>
+                <German>Policía Primero</German>
+                <Czech>Policía Primero</Czech>
+                <English>Policía Primero</English>
+                <Portuguese>Policía Primero</Portuguese>
+                <Korean>Policía Primero</Korean>
+                <Chinesesimp>Policía Primero</Chinesesimp>
+                <Japanese>Policía Primero</Japanese>
+                <Turkish>Policía Primero</Turkish>
+            </Key>
 			<Container name="Groups">
 				<Key ID="STR_A3_R_CfgGroups_Indep_IND_Infantry_I_CDB_BanditGang0">
 					<Original>Cartel Patrol</Original>
@@ -450,6 +603,74 @@
 					<Chinesesimp>Hit Squad</Chinesesimp>
 					<Japanese>Hit Squad</Japanese>
 					<Turkish>Hit Squad</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_BLU_Infantry_B_PNB_InfPatrol0">
+					<Original>Policía Patrol</Original>
+					<Chinese>Policía Patrol</Chinese>
+					<French>Policía Patrol</French>
+					<Spanish>Policía Patrol</Spanish>
+					<Italian>Policía Patrol</Italian>
+					<Polish>Policía Patrol</Polish>
+					<Russian>Policía Patrol</Russian>
+					<German>Policía Patrol</German>
+					<Czech>Policía Patrol</Czech>
+					<English>Policía Patrol</English>
+					<Portuguese>Policía Patrol</Portuguese>
+					<Korean>Policía Patrol</Korean>
+					<Chinesesimp>Policía Patrol</Chinesesimp>
+					<Japanese>Policía Patrol</Japanese>
+					<Turkish>Policía Patrol</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_BLU_Infantry_B_PNB_InfTeam0">
+					<Original>Policía Team</Original>
+					<Chinese>Policía Team</Chinese>
+					<French>Policía Team</French>
+					<Spanish>Policía Team</Spanish>
+					<Italian>Policía Team</Italian>
+					<Polish>Policía Team</Polish>
+					<Russian>Policía Team</Russian>
+					<German>Policía Team</German>
+					<Czech>Policía Team</Czech>
+					<English>Policía Team</English>
+					<Portuguese>Policía Team</Portuguese>
+					<Korean>Policía Team</Korean>
+					<Chinesesimp>Policía Team</Chinesesimp>
+					<Japanese>Policía Team</Japanese>
+					<Turkish>Policía Team</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_BLU_Infantry_B_PNB_InfSquad0">
+					<Original>Policía Squad</Original>
+					<Chinese>Policía Squad</Chinese>
+					<French>Policía Squad</French>
+					<Spanish>Policía Squad</Spanish>
+					<Italian>Policía Squad</Italian>
+					<Polish>Policía Squad</Polish>
+					<Russian>Policía Squad</Russian>
+					<German>Policía Squad</German>
+					<Czech>Policía Squad</Czech>
+					<English>Policía Squad</English>
+					<Portuguese>Policía Squad</Portuguese>
+					<Korean>Policía Squad</Korean>
+					<Chinesesimp>Policía Squad</Chinesesimp>
+					<Japanese>Policía Squad</Japanese>
+					<Turkish>Policía Squad</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_BLU_Motorized_MTP_B_PNB_MotInfPatrol0">
+					<Original>Motorized Policía Patrol</Original>
+					<Chinese>Motorized Policía Patrol</Chinese>
+					<French>Motorized Policía Patrol</French>
+					<Spanish>Motorized Policía Patrol</Spanish>
+					<Italian>Motorized Policía Patrol</Italian>
+					<Polish>Motorized Policía Patrol</Polish>
+					<Russian>Motorized Policía Patrol</Russian>
+					<German>Motorized Policía Patrol</German>
+					<Czech>Motorized Policía Patrol</Czech>
+					<English>Motorized Policía Patrol</English>
+					<Portuguese>Motorized Policía Patrol</Portuguese>
+					<Korean>Motorized Policía Patrol</Korean>
+					<Chinesesimp>Motorized Policía Patrol</Chinesesimp>
+					<Japanese>Motorized Policía Patrol</Japanese>
+					<Turkish>Motorized Policía Patrol</Turkish>
 				</Key>
 			</Container>
 			<Container name="Uniforms">
@@ -1417,6 +1638,23 @@
 					<Chinesesimp>Flag (Venezuela)</Chinesesimp>
 					<Japanese>Flag (Venezuela)</Japanese>
 					<Turkish>Flag (Venezuela)</Turkish>
+				</Key>
+                <Key ID="STR_A3_R_CfgVehicles_Flag_PNB_F0">
+					<Original>Flag (PNB)</Original>
+					<Chinese>Flag (PNB)</Chinese>
+					<French>Flag (PNB)</French>
+					<Spanish>Flag (PNB)</Spanish>
+					<Italian>Flag (PNB)</Italian>
+					<Polish>Flag (PNB)</Polish>
+					<Russian>Flag (PNB)</Russian>
+					<German>Flag (PNB)</German>
+					<Czech>Flag (PNB)</Czech>
+					<English>Flag (PNB)</English>
+					<Portuguese>Flag (PNB)</Portuguese>
+					<Korean>Flag (PNB)</Korean>
+					<Chinesesimp>Flag (PNB)</Chinesesimp>
+					<Japanese>Flag (PNB)</Japanese>
+					<Turkish>Flag (PNB)</Turkish>
 				</Key>
 			</Container>
 		</Container>

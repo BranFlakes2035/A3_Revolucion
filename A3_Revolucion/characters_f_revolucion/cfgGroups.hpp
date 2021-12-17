@@ -369,6 +369,47 @@ class CfgGroups
 				};
 			};
 		};
+		class Revolucion_BLU_PNB_F
+		{
+			name = $STR_A3_R_CfgFactionClasses_BLU_PNB_F0;
+			class Infantry
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
+				class Rev_B_PNB_InfSquad
+				{
+					name = $STR_A3_R_CfgGroups_BLU_Infantry_B_PNB_InfSquad0;
+					side = TWest;
+					faction = Revolucion_BLU_PNB_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TWest,Rev_B_PNB_Commander_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_PNB_Soldier_F,PRIVATE,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_PNB_soldier_LAT_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_PNB_soldier_M_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TWest,Rev_B_PNB_soldier_Rifle_F,SERGEANT,-10,-10);
+					GROUP_UNIT(5,TWest,Rev_B_PNB_soldier_AR_F,CORPORAL,15,-15);
+				};
+				class Rev_B_PNB_InfTeam
+				{
+					name = $STR_A3_R_CfgGroups_BLU_Infantry_B_PNB_InfTeam0;
+					side = TWest;
+					faction = Revolucion_BLU_PNB_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TWest,Rev_B_PNB_Commander_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_PNB_soldier_AR_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_PNB_soldier_Rifle_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_PNB_soldier_LAT_F,PRIVATE,10,-10);
+				};
+				class Rev_B_PNB_InfSentry
+				{
+					name = $STR_A3_R_CfgGroups_BLU_Infantry_B_PNB_InfPatrol0;
+					side = TWest;
+					faction = Revolucion_BLU_PNB_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TWest,Rev_B_PNB_Soldier_Rifle_F,CORPORAL,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_PNB_soldier_F,PRIVATE,5,-5);
+				};
+			};
+		};
 	}; 
 	class East
 	{
@@ -910,6 +951,47 @@ class CfgGroups
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_armor.paa";
 					GROUP_UNIT(0,TEast,Rev_O_VZ_MBT_02_cannon_ghex_F,LIEUTENANT,0,0);
 					GROUP_UNIT(1,TEast,Rev_O_VZ_MBT_02_cannon_ghex_F,SERGEANT,10,-10);
+				};
+			};
+		};
+		class Revolucion_OPF_PNB_F
+		{
+			name = $STR_A3_R_CfgFactionClasses_BLU_PNB_F0;
+			class Infantry
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
+				class Rev_O_PNB_InfSquad
+				{
+					name = $STR_A3_R_CfgGroups_BLU_Infantry_B_PNB_InfSquad0;
+					side = TEast;
+					faction = Revolucion_OPF_PNB_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TEast,Rev_O_PNB_Commander_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_PNB_Soldier_F,PRIVATE,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_PNB_soldier_LAT_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_PNB_soldier_M_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TEast,Rev_O_PNB_soldier_Rifle_F,SERGEANT,-10,-10);
+					GROUP_UNIT(5,TEast,Rev_O_PNB_soldier_AR_F,CORPORAL,15,-15);
+				};
+				class Rev_O_PNB_InfTeam
+				{
+					name = $STR_A3_R_CfgGroups_BLU_Infantry_B_PNB_InfTeam0;
+					side = TEast;
+					faction = Revolucion_OPF_PNB_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TEast,Rev_O_PNB_Commander_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_PNB_soldier_AR_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_PNB_soldier_Rifle_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_PNB_soldier_LAT_F,PRIVATE,10,-10);
+				};
+				class Rev_O_PNB_InfSentry
+				{
+					name = $STR_A3_R_CfgGroups_BLU_Infantry_B_PNB_InfPatrol0;
+					side = TEast;
+					faction = Revolucion_OPF_PNB_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
+					GROUP_UNIT(0,TEast,Rev_O_PNB_Soldier_Rifle_F,CORPORAL,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_PNB_soldier_F,PRIVATE,5,-5);
 				};
 			};
 		};
