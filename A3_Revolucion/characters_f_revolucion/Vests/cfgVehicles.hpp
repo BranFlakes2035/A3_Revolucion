@@ -18,4 +18,5 @@ class CfgVehicles
     VEST_HOLDER(v_lxWS_VZ_Vest_F,"VZ Infantry Vest (Woodland Hex)");
     VEST_HOLDER(rev_V_PlateCarrierIA1_whex,"VZ Light Vest (Woodland Hex)");
     VEST_HOLDER(rev_V_PlateCarrierIAGL_whex,"VZ Infantry GL Vest (Woodland Hex)");
+    VEST_HOLDER(rev_V_Press_bnp_F,"Flak Vest [BNP]");
 };

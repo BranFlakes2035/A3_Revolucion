@@ -106,4 +106,12 @@ class CfgWeapons
 			"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\GA_Carrier_GL_Rig_whex_CO.paa"
 		};
 	};
+	class V_Press_F;
+	class rev_V_Press_bnp_F: V_Press_F
+	{
+		author = $STR_A3_A_BranFlakes;
+		displayName = "Flak Vest [BNP]";
+		//picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\V_PlateCarrierL_cartel_F_CA.paa";
+		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\FlakVest_bnp_CO.paa"};
+	};
 };
