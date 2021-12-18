@@ -110,7 +110,7 @@ class CfgWeapons
 	class rev_V_Press_bnp_F: V_Press_F
 	{
 		author = $STR_A3_A_BranFlakes;
-		displayName = "Flak Vest [BNP]";
+		displayName = "Flak Vest [Policía]";
 		//picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\V_PlateCarrierL_cartel_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\FlakVest_bnp_CO.paa"};
 	};
