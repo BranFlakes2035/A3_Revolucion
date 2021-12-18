@@ -74,21 +74,21 @@
 					<Turkish>FDB</Turkish>
 				</Key>
 				<Key ID="STR_A3_R_CfgFactionClasses_BLU_PNB_F0">
-					<Original>PNB</Original>
-					<Chinese>PNB</Chinese>
-					<French>PNB</French>
-					<Spanish>PNB</Spanish>
-					<Italian>PNB</Italian>
-					<Polish>PNB</Polish>
-					<Russian>PNB</Russian>
-					<German>PNB</German>
-					<Czech>PNB</Czech>
-					<English>PNB</English>
-					<Portuguese>PNB</Portuguese>
-					<Korean>PNB</Korean>
-					<Chinesesimp>PNB</Chinesesimp>
-					<Japanese>PNB</Japanese>
-					<Turkish>PNB</Turkish>
+					<Original>Policía</Original>
+					<Chinese>Policía</Chinese>
+					<French>Policía</French>
+					<Spanish>Policía</Spanish>
+					<Italian>Policía</Italian>
+					<Polish>Policía</Polish>
+					<Russian>Policía</Russian>
+					<German>Policía</German>
+					<Czech>Policía</Czech>
+					<English>Policía</English>
+					<Portuguese>Policía</Portuguese>
+					<Korean>Policía</Korean>
+					<Chinesesimp>Policía</Chinesesimp>
+					<Japanese>Policía</Japanese>
+					<Turkish>Policía</Turkish>
 				</Key>
 				<Key ID="STR_A3_R_CfgFactionClasses_BLU_FRR_F0">
 					<Original>FRR</Original>
