@@ -15,7 +15,7 @@ class Rev_B_PNB_Man_base_F: I_Soldier_F
 };
 class Rev_B_PNB_Soldier_base_F: Rev_B_PNB_Man_base_F
 {
-	uniformClass = Rev_U_B_BDF_Uniform_01_F;
+	uniformClass = Rev_U_Policia_CombatUniform_F;
 };
 class Rev_B_PNB_Soldier_AR_F: Rev_B_PNB_Soldier_base_F
 {
@@ -44,7 +44,7 @@ class Rev_B_PNB_Soldier_AR_F: Rev_B_PNB_Soldier_base_F
         0.1,    // Armor
         0.3     // Air
     };
-	//uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_Policia_CombatUniform_shortsleeve_F;
     weapons[] =
 	{
 		LMG_03_F,
@@ -73,10 +73,14 @@ class Rev_B_PNB_Soldier_AR_F: Rev_B_PNB_Soldier_base_F
 	};
 	linkedItems[] =
 	{
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 };
@@ -94,7 +98,6 @@ class Rev_B_PNB_Soldier_Exp_F: Rev_B_PNB_Soldier_Base_F
 	icon = iconManExplosive;
 	picture = pictureExplosive;
 	role = Sapper;
-	//uniform = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
     backpack = B_AssaultPack_blk_PNB_EOD_F;
 	weapons[] =
 	{
@@ -118,14 +121,14 @@ class Rev_B_PNB_Soldier_Exp_F: Rev_B_PNB_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_EOD_olive_F,
+		V_EOD_blue_F,
 		H_PASGT_neckprot_black_F,
         G_EyeProtectors_earpiece_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_EOD_olive_F,
+		V_EOD_blue_F,
 		H_PASGT_neckprot_black_F,
         G_EyeProtectors_earpiece_F,
 		DefaultManLinkedItems
@@ -157,28 +160,28 @@ class Rev_B_PNB_Soldier_M_F: Rev_B_PNB_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_8(20rnd_762x51_slr_lxWS),
+		mag_5(20rnd_762x51_slr_lxWS),
         mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
 		SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_8(20rnd_762x51_slr_lxWS),
+		mag_5(20rnd_762x51_slr_lxWS),
         mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
 		SmokeShell
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
-		H_Booniehat_mgrn_hs,
+		rev_V_Press_bnp_F,
+		H_Booniehat_blk,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
-		H_Booniehat_mgrn_hs,
+		rev_V_Press_bnp_F,
+		H_Booniehat_blk,
 		DefaultManLinkedItems
 	};
 };
@@ -204,7 +207,6 @@ class Rev_B_PNB_Commander_F: Rev_B_PNB_Soldier_Base_F
 	icon = iconManOfficer;
     cost = 600000;
 	camouflage = 1.6;
-	uniformClass = Rev_U_B_BDF_Officer_01_F;
 	weapons[] =
 	{
 		arifle_Velko_lxWS,
@@ -235,13 +237,13 @@ class Rev_B_PNB_Commander_F: Rev_B_PNB_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_Rangemaster_belt,
+		rev_V_Press_bnp_F,
 		H_Beret_Gen_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_Rangemaster_belt,
+		rev_V_Press_bnp_F,
 		H_Beret_Gen_F,
 		DefaultManLinkedItems
 	};
@@ -284,16 +286,14 @@ class Rev_B_PNB_Soldier_F: Rev_B_PNB_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 };
@@ -325,8 +325,7 @@ class Rev_B_PNB_Soldier_LAT_F: Rev_B_PNB_Soldier_Base_F
         0.3     // Air
     };
 	secondaryAmmoCoef = 0.5;
-    //backpack = B_AssaultPack_blk_PNB_AT_F;
-	//uniform = Rev_U_B_BDF_Uniform_01_tanktop_F;
+    backpack = B_AssaultPack_blk_PNB_AT_F;
 	weapons[] =
 	{
 		arifle_Velko_lxWS,
@@ -355,16 +354,14 @@ class Rev_B_PNB_Soldier_LAT_F: Rev_B_PNB_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 };
@@ -390,28 +387,26 @@ class Rev_B_PNB_Soldier_Rifle_F: Rev_B_PNB_Soldier_base_F
 	};
 	magazines[] =
 	{
-		mag_8(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_velko_lxWS),
         mag_2(16rnd_9x21_mag_v2),
-        HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_8(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_velko_lxWS),
         mag_2(16rnd_9x21_mag_v2),
-        HandGrenade,
         SmokeShell
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
-		H_MK7_atacsfg_F,
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
-		H_MK7_atacsfg_F,
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 };
@@ -423,7 +418,7 @@ class Rev_B_PNB_Soldier_SG_F: Rev_B_PNB_Soldier_Base_F
     scopeCurator = public;
 	cost = 100000;
     displayName = $STR_A3_R_cfgVehicles_B_PNB_Soldier_SG_F0;
-	//uniform = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniform = Rev_U_Policia_CombatUniform_shortsleeve_F;
     weapons[] =
 	{
 		sgun_Mp153_black_F,
@@ -454,14 +449,14 @@ class Rev_B_PNB_Soldier_SG_F: Rev_B_PNB_Soldier_Base_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
-		H_MK7_atacsfg_F,
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
-		H_MK7_atacsfg_F,
+		rev_V_Press_bnp_F,
+		H_Milcap_blk,
 		DefaultManLinkedItems
 	};
 };

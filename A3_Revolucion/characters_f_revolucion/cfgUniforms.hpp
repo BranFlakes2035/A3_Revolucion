@@ -283,3 +283,24 @@ class Rev_FRR_Story_El_Jefe_F: I_E_Uniform_01_officer_F
 		"\A3\Characters_F_Exp\Gendarmerie\Data\U_B_GEN_Commander_F_co.paa",
 	};
 };
+/* Policia */
+class Rev_Policia_CombatUniform_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_Policia_CombatUniform_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\uniform_U_policia_CO.paa"
+	};
+};
+class Rev_Policia_CombatUniform_shortsleeve_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_Policia_CombatUniform_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\uniform_U_policia_CO.paa"
+	};
+};

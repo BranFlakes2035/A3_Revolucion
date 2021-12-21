@@ -11,4 +11,5 @@ class CfgWeapons
     #include "cfgCartels.hpp"  // Cartels de Baracas
     #include "cfgFASR.hpp"  //FASR
     #include "cfgFRR.hpp"   //FRR
+    #include "cfgPolicia.hpp"   //Policia
 };
