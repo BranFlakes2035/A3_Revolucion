@@ -87,6 +87,7 @@ class CfgVehicles
     };
 	class Offroad_01_AT_base_F: Offroad_01_military_base_F{};
     class Offroad_01_military_comms_base_F: Offroad_01_military_covered_base_F{};
+	class I_G_Offroad_01_F: Offroad_01_military_base_F{};
 	class B_G_Offroad_01_F;
 	class B_G_Offroad_01_AT_F;
 	class B_G_Offroad_01_armed_F;
