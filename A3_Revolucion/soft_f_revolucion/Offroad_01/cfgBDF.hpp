@@ -68,10 +68,6 @@ class Rev_B_BDF_Offroad_01_armed_F: Offroad_01_armed_base_F
 	{
 		item_xx(FirstAidKit,4);
 	};
-	animationList[] =
-	{
-		HideConstruction,0
-	};
 };
 class Rev_B_BDF_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 {
