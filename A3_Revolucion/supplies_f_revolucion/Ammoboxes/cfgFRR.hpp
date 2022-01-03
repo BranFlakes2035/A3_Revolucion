@@ -53,7 +53,7 @@ class Rev_Box_FRR_Ammo_F: ReammoBox_F
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_556x45_AUG_Mag_Green_F,32);
+		mag_xx(30Rnd_556x45_stanag,32);
 		mag_xx(30Rnd_762x39_Mag_F,16);
 		mag_xx(200Rnd_556x45_box_F,8);
 		mag_xx(20Rnd_762x51_SLR_lxWS,6);
