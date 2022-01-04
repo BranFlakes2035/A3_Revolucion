@@ -4,6 +4,8 @@ class B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_G9_F.jpg";
 	author = $STR_A3_A_BranFlakes;
 	faction = Revolucion_BLU_CTRG_F;
+	scope = public;
+    scopeCurator = public;
 	icon = iconManLeader;
 	uniformClass = U_lxWS_ION_Casual2;
 	weapons[] =
@@ -60,6 +62,8 @@ class B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	scope = public;
+    scopeCurator = public;
 	uniformClass = U_lxWS_ION_Casual4;
 	weapons[] =
     {
@@ -115,6 +119,8 @@ class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	scope = public;
+    scopeCurator = public;
 	icon = iconManExplosive;
 	picture = pictureExplosive;
 	uniformClass = Atlas_U_B_ION_uniform_01_poloshirt_blue_F;
@@ -168,6 +174,8 @@ class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	scope = public;
+    scopeCurator = public;
 	class SpeechVariants
 	{
 		class Default
@@ -232,6 +240,8 @@ class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	scope = public;
+    scopeCurator = public;
 	class SpeechVariants
 	{
 		class Default
@@ -304,6 +314,8 @@ class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	scope = public;
+    scopeCurator = public;
 	icon = iconManAT;
 	uniformClass = U_BG_Guerilla2_2;
 	weapons[] =
@@ -359,6 +371,8 @@ class B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_AR_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	scope = public;
+    scopeCurator = public;
 	uniformClass = atlas_U_C_Uniform_01_tshirt_white_F;
 	weapons[] =
     {
@@ -416,6 +430,8 @@ class B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	scope = public;
+    scopeCurator = public;
 	uniformClass = Atlas_U_B_ION_uniform_01_tshirt_black_F;
 	weapons[] =
     {
