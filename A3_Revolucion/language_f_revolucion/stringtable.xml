@@ -158,6 +158,23 @@
                     <Japanese>ベネズエラ</Japanese>
                     <Turkish>Venezuela</Turkish>
 				</Key>
+				<Key ID="STR_A3_R_CfgFactionClasses_BLU_CTRG_F0">
+					<Original>CTRG (Group 9)</Original>
+					<Chinese>CTRG (Group 9)</Chinese>
+					<French>CTRG (Group 9)</French>
+					<Spanish>CTRG (Group 9)</Spanish>
+					<Italian>CTRG (Group 9)</Italian>
+					<Polish>CTRG (Group 9)</Polish>
+					<Russian>CTRG (Group 9)</Russian>
+					<German>CTRG (Group 9)</German>
+					<Czech>CTRG (Group 9)</Czech>
+					<English>CTRG (Group 9)</English>
+					<Portuguese>CTRG (Group 9)</Portuguese>
+					<Korean>CTRG (Group 9)</Korean>
+					<Chinesesimp>CTRG (Group 9)</Chinesesimp>
+					<Japanese>CTRG (Group 9)</Japanese>
+					<Turkish>CTRG (Group 9)</Turkish>
+				</Key>
 			</Container>
 		</Container>
 		<Container name="Characters_F">
