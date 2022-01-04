@@ -1,6 +1,6 @@
-class B_CTRG_Soldier_TL_tna_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_tna_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_G9_F.jpg";
 	icon = iconManLeader;
 	weapons[] =
     {
@@ -39,23 +39,23 @@ class B_CTRG_Soldier_TL_tna_F: B_CTRG_Soldier_F
 	linkedItems[] =
 	{
 		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 };
-class B_CTRG_Soldier_Exp_tna_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_G9_F.jpg";
 	icon = iconManExplosive;
 	picture = pictureExplosive;
 	weapons[] =
@@ -91,23 +91,23 @@ class B_CTRG_Soldier_Exp_tna_F: B_CTRG_Soldier_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 };
-class B_CTRG_Soldier_Medic_tna_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_G9_F.jpg";
 	class SpeechVariants
 	{
 		class Default
@@ -154,23 +154,23 @@ class B_CTRG_Soldier_Medic_tna_F: B_CTRG_Soldier_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 };
-class B_CTRG_Soldier_M_tna_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_G9_F.jpg";
 	class SpeechVariants
 	{
 		class Default
@@ -215,16 +215,16 @@ class B_CTRG_Soldier_M_tna_F: B_CTRG_Soldier_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
@@ -239,9 +239,9 @@ class B_CTRG_Soldier_M_tna_F: B_CTRG_Soldier_F
 		optic_tws_sniper
 	};
 };
-class B_CTRG_Soldier_LAT_tna_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_G9_F.jpg";
 	icon = iconManAT;
 	weapons[] =
     {
@@ -278,23 +278,23 @@ class B_CTRG_Soldier_LAT_tna_F: B_CTRG_Soldier_F
 	linkedItems[] =
 	{
 		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 };
-class B_CTRG_Soldier_AR_tna_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_AR_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_AR_G9_F.jpg";
 	weapons[] =
     {
         arifle_SPAR_02_blk_ERCO_Pointer_Bipod_Snds_F,
@@ -326,16 +326,16 @@ class B_CTRG_Soldier_AR_tna_F: B_CTRG_Soldier_F
 	linkedItems[] =
 	{
 		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
@@ -350,9 +350,9 @@ class B_CTRG_Soldier_AR_tna_F: B_CTRG_Soldier_F
 		optic_tws_mg
 	};
 };
-class B_CTRG_Soldier_JTAC_tna_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_tna_F.jpg";
+	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_G9_F.jpg";
 	backpack = B_RadioBag_01_green_F;
 	weapons[] =
     {
@@ -399,16 +399,16 @@ class B_CTRG_Soldier_JTAC_tna_F: B_CTRG_Soldier_F
 	linkedItems[] =
 	{
 		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
 		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_tna_F,
-		G_Balaclava_TI_G_tna_F,
+		H_HelmetB_TI_G9_F,
+		G_Balaclava_TI_G_G9_F,
         DefaultManLeaderLinkedItems,
         NVGogglesB_grn_F
 	};

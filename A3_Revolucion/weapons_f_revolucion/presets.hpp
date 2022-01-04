@@ -678,3 +678,107 @@ class Rev_hgun_P07_blk_snds_F: hgun_P07_blk_F
 		};
 	};
 };
+/* CTRG */
+/* SPAR-16S RCO */
+class arifle_spar_02_blk_F;
+class arifle_spar_02_HAMR_blk_F: arifle_spar_02_blk_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+    };
+};
+/* SCAR-L RCO */
+class arifle_scar_L_grip_black_F;
+class rev_arifle_scar_L_grip_hamr_black_F: class arifle_scar_L_grip_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
+/* SCAR-H GL RCO */
+class arifle_scar_GL_grip_black_F;
+class rev_arifle_scar_GL_grip_hamr_black_F: arifle_scar_GL_grip_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
+/* SPAR-17 MOS */
+class Rev_arifle_SPAR_03_blk_MRCO_BI_F: arifle_SPAR_03_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_SOS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_01_F_blk;
+		};
+    };
+};
+class arifle_SPAR_01_blk_F;
+class arifle_SPAR_01_blk_rco_F: arifle_SPAR_01_GL_blk_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
