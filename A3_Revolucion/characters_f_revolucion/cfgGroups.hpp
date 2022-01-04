@@ -224,40 +224,40 @@ class CfgGroups
 			class Infantry
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Infantry0;
-				class Rev_B_BDF_InfSquad
+				class Rev_B_CTRG_InfSquad
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0;
 					side = TWest;
 					faction = Revolucion_BLU_CTRG_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
-					GROUP_UNIT(0,TWest,B_CTRG_Soldier_TL_G9_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TWest,B_CTRG_Soldier_JTAC_G9_F,PRIVATE,5,-5);
-					GROUP_UNIT(2,TWest,B_CTRG_Soldier_LAT_G9_F,CORPORAL,-5,-5);
-					GROUP_UNIT(3,TWest,B_CTRG_Soldier_M_G9_F,PRIVATE,10,-10);
-					GROUP_UNIT(4,TWest,B_CTRG_Soldier_G9_F,SERGEANT,-10,-10);
-					GROUP_UNIT(5,TWest,B_CTRG_Soldier_AR_G9_F,CORPORAL,15,-15);
-					GROUP_UNIT(6,TWest,B_CTRG_Soldier_Exp_G9_F,PRIVATE,-15,-15);
-					GROUP_UNIT(7,TWest,B_CTRG_Soldier_Medic_G9_F,PRIVATE,20,-20);
+					GROUP_UNIT(0,TWest,Rev_B_CTRG_Soldier_TL_G9_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_CTRG_Soldier_JTAC_G9_F,PRIVATE,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_CTRG_Soldier_LAT_G9_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_CTRG_Soldier_M_G9_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TWest,Rev_B_CTRG_Soldier_G9_F,SERGEANT,-10,-10);
+					GROUP_UNIT(5,TWest,Rev_B_CTRG_Soldier_AR_G9_F,CORPORAL,15,-15);
+					GROUP_UNIT(6,TWest,Rev_B_CTRG_Soldier_Exp_G9_F,PRIVATE,-15,-15);
+					GROUP_UNIT(7,TWest,Rev_B_CTRG_Soldier_Medic_G9_F,PRIVATE,20,-20);
 				};
-				class Rev_B_BDF_InfTeam
+				class Rev_B_CTRG_InfTeam
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0;
 					side = TWest;
 					faction = Revolucion_BLU_CTRG_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
-					GROUP_UNIT(0,TWest,B_CTRG_Soldier_TL_G9_F,SERGEANT,0,0);
-					GROUP_UNIT(1,TWest,B_CTRG_Soldier_AR_G9_F,CORPORAL,5,-5);
-					GROUP_UNIT(2,TWest,B_CTRG_Soldier_JTAC_G9_F,PRIVATE,-5,-5);
-					GROUP_UNIT(3,TWest,B_CTRG_Soldier_LAT_G9_F,PRIVATE,10,-10);
+					GROUP_UNIT(0,TWest,Rev_B_CTRG_Soldier_TL_G9_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_CTRG_Soldier_AR_G9_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_CTRG_Soldier_JTAC_G9_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_CTRG_Soldier_LAT_G9_F,PRIVATE,10,-10);
 				};
-				class Rev_B_BDF_InfSentry
+				class Rev_B_CTRG_InfSentry
 				{
 					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSentry0;
 					side = TWest;
 					faction = Revolucion_BLU_CTRG_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_inf.paa";
-					GROUP_UNIT(0,TWest,B_CTRG_Soldier_JTAC_G9_F,CORPORAL,0,0);
-					GROUP_UNIT(1,TWest,B_CTRG_Soldier_G9_F,PRIVATE,5,-5);
+					GROUP_UNIT(0,TWest,Rev_B_CTRG_Soldier_JTAC_G9_F,CORPORAL,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_CTRG_Soldier_G9_F,PRIVATE,5,-5);
 				};
 			};
 		};

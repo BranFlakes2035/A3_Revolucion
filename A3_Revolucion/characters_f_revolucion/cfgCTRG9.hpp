@@ -1,7 +1,7 @@
 class B_CTRG_Soldier_F;
-class B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
+class Rev_B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_TL_G9_F.jpg";
 	author = $STR_A3_A_BranFlakes;
 	faction = Revolucion_BLU_CTRG_F;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -59,9 +59,9 @@ class B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
         DefaultManLeaderLinkedItems,
 	};
 };
-class B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
+class Rev_B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -119,9 +119,9 @@ class B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
 	};
 };
 class B_CTRG_Soldier_Exp_tna_F;
-class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_Exp_tna_F
+class Rev_B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_Exp_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_Exp_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -178,9 +178,9 @@ class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_Exp_tna_F
 	};
 };
 class B_CTRG_Soldier_Medic_tna_F;
-class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_Medic_tna_F
+class Rev_B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_Medic_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_Medic_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -247,9 +247,9 @@ class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_Medic_tna_F
 	};
 };
 class B_CTRG_Soldier_M_tna_F;
-class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_M_tna_F
+class Rev_B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_M_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_M_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -324,9 +324,9 @@ class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_M_tna_F
 	};
 };
 class B_CTRG_Soldier_LAT_tna_F;
-class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_LAT_tna_F
+class Rev_B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_LAT_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_LAT_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -383,9 +383,9 @@ class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_LAT_tna_F
 	};
 };
 class B_CTRG_Soldier_AR_tna_F;
-class B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_AR_tna_F
+class Rev_B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_AR_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_AR_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_AR_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	displayName = $STR_B_SOLDIER_AR_F0;
@@ -444,9 +444,9 @@ class B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_AR_tna_F
 		FirstAidKit,
 	};
 };
-class B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
+class Rev_B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_JTAC_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
