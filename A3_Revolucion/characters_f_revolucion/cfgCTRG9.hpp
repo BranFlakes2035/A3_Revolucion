@@ -8,6 +8,7 @@ class B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
     scopeCurator = public;
 	icon = iconManLeader;
 	uniformClass = U_lxWS_ION_Casual2;
+	displayName = $STR_B_SOLDIER_TL_F0;
 	weapons[] =
     {
         rev_arifle_scar_L_grip_hamr_black_F,
@@ -64,6 +65,7 @@ class B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
 	author = $STR_A3_A_BranFlakes;
 	scope = public;
     scopeCurator = public;
+    displayName = "Scout";
 	uniformClass = U_lxWS_ION_Casual4;
 	weapons[] =
     {
@@ -114,7 +116,8 @@ class B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
         DefaultManLeaderLinkedItems,
 	};
 };
-class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_Exp_tna_F;
+class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_Exp_tna_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
@@ -122,8 +125,10 @@ class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_F
 	scope = public;
     scopeCurator = public;
 	icon = iconManExplosive;
+	displayName = $STR_A3_B_CTRG_Soldier_Exp_tna_F0;
 	picture = pictureExplosive;
-	uniformClass = Atlas_U_B_ION_uniform_01_poloshirt_blue_F;
+	backpack = B_Kitbag_rgr_CTRGExp_F;
+	uniformClass = U_B_ION_uniform_01_poloshirt_blue_F;
 	weapons[] =
     {
         rev_arifle_scar_L_grip_hamr_black_F,
@@ -169,11 +174,13 @@ class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_F
         DefaultManLeaderLinkedItems,
 	};
 };
-class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_Medic_tna_F;
+class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_Medic_tna_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	displayName = $STR_A3_B_CTRG_Soldier_Medic_tna_F0;
 	scope = public;
     scopeCurator = public;
 	class SpeechVariants
@@ -235,11 +242,13 @@ class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_F
         DefaultManLeaderLinkedItems,
 	};
 };
-class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_M_tna_F;
+class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_M_tna_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	displayName = $STR_B_SOLDIER_M_F0;
 	scope = public;
     scopeCurator = public;
 	class SpeechVariants
@@ -256,14 +265,14 @@ class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_F
 	uniformClass = U_lxWS_ION_Casual5;
 	weapons[] =
     {
-        Rev_arifle_SPAR_03_blk_MRCO_BI_F,
+        Rev_arifle_SPAR_03_blk_MOS_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
     };
 	respawnWeapons[] =
     {
-        Rev_arifle_SPAR_03_blk_MRCO_BI_F,
+        Rev_arifle_SPAR_03_blk_MOS_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
@@ -309,13 +318,15 @@ class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_F
 		optic_tws_sniper
 	};
 };
-class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_LAT_tna_F;
+class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_LAT_tna_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	scope = public;
     scopeCurator = public;
+    displayName = $STR_A3_B_CTRG_Soldier_LAT_tna_F0;
 	icon = iconManAT;
 	uniformClass = U_BG_Guerilla2_2;
 	weapons[] =
@@ -366,11 +377,13 @@ class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_F
         DefaultManLeaderLinkedItems,
 	};
 };
-class B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_F
+class B_CTRG_Soldier_AR_tna_F;
+class B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_AR_tna_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_AR_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	displayName = $STR_B_SOLDIER_AR_F0;
 	scope = public;
     scopeCurator = public;
 	uniformClass = atlas_U_C_Uniform_01_tshirt_white_F;
@@ -430,19 +443,20 @@ class B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	displayName = "Grenadier";
 	scope = public;
     scopeCurator = public;
-	uniformClass = Atlas_U_B_ION_uniform_01_tshirt_black_F;
+	uniformClass = U_B_ION_uniform_01_tshirt_black_F;
 	weapons[] =
     {
-        rev_arifle_scar_GL_grip_hamr_black_F,
+        rev_arifle_scar_GL_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F
     };
 	respawnWeapons[] =
     {
-        rev_arifle_scar_GL_grip_hamr_black_F,
+        rev_arifle_scar_GL_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F

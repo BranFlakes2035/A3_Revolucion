@@ -723,8 +723,8 @@ class rev_arifle_scar_L_grip_hamr_black_F: arifle_scar_L_grip_black_F
 	};
 };
 /* SCAR-H GL RCO */
-class arifle_scar_GL_grip_black_F;
-class rev_arifle_scar_GL_grip_hamr_black_F: arifle_scar_GL_grip_black_F
+class arifle_SCAR_GL_black_F;
+class rev_arifle_scar_GL_hamr_black_F: arifle_SCAR_GL_black_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class LinkedItems
