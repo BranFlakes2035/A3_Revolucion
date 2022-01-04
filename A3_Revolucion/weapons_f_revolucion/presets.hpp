@@ -764,7 +764,7 @@ class Rev_arifle_SPAR_03_blk_MOS_F: arifle_SPAR_03_blk_F
 		};
     };
 };
-class arifle_SPAR_01_blk_rco_F: arifle_SPAR_01_GL_blk_F
+class arifle_SPAR_01_blk_rco_F: arifle_SPAR_01_blk_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class LinkedItems

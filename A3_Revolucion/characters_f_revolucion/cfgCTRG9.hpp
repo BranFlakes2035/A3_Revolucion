@@ -4,6 +4,7 @@ class B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_G9_F.jpg";
 	author = $STR_A3_A_BranFlakes;
 	faction = Revolucion_BLU_CTRG_F;
+	editorsubcategory = "EdSubcat_Personnel";
 	scope = public;
     scopeCurator = public;
 	icon = iconManLeader;
@@ -63,6 +64,7 @@ class B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	editorsubcategory = "EdSubcat_Personnel";
 	scope = public;
     scopeCurator = public;
     displayName = "Scout";
@@ -122,6 +124,7 @@ class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_Exp_tna_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	editorsubcategory = "EdSubcat_Personnel";
 	scope = public;
     scopeCurator = public;
 	icon = iconManExplosive;
@@ -180,6 +183,7 @@ class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_Medic_tna_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	editorsubcategory = "EdSubcat_Personnel";
 	displayName = $STR_A3_B_CTRG_Soldier_Medic_tna_F0;
 	scope = public;
     scopeCurator = public;
@@ -248,6 +252,7 @@ class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_M_tna_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	editorsubcategory = "EdSubcat_Personnel";
 	displayName = $STR_B_SOLDIER_M_F0;
 	scope = public;
     scopeCurator = public;
@@ -324,6 +329,7 @@ class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_LAT_tna_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	editorsubcategory = "EdSubcat_Personnel";
 	scope = public;
     scopeCurator = public;
     displayName = $STR_A3_B_CTRG_Soldier_LAT_tna_F0;
@@ -367,7 +373,6 @@ class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_LAT_tna_F
 		H_Cap_blk,
 		G_Shades_Red,
         DefaultManLeaderLinkedItems,Items,
-        NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
@@ -384,6 +389,7 @@ class B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_AR_tna_F
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	displayName = $STR_B_SOLDIER_AR_F0;
+	editorsubcategory = "EdSubcat_Personnel";
 	scope = public;
     scopeCurator = public;
 	uniformClass = atlas_U_C_Uniform_01_tshirt_white_F;
@@ -443,6 +449,7 @@ class B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
+	editorsubcategory = "EdSubcat_Personnel";
 	displayName = "Grenadier";
 	scope = public;
     scopeCurator = public;
