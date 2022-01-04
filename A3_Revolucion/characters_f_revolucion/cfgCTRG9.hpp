@@ -1,17 +1,21 @@
+class B_CTRG_Soldier_F;
 class B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_G9_F.jpg";
+	author = $STR_A3_A_BranFlakes;
+	faction = Revolucion_BLU_CTRG_F;
 	icon = iconManLeader;
+	uniformClass = U_lxWS_ION_Casual2;
 	weapons[] =
     {
-        arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+        rev_arifle_scar_L_grip_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Rangefinder
     };
 	respawnWeapons[] =
     {
-        arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+        rev_arifle_scar_L_grip_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Rangefinder
@@ -38,35 +42,91 @@ class B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_Headset,
+		G_Shemag_Tactical,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_Headset,
+		G_Shemag_Tactical,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
+	};
+};
+class B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
+{
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_TL_G9_F.jpg";
+	faction = Revolucion_BLU_CTRG_F;
+	author = $STR_A3_A_BranFlakes;
+	uniformClass = U_lxWS_ION_Casual4;
+	weapons[] =
+    {
+        rev_arifle_scar_L_grip_hamr_black_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        rev_arifle_scar_L_grip_hamr_black_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_4(30Rnd_556x45_Stanag_red),
+        mag_2(30Rnd_556x45_Stanag_Tracer_Red),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_4(30Rnd_556x45_Stanag_red),
+        mag_2(30Rnd_556x45_Stanag_Tracer_Red),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Booniehat_M81_F,
+		G_Shemag_Shades,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Booniehat_M81_F,
+		G_Shemag_Shades,
+        DefaultManLeaderLinkedItems,
 	};
 };
 class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Exp_G9_F.jpg";
+	faction = Revolucion_BLU_CTRG_F;
+	author = $STR_A3_A_BranFlakes;
 	icon = iconManExplosive;
 	picture = pictureExplosive;
+	uniformClass = Atlas_U_B_ION_uniform_01_poloshirt_blue_F;
 	weapons[] =
     {
-        arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+        rev_arifle_scar_L_grip_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons
     };
 	respawnWeapons[] =
     {
-        arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+        rev_arifle_scar_L_grip_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons
     };
@@ -90,24 +150,24 @@ class B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_headphones,
+		G_Sport_blackred,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_headphones,
+		G_Sport_blackred,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 };
 class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_Medic_G9_F.jpg";
+	faction = Revolucion_BLU_CTRG_F;
+	author = $STR_A3_A_BranFlakes;
 	class SpeechVariants
 	{
 		class Default
@@ -121,15 +181,16 @@ class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_F
 	nameSound = veh_infantry_SF_s;
 	icon = iconManMedic;
 	picture = pictureHeal;
+	uniformClass = U_lxWS_ION_Casual2;
 	weapons[] =
     {
-        arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+        rev_arifle_scar_L_grip_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons
     };
 	respawnWeapons[] =
     {
-        arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+        rev_arifle_scar_L_grip_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons
     };
@@ -153,24 +214,24 @@ class B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_capB_rvs_blk_ION,
+		G_Shemag_tactical,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_capB_rvs_blk_ION,
+		G_Shemag_tactical,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 };
 class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_M_G9_F.jpg";
+	faction = Revolucion_BLU_CTRG_F;
+	author = $STR_A3_A_BranFlakes;
 	class SpeechVariants
 	{
 		class Default
@@ -182,16 +243,17 @@ class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_F
 	textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
 	textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
 	nameSound = veh_infantry_SF_s;
+	uniformClass = U_lxWS_ION_Casual5;
 	weapons[] =
     {
-        arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F,
+        Rev_arifle_SPAR_03_blk_MRCO_BI_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
     };
 	respawnWeapons[] =
     {
-        arifle_SPAR_03_blk_MOS_Pointer_Bipod_Snds_F,
+        Rev_arifle_SPAR_03_blk_MRCO_BI_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
 		Rangefinder
@@ -214,19 +276,17 @@ class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_Headset,
+		G_Bandanna_Shades,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_Headset,
+		G_Bandanna_Shades,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 	items[] =
 	{
@@ -241,18 +301,21 @@ class B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_F
 };
 class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_LAT_G9_F.jpg";
+	faction = Revolucion_BLU_CTRG_F;
+	author = $STR_A3_A_BranFlakes;
 	icon = iconManAT;
+	uniformClass = U_BG_Guerilla2_2;
 	weapons[] =
     {
-        arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+        arifle_SPAR_01_blk_rco_F,
         hgun_P07_blk_Snds_F,
 		launch_NLAW_F,
         DefaultManWeapons
     };
 	respawnWeapons[] =
     {
-        arifle_SPAR_01_blk_ERCO_Pointer_Snds_F,
+        arifle_SPAR_01_blk_rco_F,
         hgun_P07_blk_Snds_F,
 		launch_NLAW_F,
         DefaultManWeapons
@@ -277,33 +340,35 @@ class B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
-        DefaultManLeaderLinkedItems,
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_blk,
+		G_Shades_Red,
+        DefaultManLeaderLinkedItems,Items,
         NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_blk,
+		G_Shades_Red,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 };
 class B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_AR_G9_F.jpg";
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_AR_G9_F.jpg";
+	faction = Revolucion_BLU_CTRG_F;
+	author = $STR_A3_A_BranFlakes;
+	uniformClass = atlas_U_C_Uniform_01_tshirt_white_F;
 	weapons[] =
     {
-        arifle_SPAR_02_blk_ERCO_Pointer_Bipod_Snds_F,
+        arifle_spar_02_HAMR_blk_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons
     };
 	respawnWeapons[] =
     {
-        arifle_SPAR_02_blk_ERCO_Pointer_Bipod_Snds_F,
+        arifle_spar_02_HAMR_blk_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons
     };
@@ -325,52 +390,50 @@ class B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_oli_HS,
+		G_Shemag_Shades,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier2_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_oli_HS,
+		G_Shemag_Shades,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 	items[] =
 	{
 		FirstAidKit,
-		optic_tws_mg
 	};
 	respawnItems[] =
 	{
 		FirstAidKit,
-		optic_tws_mg
 	};
 };
 class B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
 {
-	editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_G9_F.jpg";
-	backpack = B_RadioBag_01_green_F;
+	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\B_CTRG_Soldier_JTAC_G9_F.jpg";
+	faction = Revolucion_BLU_CTRG_F;
+	author = $STR_A3_A_BranFlakes;
+	uniformClass = Atlas_U_B_ION_uniform_01_tshirt_black_F;
 	weapons[] =
     {
-        arifle_SPAR_01_GL_blk_ERCO_Pointer_Snds_F,
+        rev_arifle_scar_GL_grip_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F
     };
 	respawnWeapons[] =
     {
-        arifle_SPAR_01_GL_blk_ERCO_Pointer_Snds_F,
+        rev_arifle_scar_GL_grip_hamr_black_F,
         hgun_P07_blk_Snds_F,
         DefaultManWeapons,
         Laserdesignator_01_khk_F
     };
 	magazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
 		mag_2(B_IR_Grenade),
@@ -384,7 +447,7 @@ class B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
     };
 	respawnMagazines[] =
     {
-        mag_6(30Rnd_556x45_Stanag_red),
+        mag_6(20Rnd_762x51_Mag),
         mag_2(16Rnd_9x21_Mag),
         mag_2(MiniGrenade),
 		mag_2(B_IR_Grenade),
@@ -398,18 +461,16 @@ class B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Bandanna_khk_hs,
+		G_Shemag_Shades,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrier1_rgr_noflag_F,
-		H_HelmetB_TI_G9_F,
-		G_Balaclava_TI_G_G9_F,
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Bandanna_khk_hs,
+		G_Shemag_Shades,
         DefaultManLeaderLinkedItems,
-        NVGogglesB_grn_F
 	};
 };

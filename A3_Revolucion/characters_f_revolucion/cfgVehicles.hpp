@@ -28,6 +28,7 @@ class CfgVehicles
     #include "cfgFASR.hpp"   // FASR
     #include "cfgVenezuela.hpp" // CSAT Venezuela
     #include "cfgPNB.hpp"     // Policia Nacional de Baracas
+    #include "cfgCTRG9.hpp"   //CTRG Group 9
 
     /* Uniforms */
     #include "cfgUniforms.hpp"

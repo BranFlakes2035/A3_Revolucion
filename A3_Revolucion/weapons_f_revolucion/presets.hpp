@@ -705,7 +705,7 @@ class arifle_spar_02_HAMR_blk_F: arifle_spar_02_blk_F
 };
 /* SCAR-L RCO */
 class arifle_scar_L_grip_black_F;
-class rev_arifle_scar_L_grip_hamr_black_F: class arifle_scar_L_grip_black_F
+class rev_arifle_scar_L_grip_hamr_black_F: arifle_scar_L_grip_black_F
 {
 	author = $STR_A3_A_BranFlakes;
 	class LinkedItems
@@ -742,7 +742,7 @@ class rev_arifle_scar_GL_grip_hamr_black_F: arifle_scar_GL_grip_black_F
 	};
 };
 /* SPAR-17 MOS */
-class Rev_arifle_SPAR_03_blk_MRCO_BI_F: arifle_SPAR_03_blk_F
+class Rev_arifle_SPAR_03_blk_MOS_F: arifle_SPAR_03_blk_F
 {
 	author = $STR_A3_A_Ravenholme;
 	class LinkedItems
@@ -764,7 +764,6 @@ class Rev_arifle_SPAR_03_blk_MRCO_BI_F: arifle_SPAR_03_blk_F
 		};
     };
 };
-class arifle_SPAR_01_blk_F;
 class arifle_SPAR_01_blk_rco_F: arifle_SPAR_01_GL_blk_F
 {
 	author = $STR_A3_A_BranFlakes;
