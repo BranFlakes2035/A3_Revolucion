@@ -24,4 +24,8 @@ class CfgVehicles
 	/*From "cfgPolicia.hpp" */
 	UNIFORM_HOLDER(Rev_U_Policia_CombatUniform_F,$STR_A3_R_CfgWeapons_U_Policia_CombatUniform_F0);
 	UNIFORM_HOLDER(Rev_U_Policia_CombatUniform_shortsleeve_F,$STR_A3_R_CfgWeapons_U_Policia_CombatUniform_shortsleeve_F0);
+
+	/*From "cfgCTRG9.hpp" */
+	UNIFORM_HOLDER(Rev_U_B_CTRG_Uniform_01_F,"Operator Outfit (Red)");
+	UNIFORM_HOLDER(Rev_U_B_CTRG_Uniform_02_F,"Operator Outfit (White)");
 };

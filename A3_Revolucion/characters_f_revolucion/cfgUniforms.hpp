@@ -304,3 +304,28 @@ class Rev_Policia_CombatUniform_shortsleeve_F: I_soldier_lite_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\uniform_U_policia_CO.paa"
 	};
 };
+/* CTRG */
+class B_ION_shot_lxWS;
+class Rev_CTRG_Casual_01: B_ION_shot_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_CTRG_Uniform_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\lxws\characters_f_lxws\data\clothes\B_ION_Soldier_poloRed_CO.paa",
+      	"\A3\characters_f_exp\BLUFOR\data\U_B_CTRG_Soldier_F_co.paa"
+	};
+};
+class B_ION_soldier_UAV_01_lxWS;
+class Rev_CTRG_Casual_02: B_ION_soldier_UAV_01_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_CTRG_Uniform_02_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\lxws\characters_f_lxws\data\clothes\B_ION_Soldier_poloWhite_CO.paa",
+      	"\A3\characters_f_exp\BLUFOR\data\U_B_CTRG_Soldier_F_co.paa"
+	};
+};

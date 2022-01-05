@@ -12,4 +12,5 @@ class CfgWeapons
     #include "cfgFASR.hpp"  //FASR
     #include "cfgFRR.hpp"   //FRR
     #include "cfgPolicia.hpp"   //Policia
+    #include "cfgCTRG9.hpp"     //CTRG Group 9
 };
