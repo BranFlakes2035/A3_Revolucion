@@ -38,4 +38,13 @@ class CfgIdentities
 		pitch = 0.999;
 		speaker = "Male07ENG";
 	};
+	class Revolucion_CTRG_Patrick_Barker
+	{
+		face = "Barklem";
+		glasses = "G_Tactical_Clear";
+		name = "Patrick Barker";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male10ENG";
+	};
 };

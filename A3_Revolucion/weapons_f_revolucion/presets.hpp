@@ -805,3 +805,26 @@ class rev_arifle_scar_L_GL_hamr_black_F: arifle_SCAR_L_GL_black_F
 		};
 	};
 };
+class SMG_03C_TR_black;
+class SMG_03C_TR_black_ACO_snds: SMG_03C_TR_black
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Aco_smg;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_570;
+		};
+	};
+};

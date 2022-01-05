@@ -577,7 +577,7 @@ class Rev_B_N_Story_Rafael_Austin: Rev_B_CTRG_Soldier_TL_G9_F
 		NVgoggles_INDEP
 		G_Squares,
 		ItemGPS,
-		DefaultManLinkedItems
+		DefaultManLeaderLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
@@ -586,12 +586,80 @@ class Rev_B_N_Story_Rafael_Austin: Rev_B_CTRG_Soldier_TL_G9_F
 		NVgoggles_INDEP,
 		G_Squares,
 		ItemGPS,
-		DefaultManLinkedItems
+		DefaultManLeaderLinkedItems
 	};
 	allowedHeadgear[] = {};
     headgearList[] = {};
 	class EventHandlers: EventHandlers
 	{
 		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Rafael_Austin"";";
+	};
+};
+class Rev_B_CTRG_Story_Patrick_Barker: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Patrick_Barker
+	};
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Patrick Barker";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	backpack = B_AssaultPack_rgr;
+	uniformClass = U_B_ION_Uniform_01_poloshirt_wdl_F;
+	weapons[] =
+    {
+        SMG_03C_TR_black_ACO_snds,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        SMG_03C_TR_black_ACO_snds,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_6(50Rnd_570x28_SMG_03),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_6(50Rnd_570x28_SMG_03),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_oli_hs,
+		G_Tactical_Clear,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_oli_hs,
+		G_Tactical_Clear,
+        DefaultManLeaderLinkedItems,
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Patrick_Barker"";";
 	};
 };
