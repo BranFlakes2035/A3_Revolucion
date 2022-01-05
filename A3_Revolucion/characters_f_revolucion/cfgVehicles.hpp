@@ -21,6 +21,11 @@ class CfgVehicles
     {
         class EventHandlers;
     };
+
+    class B_CTRG_Soldier_F: B_Soldier_F
+    {
+        class EventHandlers;
+    };
     
     #include "cfgBDF.hpp"      // Baracan Defence Force
     #include "cfgFRR.hpp"   // FRR

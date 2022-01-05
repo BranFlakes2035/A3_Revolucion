@@ -781,3 +781,27 @@ class arifle_SPAR_01_blk_rco_F: arifle_SPAR_01_blk_F
 		};
 	};
 };
+/* SCAR-L GL RCO Supressor */
+class arifle_SCAR_L_GL_black_F;
+class rev_arifle_scar_L_GL_hamr_black_F: arifle_SCAR_L_GL_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};

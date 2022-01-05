@@ -1,5 +1,6 @@
 class CfgIdentities
 {
+	/* FRR */
 	class Revolucion_FRR_El_Jefe
 	{
 		face = "LivonianHead_9";
@@ -26,5 +27,15 @@ class CfgIdentities
 		nameSound = "";
 		pitch = 0.999;
 		speaker = "Male03GRE";
+	};
+	/* CTRG */
+	class Revolucion_CTRG_Rafael_Austin
+	{
+		face = "greekhead_A3_01";
+		glasses = "G_Squares";
+		name = "Rafael Austin";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male07ENG";
 	};
 };

@@ -1,4 +1,3 @@
-class B_CTRG_Soldier_F;
 class Rev_B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
 {
 	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_TL_G9_F.jpg";
@@ -509,5 +508,90 @@ class Rev_B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
 		H_Bandanna_khk_hs,
 		G_Shemag_Shades,
         DefaultManLeaderLinkedItems,
+	};
+};
+
+/* Revolucion - Story Characters */
+class Rev_B_N_Story_Rafael_Austin: Rev_B_CTRG_Soldier_TL_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Angelos_Lara.jpg";
+    scope = public;
+    faction = Revolucion_BLU_CTRG_F;
+    scopeCurator = public;
+    displayName = "Rafael Austin";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Rev_U_B_CTRG_Uniform_01_F;
+	backpack = B_RadioBag_01_green_F;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Rafael_Austin
+	};
+	weapons[] =
+	{
+		rev_arifle_scar_L_GL_hamr_black_F,
+		hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+		Laserdesignator_01_khk_F
+	};
+	respawnWeapons[] =
+	{
+		rev_arifle_scar_L_GL_hamr_black_F,
+		hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+		Laserdesignator_01_khk_F
+	};
+		magazines[] =
+    {
+        mag_6(30Rnd_556x45_Stanag_red),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+		mag_2(B_IR_Grenade),
+        mag_6(1Rnd_HE_Grenade_shell),
+        Laserbatteries,
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green),
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_BLUFOR
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_556x45_Stanag_red),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+		mag_2(B_IR_Grenade),
+        mag_6(1Rnd_HE_Grenade_shell),
+        Laserbatteries,
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green),
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_BLUFOR
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Booniehat_M81_F,
+		NVgoggles_INDEP
+		G_Squares,
+		ItemGPS,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Booniehat_M81_F,
+		NVgoggles_INDEP,
+		G_Squares,
+		ItemGPS,
+		DefaultManLinkedItems
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Rafael_Austin"";";
 	};
 };
