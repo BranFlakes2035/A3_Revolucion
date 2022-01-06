@@ -828,3 +828,25 @@ class SMG_03C_TR_black_ACO_snds: SMG_03C_TR_black
 		};
 	};
 };
+class Rev_arifle_SCAR_blk_arco_snds_F: arifle_SCAR_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Arco_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B;
+		};
+    };
+};

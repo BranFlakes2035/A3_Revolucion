@@ -47,4 +47,13 @@ class CfgIdentities
 		pitch = 0.999;
 		speaker = "Male10ENG";
 	};
+	class Revolucion_CTRG_Garret_Jordan
+	{
+		face = "Livonianhead_5";
+		glasses = "";
+		name = "Garret Jordan";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male03ENG";
+	};
 };

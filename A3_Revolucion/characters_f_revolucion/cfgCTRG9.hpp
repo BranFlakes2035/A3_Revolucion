@@ -663,3 +663,69 @@ class Rev_B_CTRG_Story_Patrick_Barker: Rev_B_CTRG_Soldier_G9_F
 		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Patrick_Barker"";";
 	};
 };
+class Rev_B_CTRG_Story_Garret_Jordan: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Garret_Jordan
+	};
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Garret Jordan";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	backpack = B_AssaultPack_wdl_F;
+	uniformClass = U_I_C_Soldier_Para_4_F;
+	weapons[] =
+    {
+        Rev_arifle_SCAR_blk_arco_snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        Rev_arifle_SCAR_blk_arco_snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_8(20Rnd_762x51_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_8(20Rnd_762x51_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Milcap_M81_F,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Milcap_M81_F,
+        DefaultManLeaderLinkedItems,
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Garret_Jordan"";";
+	};
+};
