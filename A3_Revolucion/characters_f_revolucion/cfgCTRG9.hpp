@@ -406,7 +406,7 @@ class Rev_B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_AR_tna_F
     };
 	magazines[] =
     {
-        mag_6(150Rnd_556x45_Drum_Mag_F),
+        mag_8(75Rnd_556x45_Stanag_lxWS),
         mag_2(16Rnd_9x21_Mag),
         MiniGrenade,
         mag_2(SmokeShell),
@@ -414,7 +414,7 @@ class Rev_B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_AR_tna_F
     };
 	respawnMagazines[] =
     {
-        mag_6(150Rnd_556x45_Drum_Mag_F),
+        mag_8(75Rnd_556x45_Stanag_lxWS),
         mag_2(16Rnd_9x21_Mag),
         MiniGrenade,
         mag_2(SmokeShell),
