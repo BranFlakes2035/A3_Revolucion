@@ -7,7 +7,7 @@ class Rev_B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
 	scope = public;
     scopeCurator = public;
 	icon = iconManLeader;
-	uniformClass = U_lxWS_ION_Casual2;
+	uniformClass = Rev_U_B_CTRG_Uniform_01_F;
 	displayName = $STR_B_SOLDIER_TL_F0;
 	weapons[] =
     {
