@@ -65,4 +65,22 @@ class CfgIdentities
 		pitch = 0.999;
 		speaker = "Male05ENGB";
 	};
+	class Revolucion_CTRG_James_Brown
+	{
+		face = "TanoanHead_A3_09";
+		glasses = "";
+		name = "James R. Brown";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male12ENG";
+	};
+	class Revolucion_CTRG_Frank_Hefford
+	{
+		face = "TanoanHead_A3_09";
+		glasses = "";
+		name = "James R. Brown";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male12ENG";
+	};
 };

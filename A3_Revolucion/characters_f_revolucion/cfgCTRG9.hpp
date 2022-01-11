@@ -729,3 +729,141 @@ class Rev_B_CTRG_Story_Garret_Jordan: Rev_B_CTRG_Soldier_G9_F
 		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Garret_Jordan"";";
 	};
 };
+class Rev_B_CTRG_Story_James_Brown: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_James_Brown
+	};
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "James R. Brown";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	backpack = B_AssaultPackSpec_rgr;
+	uniformClass = U_BG_Guerilla2_3;
+	weapons[] =
+    {
+        Rev_arifle_SPAR_03_blk_RCO_bpd_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        Rev_arifle_SPAR_03_blk_RCO_bpd_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_8(20Rnd_762x51_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_8(20Rnd_762x51_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Booniehat_oli,
+		G_Headset_Light,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Booniehat_oli,
+		G_Headset_Light,
+        DefaultManLeaderLinkedItems,
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_James_Brown"";";
+	};
+};
+class Rev_B_CTRG_Story_Frank_Hefford: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Frank_Hefford
+	};
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Frank Hefford";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	backpack = ION_UAV_02_backpack_lxWS;
+	uniformClass = Atlas_U_C_CommonerJacket_01_grey_F;
+	weapons[] =
+    {
+        Rev_arifle_SPAR_03_blk_RCO_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        Rev_arifle_SPAR_03_blk_RCO_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_8(20Rnd_762x51_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_8(20Rnd_762x51_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Watchcap_blk_hs,
+		G_Tactical_Clear,
+		B_UavTerminal,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Watchcap_blk_hs,
+		G_Tactical_Clear,
+		B_UavTerminal,
+        DefaultManLeaderLinkedItems,
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Frank_Hefford"";";
+	};
+};
