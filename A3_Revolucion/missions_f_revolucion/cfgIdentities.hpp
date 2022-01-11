@@ -83,4 +83,13 @@ class CfgIdentities
 		pitch = 0.999;
 		speaker = "Male12ENG";
 	};
+	class Revolucion_CTRG_Peter_Stern
+	{
+		face = "Livonianhead_8";
+		glasses = "";
+		name = "Peter Stern";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male11ENG";
+	};
 };

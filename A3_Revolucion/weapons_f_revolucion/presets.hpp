@@ -899,3 +899,25 @@ class Rev_arifle_SPAR_03_blk_RCO_F: arifle_SPAR_03_blk_F
 		};
     };
 };
+class arifle_SPAR_01_blk_holo_F: arifle_SPAR_01_blk_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
