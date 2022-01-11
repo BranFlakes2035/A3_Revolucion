@@ -56,4 +56,13 @@ class CfgIdentities
 		pitch = 0.999;
 		speaker = "Male03ENG";
 	};
+	class Revolucion_CTRG_Grant_MacKenzie
+	{
+		face = "Russianhead_4";
+		glasses = "";
+		name = "Grant MacKenzie";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male05ENGB";
+	};
 };
