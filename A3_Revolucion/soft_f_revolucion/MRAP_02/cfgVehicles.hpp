@@ -46,8 +46,6 @@ class CfgVehicles
     
     /* Factions */
 	class O_MRAP_02_F;
-	class O_MRAP_02_hmg_F;
-	class O_MRAP_02_gmg_F;
 	
     #include "cfgPolicia.hpp"   // Policia
 };

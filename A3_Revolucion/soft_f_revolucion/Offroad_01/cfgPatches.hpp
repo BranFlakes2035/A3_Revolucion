@@ -47,7 +47,16 @@ class CfgPatches
 			Rev_I_FRR_Offroad_01_armor_AT_F,
 			Rev_O_FRR_Offroad_01_armor_base_F,
 			Rev_O_FRR_Offroad_01_armor_armed_F,
-			Rev_O_FRR_Offroad_01_armor_AT_F
+			Rev_O_FRR_Offroad_01_armor_AT_F,
+
+			/* From "cfgPolicia.hpp" */
+			Rev_B_PNB_Offroad_01_policia_F,
+			Rev_B_PNB_Offroad_01_covered_F,
+			Rev_B_PNB_Offroad_01_comms_F,
+			Rev_O_PNB_Offroad_01_policia_F,
+			Rev_O_PNB_Offroad_01_covered_F,
+			Rev_O_PNB_Offroad_01_comms_F
+
         };
 		weapons[] = {/* Automated */};
 	};

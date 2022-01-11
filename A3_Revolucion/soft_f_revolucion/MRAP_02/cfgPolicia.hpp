@@ -1,8 +1,8 @@
-/* BLUFOR */
-class rev_P_B_MRAP_02_F: O_MRAP_02_F
+/* BLUFOR - Policia */
+class Rev_B_PNB_MRAP_02_F: O_MRAP_02_F
 {
     author = $STR_A3_A_BranFlakes;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MRAP_02_F.jpg";
+    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_PNB_MRAP_02_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Tortuga";
@@ -41,12 +41,11 @@ class rev_P_B_MRAP_02_F: O_MRAP_02_F
         mag_xx(17Rnd_9x21_Mag,12);
     };
 };
-/* OPFOR */
-/* Russia */
-class rev_P_O_MRAP_02_F: O_MRAP_02_F
+/* OPFOR - Policia */
+class Rev_O_PNB_MRAP_02_F: O_MRAP_02_F
 {
     author = $STR_A3_A_BranFlakes;
-    //editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\O_R_MRAP_02_F.jpg";
+    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_PNB_MRAP_02_F.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Tortuga";

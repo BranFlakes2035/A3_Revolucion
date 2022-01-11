@@ -1,5 +1,4 @@
-class Offroad_01_civil_base_F;
-class rev_B_P_Offroad_01_policia_F: Offroad_01_civil_base_F
+class Rev_B_PNB_Offroad_01_policia_F: Offroad_01_civil_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Offroad_01_police_F.jpg";
@@ -29,7 +28,7 @@ class rev_B_P_Offroad_01_policia_F: Offroad_01_civil_base_F
 		HideBackpacks,1
 	};
 };
-class rev_B_P_Offroad_01_covered_F: Offroad_01_military_covered_base_F
+class Rev_B_PNB_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Offroad_01_covered_F.jpg";
@@ -57,7 +56,7 @@ class rev_B_P_Offroad_01_covered_F: Offroad_01_military_covered_base_F
         HideBumper2,0
     };
 };
-class rev_B_P_Offroad_01_comms_F: Offroad_01_military_comms_base_F
+class Rev_B_PNB_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Offroad_01_comms_F.jpg";
@@ -85,7 +84,7 @@ class rev_B_P_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 };
 
 /* OPFOR */
-class rev_O_P_Offroad_01_policia_F: Offroad_01_civil_base_F
+class Rev_O_PNB_Offroad_01_policia_F: Offroad_01_civil_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Offroad_01_police_F.jpg";
@@ -115,7 +114,7 @@ class rev_O_P_Offroad_01_policia_F: Offroad_01_civil_base_F
 		HideBackpacks,1
 	};
 };
-class rev_O_P_Offroad_01_covered_F: Offroad_01_military_covered_base_F
+class Rev_O_PNB_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Offroad_01_covered_F.jpg";
@@ -143,7 +142,7 @@ class rev_O_P_Offroad_01_covered_F: Offroad_01_military_covered_base_F
         HideBumper2,0
     };
 };
-class rev_O_P_Offroad_01_comms_F: Offroad_01_military_comms_base_F
+class Rev_O_PNB_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	//editorPreview = "\A3_Police\EditorPreviews_F_Police\Data\CfgVehicles\I_P_Offroad_01_comms_F.jpg";
