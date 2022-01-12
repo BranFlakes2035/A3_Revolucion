@@ -1,6 +1,6 @@
 class Rev_B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_TL_G9_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Soldier_TL_G9_F.jpg";
 	author = $STR_A3_A_BranFlakes;
 	faction = Revolucion_BLU_CTRG_F;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -60,7 +60,7 @@ class Rev_B_CTRG_Soldier_TL_G9_F: B_CTRG_Soldier_F
 };
 class Rev_B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_G9_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Soldier_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -120,7 +120,7 @@ class Rev_B_CTRG_Soldier_G9_F: B_CTRG_Soldier_F
 class B_CTRG_Soldier_Exp_tna_F;
 class Rev_B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_Exp_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_Exp_G9_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Soldier_Exp_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -179,7 +179,7 @@ class Rev_B_CTRG_Soldier_Exp_G9_F: B_CTRG_Soldier_Exp_tna_F
 class B_CTRG_Soldier_Medic_tna_F;
 class Rev_B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_Medic_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_Medic_G9_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Soldier_Medic_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -248,7 +248,7 @@ class Rev_B_CTRG_Soldier_Medic_G9_F: B_CTRG_Soldier_Medic_tna_F
 class B_CTRG_Soldier_M_tna_F;
 class Rev_B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_M_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_M_G9_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Soldier_M_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -325,7 +325,7 @@ class Rev_B_CTRG_Soldier_M_G9_F: B_CTRG_Soldier_M_tna_F
 class B_CTRG_Soldier_LAT_tna_F;
 class Rev_B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_LAT_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_LAT_G9_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Soldier_LAT_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -384,7 +384,7 @@ class Rev_B_CTRG_Soldier_LAT_G9_F: B_CTRG_Soldier_LAT_tna_F
 class B_CTRG_Soldier_AR_tna_F;
 class Rev_B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_AR_tna_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_AR_G9_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Soldier_AR_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	displayName = $STR_B_SOLDIER_AR_F0;
@@ -445,7 +445,7 @@ class Rev_B_CTRG_Soldier_AR_G9_F: B_CTRG_Soldier_AR_tna_F
 };
 class Rev_B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
 {
-	//editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Rev_B_CTRG_Soldier_JTAC_G9_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Soldier_JTAC_G9_F.jpg";
 	faction = Revolucion_BLU_CTRG_F;
 	author = $STR_A3_A_BranFlakes;
 	editorsubcategory = "EdSubcat_Personnel";
@@ -515,7 +515,7 @@ class Rev_B_CTRG_Soldier_JTAC_G9_F: B_CTRG_Soldier_F
 class Rev_B_N_Story_Rafael_Austin: Rev_B_CTRG_Soldier_TL_G9_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Theseus\EditorPreviews_F_Theseus\Data\CfgVehicles\Theseus_B_N_Story_Angelos_Lara.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Rafael_Austin.jpg";
     scope = public;
     faction = Revolucion_BLU_CTRG_F;
     scopeCurator = public;
@@ -603,7 +603,7 @@ class Rev_B_CTRG_Story_Patrick_Barker: Rev_B_CTRG_Soldier_G9_F
 		LanguageENG_F,
 		Revolucion_CTRG_Patrick_Barker
 	};
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Patrick_Barker.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Patrick Barker";
@@ -671,7 +671,7 @@ class Rev_B_CTRG_Story_Garret_Jordan: Rev_B_CTRG_Soldier_G9_F
 		LanguageENG_F,
 		Revolucion_CTRG_Garret_Jordan
 	};
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Garret_Jordan.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Garret Jordan";
@@ -737,7 +737,7 @@ class Rev_B_CTRG_Story_James_Brown: Rev_B_CTRG_Soldier_G9_F
 		LanguageENG_F,
 		Revolucion_CTRG_James_Brown
 	};
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_James_Brown.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "James R. Brown";
@@ -805,7 +805,7 @@ class Rev_B_CTRG_Story_Frank_Hefford: Rev_B_CTRG_Soldier_G9_F
 		LanguageENG_F,
 		Revolucion_CTRG_Frank_Hefford
 	};
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Frank_Hefford.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Frank Hefford";
@@ -875,7 +875,7 @@ class Rev_B_CTRG_Story_Peter_Stern: Rev_B_CTRG_Soldier_G9_F
 		LanguageENG_F,
 		Revolucion_CTRG_Peter_Stern
 	};
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_Story_El_Mula.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Peter_Stern.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Peter Stern";
@@ -933,5 +933,73 @@ class Rev_B_CTRG_Story_Peter_Stern: Rev_B_CTRG_Soldier_G9_F
 	class EventHandlers: EventHandlers
 	{
 		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Peter_Stern"";";
+	};
+};
+class Rev_B_CTRG_Story_Tyler_Bannon: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Tyler_Bannon
+	};
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Tyler_Bannon.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Peter Stern";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	backpack = B_CivilianBackpack_01_EveryDay_Black_F;
+	uniformClass = U_I_C_Soldier_Para_4_F;
+	weapons[] =
+    {
+        rev_arifle_Velko_lxWS_mrco_snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        rev_arifle_Velko_lxWS_mrco_snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_8(35Rnd_556x45_velko_lxWS),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_8(35Rnd_556x45_velko_lxWS),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_Headphones,
+		G_Combat_lxWS,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_Headphones,
+		G_Combat_lxWS,
+        DefaultManLeaderLinkedItems,
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Tyler_Bannon"";";
 	};
 };

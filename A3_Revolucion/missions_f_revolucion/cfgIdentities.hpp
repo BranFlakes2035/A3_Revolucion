@@ -92,4 +92,13 @@ class CfgIdentities
 		pitch = 0.999;
 		speaker = "Male11ENG";
 	};
+	class Revolucion_CTRG_Tyler_Bannon
+	{
+		face = "WhiteHead_24";
+		glasses = "";
+		name = "Tyler Bannon";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male05ENG";
+	};
 };

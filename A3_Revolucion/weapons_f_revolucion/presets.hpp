@@ -921,3 +921,20 @@ class arifle_SPAR_01_blk_holo_F: arifle_SPAR_01_blk_F
 		};
 	};
 };
+class rev_arifle_Velko_lxWS_mrco_snds_F: arifle_Velko_lxWS
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+    };
+};

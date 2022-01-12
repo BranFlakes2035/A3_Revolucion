@@ -13,10 +13,10 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] = 
 				{
-					"A3\Soft_F_enoch\Van_02\Data\van_body_ldf_CO.paa",
-					"a3\Soft_F_enoch\Van_02\Data\van_wheel_ldf_MP_CO.paa",
-					"a3\soft_f_enoch\van_02\data\van_glass_MP_CA.paa",
-					"a3\soft_f_enoch\van_02\data\van_body_ldf_CO.paa"
+					"\A3_revolucion\Soft_F_Revolucion\Van_02\Data\van_body_Policia_CO.paa",
+					"\A3\Soft_F_enoch\Van_02\Data\van_wheel_ldf_MP_CO.paa",
+					"\A3\soft_f_enoch\van_02\data\van_glass_MP_CA.paa",
+					"\A3_revolucion\Soft_F_Revolucion\Van_02\Data\van_body_Policia_CO.paa"
 				};
 				materials[] = 
 				{
