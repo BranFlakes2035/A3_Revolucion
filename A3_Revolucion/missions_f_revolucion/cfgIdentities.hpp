@@ -101,4 +101,13 @@ class CfgIdentities
 		pitch = 0.999;
 		speaker = "Male05ENG";
 	};
+	class Revolucion_CTRG_Marshall_Lacroix
+	{
+		face = "AfricanHead_01";
+		glasses = "";
+		name = "Marshall Lacroix";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male09ENG";
+	};
 };

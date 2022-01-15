@@ -946,7 +946,7 @@ class Rev_B_CTRG_Story_Tyler_Bannon: Rev_B_CTRG_Soldier_G9_F
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Tyler_Bannon.jpg";
     scope = public;
     scopeCurator = public;
-    displayName = "Peter Stern";
+    displayName = "Tyler Bannon";
 	editorSubcategory = EdSubcat_Personnel_Story;
 	backpack = B_CivilianBackpack_01_EveryDay_Black_F;
 	uniformClass = U_I_C_Soldier_Para_4_F;
@@ -1001,5 +1001,77 @@ class Rev_B_CTRG_Story_Tyler_Bannon: Rev_B_CTRG_Soldier_G9_F
 	class EventHandlers: EventHandlers
 	{
 		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Tyler_Bannon"";";
+	};
+};
+class Rev_B_CTRG_Story_Marshall_Lacroix: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Marshall_Lacroix
+	};
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Marshall_Lacroix.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Marshall Lacroix";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	backpack = B_TacticalPack_eaf_F;
+	uniformClass = Rev_U_B_FRR_Uniform_03_F;
+	weapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        hgun_P07_blk_Snds_F,
+        launch_RPG7_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        hgun_P07_blk_Snds_F,
+        launch_RPG7_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        RPG7_F,
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        RPG7_F,
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_bmask_camo02,
+		G_Shemag_Tactical,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_bmask_camo02,
+		G_Shemag_Tactical,
+        DefaultManLeaderLinkedItems,
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Marshall_Lacroix"";";
 	};
 };
