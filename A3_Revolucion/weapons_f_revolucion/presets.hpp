@@ -850,6 +850,28 @@ class Rev_arifle_SCAR_blk_arco_snds_F: arifle_SCAR_black_F
 		};
     };
 };
+class Rev_arifle_SCAR_blk_erco_snds_F: arifle_SCAR_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Erco_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B;
+		};
+    };
+};
 class Rev_arifle_SPAR_03_blk_RCO_bpd_F: arifle_SPAR_03_blk_F
 {
 	author = $STR_A3_A_BranFlakes;
@@ -937,4 +959,40 @@ class rev_arifle_Velko_lxWS_mrco_snds_F: arifle_Velko_lxWS
 			item = muzzle_snds_M;
 		};
     };
+};
+class arifle_SPAR_01_khk_F;
+class arifle_SPAR_01_khk_RCO_snds_F: arifle_SPAR_01_khk_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
+class hgun_ACPC2_black_F;
+class hgun_ACPC2_black_snds_F: hgun_ACPC2_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_acp;
+		};
+	};
 };

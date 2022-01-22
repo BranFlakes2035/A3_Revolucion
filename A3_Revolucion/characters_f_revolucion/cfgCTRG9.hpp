@@ -1075,3 +1075,145 @@ class Rev_B_CTRG_Story_Marshall_Lacroix: Rev_B_CTRG_Soldier_G9_F
 		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Marshall_Lacroix"";";
 	};
 };
+class Rev_B_CTRG_Story_Howard_King: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Howard_King
+	};
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Marshall_Lacroix.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Howard King";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	backpack = B_Kitbag_rgr_CTRGExp_F;
+	role = Sapper;
+    icon = iconManEngineer;
+    picture = pictureRepair;
+	cost = 220000;
+	canDeactivateMines = true;
+	engineer = true;
+	uniformClass = U_I_C_Soldier_Para_3_F;
+	weapons[] =
+    {
+        arifle_SPAR_01_khk_RCO_snds_F,
+        hgun_ACPC2_black_snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        arifle_SPAR_01_khk_RCO_snds_F,
+        hgun_ACPC2_black_snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_8(30Rnd_556x45_Stanag_red),
+        mag_2(9Rnd_45ACP_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_8(30Rnd_556x45_Stanag_red),
+        mag_2(9Rnd_45ACP_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Bandanna_tna_hs_F,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Bandanna_tna_hs_F,
+        DefaultManLeaderLinkedItems,
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Howard_King"";";
+	};
+};
+class Rev_B_CTRG_Story_Martin_Kennedy: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Martin_Kennedy
+	};
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Marshall_Lacroix.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = "Martin Kennedy";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	icon = iconManMedic;
+	picture = pictureHeal;
+	backpack = B_Kitbag_EAF;
+	uniformClass = Rev_U_B_FRR_Uniform_06_F;
+	weapons[] =
+    {
+        Rev_arifle_SCAR_blk_erco_snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        Rev_arifle_SCAR_blk_erco_snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_8(20Rnd_762x51_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_8(20Rnd_762x51_Mag),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_PASGT_goggles_olive_F,
+		G_Headset_lxWS,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		lxWS_H_PASGT_goggles_olive_F,
+		G_Headset_lxWS,
+        DefaultManLeaderLinkedItems,
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Martin_Kennedy"";";
+	};
+};

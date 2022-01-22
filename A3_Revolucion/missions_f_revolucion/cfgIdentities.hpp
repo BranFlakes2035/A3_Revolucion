@@ -110,4 +110,22 @@ class CfgIdentities
 		pitch = 0.999;
 		speaker = "Male09ENG";
 	};
+	class Revolucion_CTRG_Howard_King
+	{
+		face = "AsianHead_A3_02";
+		glasses = "";
+		name = "Howard King";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male04ENG";
+	};
+		class Revolucion_CTRG_Martin_Kennedy
+	{
+		face = "WhiteHead_21";
+		glasses = "";
+		name = "Martin Kennedy";
+		nameSound = "";
+		pitch = 0.999;
+		speaker = "Male11ENG";
+	};
 };
