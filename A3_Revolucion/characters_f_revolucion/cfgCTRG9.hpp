@@ -574,7 +574,7 @@ class Rev_B_N_Story_Rafael_Austin: Rev_B_CTRG_Soldier_TL_G9_F
 	{
 		V_carrierrigKBT_01_light_CTRG_F,
 		H_Booniehat_M81_F,
-		NVgoggles_INDEP
+		NVgoggles_INDEP,
 		G_Squares,
 		ItemGPS,
 		DefaultManLeaderLinkedItems
@@ -1215,5 +1215,78 @@ class Rev_B_CTRG_Story_Martin_Kennedy: Rev_B_CTRG_Soldier_G9_F
 	class EventHandlers: EventHandlers
 	{
 		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Martin_Kennedy"";";
+	};
+};
+class Rev_B_N_Story_Luca_Woods: Rev_B_CTRG_Soldier_TL_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Luca_Woods.jpg";
+    scope = public;
+    faction = Revolucion_BLU_CTRG_F;
+    scopeCurator = public;
+    displayName = "Luca Woods";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = Rev_U_B_CTRG_Uniform_01_F;
+	backpack = B_RadioBag_01_M81_F;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Luca_Woods
+	};
+	weapons[] =
+	{
+		rev_arifle_SCAR_L_short_hamr_black_F,
+		rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Laserdesignator_01_khk_F
+	};
+	respawnWeapons[] =
+	{
+		rev_arifle_SCAR_L_short_hamr_black_F,
+		rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Laserdesignator_01_khk_F
+	};
+		magazines[] =
+    {
+        mag_6(30Rnd_556x45_Stanag_red),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+		mag_2(B_IR_Grenade),
+        Laserbatteries,
+        mag_2(Chemlight_green),
+		SMOKEGRENADES_BLUFOR
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_556x45_Stanag_red),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+		mag_2(B_IR_Grenade),
+        Laserbatteries,
+        mag_2(Chemlight_green),
+		SMOKEGRENADES_BLUFOR
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Booniehat_M81_F,
+		NVgoggles_INDEP,
+		ItemGPS,
+		DefaultManLeaderLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Booniehat_M81_F,
+		NVgoggles_INDEP,
+		ItemGPS,
+		DefaultManLeaderLinkedItems
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Luca_Woods"";";
 	};
 };

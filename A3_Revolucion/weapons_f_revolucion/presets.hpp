@@ -704,7 +704,6 @@ class arifle_spar_02_HAMR_blk_F: arifle_spar_02_blk_F
     };
 };
 /* SCAR-L RCO */
-class arifle_scar_L_grip_black_F;
 class rev_arifle_scar_L_grip_hamr_black_F: arifle_scar_L_grip_black_F
 {
 	author = $STR_A3_A_BranFlakes;
@@ -723,7 +722,6 @@ class rev_arifle_scar_L_grip_hamr_black_F: arifle_scar_L_grip_black_F
 	};
 };
 /* SCAR-H GL RCO */
-class arifle_SCAR_GL_black_F;
 class rev_arifle_scar_GL_hamr_black_F: arifle_SCAR_GL_black_F
 {
 	author = $STR_A3_A_BranFlakes;
@@ -782,7 +780,6 @@ class arifle_SPAR_01_blk_rco_F: arifle_SPAR_01_blk_F
 	};
 };
 /* SCAR-L GL RCO Supressor */
-class arifle_SCAR_L_GL_black_F;
 class rev_arifle_scar_L_GL_hamr_black_F: arifle_SCAR_L_GL_black_F
 {
 	author = $STR_A3_A_BranFlakes;
@@ -805,6 +802,40 @@ class rev_arifle_scar_L_GL_hamr_black_F: arifle_SCAR_L_GL_black_F
 		};
 	};
 };
+
+/* SCAR-L Short RCO Laser */
+class rev_arifle_SCAR_L_short_hamr_black_F: arifle_SCAR_L_short_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+	};
+};
+
+/* G17 (Black) + Suppressor */
+class rev_hgun_G17_blk_snds_F: hgun_G17_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_L;
+		};
+	};
+};
+
 class SMG_03C_TR_black;
 class SMG_03C_TR_black_ACO_snds: SMG_03C_TR_black
 {

@@ -33,6 +33,11 @@ class cfgWeapons
     class arifle_SA80_blk_F;
     class arifle_SA80_GL_blk_F;
     class arifle_SCAR_black_F;
+    class arifle_SCAR_L_GL_black_F;
+    class arifle_SCAR_L_short_black_F;
+    class arifle_scar_L_grip_black_F;
+    class arifle_SCAR_GL_black_F;
+    class hgun_G17_black_F;
    
     // Presets
     #include "presets.hpp"

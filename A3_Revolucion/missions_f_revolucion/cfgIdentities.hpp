@@ -128,4 +128,13 @@ class CfgIdentities
 		pitch = 0.999;
 		speaker = "Male11ENG";
 	};
+	class Revolucion_CTRG_Luca_Woods
+	{
+		face = "WhiteHead_18";
+		glasses = "";
+		name = "Luca Woods";
+		nameSound = "";
+		pitch = 1.01;
+		speaker = "Male10ENG";
+	};
 };
