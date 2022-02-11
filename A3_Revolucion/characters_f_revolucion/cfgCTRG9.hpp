@@ -1162,7 +1162,7 @@ class Rev_B_CTRG_Story_Martin_Kennedy: Rev_B_CTRG_Soldier_G9_F
 	editorSubcategory = EdSubcat_Personnel_Story;
 	icon = iconManMedic;
 	picture = pictureHeal;
-	backpack = B_Kitbag_EAF;
+	backpack = B_Kitbag_EAF_F;
 	uniformClass = Rev_U_B_FRR_Uniform_06_F;
 	weapons[] =
     {

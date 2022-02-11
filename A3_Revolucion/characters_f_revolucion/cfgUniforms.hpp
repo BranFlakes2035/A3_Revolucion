@@ -329,3 +329,34 @@ class Rev_CTRG_Casual_02: B_ION_soldier_UAV_01_lxWS
       	"\A3\characters_f_exp\BLUFOR\data\U_B_CTRG_Soldier_F_co.paa"
 	};
 };
+class O_G_Soldier_LAT_F;
+class Rev_Panther_CombatUniform_F: O_G_Soldier_LAT_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_Panther_Uniform_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_Panther_Sweater_CO.paa"
+	};
+};
+class Rev_Panther_CombatUniform_dhex_F: O_G_Soldier_LAT_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_Panther_Uniform_02_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_Panther_Sweater_dhex_CO.paa"
+	};
+};
+class Rev_Panther_CombatUniform_fde_F: O_G_Soldier_LAT_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_Panther_Uniform_03_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_Panther_Sweater_fde_CO.paa"
+	};
+};
