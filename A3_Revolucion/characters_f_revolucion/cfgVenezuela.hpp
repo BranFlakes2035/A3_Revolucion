@@ -1646,15 +1646,20 @@ class Rev_O_VZ_recon_TL_F: Rev_O_VZ_Soldier_recon_base
         mag_2(MiniGrenade),
         SmokeShell,
         SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR,
         mag_2(Chemlight_red)
-    };
+	};
     respawnMagazines[] =
     {
        	mag_6(30Rnd_580x42_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
+        mag_6(1Rnd_HE_Grenade_shell),
         SmokeShell,
         SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR,
         mag_2(Chemlight_red)
     };
 	icon = iconManLeader;
@@ -2073,7 +2078,7 @@ class Rev_O_VZ_recon_JTAC_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnWeapons[] =
     {
-        arifle_AUG_C_black_slarifle_NCAR15B_ARCO_snds_Fcr_arco_F,
+        arifle_NCAR15B_ARCO_snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Laserdesignator_03
@@ -2149,4 +2154,496 @@ class Rev_O_VZ_Fighter_Pilot_F: Rev_O_VZ_Helipilot_F
 	camouflage = 2;
     cost = 165000;
     role = Crewman;
+};
+
+/* Venezuelan Panther Teams */
+class Rev_O_VZ_Soldier_Panther_base: Rev_O_VZ_Soldier_recon_base
+{
+    scope = protected;
+    scopeCurator = protected;
+    textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
+    nameSound = veh_infantry_SF_s;
+    uniformClass = Rev_U_O_Panther_Uniform_03_F;
+    editorsubcategory = EdSubcat_Personnel_Panther;
+	items[] =
+	{
+		FirstAidKit,
+		optic_Nightstalker
+	};
+	respawnItems[] =
+	{
+		FirstAidKit,
+		optic_Nightstalker
+	};
+    icon = iconManRecon;
+	role = Rifleman;
+};
+class Rev_O_VZ_Panther_F: Rev_O_VZ_Soldier_Panther_base
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_F.jpg";
+	author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_O_VZ_Panther_F0;
+	uniformClass = Rev_U_O_Panther_Uniform_01_F;
+	linkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_HeadSet_Black_F,
+		G_Bandanna_blk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_HeadSet_Black_F,
+		G_Bandanna_blk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(17Rnd_9x21_Mag),
+		mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+       	mag_8(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(17Rnd_9x21_Mag),
+  		mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+};
+class Rev_O_VZ_Panther_TL_F: Rev_O_VZ_Soldier_Panther_base
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_TL_F.jpg";
+	author = $STR_A3_A_BranFlakes;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_O_VZ_Panther_TL_F0;
+	linkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_HeadSet_Black_F,
+		G_Shemag_khk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_HeadSet_Black_F,
+		G_Shemag_khk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+       	mag_8(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+	icon = iconManLeader;
+	role = Rifleman;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_VZ_Panther_exp_F: Rev_O_VZ_Soldier_Panther_base
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_exp_F.jpg";
+	author = $STR_A3_A_BranFlakes;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_O_VZ_Panther_exp_F0;
+	backpack = B_AssaultPackSpec_blk_PantherExp_F;
+	linkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_Watchcap_blk,
+		G_Shemag_khk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_Watchcap_blk,
+		G_Shemag_khk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+		mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+	role = Rifleman;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+	icon = iconManExplosive;
+	picture = pictureExplosive;
+};
+class Rev_O_VZ_Panther_M_F: Rev_O_VZ_Soldier_Panther_base
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_M_F.jpg";
+	author = $STR_A3_A_BranFlakes;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_O_VZ_Panther_M_F0;
+	uniformClass = Rev_U_O_Panther_Uniform_02_F;
+	linkedItems[] =
+	{
+		V_HarnessO_Blk,
+		G_Shemag_khk,
+		H_Booniehat_blk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOS_Blk,
+		G_Shemag_khk,
+		H_Booniehat_blk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+    {
+        Rev_srifle_DMR_05_Kahlia_IR_Snds_BI_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        Rev_srifle_DMR_05_Kahlia_IR_Snds_BI_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    magazines[] =
+    {
+        mag_6(10rnd_93x64_dmr_05_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(10rnd_93x64_dmr_05_mag),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_red)
+    };
+	role = Marksman;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_VZ_Panther_JTAC_F: Rev_O_VZ_Soldier_Panther_base
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_JTAC_F.jpg";
+	author = $STR_A3_A_BranFlakes;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_O_VZ_Panther_JTAC_F0;
+	backpack = B_RadioBag_01_black_F;
+	linkedItems[] =
+	{
+		V_HarnessO_Blk,
+		lxWS_H_headset,
+		G_Shades_red,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessO_Blk,
+		lxWS_H_headset,
+		G_Shades_red,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+    {
+        Rev_arifle_Katiba_GL_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Laserdesignator_03
+    };
+    respawnWeapons[] =
+    {
+        Rev_arifle_Katiba_GL_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Laserdesignator_03
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_green),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+		mag_4(1Rnd_HE_Grenade_shell),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR,
+        Laserbatteries,
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(30Rnd_65x39_caseless_green),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        mag_2(O_IR_Grenade),
+        mag_4(1Rnd_HE_Grenade_shell),
+        SmokeShell,
+        SMOKESHELLS_OPFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_OPFOR,
+        Laserbatteries,
+        mag_2(Chemlight_red)
+    };
+	role = SpecialOperative;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_VZ_Panther_LAT_F: Rev_O_VZ_Soldier_Panther_base
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_LAT_F.jpg";
+	author = $STR_A3_A_BranFlakes;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_O_VZ_Panther_LAT_F0;
+	uniformClass = Rev_U_O_Panther_Uniform_01_F;
+	backpack = B_AssaultPackSpec_blk_PantherLAT_F;
+	linkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_Watchcap_blk_hs,
+		G_Bandanna_blk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_Watchcap_blk_hs,
+		G_Bandanna_blk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        launch_RPG32_black_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        launch_RPG32_black_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        RPG32_F,
+		mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        RPG32_F,
+  		mag_2(MiniGrenade),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_red)
+    };
+	icon = iconManAT;
+	role = MissileSpecialist;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_VZ_Panther_medic_F: Rev_O_VZ_Soldier_Panther_base
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_medic_F.jpg";
+	author = $STR_A3_A_BranFlakes;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_R_cfgVehicles_O_VZ_Panther_medic_F0;
+	uniformClass = Rev_U_O_Panther_Uniform_02_F;
+	backpack = B_AssaultPackSpec_blk_PantherMedic_F;
+	linkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_Cap_Headphones_blk,
+		G_Shemag_khk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	respawnLinkedItems[] =
+	{
+		V_HarnessOSpec_Blk,
+		H_Cap_Headphones_blk,
+		G_Shemag_khk,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_OPFOR
+	};
+	weapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_MEDIC,
+        mag_2(Chemlight_red)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(17Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+        SMOKESHELLS_MEDIC,
+        mag_2(Chemlight_red)
+    };
+	icon = iconManMedic;
+	picture = pictureHeal;
+	role = CombatLifeSaver;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
 };

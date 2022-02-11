@@ -551,6 +551,54 @@ class arifle_NCAR15_MG_DMS_Old_F: arifle_NCAR15_MG_F
     };
 };
 
+// Type 115 6.5 mm + ARCO (Black) + IR Pointer + Suppressor
+class Rev_arifle_ARX_ARCO_Laser_Snds_blk_F: arifle_ARX_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_H;
+		};
+    };
+};
+
+// Katiba 6.5 mm GL + ARCO (Black) + IR Pointer + Suppressor
+class Rev_arifle_Katiba_GL_ARCO_Laser_Snds_blk_F: arifle_Katiba_GL_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_H;
+		};
+    };
+};
+
 // Zafir 7.62 mm (Black) + Flashlight
 class LMG_Zafir_black_FL_F: LMG_Zafir_black_F
 {
@@ -664,7 +712,34 @@ class Rev_arifle_SPAR_03_blk_MRCO_BI_F: arifle_SPAR_03_blk_F
     };
 };
 
-
+// Cyrus 9.3 mm (Black) + Kahlia + IR Pointer + Bipod + Silencer
+class Rev_srifle_DMR_05_Kahlia_IR_Snds_BI_F: srifle_DMR_05_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_KHS_blk;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_02_F_blk;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_93mmg;
+		};
+    };
+};
 /* Handgun Presets */
 class Rev_hgun_P07_blk_snds_F: hgun_P07_blk_F
 {

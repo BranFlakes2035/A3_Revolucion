@@ -535,6 +535,125 @@
                 <Japanese>Policía Primero</Japanese>
                 <Turkish>Policía Primero</Turkish>
             </Key>
+			<Key ID="STR_A3_R_cfgVehicles_O_VZ_Panther_F0">
+                <Original>Panther Operative</Original>
+                <Chinese>Panther Operative</Chinese>
+                <French>Panther Operative</French>
+                <Spanish>Panther Operative</Spanish>
+                <Italian>Panther Operative</Italian>
+                <Polish>Panther Operative</Polish>
+                <Russian>Panther Operative</Russian>
+                <German>Panther Operative</German>
+                <Czech>Panther Operative</Czech>
+                <English>Panther Operative</English>
+                <Portuguese>Panther Operative</Portuguese>
+                <Korean>Panther Operative</Korean>
+                <Chinesesimp>Panther Operative</Chinesesimp>
+                <Japanese>Panther Operative</Japanese>
+                <Turkish>Panther Operative</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_O_VZ_Panther_TL_F0">
+                <Original>Panther Team Leader</Original>
+                <Chinese>Panther Team Leader</Chinese>
+                <French>Panther Team Leader</French>
+                <Spanish>Panther Team Leader</Spanish>
+                <Italian>Panther Team Leader</Italian>
+                <Polish>Panther Team Leader</Polish>
+                <Russian>Panther Team Leader</Russian>
+                <German>Panther Team Leader</German>
+                <Czech>Panther Team Leader</Czech>
+                <English>Panther Team Leader</English>
+                <Portuguese>Panther Team Leader</Portuguese>
+                <Korean>Panther Team Leader</Korean>
+                <Chinesesimp>Panther Team Leader</Chinesesimp>
+                <Japanese>Panther Team Leader</Japanese>
+                <Turkish>Panther Team Leader</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_O_VZ_Panther_exp_F0">
+                <Original>Panther Demo Specialist</Original>
+                <Chinese>Panther Demo Specialist</Chinese>
+                <French>Panther Demo Specialist</French>
+                <Spanish>Panther Demo Specialist</Spanish>
+                <Italian>Panther Demo Specialist</Italian>
+                <Polish>Panther Demo Specialist</Polish>
+                <Russian>Panther Demo Specialist</Russian>
+                <German>Panther Demo Specialist</German>
+                <Czech>Panther Demo Specialist</Czech>
+                <English>Panther Demo Specialist</English>
+                <Portuguese>Panther Demo Specialist</Portuguese>
+                <Korean>Panther Demo Specialist</Korean>
+                <Chinesesimp>Panther Demo Specialist</Chinesesimp>
+                <Japanese>Panther Demo Specialist</Japanese>
+                <Turkish>Panther Demo Specialist</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_O_VZ_Panther_M_F0">
+                <Original>Panther Marksman</Original>
+                <Chinese>Panther Marksman</Chinese>
+                <French>Panther Marksman</French>
+                <Spanish>Panther Marksman</Spanish>
+                <Italian>Panther Marksman</Italian>
+                <Polish>Panther Marksman</Polish>
+                <Russian>Panther Marksman</Russian>
+                <German>Panther Marksman</German>
+                <Czech>Panther Marksman</Czech>
+                <English>Panther Marksman</English>
+                <Portuguese>Panther Marksman</Portuguese>
+                <Korean>Panther Marksman</Korean>
+                <Chinesesimp>Panther Marksman</Chinesesimp>
+                <Japanese>Panther Marksman</Japanese>
+                <Turkish>Panther Marksman</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_O_VZ_Panther_JTAC_F0">
+                <Original>Panther JTAC</Original>
+                <Chinese>Panther JTAC</Chinese>
+                <French>Panther JTAC</French>
+                <Spanish>Panther JTAC</Spanish>
+                <Italian>Panther JTAC</Italian>
+                <Polish>Panther JTAC</Polish>
+                <Russian>Panther JTAC</Russian>
+                <German>Panther JTAC</German>
+                <Czech>Panther JTAC</Czech>
+                <English>Panther JTAC</English>
+                <Portuguese>Panther JTAC</Portuguese>
+                <Korean>Panther JTAC</Korean>
+                <Chinesesimp>Panther JTAC</Chinesesimp>
+                <Japanese>Panther JTAC</Japanese>
+                <Turkish>Panther JTAC</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_O_VZ_Panther_LAT_F0">
+                <Original>Panther Operative (LAT)</Original>
+                <Chinese>Panther Operative (LAT)</Chinese>
+                <French>Panther Operative (LAT)</French>
+                <Spanish>Panther Operative (LAT)</Spanish>
+                <Italian>Panther Operative (LAT)</Italian>
+                <Polish>Panther Operative (LAT)</Polish>
+                <Russian>Panther Operative (LAT)</Russian>
+                <German>Panther Operative (LAT)</German>
+                <Czech>Panther Operative (LAT)</Czech>
+                <English>Panther Operative (LAT)</English>
+                <Portuguese>Panther Operative (LAT)</Portuguese>
+                <Korean>Panther Operative (LAT)</Korean>
+                <Chinesesimp>Panther Operative (LAT)</Chinesesimp>
+                <Japanese>Panther Operative (LAT)</Japanese>
+                <Turkish>Panther Operative (LAT)</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_O_VZ_Panther_medic_F0">
+                <Original>Panther Paramedic</Original>
+                <Chinese>Panther Paramedic</Chinese>
+                <French>Panther Paramedic</French>
+                <Spanish>Panther Paramedic</Spanish>
+                <Italian>Panther Paramedic</Italian>
+                <Polish>Panther Paramedic</Polish>
+                <Russian>Panther Paramedic</Russian>
+                <German>Panther Paramedic</German>
+                <Czech>Panther Paramedic</Czech>
+                <English>Panther Paramedic</English>
+                <Portuguese>Panther Paramedic</Portuguese>
+                <Korean>Panther Paramedic</Korean>
+                <Chinesesimp>Panther Paramedic</Chinesesimp>
+                <Japanese>Panther Paramedic</Japanese>
+                <Turkish>Panther Paramedic</Turkish>
+            </Key>
 			<Container name="Groups">
 				<Key ID="STR_A3_R_CfgGroups_Indep_IND_Infantry_I_CDB_BanditGang0">
 					<Original>Cartel Patrol</Original>
@@ -688,6 +807,57 @@
 					<Chinesesimp>Motorized Policía Patrol</Chinesesimp>
 					<Japanese>Motorized Policía Patrol</Japanese>
 					<Turkish>Motorized Policía Patrol</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_OPF_SpecOps_O_VZ_PantherPatrol0">
+					<Original>Panther Patrol</Original>
+					<Chinese>Panther Patrol</Chinese>
+					<French>Panther Patrol</French>
+					<Spanish>Panther Patrol</Spanish>
+					<Italian>Panther Patrol</Italian>
+					<Polish>Panther Patrol</Polish>
+					<Russian>Panther Patrol</Russian>
+					<German>Panther Patrol</German>
+					<Czech>Panther Patrol</Czech>
+					<English>Panther Patrol</English>
+					<Portuguese>Panther Patrol</Portuguese>
+					<Korean>Panther Patrol</Korean>
+					<Chinesesimp>Panther Patrol</Chinesesimp>
+					<Japanese>Panther Patrol</Japanese>
+					<Turkish>Panther Patrol</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_OPF_SpecOps_O_VZ_PantherTeam0">
+					<Original>Panther Team</Original>
+					<Chinese>Panther Team</Chinese>
+					<French>Panther Team</French>
+					<Spanish>Panther Team</Spanish>
+					<Italian>Panther Team</Italian>
+					<Polish>Panther Team</Polish>
+					<Russian>Panther Team</Russian>
+					<German>Panther Team</German>
+					<Czech>Panther Team</Czech>
+					<English>Panther Team</English>
+					<Portuguese>Panther Team</Portuguese>
+					<Korean>Panther Team</Korean>
+					<Chinesesimp>Panther Team</Chinesesimp>
+					<Japanese>Panther Team</Japanese>
+					<Turkish>Panther Team</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgGroups_OPF_SpecOps_O_VZ_PantherSentry0">
+					<Original>Panther Sentry</Original>
+					<Chinese>Panther Sentry</Chinese>
+					<French>Panther Sentry</French>
+					<Spanish>Panther Sentry</Spanish>
+					<Italian>Panther Sentry</Italian>
+					<Polish>Panther Sentry</Polish>
+					<Russian>Panther Sentry</Russian>
+					<German>Panther Sentry</German>
+					<Czech>Panther Sentry</Czech>
+					<English>Panther Sentry</English>
+					<Portuguese>Panther Sentry</Portuguese>
+					<Korean>Panther Sentry</Korean>
+					<Chinesesimp>Panther Sentry</Chinesesimp>
+					<Japanese>Panther Sentry</Japanese>
+					<Turkish>Panther Sentry</Turkish>
 				</Key>
 			</Container>
 			<Container name="Uniforms">

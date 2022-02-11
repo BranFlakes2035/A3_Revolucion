@@ -1,5 +1,11 @@
 class CfgEditorSubcategories
 {
+	// Men
+	class EdSubcat_Personnel_Panther
+	{
+		displayName = "Men (Panther)";
+	};
+
     // Ammo boxes' subcategories
 	class EdSubcat_Ammo_FRR
 	{

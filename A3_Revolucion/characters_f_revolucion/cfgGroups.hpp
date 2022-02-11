@@ -860,6 +860,76 @@ class CfgGroups
 					GROUP_UNIT(1,TEast,Rev_O_VZ_soldier_F,PRIVATE,5,-5);
 				};
 			};
+			class SpecOps
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_SpecOps0;
+				class O_VZ_ReconTeam
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconTeam0;
+					side = TEast;
+					faction = Revolucion_OPF_VZ_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TEast,Rev_O_VZ_recon_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_VZ_recon_M_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_VZ_recon_medic_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_VZ_recon_LAT_F,CORPORAL,10,-10);
+					GROUP_UNIT(4,TEast,Rev_O_VZ_recon_JTAC_F,PRIVATE,-10,-10);
+					GROUP_UNIT(5,TEast,Rev_O_VZ_recon_exp_F,PRIVATE,15,-15);
+				};
+				class O_VZ_ReconPatrol
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconPatrol0;
+					side = TEast;
+					faction = Revolucion_OPF_VZ_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TEast,Rev_O_VZ_recon_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_VZ_recon_M_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_VZ_recon_medic_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_VZ_recon_F,PRIVATE,10,-10);
+				};
+				class O_VZ_ReconSentry
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_ReconSentry0;
+					side = TEast;
+					faction = Revolucion_OPF_VZ_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TEast,Rev_O_VZ_recon_M_F,CORPORAL,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_VZ_recon_F,PRIVATE,5,-5);
+				};
+				class O_VZ_PantherTeam
+				{
+					name = $STR_A3_R_CfgGroups_OPF_SpecOps_O_VZ_PantherTeam0;
+					side = TEast;
+					faction = Revolucion_OPF_VZ_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TEast,Rev_O_VZ_Panther_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_VZ_Panther_M_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_VZ_Panther_medic_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_VZ_Panther_LAT_F,CORPORAL,10,-10);
+					GROUP_UNIT(4,TEast,Rev_O_VZ_Panther_JTAC_F,PRIVATE,-10,-10);
+					GROUP_UNIT(5,TEast,Rev_O_VZ_Panther_exp_F,PRIVATE,15,-15);
+				};
+				class O_VZ_PantherPatrol
+				{
+					name = $STR_A3_R_CfgGroups_OPF_SpecOps_O_VZ_PantherPatrol0;
+					side = TEast;
+					faction = Revolucion_OPF_VZ_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TEast,Rev_O_VZ_Panther_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_VZ_Panther_M_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_VZ_Panther_medic_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_VZ_Panther_F,PRIVATE,10,-10);
+				};
+				class O_VZ_PantherSentry
+				{
+					name = $STR_A3_R_CfgGroups_OPF_SpecOps_O_VZ_PantherSentry0;
+					side = TEast;
+					faction = Revolucion_OPF_VZ_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TEast,Rev_O_VZ_Panther_M_F,CORPORAL,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_VZ_Panther_F,PRIVATE,5,-5);
+				};
+			};
 			class Motorized
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Motorized0;

@@ -14,6 +14,7 @@ class CfgVehicles
     class B_FieldPack_owcamo;
     class B_Carryall_owcamo;
     class B_AssaultPack_blk;
+    class B_AssaultPackSpec_blk;
 
     class B_RadioBag_01_m81_F: B_RadioBag_01_base_F
     {

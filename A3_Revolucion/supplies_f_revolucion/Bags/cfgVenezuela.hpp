@@ -41,3 +41,38 @@ class B_FieldPack_owcamo_OVZAAR_F: B_FieldPack_owcamo
 		item_xx(muzzle_snds_B,1);
 	};
 };
+class B_AssaultPackSpec_blk_PantherExp_F: B_AssaultPackSpec_blk
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(DemoCharge_Remote_Mag,1);
+        mag_xx(APERSBoundingMine_Range_Mag,2);
+        mag_xx(SLAMDirectionalMine_Wire_Mag,1);
+	};
+	class TransportItems
+	{
+		item_xx(ToolKit,1);
+		item_xx(MineDetector,1);
+	};
+};
+class B_AssaultPackSpec_blk_PantherLAT_F: B_AssaultPackSpec_blk
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(RPG32_F,2);
+	};
+};
+class B_AssaultPackSpec_blk_PantherMedic_F: B_AssaultPackSpec_blk
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = protected;
+	class TransportItems
+	{
+		item_xx(FirstAidKit,10);
+		item_xx(Medikit,1);
+	};
+};

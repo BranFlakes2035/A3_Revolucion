@@ -13,10 +13,13 @@ class cfgWeapons
     class arifle_CTAR_blk_F;
     class arifle_CTAR_GL_blk_F;
     class arifle_CTARS_blk_F;
+    class arifle_Katiba_GL_F;
     class srifle_DMR_03_F;
+    class srifle_DMR_05_blk_F;
     class LMG_03_F;
     class LMG_Zafir_black_F;
     class hgun_P07_blk_F;
+    class arifle_ARX_blk_F;
 
     // Arma 3 West Sahara CDLC
     class arifle_Velko_lxWS;
