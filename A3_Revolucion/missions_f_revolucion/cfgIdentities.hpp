@@ -137,4 +137,13 @@ class CfgIdentities
 		pitch = 1.01;
 		speaker = "Male10ENG";
 	};
+	class Revolucion_CTRG_Jacob_Keith
+	{
+		face = "WhiteHead_31";
+		glasses = "";
+		name = "Jacob Keith";
+		nameSound = "";
+		pitch = 1.01;
+		speaker = "Male02ENG";
+	};
 };

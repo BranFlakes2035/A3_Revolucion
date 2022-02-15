@@ -1290,3 +1290,153 @@ class Rev_B_N_Story_Luca_Woods: Rev_B_CTRG_Soldier_TL_G9_F
 		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Luca_Woods"";";
 	};
 };
+class Rev_B_CTRG_Story_Grant_MacKenzie: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	scope = public;
+    faction = Revolucion_BLU_CTRG_F;
+    scopeCurator = public;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Grant_MacKenzie
+	};
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Grant_MacKenzie.jpg";
+    displayName = "Grant MacKenzie";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = U_C_ArtTShirt_01_v5_F;
+	weapons[] =
+    {
+        rev_arifle_SPAR_01_GL_blk_Hamr_snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	respawnWeapons[] =
+    {
+        rev_arifle_SPAR_01_GL_blk_Hamr_snds_F,
+        hgun_P07_blk_Snds_F,
+        DefaultManWeapons,
+        Rangefinder
+    };
+	magazines[] =
+    {
+        mag_6(30Rnd_556x45_Stanag_red),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+		mag_2(B_IR_Grenade),
+        mag_6(1Rnd_HE_Grenade_shell),
+        Laserbatteries,
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green),
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_BLUFOR
+    };
+	respawnMagazines[] =
+    {
+        mag_6(30Rnd_556x45_Stanag_red),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+		mag_2(B_IR_Grenade),
+        mag_6(1Rnd_HE_Grenade_shell),
+        Laserbatteries,
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green),
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_BLUFOR
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_Grn,
+		G_Bandanna_Skull1,
+        DefaultManLeaderLinkedItems,
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_Grn,
+		G_Bandanna_Skull1,
+        DefaultManLeaderLinkedItems,
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Grant_MacKenzie"";";
+	};
+};
+class Rev_B_N_Story_Jacob_Keith: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Luca_Woods.jpg";
+    scope = public;
+    faction = Revolucion_BLU_CTRG_F;
+    scopeCurator = public;
+    displayName = "Jacob Keith";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = U_lxWS_ION_Casual3;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Jacob_Keith
+	};
+	weapons[] =
+	{
+		rev_SMG_04_khk_holo_snds_F,
+		rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Laserdesignator_01_khk_F
+	};
+	respawnWeapons[] =
+	{
+		rev_SMG_04_khk_holo_snds_F,
+		rev_hgun_G17_blk_snds_F,
+        DefaultManWeapons,
+		Laserdesignator_01_khk_F
+	};
+	magazines[] =
+    {
+        mag_8(40Rnd_460x30_Mag_F),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_8(40Rnd_460x30_Mag_F),
+        mag_2(16Rnd_9x21_Mag),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Watchcap_camo_hs,
+		G_Squares,
+		NVgoggles_INDEP,
+		ItemGPS,
+		DefaultManLeaderLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Watchcap_camo_hs,
+		G_Squares,
+		NVgoggles_INDEP,
+		ItemGPS,
+		DefaultManLeaderLinkedItems
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Jacob_Keith"";";
+	};
+};

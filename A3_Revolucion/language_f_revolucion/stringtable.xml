@@ -980,6 +980,40 @@
 					<Japanese>Officer Fatigues (Polícia, Rolled-up)</Japanese>
 					<Turkish>Officer Fatigues (Polícia, Rolled-up)</Turkish>
 				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_VZ_CombatUniform_F0">
+					<Original>Officer Fatigues [Venezuela]</Original>
+					<Chinese>Officer Fatigues [Venezuela]</Chinese>
+					<French>Officer Fatigues [Venezuela]</French>
+					<Spanish>Officer Fatigues [Venezuela]</Spanish>
+					<Italian>Officer Fatigues [Venezuela]</Italian>
+					<Polish>Officer Fatigues [Venezuela]</Polish>
+					<Russian>Officer Fatigues [Venezuela]</Russian>
+					<German>Officer Fatigues [Venezuela]</German>
+					<Czech>Officer Fatigues [Venezuela]</Czech>
+					<English>Officer Fatigues [Venezuela]</English>
+					<Portuguese>Officer Fatigues [Venezuela]</Portuguese>
+					<Korean>Officer Fatigues [Venezuela]</Korean>
+					<Chinesesimp>Officer Fatigues [Venezuela]</Chinesesimp>
+					<Japanese>Officer Fatigues [Venezuela]</Japanese>
+					<Turkish>Officer Fatigues [Venezuela]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_VZ_CombatUniform_shortsleeve_F0">
+					<Original>Officer Fatigues [Venezuela] (Rolled-up)</Original>
+					<Chinese>Officer Fatigues [Venezuela] (Rolled-up)</Chinese>
+					<French>Officer Fatigues [Venezuela] (Rolled-up)</French>
+					<Spanish>Officer Fatigues [Venezuela] (Rolled-up)</Spanish>
+					<Italian>Officer Fatigues [Venezuela] (Rolled-up)</Italian>
+					<Polish>Officer Fatigues [Venezuela] (Rolled-up)</Polish>
+					<Russian>Officer Fatigues [Venezuela] (Rolled-up)</Russian>
+					<German>Officer Fatigues [Venezuela] (Rolled-up)</German>
+					<Czech>Officer Fatigues [Venezuela] (Rolled-up)</Czech>
+					<English>Officer Fatigues [Venezuela] (Rolled-up)</English>
+					<Portuguese>Officer Fatigues [Venezuela] (Rolled-up)</Portuguese>
+					<Korean>Officer Fatigues [Venezuela] (Rolled-up)</Korean>
+					<Chinesesimp>Officer Fatigues [Venezuela] Rolled-up)</Chinesesimp>
+					<Japanese>Officer Fatigues [Venezuela] (Rolled-up)</Japanese>
+					<Turkish>Officer Fatigues [Venezuela] (Rolled-up)</Turkish>
+				</Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Uniform_02_F0">
 					<Original>Combat Fatigues (UCP)</Original>
 					<Chinese>Combat Fatigues (UCP)</Chinese>

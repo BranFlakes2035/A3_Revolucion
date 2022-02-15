@@ -14,4 +14,5 @@ class CfgWeapons
     #include "cfgPolicia.hpp"   //Policia
     #include "cfgCTRG9.hpp"     //CTRG Group 9
     #include "cfgPanther.hpp"   //Panther Teams
+    #include "cfgVenezuela.hpp" //Venezuela
 };

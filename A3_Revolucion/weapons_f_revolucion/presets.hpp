@@ -1089,6 +1089,46 @@ class arifle_SPAR_01_khk_RCO_snds_F: arifle_SPAR_01_khk_F
 		};
 	};
 };
+class rev_arifle_SPAR_01_GL_blk_Hamr_snds_F : arifle_SPAR_01_GL_blk_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_M;
+		};
+	};
+};
+class SMG_04_khk_F;
+class rev_SMG_04_khk_holo_snds_F : SMG_04_khk_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_smg_khk_F;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_460;
+		};
+	};
+};
 class hgun_ACPC2_black_F;
 class hgun_ACPC2_black_snds_F: hgun_ACPC2_black_F
 {

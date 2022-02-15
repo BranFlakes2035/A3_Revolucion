@@ -14,7 +14,7 @@ class Rev_O_VZ_Man_Base_F: O_A_soldier_base_F
 };
 class Rev_O_VZ_Soldier_Base_F: Rev_O_VZ_Man_Base_F
 {
-	uniformClass = Atlas_U_O_VZ_Officer_oli_CO_F;
+	uniformClass = Rev_U_VZ_CombatUniform_F;
 };
 class Rev_O_VZ_Soldier_F: Rev_O_VZ_Soldier_Base_F
 {
@@ -196,6 +196,7 @@ class Rev_O_VZ_AR_F: Rev_O_VZ_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_AR_F0;
+	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	linkedItems[] =
 	{
 		v_lxWS_VZ_Vest_F,
@@ -1378,6 +1379,7 @@ class Rev_O_VZ_SL_F: Rev_O_VZ_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_SL_F0;
+	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	linkedItems[] =
 	{
 		v_lxWS_VZ_Vest_F,
@@ -2181,7 +2183,7 @@ class Rev_O_VZ_Soldier_Panther_base: Rev_O_VZ_Soldier_recon_base
 };
 class Rev_O_VZ_Panther_F: Rev_O_VZ_Soldier_Panther_base
 {
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_F.jpg";
 	author = $STR_A3_A_Ravenholme;
     scope = public;
     scopeCurator = public;
@@ -2238,7 +2240,7 @@ class Rev_O_VZ_Panther_F: Rev_O_VZ_Soldier_Panther_base
 };
 class Rev_O_VZ_Panther_TL_F: Rev_O_VZ_Soldier_Panther_base
 {
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_TL_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_TL_F.jpg";
 	author = $STR_A3_A_BranFlakes;
     scope = public;
     scopeCurator = public;
@@ -2304,7 +2306,7 @@ class Rev_O_VZ_Panther_TL_F: Rev_O_VZ_Soldier_Panther_base
 };
 class Rev_O_VZ_Panther_exp_F: Rev_O_VZ_Soldier_Panther_base
 {
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_exp_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_exp_F.jpg";
 	author = $STR_A3_A_BranFlakes;
     scope = public;
     scopeCurator = public;
@@ -2372,7 +2374,7 @@ class Rev_O_VZ_Panther_exp_F: Rev_O_VZ_Soldier_Panther_base
 };
 class Rev_O_VZ_Panther_M_F: Rev_O_VZ_Soldier_Panther_base
 {
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_M_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_M_F.jpg";
 	author = $STR_A3_A_BranFlakes;
     scope = public;
     scopeCurator = public;
@@ -2436,7 +2438,7 @@ class Rev_O_VZ_Panther_M_F: Rev_O_VZ_Soldier_Panther_base
 };
 class Rev_O_VZ_Panther_JTAC_F: Rev_O_VZ_Soldier_Panther_base
 {
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_JTAC_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_JTAC_F.jpg";
 	author = $STR_A3_A_BranFlakes;
     scope = public;
     scopeCurator = public;
@@ -2510,7 +2512,7 @@ class Rev_O_VZ_Panther_JTAC_F: Rev_O_VZ_Soldier_Panther_base
 };
 class Rev_O_VZ_Panther_LAT_F: Rev_O_VZ_Soldier_Panther_base
 {
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_LAT_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_LAT_F.jpg";
 	author = $STR_A3_A_BranFlakes;
     scope = public;
     scopeCurator = public;
@@ -2580,7 +2582,7 @@ class Rev_O_VZ_Panther_LAT_F: Rev_O_VZ_Soldier_Panther_base
 };
 class Rev_O_VZ_Panther_medic_F: Rev_O_VZ_Soldier_Panther_base
 {
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_medic_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_medic_F.jpg";
 	author = $STR_A3_A_BranFlakes;
     scope = public;
     scopeCurator = public;
