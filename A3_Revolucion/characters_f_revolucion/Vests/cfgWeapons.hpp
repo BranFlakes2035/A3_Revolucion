@@ -65,7 +65,7 @@ class CfgWeapons
 		};
 	};
 	class V_PlateCarrierIA1_dgtl;
-	class rev_V_PlateCarrierIA1_whex: V_PlateCarrierIA1_dgtl
+	class Rev_V_PlateCarrierIA1_whex: V_PlateCarrierIA1_dgtl
 	{
 		author = $STR_A3_A_BranFlakes;
 		scope = public;
@@ -74,7 +74,7 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\equip_IA_Vest01_whex_CO.paa"};
 	};
 	class V_PlateCarrierIAGL_dgtl;
-	class rev_V_PlateCarrierIAGL_whex: V_PlateCarrierIAGL_dgtl
+	class Rev_V_PlateCarrierIAGL_whex: V_PlateCarrierIAGL_dgtl
 	{
 		author = $STR_A3_A_BranFlakes;
 		scope = public;
@@ -87,7 +87,7 @@ class CfgWeapons
 		};
 	};
 	class V_Press_F;
-	class rev_V_Press_bnp_F: V_Press_F
+	class Rev_V_Press_bnp_F: V_Press_F
 	{
 		author = $STR_A3_A_BranFlakes;
 		displayName = "Flak Vest [Policía]";
