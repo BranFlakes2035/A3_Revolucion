@@ -1,6 +1,7 @@
 class CfgWeapons
 {
     /* Inheritance */
+    class VestItem;
     class V_PlateCarrier1_rgr;
     class V_PlateCarrier2_rgr;
     class V_CarrierRigKBT_01_base_F;
@@ -51,30 +52,6 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_CTRG_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_CTRG.rvmat"};
     };
-    /*class V_CarrierRigKBT_01_whex_F: V_CarrierRigKBT_01_base_F
-	{
-		author = $STR_A3_A_BranFlakes;
-		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_whex_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_whex_CO.paa"};
-    };
-    class V_CarrierRigKBT_01_light_whex_F: V_CarrierRigKBT_01_light_base_F
-	{
-		author = $STR_A3_A_BranFlakes;
-		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_light_whex_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_whex_CO.paa"};
-    };
-    class V_CarrierRigKBT_01_heavy_whex_F: V_CarrierRigKBT_01_heavy_base_F
-	{
-		author = $STR_A3_A_BranFlakes;
-		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_heavy_whex_F0;
-		picture = "\A3_Aegis\Characters_F_Aegis\Vests\Data\UI\icon_V_PlateCarrierH_CTRG_grn_F_CA.paa";
-		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_whex_CO.paa"};
-    };*/
     class V_lxWS_UN_Vest_F;
 	class v_lxWS_VZ_Vest_F: V_lxWS_UN_Vest_F
 	{
@@ -116,5 +93,209 @@ class CfgWeapons
 		displayName = "Flak Vest [Policía]";
 		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\rev_V_Press_bnp_F_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\FlakVest_bnp_CO.paa"};
+	};
+	class V_VZ_CarrierRig_F: V_PlateCarrier1_rgr 
+	{
+		author = "Jamie";
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Punisher Rig (Woodland Hex)";
+		//picture = "\jam_cdf_core\data\icon_ca.paa";
+        hiddenSelections[] = {camo}; 
+		hiddenSelectionsTextures[] = { "\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_6B43_CO.paa"};
+		model = "\A3_Revolucion\Characters_F_Revolucion\Vests\v_bel_vest_6b43_empty.p3d"; 
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Revolucion\Characters_F_Revolucion\Vests\v_bel_vest_6b43_empty.p3d";
+			hiddenSelections[] = {camo};
+			hiddenSelectionsTextures[] = { "\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_6B43_CO.paa"};
+			containerClass = Supply60;
+			mass = 25;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	class V_VZ_CarrierRig_Lite_F: V_PlateCarrier1_rgr 
+	{
+		author = "Jamie";
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Punisher Lite Rig (Woodland Hex)";
+		//picture = "\jam_cdf_core\data\icon_ca.paa";
+        hiddenSelections[] = {camo,camo1}; 
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_6B43_CO.paa",
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_Pouches_CO.paa"
+		};
+		model = "\A3_Revolucion\Characters_F_Revolucion\Vests\v_bel_vest_6b43_rifleman.p3d";
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Revolucion\Characters_F_Revolucion\Vests\v_bel_vest_6b43_rifleman.p3d";
+			hiddenSelections[] = {camo,camo1};
+			hiddenSelectionsTextures[] = 
+			{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_6B43_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_Pouches_CO.paa"
+			};
+			containerClass = Supply140;
+			mass = 35;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	class V_VZ_CarrierRig_MG_F : V_PlateCarrier1_rgr 
+	{
+		author = "Jamie";
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Punisher MG Rig (Woodland Hex)";
+		//picture = "\jam_cdf_core\data\icon_ca.paa";
+        hiddenSelections[] = {camo,camo1}; 
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_6B43_CO.paa",
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_Pouches_CO.paa"
+		};
+		model = "\A3_Revolucion\Characters_F_Revolucion\Vests\v_bel_vest_6b43_autorifleman.p3d";
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Revolucion\Characters_F_Revolucion\Vests\v_bel_vest_6b43_autorifleman.p3d";
+			hiddenSelections[] = {camo,camo1};
+			hiddenSelectionsTextures[] = 
+			{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_6B43_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_Pouches_CO.paa"
+			};
+			containerClass = Supply160;
+			mass = 40;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	class V_VZ_CarrierRig_GL_F: V_PlateCarrier1_rgr 
+	{
+		author = "Jamie";
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Punisher GL Rig (Woodland Hex)";
+		//picture = "\jam_cdf_core\data\icon_ca.paa";
+        hiddenSelections[] = {camo,camo1}; 
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_6B43_CO.paa",
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_Pouches_CO.paa"
+		};
+		model = "\A3_Revolucion\Characters_F_Revolucion\Vests\v_bel_vest_6b43_rifleman_gl.p3d";
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Revolucion\Characters_F_Revolucion\Vests\v_bel_vest_6b43_rifleman_gl.p3d";
+			hiddenSelections[] = {camo,camo1};
+			hiddenSelectionsTextures[] = 
+			{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_6B43_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\VZ_Pouches_CO.paa"
+			};
+			containerClass = Supply140;
+			mass = 35;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
 	};
 };
