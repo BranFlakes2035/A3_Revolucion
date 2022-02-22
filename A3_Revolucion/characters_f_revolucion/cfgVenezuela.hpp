@@ -25,14 +25,14 @@ class Rev_O_VZ_Soldier_F: Rev_O_VZ_Soldier_Base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -72,16 +72,17 @@ class Rev_O_VZ_TL_F: Rev_O_VZ_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_TL_F0;
+	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIAGL_whex,
+		V_VZ_CarrierRig_GL_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIAGL_whex,
+		V_VZ_CarrierRig_GL_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -137,14 +138,14 @@ class Rev_O_VZ_GL_F: Rev_O_VZ_Soldier_Base_F
 	displayName = $STR_B_Soldier_GL_F0;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIAGL_whex,
+		V_VZ_CarrierRig_GL_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIAGL_whex,
+		V_VZ_CarrierRig_GL_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -199,14 +200,14 @@ class Rev_O_VZ_AR_F: Rev_O_VZ_Soldier_Base_F
 	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	linkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_MG_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_MG_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -253,17 +254,18 @@ class Rev_O_VZ_exp_F: Rev_O_VZ_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
+	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	backpack = B_Carryall_owcamo_OWExp_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIAGL_whex,
+		V_VZ_CarrierRig_GL_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIAGL_whex,
+		V_VZ_CarrierRig_GL_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -315,14 +317,14 @@ class Rev_O_VZ_M_F: Rev_O_VZ_Soldier_Base_F
 	displayName = $STR_B_Soldier_M_F0;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -366,14 +368,14 @@ class Rev_O_VZ_medic_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_FieldPack_owcamo_OWMedic_F;
 	linkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -427,14 +429,14 @@ class Rev_O_VZ_Soldier_LAT_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_FieldPack_owcamo_OVZLAT_F;
 	linkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -482,14 +484,14 @@ class Rev_O_VZ_A_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_Carryall_owcamo_OVZAmmo_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -529,17 +531,18 @@ class Rev_O_VZ_Soldier_AAR_F: Rev_O_VZ_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_AAR_F0;
+	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	backpack = B_FieldPack_owcamo_OVZAAR_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -583,14 +586,14 @@ class Rev_O_VZ_support_MG_F: Rev_O_VZ_Soldier_Base_F
 	backpack = O_R_HMG_01_Weapon_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -636,14 +639,14 @@ class Rev_O_VZ_support_AMG_F: Rev_O_VZ_Soldier_Base_F
 	backpack = O_R_HMG_01_support_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -686,17 +689,18 @@ class Rev_O_VZ_support_Mort_F: Rev_O_VZ_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_support_Mort_F0;
+	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	backpack = O_R_Mortar_01_Weapon_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -742,14 +746,14 @@ class Rev_O_VZ_support_AMort_F: Rev_O_VZ_Soldier_Base_F
 	backpack = O_R_Mortar_01_support_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -795,14 +799,14 @@ class Rev_O_VZ_support_AHAT_F: Rev_O_VZ_Soldier_Base_F
 	Backpack = B_FieldPack_owcamo_OWHAT_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -848,14 +852,14 @@ class Rev_O_VZ_support_AAA_F: Rev_O_VZ_Soldier_Base_F
 	Backpack = B_Carryall_owcamo_OWAAA_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -901,14 +905,14 @@ class Rev_O_VZ_support_AAT_F: Rev_O_VZ_Soldier_Base_F
 	Backpack = B_Carryall_owcamo_OWAAT_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -951,6 +955,7 @@ class Rev_O_VZ_Crew_F: Rev_O_VZ_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_crew_F0;
+	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	linkedItems[] =
 	{
 		V_TacVest_grn,
@@ -1006,14 +1011,14 @@ class Rev_O_VZ_engineer_F: Rev_O_VZ_Soldier_Base_F
 	Backpack = B_Carryall_owcamo_OWEng_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -1180,14 +1185,14 @@ class Rev_O_VZ_Soldier_AA_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_FieldPack_owcamo_OWAA_F;
 	linkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -1235,14 +1240,14 @@ class Rev_O_VZ_Soldier_AT_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_FieldPack_owcamo_OWAA_F;
 	linkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -1382,14 +1387,14 @@ class Rev_O_VZ_SL_F: Rev_O_VZ_Soldier_Base_F
 	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	linkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		v_lxWS_VZ_Vest_F,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -1441,14 +1446,14 @@ class Rev_O_VZ_RadioOperator_F: Rev_O_VZ_Soldier_F
 	backpack = B_RadioBag_01_whex_F;
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -1494,14 +1499,14 @@ class Rev_O_VZ_Soldier_unarmed_F: Rev_O_VZ_Soldier_Base_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		rev_V_PlateCarrierIA1_whex,
+		V_VZ_CarrierRig_Lite_F,
 		rev_H_HelmetSpecter_cover_whex_CO,
 		DefaultManLinkedItems,
 		Goggles_grn_F
@@ -1539,7 +1544,7 @@ class Rev_O_VZ_Soldier_recon_base: Rev_O_VZ_Soldier_Base_F
     textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
     textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
     nameSound = veh_infantry_SF_s;
-    uniformClass = Atlas_U_O_VZ_Officer_oli_CO_F;
+    uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
     editorsubcategory = EdSubcat_Personnel_SpecialForces;
 	items[] =
 	{
