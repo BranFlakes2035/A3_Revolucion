@@ -146,4 +146,13 @@ class CfgIdentities
 		pitch = 1.01;
 		speaker = "Male02ENG";
 	};
+	class Revolucion_CTRG_Chad_Williams
+	{
+		face = "WhiteHead_17";
+		glasses = "G_Bandanna_Beast";
+		name = "Chad Williams";
+		nameSound = "";
+		pitch = 1.00;
+		speaker = "Male05ENG";
+	};
 };

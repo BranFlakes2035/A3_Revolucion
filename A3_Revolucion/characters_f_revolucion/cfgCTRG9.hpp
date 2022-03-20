@@ -1371,7 +1371,7 @@ class Rev_B_CTRG_Story_Grant_MacKenzie: Rev_B_CTRG_Soldier_G9_F
 class Rev_B_N_Story_Jacob_Keith: Rev_B_CTRG_Soldier_G9_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Luca_Woods.jpg";
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Jacob_Keith.jpg";
     scope = public;
     faction = Revolucion_BLU_CTRG_F;
     scopeCurator = public;
@@ -1438,5 +1438,78 @@ class Rev_B_N_Story_Jacob_Keith: Rev_B_CTRG_Soldier_G9_F
 	class EventHandlers: EventHandlers
 	{
 		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Jacob_Keith"";";
+	};
+};
+class Rev_B_N_Story_Chad_Williams: Rev_B_CTRG_Soldier_G9_F
+{
+	author = $STR_A3_A_BranFlakes;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Chad_Williams.jpg";
+    scope = public;
+    faction = Revolucion_BLU_CTRG_F;
+    scopeCurator = public;
+    displayName = "Chad Williams";
+	editorSubcategory = EdSubcat_Personnel_Story;
+	uniformClass = U_lxWS_ION_Casual4;
+	backpack = B_AssaultPack_khk;
+	identityTypes[] =
+	{
+		LanguageENG_F,
+		Revolucion_CTRG_Chad_Williams
+	};
+	weapons[] =
+	{
+		rev_arifle_NCAR15_RCO_IR_snds_ghex_bi_F,
+		Rev_hgun_P07_blk_fl_snds_F,
+        DefaultManWeapons,
+		Laserdesignator_01_khk_F
+	};
+	respawnWeapons[] =
+	{
+		rev_arifle_NCAR15_RCO_IR_snds_ghex_bi_F,
+		Rev_hgun_P07_blk_fl_snds_F,
+        DefaultManWeapons,
+		Laserdesignator_01_khk_F
+	};
+	magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(16Rnd_9x21_Mag_v2),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	respawnMagazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(16Rnd_9x21_Mag_v2),
+        mag_2(MiniGrenade),
+        SmokeShell,
+		SMOKESHELLS_BLUFOR,
+        mag_2(Chemlight_green)
+    };
+	linkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_blk,
+		G_Bandanna_Beast,
+		NVgoggles_INDEP,
+		ItemGPS,
+		DefaultManLeaderLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_carrierrigKBT_01_light_CTRG_F,
+		H_Cap_blk,
+		G_Bandanna_Beast,
+		NVgoggles_INDEP,
+		ItemGPS,
+		DefaultManLeaderLinkedItems
+	};
+	allowedHeadgear[] = {};
+    headgearList[] = {};
+	class EventHandlers: EventHandlers
+	{
+		init = "(_this select 0) setIdentity ""Revolucion_CTRG_Chad_Williams"";";
 	};
 };

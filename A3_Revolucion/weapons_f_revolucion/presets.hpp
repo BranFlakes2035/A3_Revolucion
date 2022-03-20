@@ -263,6 +263,35 @@ class arifle_NCAR15_MRCO_FL_F: arifle_NCAR15_F
     };
 };
 
+// NCAR-15 5.8 mm + RCO + Suppressor (GHex) + Laser + Bipod
+class rev_arifle_NCAR15_RCO_IR_snds_ghex_bi_F: arifle_NCAR15_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_58_ghex_F;
+		};
+		class LinkedItemsUnder
+		{
+			slot = UnderBarrelSlot;
+			item = bipod_02_F_blk;
+		};
+    };
+};
+
 // NCAR-15 GL 5.8 mm + ACO + Flashlight
 class arifle_NCAR15_GL_ACO_grn_FL_F: arifle_NCAR15_GL_F
 {
@@ -750,6 +779,24 @@ class Rev_hgun_P07_blk_snds_F: hgun_P07_blk_F
 		{
 			slot = MuzzleSlot;
 			item = muzzle_snds_L;
+		};
+	};
+};
+
+class Rev_hgun_P07_blk_fl_snds_F: hgun_P07_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_L;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
 		};
 	};
 };
