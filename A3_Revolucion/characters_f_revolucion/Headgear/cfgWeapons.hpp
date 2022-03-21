@@ -64,4 +64,60 @@ class CfgWeapons
             "\A3_revolucion\Characters_F_Revolucion\Headgear\Data\H_HelmetSpecter_cover_whex_CO.paa"
         };
     };
+
+
+
+	////////////////////////////////////////////////////////
+	/// CTRG OPSCOREs
+	////////////////////////////////////////////////////////
+	class B_HelmetB_light;
+	class B_HelmetSpecB_light;
+
+	//// Dazzle #1 ////
+    class Rev_H_OPSCORE_01_dazzle_01: B_HelmetB_light
+    {
+        author						= $STR_A3_A_AveryTheKitty;
+        scope						= public;
+        displayName					= "CTRG Light Combat Helmet (Dark Tropic)";
+        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_01_dazzle_01_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_01_CO.paa"};
+        hiddenSelectionsMaterials[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE.rvmat"};
+    };
+    class Rev_H_OPSCORE_02_dazzle_01: B_HelmetSpecB_light
+    {
+        author						= $STR_A3_A_AveryTheKitty;
+        scope						= public;
+        displayName					= "CTRG Light Combat Helmet (Dark Tropic, Enhanced)";
+        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_01_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_01_CO.paa"};
+        hiddenSelectionsMaterials[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE.rvmat"};
+    };
+
+	//// Dazzle #2 ////
+    class Rev_H_OPSCORE_01_dazzle_02: Rev_H_OPSCORE_01_dazzle_01
+    {
+        displayName					= "CTRG Light Combat Helmet (Light Tropic)";
+        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_01_dazzle_02_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_02_CO.paa"};
+    };
+    class Rev_H_OPSCORE_02_dazzle_02: Rev_H_OPSCORE_02_dazzle_01
+    {
+        displayName					= "CTRG Light Combat Helmet (Light Tropic, Enhanced)";
+        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_02_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_02_CO.paa"};
+    };
+
+	//// Dazzle #3 ////
+    class Rev_H_OPSCORE_01_dazzle_03: Rev_H_OPSCORE_01_dazzle_01
+    {
+        displayName					= "CTRG Light Combat Helmet (Urban)";
+        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_01_dazzle_03_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_03_CO.paa"};
+    };
+    class Rev_H_OPSCORE_02_dazzle_03: Rev_H_OPSCORE_02_dazzle_01
+    {
+        displayName					= "CTRG Light Combat Helmet (Urban, Enhanced)";
+        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_03_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_03_CO.paa"};
+    };
 };
