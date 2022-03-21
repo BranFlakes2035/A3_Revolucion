@@ -70,11 +70,11 @@ class CfgWeapons
 	////////////////////////////////////////////////////////
 	/// CTRG OPSCOREs
 	////////////////////////////////////////////////////////
-	class B_HelmetB_light;
-	class B_HelmetSpecB_light;
+	class H_HelmetB_light;
+	class H_HelmetSpecB_light;
 
 	//// Dazzle #1 ////
-    class Rev_H_OPSCORE_01_dazzle_01: B_HelmetB_light
+    class Rev_H_OPSCORE_01_dazzle_01: H_HelmetB_light
     {
         author						= $STR_A3_A_AveryTheKitty;
         scope						= public;
@@ -83,7 +83,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_01_CO.paa"};
         hiddenSelectionsMaterials[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE.rvmat"};
     };
-    class Rev_H_OPSCORE_02_dazzle_01: B_HelmetSpecB_light
+    class Rev_H_OPSCORE_02_dazzle_01: H_HelmetSpecB_light
     {
         author						= $STR_A3_A_AveryTheKitty;
         scope						= public;
