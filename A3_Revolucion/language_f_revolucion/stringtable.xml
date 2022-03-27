@@ -1511,6 +1511,108 @@
                     <Japanese>レイヴンヘルメット (Cover W)</Japanese>
                     <Turkish>Avcı Miğfer (Cover W)</Turkish>
                 </Key>
+				<Key ID="STR_A3_A_CfgWeapons_Rev_H_OPSCORE_01_dazzle_01_F0">
+                    <Original>CTRG Light Combat Helmet (Dark Tropic)</Original>
+                    <Chinese>CTRG Light Combat Helmet (Dark Tropic)</Chinese>
+                    <French>CTRG Light Combat Helmet (Dark Tropic)</French>
+                    <Spanish>CTRG Light Combat Helmet (Dark Tropic)</Spanish>
+                    <Italian>CTRG Light Combat Helmet (Dark Tropic)</Italian>
+                    <Polish>CTRG Light Combat Helmet (Dark Tropic)</Polish>
+                    <Russian>CTRG Light Combat Helmet (Dark Tropic)</Russian>
+                    <German>CTRG Light Combat Helmet (Dark Tropic)</German>
+                    <Czech>CTRG Light Combat Helmet (Dark Tropic)</Czech>
+                    <English>CTRG Light Combat Helmet (Dark Tropic)</English>
+                    <Portuguese>CTRG Light Combat Helmet (Dark Tropic)</Portuguese>
+                    <Korean>CTRG Light Combat Helmet (Dark Tropic)</Korean>
+                    <Chinesesimp>CTRG Light Combat Helmet (Dark Tropic)</Chinesesimp>
+                    <Japanese>CTRG Light Combat Helmet (Dark Tropic)</Japanese>
+                    <Turkish>CTRG Light Combat Helmet (Dark Tropic)</Turkish>
+                </Key>
+				<Key ID="STR_A3_A_CfgWeapons_Rev_H_OPSCORE_02_dazzle_01_F0">
+                    <Original>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Original>
+                    <Chinese>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Chinese>
+                    <French>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</French>
+                    <Spanish>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Spanish>
+                    <Italian>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Italian>
+                    <Polish>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Polish>
+                    <Russian>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Russian>
+                    <German>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</German>
+                    <Czech>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Czech>
+                    <English>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</English>
+                    <Portuguese>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Portuguese>
+                    <Korean>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Korean>
+                    <Chinesesimp>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Chinesesimp>
+                    <Japanese>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Japanese>
+                    <Turkish>CTRG Light Combat Helmet (Dark Tropic, Enhanced)</Turkish>
+                </Key>
+				<Key ID="STR_A3_A_CfgWeapons_Rev_H_OPSCORE_01_dazzle_02_F0">
+                    <Original>CTRG Light Combat Helmet (Light Tropic)</Original>
+                    <Chinese>CTRG Light Combat Helmet (Light Tropic)</Chinese>
+                    <French>CTRG Light Combat Helmet (Light Tropic)</French>
+                    <Spanish>CTRG Light Combat Helmet (Light Tropic)</Spanish>
+                    <Italian>CTRG Light Combat Helmet (Light Tropic)</Italian>
+                    <Polish>CTRG Light Combat Helmet (Light Tropic)</Polish>
+                    <Russian>CTRG Light Combat Helmet (Light Tropic)</Russian>
+                    <German>CTRG Light Combat Helmet (Light Tropic)</German>
+                    <Czech>CTRG Light Combat Helmet (Light Tropic)</Czech>
+                    <English>CTRG Light Combat Helmet (Light Tropic)</English>
+                    <Portuguese>CTRG Light Combat Helmet (Light Tropic)</Portuguese>
+                    <Korean>CTRG Light Combat Helmet (Light Tropic)</Korean>
+                    <Chinesesimp>CTRG Light Combat Helmet (Light Tropic)</Chinesesimp>
+                    <Japanese>CTRG Light Combat Helmet (Light Tropic)</Japanese>
+                    <Turkish>CTRG Light Combat Helmet (Light Tropic)</Turkish>
+                </Key>
+				<Key ID="STR_A3_A_CfgWeapons_Rev_H_OPSCORE_02_dazzle_02_F0">
+                    <Original>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Original>
+                    <Chinese>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Chinese>
+                    <French>CTRG Light Combat Helmet (Light Tropic, Enhanced)</French>
+                    <Spanish>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Spanish>
+                    <Italian>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Italian>
+                    <Polish>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Polish>
+                    <Russian>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Russian>
+                    <German>CTRG Light Combat Helmet (Light Tropic, Enhanced)</German>
+                    <Czech>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Czech>
+                    <English>CTRG Light Combat Helmet (Light Tropic, Enhanced)</English>
+                    <Portuguese>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Portuguese>
+                    <Korean>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Korean>
+                    <Chinesesimp>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Chinesesimp>
+                    <Japanese>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Japanese>
+                    <Turkish>CTRG Light Combat Helmet (Light Tropic, Enhanced)</Turkish>
+                </Key>
+				<Key ID="STR_A3_A_CfgWeapons_Rev_H_OPSCORE_01_dazzle_03_F0">
+                    <Original>CTRG Light Combat Helmet (Urban)</Original>
+                    <Chinese>CTRG Light Combat Helmet (Urban)</Chinese>
+                    <French>CTRG Light Combat Helmet (Urban)</French>
+                    <Spanish>CTRG Light Combat Helmet (Urban)</Spanish>
+                    <Italian>CTRG Light Combat Helmet (Urban)</Italian>
+                    <Polish>CTRG Light Combat Helmet (Urban)</Polish>
+                    <Russian>CTRG Light Combat Helmet (Urban)</Russian>
+                    <German>CTRG Light Combat Helmet (Urban)</German>
+                    <Czech>CTRG Light Combat Helmet (Urban)</Czech>
+                    <English>CTRG Light Combat Helmet (Urban)</English>
+                    <Portuguese>CTRG Light Combat Helmet (Urban)</Portuguese>
+                    <Korean>CTRG Light Combat Helmet (Urban)</Korean>
+                    <Chinesesimp>CTRG Light Combat Helmet (Urban)</Chinesesimp>
+                    <Japanese>CTRG Light Combat Helmet (Urban)</Japanese>
+                    <Turkish>CTRG Light Combat Helmet (Urban)</Turkish>
+                </Key>
+				<Key ID="STR_A3_A_CfgWeapons_Rev_H_OPSCORE_02_dazzle_03_F0">
+                    <Original>CTRG Light Combat Helmet (Urban, Enhanced)</Original>
+                    <Chinese>CTRG Light Combat Helmet (Urban, Enhanced)</Chinese>
+                    <French>CTRG Light Combat Helmet (Urban, Enhanced)</French>
+                    <Spanish>CTRG Light Combat Helmet (Urban, Enhanced)</Spanish>
+                    <Italian>CTRG Light Combat Helmet (Urban, Enhanced)</Italian>
+                    <Polish>CTRG Light Combat Helmet (Urban, Enhanced)</Polish>
+                    <Russian>CTRG Light Combat Helmet (Urban, Enhanced)</Russian>
+                    <German>CTRG Light Combat Helmet (Urban, Enhanced)</German>
+                    <Czech>CTRG Light Combat Helmet (Urban, Enhanced)</Czech>
+                    <English>CTRG Light Combat Helmet (Urban, Enhanced)</English>
+                    <Portuguese>CTRG Light Combat Helmet (Urban, Enhanced)</Portuguese>
+                    <Korean>CTRG Light Combat Helmet (Urban, Enhanced)</Korean>
+                    <Chinesesimp>CTRG Light Combat Helmet (Urban, Enhanced)</Chinesesimp>
+                    <Japanese>CTRG Light Combat Helmet (Urban, Enhanced)</Japanese>
+                    <Turkish>CTRG Light Combat Helmet (Urban, Enhanced)</Turkish>
+                </Key>
 		</Container>
         <Container name="Supplies_F">
 			<Container name="Ammoboxes">
