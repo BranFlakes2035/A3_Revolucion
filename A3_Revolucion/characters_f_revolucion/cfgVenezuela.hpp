@@ -1237,7 +1237,7 @@ class Rev_O_VZ_Soldier_AT_F: Rev_O_VZ_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_AT_F0;
-	backpack = B_FieldPack_owcamo_OWAA_F;
+	backpack = B_FieldPack_owcamo_OWAT_F;
 	linkedItems[] =
 	{
 		V_VZ_CarrierRig_Lite_F,
