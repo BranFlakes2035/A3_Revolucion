@@ -2,7 +2,7 @@
 class Rev_O_FASR_ZU23_lxWS_F: zu23_base_lxWS
 {
 	author = $STR_A3_A_Ravenholme;
-    //editorPreview = "\A3_Revolucion\editorpreviews_f_Revolucion\Data\CfgVehicles\Rev_O_FASR_ZU23_lxWS_F.jpg";
+    editorPreview = "\A3_Revolucion\editorpreviews_f_Revolucion\Data\CfgVehicles\Rev_O_FASR_ZU23_lxWS_F.jpg";
     DLC = lxWS;
 	scope = public;
 	scopeCurator = public;

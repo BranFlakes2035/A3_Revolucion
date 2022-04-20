@@ -2,7 +2,7 @@
 class Rev_B_FRR_ZU23_lxWS_F: zu23_base_lxWS
 {
 	author = $STR_A3_A_Ravenholme;
-    //editorPreview = "\A3_Revolucion\editorpreviews_f_Revolucion\Data\CfgVehicles\Rev_B_FRR_ZU23_lxWS_F.jpg";
+    editorPreview = "\A3_Revolucion\editorpreviews_f_Revolucion\Data\CfgVehicles\Rev_B_FRR_ZU23_lxWS_F.jpg";
     DLC = lxWS;
 	scope = public;
 	scopeCurator = public;
@@ -23,7 +23,7 @@ class Rev_B_FRR_ZU23_lxWS_F: zu23_base_lxWS
 class Rev_I_FRR_ZU23_lxWS_F: Rev_B_FRR_ZU23_lxWS_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\editorpreviews_f_Revolucion\Data\CfgVehicles\Rev_B_FRR_ZU23_lxWS_F.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_Revolucion\Data\CfgVehicles\Rev_B_FRR_ZU23_lxWS_F.jpg";
     DLC = lxWS;
 	scope = public;
 	scopeCurator = public;
@@ -37,7 +37,7 @@ class Rev_I_FRR_ZU23_lxWS_F: Rev_B_FRR_ZU23_lxWS_F
 class Rev_O_FRR_ZU23_lxWS_F: Rev_B_FRR_ZU23_lxWS_F
 {
 	author = $STR_A3_A_Ravenholme;
-	//editorPreview = "\A3_Revolucion\editorpreviews_f_Revolucion\Data\CfgVehicles\Rev_B_FRR_ZU23_lxWS_F.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_Revolucion\Data\CfgVehicles\Rev_B_FRR_ZU23_lxWS_F.jpg";
     DLC = lxWS;
 	scope = public;
 	scopeCurator = public;
