@@ -12,6 +12,7 @@ class CfgVehicles
         class EventHandlers;
     };
     class B_Soldier_F;
+    class B_CTRG_Soldier_base_F;
     class B_Soldier_SL_F;
     class I_soldier_F: I_Soldier_base_F{};
     class I_L_Soldier_Base_F: I_Soldier_base_F{};
@@ -23,7 +24,7 @@ class CfgVehicles
         class EventHandlers;
     };
 
-    class B_CTRG_Soldier_F: B_Soldier_F
+    class B_CTRG_Soldier_F: B_CTRG_Soldier_base_F
     {
         class EventHandlers;
     };
