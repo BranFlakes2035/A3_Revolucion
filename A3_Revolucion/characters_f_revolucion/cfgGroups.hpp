@@ -629,6 +629,34 @@ class CfgGroups
 					GROUP_UNIT(8,TEast,Rev_O_FASR_medic_F,PRIVATE,-20,-20);
 				};
 			};
+			class SpecOps
+			{
+				name = $STR_A3_CfgGroups_West_BLU_F_SpecOps0;
+				class O_FASR_DeathSquad
+				{
+					name = $STR_A3_R_CfgGroups_OPF_SpecOps_O_FASR_DeathSquad0;
+					side = TEast;
+					faction = Revolucion_OPF_FASR_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TEast,Rev_O_FASR_Soldier_TL_DS_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_FASR_Soldier_M_DS_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_FASR_Soldier_Medic_DS_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_FASR_Soldier_LAT_DS_F,CORPORAL,10,-10);
+					GROUP_UNIT(4,TEast,Rev_O_FASR_Soldier_JTAC_DS_F,PRIVATE,-10,-10);
+					GROUP_UNIT(5,TEast,Rev_O_FASR_Soldier_Exp_DS_F,PRIVATE,15,-15);
+				};
+				class O_FASR_KillTeam
+				{
+					name = $STR_A3_R_CfgGroups_OPF_SpecOps_O_FASR_KillTeam0;
+					side = TEast;
+					faction = Revolucion_OPF_FASR_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\b_recon.paa";
+					GROUP_UNIT(0,TEast,Rev_O_FASR_Soldier_TL_DS_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TEast,Rev_O_FASR_Soldier_M_DS_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TEast,Rev_O_FASR_Soldier_Medic_DS_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TEast,Rev_O_FASR_Soldier_DS_F,PRIVATE,10,-10);
+				};
+			};
 		};
 		class Revolucion_OPF_FRR_F
 		{

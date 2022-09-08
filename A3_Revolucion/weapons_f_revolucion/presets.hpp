@@ -243,6 +243,28 @@ class arifle_NCAR15_MG_DMS_snds_F: arifle_NCAR15_MG_F
 		};
     };
 };
+class arifle_NCAR15_MG_ARCO_blk_snds_F: arifle_NCAR15_MG_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_58_blk_F;
+		};
+    };
+};
 
 // NCAR-15 5.8 mm + MRCO + Flashlight
 class arifle_NCAR15_MRCO_FL_F: arifle_NCAR15_F
@@ -590,6 +612,30 @@ class Rev_arifle_ARX_ARCO_Laser_Snds_blk_F: arifle_ARX_blk_F
 		{
 			slot = CowsSlot;
 			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_H;
+		};
+    };
+};
+
+// Type 115 6.5 mm + MRCO + IR Pointer + Suppressor
+class Rev_arifle_ARX_MRCO_Laser_Snds_blk_F: arifle_ARX_blk_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_MRCO;
 		};
 		class LinkedItemsAcc
 		{

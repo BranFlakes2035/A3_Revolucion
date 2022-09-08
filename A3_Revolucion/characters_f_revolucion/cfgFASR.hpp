@@ -949,14 +949,14 @@ class Rev_O_FASR_Soldier_TL_F: Rev_O_FASR_Soldier_Base_F
 	weapons[] =
 	{
 		arifle_CTAR_GL_blk_MRCO_grn_FL_F,
-		hgun_ACPC2_black_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
 		arifle_CTAR_GL_blk_MRCO_grn_FL_F,
-		hgun_ACPC2_black_F,
+		hgun_Pistol_01_F,
         DefaultManWeapons,
 		Binocular
 	};
@@ -1190,4 +1190,663 @@ class Rev_O_FASR_unarmed_F: Rev_O_FASR_Soldier_F
         0.1,    // Armor
         0.1     // Air
     };
+};
+
+/* Men (Death Squad) */
+class Rev_O_FASR_Soldier_DS_base_F: Rev_O_FASR_Soldier_Base_F
+{
+    scope = protected;
+    scopeCurator = protected;
+    textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
+    nameSound = veh_infantry_SF_s;
+    uniformClass = Rev_U_O_FASR_Sweater_01_F;
+    editorsubcategory = EdSubcat_Personnel_DeathSquad;
+	items[] =
+	{
+		FirstAidKit,
+	};
+	respawnItems[] =
+	{
+		FirstAidKit
+	};
+    icon = iconManRecon;
+	role = Rifleman;
+};
+class Rev_O_FASR_Soldier_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_DS_F.jpg";
+	author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
+	linkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+    {
+        arifle_NCAR15_ARCO_snds_F,
+        hgun_pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_NCAR15_ARCO_snds_F,
+        hgun_pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+		mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+    respawnMagazines[] =
+    {
+       	mag_8(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+  		mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+};
+class Rev_O_FASR_Soldier_TL_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_TL_DS_F.jpg";
+	author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_TL_F0;
+	linkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_Headset_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_Headset_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        hgun_pistol_01_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        Rev_arifle_ARX_ARCO_Laser_Snds_blk_F,
+        hgun_pistol_01_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+	};
+    respawnMagazines[] =
+    {
+       	mag_8(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+	icon = iconManLeader;
+	role = Rifleman;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_FASR_Soldier_Exp_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_Exp_DS_F.jpg";
+	author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_exp_F0;
+	backpack = B_FieldPack_Green_FASR_DS_Exp_F;
+	linkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeSHell),
+        mag_2(Chemlight_Yellow)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+	role = Rifleman;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+	icon = iconManExplosive;
+	picture = pictureExplosive;
+};
+class Rev_O_FASR_Soldier_AR_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_AR_DS_F.jpg";
+	author = $STR_A3_A_BranFlakes;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_soldier_AR_F0;
+	linkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_Booniehat_Oli,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_Booniehat_Oli,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+    {
+        arifle_NCAR15_MG_ARCO_blk_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_NCAR15_MG_ARCO_blk_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    magazines[] =
+    {
+        mag_6(100Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        HandGrenade_Guer,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(100Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        HandGrenade_Guer,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+	icon = iconManMG;
+	role = MachineGunner;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_FASR_Soldier_M_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_M_DS_F.jpg";
+	author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_soldier_M_F0;
+	linkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+    {
+        Rev_arifle_ARX_MRCO_Laser_Snds_blk_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    respawnWeapons[] =
+    {
+        Rev_arifle_ARX_MRCO_Laser_Snds_blk_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Rangefinder
+    };
+    magazines[] =
+    {
+        mag_8(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        HandGrenade_Guer,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+    respawnMagazines[] =
+    {
+       	mag_8(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_50bw_mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        HandGrenade_Guer,
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+	role = Marksman;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_FASR_Soldier_Medic_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_Medic_DS_F.jpg";
+	author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_medic_F0;
+	backpack = B_FieldPack_Green_FASR_DS_Medic_F;
+	linkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_MEDIC,
+        mag_2(Chemlight_Yellow)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        SmokeShell,
+        SMOKESHELLS_MEDIC,
+        mag_2(Chemlight_Yellow)
+    };
+	icon = iconManMedic;
+	picture = pictureHeal;
+	role = CombatLifeSaver;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_FASR_Soldier_GL_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_GL_DS_F.jpg";
+	author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_GL_F0;
+	linkedItems[] =
+	{
+		V_TacVest_Oli,
+		lxWS_h_bmask_base,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_Oli,
+		lxWS_h_bmask_base,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+    {
+        arifle_NCAR15_GL_ARCO_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_NCAR15_GL_ARCO_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+	role = Grenadier;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_FASR_Soldier_LAT_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_LAT_DS_F.jpg";
+	author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_soldier_LAT_F0;
+	backpack = B_FieldPack_Green_FASR_DS_AT_F;
+	linkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        launch_RPG7_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        launch_RPG7_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        RPG7_F,
+		mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        RPG7_F,
+  		mag_2(HandGrenade_Guer),
+        mag_2(SmokeShell),
+        mag_2(Chemlight_Yellow)
+    };
+	icon = iconManAT;
+	role = MissileSpecialist;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_FASR_Soldier_JTAC_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_JTAC_DS_F.jpg";
+	author = $STR_A3_A_Ravenholme;
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_C_B_W_RadioOperator_F0;
+	backpack = B_RadioBag_01_m81_F;
+	linkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_Headset_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_Oli,
+		H_HelmetSpecter_Headset_F,
+		G_Balaclava_Skull1,
+		DefaultManLeaderLinkedItems,
+		NVGoggles_INDEP
+	};
+	weapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Laserdesignator_03
+    };
+    respawnWeapons[] =
+    {
+        arifle_NCAR15B_ARCO_snds_F,
+        hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Laserdesignator_03
+    };
+    magazines[] =
+    {
+        mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        SmokeShell,
+		SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_Yellow)
+    };
+    respawnMagazines[] =
+    {
+       	mag_6(30Rnd_580x42_Mag_F),
+        mag_2(10Rnd_9x21_Mag),
+        mag_2(HandGrenade_Guer),
+        mag_2(O_IR_Grenade),
+        Laserbatteries,
+        SmokeShell,
+		SMOKESHELLS_OPFOR,
+        mag_2(Chemlight_Yellow)
+    };
+	role = SpecialOperative;
+	threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+};
+class Rev_O_FASR_Officer_DS_F: Rev_O_FASR_Soldier_DS_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_officer_s};
+			speechPlural[] = {veh_infantry_officer_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_officer_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
+	nameSound = veh_infantry_officer_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Officer_DS_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_B_officer_F0;
+    role = Rifleman;
+	icon = iconManOfficer;
+    cost = 600000;
+	camouflage = 1.6;
+	//uniformClass = ;
+	weapons[] =
+	{
+		arifle_ARX_blk_F,
+		hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Rangefinder
+	};
+	respawnWeapons[] =
+	{
+		arifle_ARX_blk_F,
+		hgun_Pistol_01_F,
+        DefaultManWeapons,
+		Rangefinder
+	};
+	magazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_9x21_mag),
+        mag_2(SmokeShell),
+        SmokeShellYellow
+	};
+	respawnMagazines[] =
+	{
+		mag_4(30Rnd_65x39_caseless_green),
+		mag_2(10rnd_9x21_mag),
+        mag_2(SmokeShell),
+        SmokeShellYellow
+	};
+	linkedItems[] =
+	{
+		V_Rangemaster_belt_oli,
+		H_milcap_m81_F,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_Rangemaster_belt_oli,
+		H_milcap_m81_F,
+		DefaultManLinkedItems
+	};
 };

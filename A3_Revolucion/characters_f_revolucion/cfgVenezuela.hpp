@@ -2015,7 +2015,7 @@ class Rev_O_VZ_recon_LAT_F: Rev_O_VZ_Soldier_recon_base
 	weapons[] =
     {
         arifle_NCAR15B_ARCO_snds_F,
-        launch_RPG7_F,
+        Aegis_launch_RPG7M_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
@@ -2023,7 +2023,7 @@ class Rev_O_VZ_recon_LAT_F: Rev_O_VZ_Soldier_recon_base
     respawnWeapons[] =
     {
         arifle_NCAR15B_ARCO_snds_F,
-        launch_RPG7_F,
+        Aegis_launch_RPG7M_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder

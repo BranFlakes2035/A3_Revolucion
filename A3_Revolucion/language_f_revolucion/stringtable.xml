@@ -859,6 +859,40 @@
 					<Japanese>Panther Sentry</Japanese>
 					<Turkish>Panther Sentry</Turkish>
 				</Key>
+                <Key ID="STR_A3_R_CfgGroups_OPF_SpecOps_O_FASR_DeathSquad0">
+					<Original>Death Squad</Original>
+					<Chinese>Death Squad</Chinese>
+					<French>Death Squad</French>
+					<Spanish>Death Squad</Spanish>
+					<Italian>Death Squad</Italian>
+					<Polish>Death Squad</Polish>
+					<Russian>Death Squad</Russian>
+					<German>Death Squad</German>
+					<Czech>Death Squad</Czech>
+					<English>Death Squad</English>
+					<Portuguese>Death Squad</Portuguese>
+					<Korean>Death Squad</Korean>
+					<Chinesesimp>Death Squad</Chinesesimp>
+					<Japanese>Death Squad</Japanese>
+					<Turkish>Death Squad</Turkish>
+				</Key>
+                <Key ID="STR_A3_R_CfgGroups_OPF_SpecOps_O_FASR_KillTeam0">
+					<Original>Kill Team</Original>
+					<Chinese>Kill Team</Chinese>
+					<French>Kill Team</French>
+					<Spanish>Kill Team</Spanish>
+					<Italian>Kill Team</Italian>
+					<Polish>Kill Team</Polish>
+					<Russian>Kill Team</Russian>
+					<German>Kill Team</German>
+					<Czech>Kill Team</Czech>
+					<English>Kill Team</English>
+					<Portuguese>Kill Team</Portuguese>
+					<Korean>Kill Team</Korean>
+					<Chinesesimp>Kill Team</Chinesesimp>
+					<Japanese>Kill Team</Japanese>
+					<Turkish>Kill Team</Turkish>
+				</Key>
 			</Container>
 			<Container name="Uniforms">
 				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Uniform_01_F0">
