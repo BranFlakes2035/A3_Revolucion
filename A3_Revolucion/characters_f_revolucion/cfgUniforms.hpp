@@ -349,6 +349,51 @@ class Rev_CTRG_Casual_02: B_ION_soldier_UAV_01_lxWS
       	"\A3\characters_f_exp\BLUFOR\data\U_B_CTRG_Soldier_F_co.paa"
 	};
 };
+class Rev_CTRG_Casual_01_ard: B_ION_shot_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_CTRG_Uniform_01_ard_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\lxws\characters_f_lxws\data\clothes\B_ION_Soldier_poloRed_CO.paa",
+      	"\A3\characters_f_exp\BLUFOR\data\U_B_CTRG_Soldier_arid_F_co.paa"
+	};
+};
+class Rev_CTRG_Casual_02_ard: B_ION_soldier_UAV_01_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_CTRG_Uniform_02_ard_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\lxws\characters_f_lxws\data\clothes\B_ION_Soldier_poloWhite_CO.paa",
+      	"\A3\characters_f_exp\BLUFOR\data\U_B_CTRG_Soldier_arid_F_co.paa"
+	};
+};
+class Rev_CTRG_Casual_01_urb: B_ION_shot_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_CTRG_Uniform_01_urb_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\lxws\characters_f_lxws\data\clothes\B_ION_Soldier_poloRed_CO.paa",
+      	"\A3\characters_f_exp\BLUFOR\data\clothing1_mtp_urban_co.paa"
+	};
+};
+class Rev_CTRG_Casual_02_urb: B_ION_soldier_UAV_01_lxWS
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_CTRG_Uniform_02_urb_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\lxws\characters_f_lxws\data\clothes\B_ION_Soldier_poloWhite_CO.paa",
+      	"\A3\characters_f_exp\BLUFOR\data\clothing1_mtp_urban_co.paa"
+	};
+};
+/* Panther */
 class O_G_Soldier_LAT_F;
 class Rev_Panther_CombatUniform_F: O_G_Soldier_LAT_F
 {
