@@ -28,7 +28,7 @@ class Rev_B_PNB_MRAP_02_F: O_MRAP_02_F
     /* Inventory */
     class TransportWeapons
     {
-        weap_xx(arifle_Velko_lxWS,2);
+        weap_xx(arifle_VelkoR5_lxWS,2);
     };
     class TransportMagazines
     {
@@ -71,7 +71,7 @@ class Rev_O_PNB_MRAP_02_F: O_MRAP_02_F
     /* Inventory */
     class TransportWeapons
     {
-        weap_xx(arifle_Velko_lxWS,2);
+        weap_xx(arifle_VelkoR5_lxWS,2);
     };
     class TransportMagazines
     {

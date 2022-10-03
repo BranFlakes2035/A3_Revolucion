@@ -1390,6 +1390,23 @@
 					<Japanese>Carrier Rig [Cartel]</Japanese>
 					<Turkish>Carrier Rig [Cartel]</Turkish>
 				</Key>
+                <Key ID="STR_A3_A_CfgWeapons_V_PlateCarrier2_alt_Cartel0">
+					<Original>Carrier Alt Rig [Cartel]</Original>
+					<Chinese>Carrier Alt Rig [Cartel]</Chinese>
+					<French>Carrier Alt Rig [Cartel]</French>
+					<Spanish>Carrier Alt Rig [Cartel]</Spanish>
+					<Italian>Carrier Alt Rig [Cartel]</Italian>
+					<Polish>Carrier Alt Rig [Cartel]</Polish>
+					<Russian>Carrier Alt Rig [Cartel]</Russian>
+					<German>Carrier Alt Rig [Cartel]</German>
+					<Czech>Carrier Alt Rig [Cartel]</Czech>
+					<English>Carrier Alt Rig [Cartel]</English>
+					<Portuguese>Carrier Alt Rig [Cartel]</Portuguese>
+					<Korean>Carrier Alt Rig [Cartel]</Korean>
+					<Chinesesimp>Carrier Alt Rig [Cartel]</Chinesesimp>
+					<Japanese>Carrier Alt Rig [Cartel]</Japanese>
+					<Turkish>Carrier Alt Rig [Cartel]</Turkish>
+				</Key>
                  <Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_ctrg_F0">
                     <Original>Modular Carrier Vest [CTRG]</Original>
                     <Chinese>模組化負載背心[CTRG]</Chinese>

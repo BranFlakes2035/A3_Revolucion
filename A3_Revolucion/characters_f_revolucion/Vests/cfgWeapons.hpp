@@ -7,7 +7,7 @@ class CfgWeapons
     class V_CarrierRigKBT_01_base_F;
     class V_CarrierRigKBT_01_light_base_F;
     class V_CarrierRigKBT_01_heavy_base_F;
-
+	class V_PlateCarrier_CTRG_lxWS;
 
     /* Items */  
     
@@ -24,6 +24,16 @@ class CfgWeapons
 		displayName = $STR_A3_R_CfgWeapons_V_PlateCarrierH_cartel_F0;
 		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\V_PlateCarrierH_cartel_F_CA.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\vest_cartel_CO.paa"};
+    };
+	class Rev_V_PlateCarrier2_alt_Cartel: V_PlateCarrier_CTRG_lxWS
+    {
+        scope = public; 
+        picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\V_PlateCarrierH_cartel_F_CA.paa";
+		displayName = $STR_A3_A_CfgWeapons_V_PlateCarrier2_alt_Cartel0;
+		hiddenSelectionsTextures[] =
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\vest_cartel_CO.paa"
+		};
     };
     class V_CarrierRigKBT_01_ctrg_F: V_CarrierRigKBT_01_base_F
 	{

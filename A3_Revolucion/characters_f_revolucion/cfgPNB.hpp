@@ -209,14 +209,14 @@ class Rev_B_PNB_Commander_F: Rev_B_PNB_Soldier_Base_F
 	camouflage = 1.6;
 	weapons[] =
 	{
-		arifle_Velko_lxWS,
+		arifle_VelkoR5_lxWS,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_Velko_lxWS,
+		arifle_VelkoR5_lxWS,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
@@ -328,13 +328,13 @@ class Rev_B_PNB_Soldier_LAT_F: Rev_B_PNB_Soldier_Base_F
     backpack = B_AssaultPack_blk_PNB_AT_F;
 	weapons[] =
 	{
-		arifle_Velko_lxWS,
+		arifle_VelkoR5_lxWS,
 		launch_RPG7_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Velko_lxWS,
+		arifle_VelkoR5_lxWS,
 		launch_RPG7_F,
         DefaultManWeapons
 	};
@@ -375,13 +375,13 @@ class Rev_B_PNB_Soldier_Rifle_F: Rev_B_PNB_Soldier_base_F
 	cost = 100000;
 	weapons[] =
 	{
-		arifle_Velko_lxWS,
+		arifle_VelkoR5_lxWS,
         hgun_P07_blk_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_Velko_lxWS,
+		arifle_VelkoR5_lxWS,
         hgun_P07_blk_F,
 		DefaultManWeapons
 	};
