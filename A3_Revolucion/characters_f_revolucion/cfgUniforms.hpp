@@ -61,6 +61,26 @@ class Rev_B_BDF_Sweater_01_F: I_E_Uniform_01_sweater_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_Sweater_CO.paa",
 	};
 };
+class Rev_B_BDF_SF_Uniform_01_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_SF_CO.paa",
+	};
+};
+class Rev_B_BDF_SF_Uniform_01_shortsleeve_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_SF_CO.paa",
+	};
+};
 class Rev_B_BDF_Coveralls_01_F: B_Soldier_04_f
 {
   	scope = protected;

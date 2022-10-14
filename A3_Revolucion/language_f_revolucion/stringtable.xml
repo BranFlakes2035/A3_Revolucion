@@ -929,6 +929,40 @@
 					<Japanese>Combat Fatigues [FDB] (Rolled-up)</Japanese>
 					<Turkish>Combat Fatigues [FDB] (Rolled-up)</Turkish>
 				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_SF_Uniform_01_F0">
+					<Original>Combat Fatigues [FDB Marines]</Original>
+					<Chinese>Combat Fatigues [FDB Marines]</Chinese>
+					<French>Combat Fatigues [FDB Marines]</French>
+					<Spanish>Combat Fatigues [FDB Marines]</Spanish>
+					<Italian>Combat Fatigues [FDB Marines]</Italian>
+					<Polish>Combat Fatigues [FDB Marines]</Polish>
+					<Russian>Combat Fatigues [FDB Marines]</Russian>
+					<German>Combat Fatigues [FDB Marines]</German>
+					<Czech>Combat Fatigues [FDB Marines]</Czech>
+					<English>Combat Fatigues [FDB Marines]</English>
+					<Portuguese>Combat Fatigues [FDB Marines]</Portuguese>
+					<Korean>Combat Fatigues [FDB Marines]</Korean>
+					<Chinesesimp>Combat Fatigues [FDB Marines]</Chinesesimp>
+					<Japanese>Combat Fatigues [FDB Marines]</Japanese>
+					<Turkish>Combat Fatigues [FDB Marines]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_SF_Uniform_01_shortsleeve_F0">
+					<Original>Combat Fatigues [FDB Marines] (Rolled-up)</Original>
+					<Chinese>Combat Fatigues [FDB Marines] (Rolled-up)</Chinese>
+					<French>Combat Fatigues [FDB Marines] (Rolled-up)</French>
+					<Spanish>Combat Fatigues [FDB Marines] (Rolled-up)</Spanish>
+					<Italian>Combat Fatigues [FDB Marines] (Rolled-up)</Italian>
+					<Polish>Combat Fatigues [FDB Marines] (Rolled-up)</Polish>
+					<Russian>Combat Fatigues [FDB Marines] (Rolled-up)</Russian>
+					<German>Combat Fatigues [FDB Marines] (Rolled-up)</German>
+					<Czech>Combat Fatigues [FDB Marines] (Rolled-up)</Czech>
+					<English>Combat Fatigues [FDB Marines] (Rolled-up)</English>
+					<Portuguese>Combat Fatigues [FDB Marines] (Rolled-up)</Portuguese>
+					<Korean>Combat Fatigues [FDB Marines] (Rolled-up)</Korean>
+					<Chinesesimp>Combat Fatigues [FDB Marines] (Rolled-up)</Chinesesimp>
+					<Japanese>Combat Fatigues [FDB Marines] (Rolled-up)</Japanese>
+					<Turkish>Combat Fatigues [FDB Marines] (Rolled-up)</Turkish>
+				</Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_B_BDF_Uniform_01_tanktop_F0">
 					<Original>Combat Fatigues [FDB] (Tank Top)</Original>
 					<Chinese>Combat Fatigues [FDB] (Tank Top)</Chinese>

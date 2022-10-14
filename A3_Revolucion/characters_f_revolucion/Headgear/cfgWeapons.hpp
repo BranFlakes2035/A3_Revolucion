@@ -23,6 +23,24 @@ class CfgWeapons
          	"\A3_Aegis\Characters_F_Aegis\Headgear\Data\equip_d_co.paa"
         };
     };
+    class H_HelmetB;
+    class H_HelmetB_plain_atacsix_F: H_HelmetB
+    {
+      author = $STR_A3_A_AveryTheKitty;
+      displayName = "Combat Helmet [FDB Marines] (Covered)";
+      //picture = "\A3_coldfront\Characters_F_coldfront\Headgear\Data\UI\icon_H_HelmetB_plain_white_CA.paa";
+      hiddenSelectionsMaterials[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\MICH.rvmat"};
+      hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_Helmet_ECH_Marines_CO.paa"};
+    };
+    class H_HelmetSpecB;
+    class H_HelmetSpecB_plain_atacsix_F: H_HelmetSpecB
+    {
+      author = $STR_A3_A_AveryTheKitty;
+      displayName = "Combat Helmet [FDB Marines] (Covered, Enhanced)";
+      //picture = "\A3_coldfront\Characters_F_coldfront\Headgear\Data\UI\icon_H_HelmetSpecB_white_CA.paa";
+      hiddenSelectionsMaterials[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\MICH.rvmat"};
+      hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_Helmet_ECH_Marines_CO.paa"};
+    };
     class H_Booniehat_atacs_F: H_Booniehat_khk
     {
         author = "Bran Flakes";
