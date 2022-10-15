@@ -445,3 +445,26 @@ class Rev_Panther_CombatUniform_fde_F: O_G_Soldier_LAT_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_Panther_Sweater_fde_CO.paa"
 	};
 };
+class Rev_O_DS_Uniform_01_F: I_E_Uniform_01_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_DS_Uniform_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_DS_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_DS_Pants_CO.paa",
+		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
+	};
+};
+class Rev_O_DS_Uniform_01_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_O_DS_Uniform_01_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_DS_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_DS_Pants_CO.paa"
+	};
+};

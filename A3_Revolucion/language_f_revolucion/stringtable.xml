@@ -1167,6 +1167,40 @@
                     <Japanese>Field Uniform [FASR]</Japanese>
                     <Turkish>Field Uniform [FASR]</Turkish>
                 </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Jacket_DS_F0">
+                    <Original>Combat Uniform [FASR Death Squad]</Original>
+                    <Chinese>Combat Uniform [FASR Death Squad]</Chinese>
+                    <French>Combat Uniform [FASR Death Squad]</French>
+                    <Spanish>Combat Uniform [FASR Death Squad]</Spanish>
+                    <Italian>Combat Uniform [FASR Death Squad]</Italian>
+                    <Polish>Combat Uniform [FASR Death Squad]</Polish>
+                    <Russian>Combat Uniform [FASR Death Squad]</Russian>
+                    <German>Combat Uniform [FASR Death Squad]</German>
+                    <Czech>Combat Uniform [FASR Death Squad]</Czech>
+                    <English>Combat Uniform [FASR Death Squad]</English>
+                    <Portuguese>Combat Uniform [FASR Death Squad]</Portuguese>
+                    <Korean>Combat Uniform [FASR Death Squad]</Korean>
+                    <Chinesesimp>Combat Uniform [FASR Death Squad]</Chinesesimp>
+                    <Japanese>Combat Uniform [FASR Death Squad]</Japanese>
+                    <Turkish>Combat Uniform [FASR Death Squad]</Turkish>
+                </Key>
+                <Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Jacket_DS2_F0">
+                    <Original>Combat Uniform [FASR Death Squad] (Rolled-up)</Original>
+                    <Chinese>Combat Uniform [FASR Death Squad] (Rolled-up)</Chinese>
+                    <French>Combat Uniform [FASR Death Squad] (Rolled-up)</French>
+                    <Spanish>Combat Uniform [FASR Death Squad] (Rolled-up)</Spanish>
+                    <Italian>Combat Uniform [FASR Death Squad] (Rolled-up)</Italian>
+                    <Polish>Combat Uniform [FASR Death Squad] (Rolled-up)</Polish>
+                    <Russian>Combat Uniform [FASR Death Squad] (Rolled-up)</Russian>
+                    <German>Combat Uniform [FASR Death Squad] (Rolled-up) (Rolled-up)</German>
+                    <Czech>Combat Uniform [FASR Death Squad] (Rolled-up) (Rolled-up)</Czech>
+                    <English>Combat Uniform [FASR Death Squad] (Rolled-up) (Rolled-up)</English>
+                    <Portuguese>Combat Uniform [FASR Death Squad] (Rolled-up) (Rolled-up)</Portuguese>
+                    <Korean>Combat Uniform [FASR Death Squad] (Rolled-up) (Rolled-up)</Korean>
+                    <Chinesesimp>Combat Uniform [FASR Death Squad] (Rolled-up) (Rolled-up)</Chinesesimp>
+                    <Japanese>Combat Uniform [FASR Death Squad] (Rolled-up)</Japanese>
+                    <Turkish>Combat Uniform [FASR Death Squad] (Rolled-up)</Turkish>
+                </Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Sweater_01_F0">
                     <Original>Field Uniform [FASR] (Sweater)</Original>
                     <Chinese>Field Uniform [FASR] (Sweater)</Chinese>

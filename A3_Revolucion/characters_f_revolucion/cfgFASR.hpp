@@ -1200,7 +1200,7 @@ class Rev_O_FASR_Soldier_DS_base_F: Rev_O_FASR_Soldier_Base_F
     textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
     textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
     nameSound = veh_infantry_SF_s;
-    uniformClass = Rev_U_O_FASR_Sweater_01_F;
+    uniformClass = Rev_U_O_DS_Uniform_01_F;
     editorsubcategory = EdSubcat_Personnel_DeathSquad;
 	items[] =
 	{
