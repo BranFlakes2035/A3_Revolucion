@@ -630,6 +630,212 @@ class rev_arifle_SLR_lxWS_KHS_old_F: arifle_SLR_lxWS
     };
 };
 
+// AK-12 7.62 mm + Holosight + LP
+class Rev_arifle_AK12_Holo_LP_F: arifle_AK12_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+// AK-12 GL 7.62 mm + Holosight + LP
+class Rev_arifle_AK12_GL_Holo_LP_F: arifle_AK12_GL_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+// AK-12U 7.62 mm + Holosight + LP
+class Rev_arifle_AK12U_Holo_LP_F: arifle_AK12U_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+// AK-12 GL 7.62 mm + ARCO + LP
+class Rev_arifle_AK12_GL_ARCO_LP_F: arifle_AK12_GL_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_AK_blk_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+// AK-12 7.62 mm + ARCO + LP
+class Rev_arifle_AK12_ARCO_LP_F: arifle_AK12_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_AK_blk_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+// AK-12 7.62 mm + ARCO + LP + Silencer
+class Rev_arifle_AK12_ARCO_LP_Snds_F: arifle_AK12_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_AK_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B;
+		};
+    };
+};
+// AK-12 GL 7.62 mm + ARCO + LP + Silencer
+class Rev_arifle_AK12_GL_ARCO_LP_snds_F: arifle_AK12_GL_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_AK_blk_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B;
+		};
+    };
+};
+// AK-12U 7.62 mm + ARCO + LP + Silencer
+class Rev_arifle_AK12U_ARCO_LP_Snds_F: arifle_AK12U_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_AK_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B;
+		};
+    };
+};
+// RPK-12 7.62 mm + DMS + LP + Silencer
+class Rev_arifle_RPK12_DMS_LP_snds_F: arifle_RPK12_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_DMS;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B;
+		};
+    };
+};
+// RPK-12 7.62 mm + ARCO + LP + Silencer
+class Rev_arifle_RPK12_F_ARCO_blk_snds_F: arifle_RPK12_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_AK_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_B;
+		};
+    };
+};
+
 /* LMG Presets */
 
 // RPK-12 7.62 mm + ACO AK + Flashlight

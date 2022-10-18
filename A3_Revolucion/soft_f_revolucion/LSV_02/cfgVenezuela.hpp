@@ -105,7 +105,7 @@ class Rev_O_VZ_LSV_02_armed_F: LSV_02_armed_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_580x42_Mag_F,12);
+		mag_xx(30Rnd_762x39_ak12_Mag_F,12);
 		mag_xx(200Rnd_556x45_Box_Red_F,2);
 		mag_xx(HandGrenade_East,8);
 		mag_xx(SmokeShell,4);
@@ -126,7 +126,7 @@ class Rev_O_VZ_LSV_02_armed_F: LSV_02_armed_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_NCAR15_F,2);
+		weap_xx(arifle_AK12_F,2);
 	};
 };
 class Rev_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
@@ -235,7 +235,7 @@ class Rev_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_580x42_Mag_F,12);
+		mag_xx(30Rnd_762x39_ak12_Mag_F,12);
 		mag_xx(200Rnd_556x45_Box_Red_F,2);
 		mag_xx(HandGrenade_East,8);
 		mag_xx(SmokeShell,4);
@@ -256,7 +256,7 @@ class Rev_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_NCAR15_F,2);
+		weap_xx(arifle_AK12_F,2);
 	};
 };
 class Rev_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
@@ -365,7 +365,7 @@ class Rev_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
 	};
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_580x42_Mag_F,12);
+		mag_xx(30Rnd_762x39_ak12_Mag_F,12);
 		mag_xx(200Rnd_556x45_Box_Red_F,2);
 		mag_xx(HandGrenade_East,8);
 		mag_xx(SmokeShell,4);
@@ -386,6 +386,6 @@ class Rev_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_NCAR15_F,2);
+		weap_xx(arifle_AK12_F,2);
 	};
 };

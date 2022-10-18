@@ -39,26 +39,26 @@ class Rev_O_VZ_Soldier_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-		mag_10(30Rnd_580x42_Mag_F),
+		mag_10(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-		mag_10(30Rnd_580x42_Mag_F),
+		mag_10(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
@@ -89,22 +89,22 @@ class Rev_O_VZ_TL_F: Rev_O_VZ_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_NCAR15_GL_ARCO_blk_pointer_F,
+        Rev_arifle_AK12_GL_ARCO_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_GL_ARCO_blk_pointer_F,
+        Rev_arifle_AK12_GL_ARCO_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
-        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
+        mag_2(30Rnd_762x39_ak12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
@@ -115,8 +115,8 @@ class Rev_O_VZ_TL_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
-        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
+        mag_2(30Rnd_762x39_ak12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
@@ -152,22 +152,22 @@ class Rev_O_VZ_GL_F: Rev_O_VZ_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_NCAR15_GL_holo_pointer_F,
+        Rev_arifle_AK12_GL_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_GL_holo_pointer_F,
+        Rev_arifle_AK12_GL_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
-        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
+        mag_2(30Rnd_762x39_ak12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
@@ -178,8 +178,8 @@ class Rev_O_VZ_GL_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
-        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
+        mag_2(30Rnd_762x39_ak12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade_East),
@@ -272,19 +272,19 @@ class Rev_O_VZ_exp_F: Rev_O_VZ_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_NCAR15B_holo_pointer_F,
+        Rev_arifle_AK12U_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15B_holo_pointer_F,
+        Rev_arifle_AK12U_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade_East),
@@ -292,7 +292,7 @@ class Rev_O_VZ_exp_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade_East),
@@ -382,19 +382,19 @@ class Rev_O_VZ_medic_F: Rev_O_VZ_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
@@ -402,7 +402,7 @@ class Rev_O_VZ_medic_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
@@ -443,21 +443,21 @@ class Rev_O_VZ_Soldier_LAT_F: Rev_O_VZ_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         launch_RPG7_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         launch_RPG7_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         RPG7_F,
         mag_2(HandGrenade_East),
@@ -465,7 +465,7 @@ class Rev_O_VZ_Soldier_LAT_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         RPG7_F,
         mag_2(HandGrenade_East),
@@ -498,26 +498,26 @@ class Rev_O_VZ_A_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15_holo_pointer_F,
+		Rev_arifle_AK12_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15_holo_pointer_F,
+		Rev_arifle_AK12_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_580x42_Mag_F),
+		mag_10(30Rnd_762x39_ak12_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		mag_2(HandGrenade_East),
 		mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_580x42_Mag_F),
+		mag_10(30Rnd_762x39_ak12_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		mag_2(HandGrenade_East),
 		mag_2(SmokeShell)
@@ -549,26 +549,26 @@ class Rev_O_VZ_Soldier_AAR_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15_holo_pointer_F,
+		Rev_arifle_AK12_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15_holo_pointer_F,
+		Rev_arifle_AK12_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(30Rnd_580x42_Mag_F),
+		mag_10(30Rnd_762x39_ak12_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		mag_2(HandGrenade_East),
 		mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(30Rnd_580x42_Mag_F),
+		mag_10(30Rnd_762x39_ak12_Mag_F),
 		mag_2(17Rnd_9x21_Mag),
 		mag_2(HandGrenade_East),
 		mag_2(SmokeShell)
@@ -600,19 +600,19 @@ class Rev_O_VZ_support_MG_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -620,7 +620,7 @@ class Rev_O_VZ_support_MG_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -653,19 +653,19 @@ class Rev_O_VZ_support_AMG_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -673,7 +673,7 @@ class Rev_O_VZ_support_AMG_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -707,19 +707,19 @@ class Rev_O_VZ_support_Mort_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -727,7 +727,7 @@ class Rev_O_VZ_support_Mort_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -760,19 +760,19 @@ class Rev_O_VZ_support_AMort_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -780,7 +780,7 @@ class Rev_O_VZ_support_AMort_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -813,19 +813,19 @@ class Rev_O_VZ_support_AHAT_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -833,7 +833,7 @@ class Rev_O_VZ_support_AHAT_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -866,19 +866,19 @@ class Rev_O_VZ_support_AAA_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -886,7 +886,7 @@ class Rev_O_VZ_support_AAA_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -919,19 +919,19 @@ class Rev_O_VZ_support_AAT_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -939,7 +939,7 @@ class Rev_O_VZ_support_AAT_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -972,26 +972,26 @@ class Rev_O_VZ_Crew_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
         SmokeShell
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
         SmokeShell
@@ -1025,19 +1025,19 @@ class Rev_O_VZ_engineer_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -1045,7 +1045,7 @@ class Rev_O_VZ_engineer_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(O_IR_Grenade),
@@ -1147,26 +1147,26 @@ class Rev_O_VZ_Helicrew_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_NCAR15B_holo_pointer_F,
+		Rev_arifle_AK12U_Holo_LP_F,
 		hgun_G17_black_F,
 		DefaultManWeapons
 	};
 	magazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
         SmokeShell
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
         SmokeShell
@@ -1199,21 +1199,21 @@ class Rev_O_VZ_Soldier_AA_F: Rev_O_VZ_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         launch_O_Titan_camo_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         launch_O_Titan_camo_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade_East),
@@ -1221,7 +1221,7 @@ class Rev_O_VZ_Soldier_AA_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Titan_AA,
         mag_2(HandGrenade_East),
@@ -1254,21 +1254,21 @@ class Rev_O_VZ_Soldier_AT_F: Rev_O_VZ_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         launch_O_Titan_short_camo_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         launch_O_Titan_short_camo_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade_East),
@@ -1276,7 +1276,7 @@ class Rev_O_VZ_Soldier_AT_F: Rev_O_VZ_Soldier_Base_F
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         Titan_AT,
         mag_2(HandGrenade_East),
@@ -1306,25 +1306,25 @@ class Rev_O_VZ_Officer_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
     {
-      	arifle_NCAR15_F,
+      	arifle_AK12_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_F,
+        arifle_AK12_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         SMOKESHELLS_OPFOR
     };
@@ -1354,23 +1354,23 @@ class Rev_O_VZ_Soldier_lite_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
     {
-        arifle_NCAR15_F,
+        arifle_AK12_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_F,
+        arifle_AK12_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-		mag_4(30Rnd_580x42_Mag_F),
+		mag_4(30Rnd_762x39_ak12_Mag_F),
         HandGrenade_East,
         SmokeShell
     };
     respawnMagazines[] =
     {
-		mag_4(30Rnd_580x42_Mag_F),
+		mag_4(30Rnd_762x39_ak12_Mag_F),
         HandGrenade_East,
         SmokeShell
     };
@@ -1401,37 +1401,35 @@ class Rev_O_VZ_SL_F: Rev_O_VZ_Soldier_Base_F
 	};
     weapons[] =
     {
-        arifle_NCAR15_ARCO_blk_pointer_F,
+        Rev_arifle_AK12_ARCO_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_ARCO_blk_pointer_F,
+        Rev_arifle_AK12_ARCO_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
-        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
+        mag_2(30Rnd_762x39_ak12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SMOKESHELLS_OPFOR,
-		SMOKEGRENADES_OPFOR
+        SMOKESHELLS_OPFOR
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_580x42_Mag_F),
-        mag_2(30Rnd_580x42_Mag_Tracer_F),
+        mag_4(30Rnd_762x39_ak12_Mag_F),
+        mag_2(30Rnd_762x39_ak12_Mag_Tracer_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         SmokeShell,
-        SMOKESHELLS_OPFOR,
-		SMOKEGRENADES_OPFOR
+        SMOKESHELLS_OPFOR
     };
     cost = 500000;
 	camouflage = 1.4;
@@ -1460,26 +1458,26 @@ class Rev_O_VZ_RadioOperator_F: Rev_O_VZ_Soldier_F
 	};
 	weapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_holo_pointer_F,
+        Rev_arifle_AK12_Holo_LP_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_10(30Rnd_580x42_Mag_F),
+        mag_10(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-        mag_10(30Rnd_580x42_Mag_F),
+        mag_10(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
@@ -1582,21 +1580,21 @@ class Rev_O_VZ_Recon_F: Rev_O_VZ_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_NCAR15_ARCO_snds_F,
+        Rev_arifle_AK12_ARCO_LP_Snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_ARCO_snds_F,
+        Rev_arifle_AK12_ARCO_LP_Snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
 		mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -1604,7 +1602,7 @@ class Rev_O_VZ_Recon_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-       	mag_8(30Rnd_580x42_Mag_F),
+       	mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
   		mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -1634,21 +1632,21 @@ class Rev_O_VZ_recon_TL_F: Rev_O_VZ_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_NCAR15_GL_ARCO_snds_F,
+        Rev_arifle_AK12_GL_ARCO_LP_snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_GL_ARCO_snds_F,
+        Rev_arifle_AK12_GL_ARCO_LP_snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1659,7 +1657,7 @@ class Rev_O_VZ_recon_TL_F: Rev_O_VZ_Soldier_recon_base
 	};
     respawnMagazines[] =
     {
-       	mag_6(30Rnd_580x42_Mag_F),
+       	mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_6(1Rnd_HE_Grenade_shell),
@@ -1702,21 +1700,21 @@ class Rev_O_VZ_recon_exp_F: Rev_O_VZ_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_NCAR15B_ARCO_snds_F,
+        Rev_arifle_AK12U_ARCO_LP_Snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15B_ARCO_snds_F,
+        Rev_arifle_AK12U_ARCO_LP_Snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1725,7 +1723,7 @@ class Rev_O_VZ_recon_exp_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-       	mag_6(30Rnd_580x42_Mag_F),
+       	mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1765,21 +1763,21 @@ class Rev_O_VZ_recon_AR_F: Rev_O_VZ_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_CTARS_blk_ARCO_snds_F,
+        Rev_arifle_RPK12_F_ARCO_blk_snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_CTARS_blk_ARCO_snds_F,
+        Rev_arifle_RPK12_F_ARCO_blk_snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     magazines[] =
     {
-        mag_6(100Rnd_580x42_Mag_F),
+        mag_6(75Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         MiniGrenade,
         mag_2(SmokeShell),
@@ -1787,7 +1785,7 @@ class Rev_O_VZ_recon_AR_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-       	mag_6(100Rnd_580x42_Mag_F),
+       	mag_6(75Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         MiniGrenade,
         mag_2(SmokeShell),
@@ -1825,21 +1823,21 @@ class Rev_O_VZ_recon_M_F: Rev_O_VZ_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_NCAR15_MG_DMS_snds_F,
+        Rev_arifle_RPK12_DMS_LP_snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_MG_DMS_snds_F,
+        Rev_arifle_RPK12_DMS_LP_snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     magazines[] =
     {
-        mag_8(30Rnd_580x42_Mag_F),
+        mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1848,7 +1846,7 @@ class Rev_O_VZ_recon_M_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-       	mag_8(30Rnd_580x42_Mag_F),
+       	mag_8(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1887,21 +1885,21 @@ class Rev_O_VZ_recon_medic_F: Rev_O_VZ_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_NCAR15B_ARCO_snds_F,
+        Rev_arifle_AK12U_ARCO_LP_Snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15B_ARCO_snds_F,
+        Rev_arifle_AK12U_ARCO_LP_Snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1910,7 +1908,7 @@ class Rev_O_VZ_recon_medic_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-       	mag_6(30Rnd_580x42_Mag_F),
+       	mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1950,21 +1948,21 @@ class Rev_O_VZ_recon_GL_F: Rev_O_VZ_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_NCAR15_GL_ARCO_snds_F,
+        Rev_arifle_AK12_GL_ARCO_LP_snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15_GL_ARCO_snds_F,
+        Rev_arifle_AK12_GL_ARCO_LP_snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Rangefinder
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(MiniGrenade),
@@ -1974,7 +1972,7 @@ class Rev_O_VZ_recon_GL_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-       	mag_6(30Rnd_580x42_Mag_F),
+       	mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(MiniGrenade),
@@ -2014,7 +2012,7 @@ class Rev_O_VZ_recon_LAT_F: Rev_O_VZ_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_NCAR15B_ARCO_snds_F,
+        Rev_arifle_AK12U_ARCO_LP_Snds_F,
         Aegis_launch_RPG7M_F,
         hgun_G17_black_F,
         DefaultManWeapons,
@@ -2022,7 +2020,7 @@ class Rev_O_VZ_recon_LAT_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15B_ARCO_snds_F,
+        Rev_arifle_AK12U_ARCO_LP_Snds_F,
         Aegis_launch_RPG7M_F,
         hgun_G17_black_F,
         DefaultManWeapons,
@@ -2030,7 +2028,7 @@ class Rev_O_VZ_recon_LAT_F: Rev_O_VZ_Soldier_recon_base
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         RPG7_F,
 		mag_2(MiniGrenade),
@@ -2039,7 +2037,7 @@ class Rev_O_VZ_recon_LAT_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-       	mag_6(30Rnd_580x42_Mag_F),
+       	mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         RPG7_F,
   		mag_2(MiniGrenade),
@@ -2078,21 +2076,21 @@ class Rev_O_VZ_recon_JTAC_F: Rev_O_VZ_Soldier_recon_base
 	};
 	weapons[] =
     {
-        arifle_NCAR15B_ARCO_snds_F,
+        Rev_arifle_AK12U_ARCO_LP_Snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Laserdesignator_03
     };
     respawnWeapons[] =
     {
-        arifle_NCAR15B_ARCO_snds_F,
+        Rev_arifle_AK12U_ARCO_LP_Snds_F,
         hgun_G17_black_F,
         DefaultManWeapons,
 		Laserdesignator_03
     };
     magazines[] =
     {
-        mag_6(30Rnd_580x42_Mag_F),
+        mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(O_IR_Grenade),
@@ -2103,7 +2101,7 @@ class Rev_O_VZ_recon_JTAC_F: Rev_O_VZ_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-       	mag_6(30Rnd_580x42_Mag_F),
+       	mag_6(30Rnd_762x39_ak12_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(MiniGrenade),
         mag_2(O_IR_Grenade),

@@ -11,14 +11,14 @@ class CfgVehicles
         /* Liveries */
 		class TextureSources
 		{
-			class GreenHex
+			class VZHex
 			{
-				displayName = $STR_A3_TextureSources_GreenHex0;
-				author = $STR_A3_A_AveryTheKitty;
+				displayName = $STR_A3_R_TextureSources_VZHex0;
+				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-					"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body1_ghex_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body2_ghex_CO.paa"
+					"\A3_Revolucion\air_f_revolucion\Heli_Attack_02\Data\Heli_Attack_02_body1_VZ_CO.paa",
+					"\A3_Revolucion\air_f_revolucion\Heli_Attack_02\Data\Heli_Attack_02_body2_VZ_CO.paa"
 				};
 				factions[] = {};
 			};

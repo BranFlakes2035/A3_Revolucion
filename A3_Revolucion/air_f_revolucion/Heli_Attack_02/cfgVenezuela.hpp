@@ -138,6 +138,7 @@ class Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F: Heli_Attack_02_dynamicLoadout_ba
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Attack_02_dynamicLoadout_F.jpg";
+    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = "Mi-48 Caimán";
@@ -148,21 +149,22 @@ class Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F: Heli_Attack_02_dynamicLoadout_ba
     textureList[] =
     {
         Black,0,
-        GreenHex,1
+        GreenHex,0,
+        VZHex,1
     };
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body1_ghex_CO.paa",
-        "\A3_Aegis\Air_F_Aegis\Heli_Attack_02\Data\Heli_Attack_02_body2_ghex_CO.paa"
+        "\A3_Revolucion\air_f_revolucion\Heli_Attack_02\Data\Heli_Attack_02_body1_VZ_CO.paa",
+		"\A3_Revolucion\air_f_revolucion\Heli_Attack_02\Data\Heli_Attack_02_body2_VZ_CO.paa"
     };
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_580x42_Mag_F,4);
+		mag_xx(30Rnd_762x39_ak12_Mag_F,4);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_NCAR15B_F,2);
+		weap_xx(arifle_AK12U_F,2);
 	};
 };

@@ -21,11 +21,11 @@ class Rev_O_VZ_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
      /* Inventory */
     class TransportWeapons
     {
-        weap_xx(arifle_NCAR15_F,2);
+        weap_xx(arifle_AK12_F,2);
     };
     class TransportMagazines
     {
-        mag_xx(30Rnd_580x42_Mag_F,10);
+        mag_xx(30Rnd_762x39_ak12_Mag_F,10);
         mag_xx(200Rnd_556x45_Box_Red_F,4);
         mag_xx(HandGrenade_East,8);
         mag_xx(1Rnd_HE_Grenade_shell,6);

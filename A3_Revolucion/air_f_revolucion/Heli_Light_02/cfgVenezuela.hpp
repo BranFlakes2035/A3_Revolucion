@@ -125,6 +125,7 @@ class Rev_O_VZ_Heli_Light_02_dynamicLoadout_F: Heli_Light_02_dynamicLoadout_base
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Light_02_dynamicLoadout_F.jpg";
+    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Light_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -134,18 +135,19 @@ class Rev_O_VZ_Heli_Light_02_dynamicLoadout_F: Heli_Light_02_dynamicLoadout_base
 	typicalCargo[] = {Rev_O_VZ_Helipilot_F};
 	textureList[] =
 	{
-		GreenHex,1
+		GreenHex,0,
+        VZHex,1
 	};
-	hiddenSelectionsTextures[] = {"\A3_Aegis\Air_F_Aegis\Heli_Light_02\Data\Heli_Light_02_ext_ghex_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Revolucion\air_f_revolucion\Heli_Light_02\Data\Heli_Light_02_ext_VZ_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_580x42_Mag_F,4);
+		mag_xx(30Rnd_762x39_ak12_Mag_F,4);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_NCAR15B_F,2);
+		weap_xx(arifle_AK12U_F,2);
 	};
 };
 class Rev_O_VZ_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
@@ -275,6 +277,7 @@ class Rev_O_VZ_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Light_02_unarmed_F.jpg";
+    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Light_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	scopeArsenal = private;
@@ -286,17 +289,18 @@ class Rev_O_VZ_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
 	typicalCargo[] = {Rev_O_VZ_Helipilot_F};
 	textureList[] =
 	{
-		GreenHex,1
+		GreenHex,0,
+        VZHex,1
 	};
-	hiddenSelectionsTextures[] = {"\A3\Air_F\Heli_Light_02\Data\Heli_Light_02_ext_CO.paa"};
+	hiddenSelectionsTextures[] = {"\A3_Revolucion\air_f_revolucion\Heli_Light_02\Data\Heli_Light_02_ext_VZ_CO.paa"};
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
 		mag_xx(SmokeShellRed,2);
-		mag_xx(30Rnd_580x42_Mag_F,4);
+		mag_xx(30Rnd_762x39_ak12_Mag_F,4);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_NCAR15B_F,2);
+		weap_xx(arifle_AK12U_F,2);
 	};
 };

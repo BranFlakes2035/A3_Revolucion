@@ -176,6 +176,25 @@
 					<Turkish>CTRG (Group 9)</Turkish>
 				</Key>
 			</Container>
+			<Container name="VhC">
+				<Key ID="STR_A3_R_TEXTURESOURCES_VZHex0">
+				<Original>Venezuelan Hex</Original>
+				<Chinese>Venezuelan Hex</Chinese>
+				<French>Venezuelan Hex</French>
+				<Spanish>Venezuelan Hex</Spanish>
+				<Italian>Venezuelan Hex</Italian>
+				<Polish>Venezuelan Hex</Polish>
+				<Russian>Venezuelan Hex</Russian>
+				<German>Venezuelan Hex</German>
+				<Czech>Venezuelan Hex</Czech>
+				<English>Venezuelan Hex</English>
+				<Portuguese>Venezuelan Hex</Portuguese>
+				<Korean>Venezuelan Hex</Korean>
+				<Chinesesimp>Venezuelan Hex</Chinesesimp>
+				<Japanese>Venezuelan Hex</Japanese>
+				<Turkish>Venezuelan Hex</Turkish>
+			</Key>
+			</Container>
 		</Container>
 		<Container name="Characters_F">
 			<Key ID="STR_A3_R_cfgVehicles_B_BDF_Recon_GL_F0">

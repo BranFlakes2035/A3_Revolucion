@@ -98,13 +98,13 @@ class Rev_O_VZ_Truck_02_F: O_Truck_02_covered_F
 	faction = revolucion_OPF_VZ_F;
 	crew = Rev_O_VZ_Soldier_F;
 	typicalCargo[] = {Rev_O_VZ_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {VZHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kuz_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class Atlas_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
@@ -207,13 +207,13 @@ class Atlas_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
     faction = revolucion_OPF_VZ_F;
     crew = Rev_O_VZ_Soldier_F;
     typicalCargo[] = {Rev_O_VZ_Soldier_F};
-    textureList[] = {GreenHex,1};
+    textureList[] = {VZHex,1};
     hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-        "\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-        "\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+        "\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kuz_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
     };
 };
 class Rev_O_VZ_Truck_02_box_F: O_Truck_02_box_F
@@ -226,13 +226,13 @@ class Rev_O_VZ_Truck_02_box_F: O_Truck_02_box_F
 	faction = revolucion_OPF_VZ_F;
 	crew = Rev_O_VZ_Soldier_F;
 	typicalCargo[] = {Rev_O_VZ_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {VZHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_repair_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
@@ -336,13 +336,13 @@ class Rev_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
 	faction = revolucion_OPF_VZ_F;
 	crew = Rev_O_VZ_Soldier_F;
 	typicalCargo[] = {Rev_O_VZ_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {VZHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kuz_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class Rev_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
@@ -447,13 +447,13 @@ class Rev_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 	faction = revolucion_OPF_VZ_F;
 	crew = Rev_O_VZ_Soldier_F;
 	typicalCargo[] = {Rev_O_VZ_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {VZHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_repair_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_repair_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
@@ -557,13 +557,13 @@ class Rev_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
 	faction = revolucion_OPF_VZ_F;
 	crew = Rev_O_VZ_Soldier_F;
 	typicalCargo[] = {Rev_O_VZ_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {VZHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_fuel_ghex_CO.paa",
-		"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa"
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_fuel_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
 class Rev_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
@@ -586,14 +586,14 @@ class Rev_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 	faction = revolucion_OPF_VZ_F;
 	crew = Rev_O_VZ_Soldier_F;
 	typicalCargo[] = {Rev_O_VZ_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {VZHex,1};
 	hiddenSelectionsTextures[] =
 	{
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
-	"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kuz_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
 class Rev_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
@@ -616,13 +616,13 @@ class Rev_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 	faction = revolucion_OPF_VZ_F;
 	crew = Rev_O_VZ_Soldier_F;
 	typicalCargo[] = {Rev_O_VZ_Soldier_F};
-	textureList[] = {GreenHex,1};
+	textureList[] = {VZHex,1};
 	hiddenSelectionsTextures[] =
 	{
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kab_ghex_CO.paa",
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_kuz_ghex_CO.paa",
-	"\A3\Soft_F_Beta\Truck_02\Data\Truck_02_int_CO.paa",
-	"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_ghex_CO.paa",
-	"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kuz_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
+		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
 };
