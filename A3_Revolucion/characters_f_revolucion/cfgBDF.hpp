@@ -190,13 +190,13 @@ class Rev_B_BDF_Soldier_AR_F: Rev_B_BDF_Soldier_Base_F
 	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
     weapons[] =
 	{
-		LMG_Zafir_black_FL_F,
+		LMG_Negev_FL_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		LMG_Zafir_black_FL_F,
+		LMG_Negev_FL_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
@@ -1330,13 +1330,13 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 	};
 	weapons[] =
     {
-        LMG_Zafir_black_ARCO_IR_Snds_F,
+        LMG_Negev_ARCO_IR_Snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        LMG_Zafir_black_ARCO_IR_Snds_F,
+        LMG_Negev_ARCO_IR_Snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
@@ -1388,19 +1388,19 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
 	role = Sapper;
 	weapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
@@ -1409,7 +1409,7 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
@@ -1444,19 +1444,19 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
 	role = Grenadier;
 	weapons[] =
     {
-        arifle_SA80_GL_blk_ARCO_IR_snds_F,
+        arifle_Fort652_GL_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SA80_GL_blk_ARCO_IR_snds_F,
+        arifle_Fort652_GL_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(MiniGrenade),
@@ -1466,7 +1466,7 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(MiniGrenade),
@@ -1502,21 +1502,21 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
 	backpack = B_RadioBag_01_green_F;
 	weapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
@@ -1527,7 +1527,7 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
@@ -1651,19 +1651,19 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	weapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1672,7 +1672,7 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1705,21 +1705,21 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
 	displayName = $STR_A3_B_CTRG_Soldier_tna_F0;
 	weapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-       	arifle_SA80_blk_ARCO_IR_snds_F,
+       	arifle_Fort652_blk_ARCO_IR_snds_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_black_mag),
+        mag_10(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -1727,7 +1727,7 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-    	mag_10(30Rnd_65x39_caseless_black_mag),
+    	mag_10(30Rnd_65x39_caseless_msbs_mag),
         mag_2(9Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -1770,21 +1770,21 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
 	role = MissileSpecialist;
 	weapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         rev_hgun_P07_blk_snds_F,
 		launch_NLAW_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         rev_hgun_P07_blk_snds_F,
 		launch_NLAW_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
 		NLAW_F,
         mag_2(MiniGrenade),
@@ -1793,7 +1793,7 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
 		NLAW_F,
         mag_2(MiniGrenade),
@@ -1837,21 +1837,21 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
 	role = MissileSpecialist;
 	weapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         rev_hgun_P07_blk_snds_F,
 		launch_MRAWS_Green_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         rev_hgun_P07_blk_snds_F,
 		launch_MRAWS_Green_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
 		MRAWS_HEAT_F,
         mag_2(MiniGrenade),
@@ -1860,7 +1860,7 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_black_mag),
+        mag_6(30Rnd_65x39_caseless_msbs_mag),
         mag_2(16rnd_9x21_mag_v2),
 		MRAWS_HEAT_F,
         mag_2(MiniGrenade),
@@ -1902,22 +1902,22 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	weapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_SA80_blk_ARCO_IR_snds_F,
+        arifle_Fort652_blk_ARCO_IR_snds_F,
         rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     magazines[] =
     {
-        mag_4(30Rnd_65x39_caseless_black_mag),
-        mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+        mag_4(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1926,8 +1926,8 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_65x39_caseless_black_mag),
-        mag_2(30Rnd_65x39_caseless_black_mag_Tracer),
+        mag_4(30Rnd_65x39_caseless_msbs_mag),
+        mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1949,5 +1949,769 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_INDEP
+	};
+};
+
+/* Baracan Marines */
+class Rev_B_BDF_Marine_base_F: Rev_B_BDF_Soldier_base_F
+{
+	scope = private;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_F;
+	headgearList[]={};
+	editorSubcategory = EdSubcat_Personnel_Marines;
+    weapons[] =
+	{
+		rev_arifle_VelkoR5_lxWS_ACO_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		rev_arifle_VelkoR5_lxWS_ACO_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		 H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		 H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_A_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_A_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_A_F0;
+	backpack = B_Carryall_oli_BDF_Marine_Ammo_F;
+};
+class Rev_B_BDF_Marine_AR_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_MG_s};
+			speechPlural[] = {veh_infantry_MG_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
+	nameSound = veh_infantry_MG_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_AR_F.jpg";
+    scope = public;
+  	scopeCurator = public;
+	displayName = $STR_B_soldier_AR_F0;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	role = MachineGunner;
+	icon = iconManMG;
+	cost = 125000;
+	threat[] =
+    {
+        1,      // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+	weapons[] =
+	{
+		LMG_S77_Compact_lxWS_LRCO_FL_F,
+		hgun_P07_blk_F,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		LMG_S77_Compact_lxWS_LRCO_FL_F,
+		hgun_P07_blk_F,
+        DefaultManWeapons
+	};
+	magazines[] =
+    {
+        mag_5(100Rnd_762x51_s77_yellow_lxws),
+        mag_2(16rnd_9x21_mag_v2),
+        HandGrenade,
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_5(100Rnd_762x51_s77_yellow_lxws),
+        mag_2(16rnd_9x21_mag_v2),
+        HandGrenade,
+        mag_2(SmokeShell)
+    };
+    linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_Medic_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_medic_s};
+			speechPlural[] = {veh_infantry_medic_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
+	nameSound = veh_infantry_medic_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_Medic_F.jpg";
+    scope = public;
+  	scopeCurator = public;
+	displayName = $STR_B_medic_F0;
+	role = CombatLifeSaver;
+	icon = iconManMedic;
+	picture = pictureHeal;
+	camouflage = 1.6;
+	attendant = true;
+	backpack = B_AssaultPack_khk_BDF_Medic_F;
+	magazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SMOKESHELLS_MEDIC
+    };
+    respawnMagazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SMOKESHELLS_MEDIC
+    };
+    linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetSpecB_plain_atacsix_F
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetSpecB_plain_atacsix_F
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_Engineer_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_Engineer_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_engineer_F0;
+    role = Sapper;
+    icon = iconManEngineer;
+    picture = pictureRepair;
+	cost = 220000;
+	canDeactivateMines = true;
+	engineer = true;
+	detectSkill = 31;
+	threat[] =
+    {
+        1,      // Soft
+        0.5,    // Armor
+        0.1     // Air
+    };
+	camouflage = 1.6;
+	backpack = B_Carryall_oli_BDF_Eng_F;
+	magazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SMOKESHELLS_BLUFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        SmokeShell,
+        SMOKESHELLS_BLUFOR
+    };
+    linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_Exp_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_Exp_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_exp_F0;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+    canDeactivateMines = true;
+	detectSkill = 38;
+	cost = 93000;
+	camouflage = 1.6;
+	icon = iconManExplosive;
+	picture = pictureExplosive;
+	role = Sapper;
+	backpack = B_Carryall_oli_BDF_Exp_F;
+	magazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_3(APERSMine_Range_Mag),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    linkedItems[] =
+	{
+		V_PlateCarrierIAGL_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIAGL_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_GL_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_GL_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_GL_F0;
+    role = Grenadier;
+	cost = 200000;
+	weapons[] =
+    {
+        rev_arifle_VelkoR5_GL_lxWS_ACO_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        rev_arifle_VelkoR5_GL_lxWS_ACO_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell),
+        mag_2(1Rnd_Smoke_Grenade_shell)
+    };
+    linkedItems[] =
+	{
+		V_PlateCarrierIAGL_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIAGL_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_M_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_M_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_soldier_M_F0;
+	role = Marksman;
+	cost = 250000;
+	weapons[] =
+	{
+		rev_arifle_SLR_V_lxWS_DMS_F,
+		hgun_P07_blk_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	respawnWeapons[] =
+	{
+		rev_arifle_SLR_V_lxWS_DMS_F,
+		hgun_P07_blk_F,
+        DefaultManWeapons,
+		Binocular
+	};
+	magazines[] =
+	{
+		mag_8(20rnd_762x51_slr_lxWS),
+		mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+	respawnMagazines[] =
+	{
+		mag_8(20rnd_762x51_slr_lxWS),
+		mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+	};
+    linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_F.jpg";
+    scope = public;
+    scopeCurator = public;
+};
+class Rev_B_BDF_Marine_AA_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_AT_s};
+			speechPlural[] = {veh_infantry_AT_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
+	nameSound = veh_infantry_AT_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_AA_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_AA_F0;
+	backpack = B_AssaultPack_khk_BDF_AA_F;
+	cost = 200000;
+	icon = iconManAT;
+	role = MissileSpecialist;
+	threat[] = {1,0.7,0.3};
+	weapons[] =
+    {
+       	rev_arifle_VelkoR5_lxWS_ACO_F,
+		launch_B_Titan_Olive_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        rev_arifle_VelkoR5_lxWS_ACO_F,
+		launch_B_Titan_Olive_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+	magazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        Titan_AA,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        Titan_AA,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_AT_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_AT_s};
+			speechPlural[] = {veh_infantry_AT_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
+	nameSound = veh_infantry_AT_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_AT_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_Soldier_AT_F0;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	backpack = B_AssaultPack_khk_BDF_ReconAT_F;
+	cost = 200000;
+	icon = iconManAT;
+	role = MissileSpecialist;
+	threat[] = {1,0.7,0.3};
+	weapons[] =
+    {
+        rev_arifle_VelkoR5_lxWS_ACO_F,
+		launch_NLAW_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        rev_arifle_VelkoR5_lxWS_ACO_F,
+		launch_NLAW_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+	magazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        NLAW_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        NLAW_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_LAT_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_AT_s};
+			speechPlural[] = {veh_infantry_AT_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_AT_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_AT_p;
+	nameSound = veh_infantry_AT_s;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_LAT_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_B_soldier_LAT_F0;
+	role = MissileSpecialist;
+	icon = iconManAT;
+	cost = 130000;
+	threat[] =
+    {
+        0.8,    // Soft
+        0.8,    // Armor
+        0.3     // Air
+    };
+	secondaryAmmoCoef = 0.5;
+	backpack = B_AssaultPack_khk_BDF_AT_F;
+	weapons[] =
+    {
+        rev_arifle_VelkoR5_lxWS_ACO_F,
+		launch_MRAWS_Green_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        rev_arifle_VelkoR5_lxWS_ACO_F,
+		launch_MRAWS_Green_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+	magazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        MRAWS_HEAT55_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        MRAWS_HEAT55_F,
+        mag_2(HandGrenade),
+        mag_2(SmokeShell)
+    };
+    linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_SL_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_SL_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_B_Soldier_SL_F0;
+	role = Grenadier;
+	icon = iconManLeader;
+    cost = 500000;
+	camouflage = 1.4;
+	weapons[] =
+    {
+        rev_arifle_VelkoR5_lxWS_LRCO_blk_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+        rev_arifle_VelkoR5_lxWS_LRCO_blk_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    magazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        SmokeShell,
+        SMOKESHELLS_BLUFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_2(HandGrenade),
+        mag_2(B_IR_Grenade),
+        SmokeShell,
+        SMOKESHELLS_BLUFOR
+    };
+	linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetSpecB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLeaderLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetSpecB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLeaderLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_TL_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_SL_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_B_Soldier_TL_F0;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	role = Grenadier;
+	icon = iconManLeader;
+    cost = 500000;
+	camouflage = 1.4;
+	weapons[] =
+    {
+        rev_arifle_VelkoR5_GL_lxWS_LRCO_blk_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    respawnWeapons[] =
+    {
+        rev_arifle_VelkoR5_GL_lxWS_LRCO_blk_F,
+        hgun_P07_blk_F,
+        DefaultManWeapons,
+		Binocular
+    };
+    magazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_6(1Rnd_HE_Grenade_shell),
+        HandGrenade,
+        mag_2(SmokeShell),
+		SMOKESHELLS_BLUFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_BLUFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_6(1Rnd_HE_Grenade_shell),
+        HandGrenade,
+        mag_2(SmokeShell),
+		SMOKESHELLS_BLUFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_BLUFOR
+    };
+	linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetSpecB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLeaderLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetSpecB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		DefaultManLeaderLinkedItems
+	};
+};
+class Rev_B_BDF_Marine_RadioOp_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_RadioOp_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_C_B_W_RadioOperator_F0;
+	backpack = B_RadioBag_01_green_F;
+};
+class Rev_B_BDF_Marine_UAV_F: Rev_B_BDF_Marine_base_F
+{
+	author = $STR_A3_A_Ravenholme;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_UAV_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	displayName = $STR_A3_B_SOLDIER_UAV_F0;
+	uavHacker = true;
+    cost = 150000;
+	role = SpecialOperative;
+	backpack = B_UAV_01_backpack_F;
+	linkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetSpecB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		B_UAVTerminal,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_PlateCarrierIA1_oli,
+		H_HelmetSpecB_plain_atacsix_F,
+		NVGoggles_INDEP,
+		B_UAVTerminal,
+		DefaultManinkedItems
 	};
 };

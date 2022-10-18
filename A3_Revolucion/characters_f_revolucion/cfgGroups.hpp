@@ -86,6 +86,73 @@ class CfgGroups
 					GROUP_UNIT(1,TWest,Rev_B_BDF_soldier_F,PRIVATE,5,-5);
 				};
 			};
+			class MarInfantry
+			{
+				name = $STR_A3_Atlas_CfgGroups_East_OPF_T_F_MarInfantry0;
+				class Rev_B_BDF_InfSquad_M
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad0;
+					side = TWest;
+					faction = Revolucion_BLU_BDF_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Marine_SL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_Marine_RadioOp_F,PRIVATE,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_BDF_Marine_LAT_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_BDF_Marine_M_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TWest,Rev_B_BDF_Marine_TL_F,SERGEANT,-10,-10);
+					GROUP_UNIT(5,TWest,Rev_B_BDF_Marine_AR_F,CORPORAL,15,-15);
+					GROUP_UNIT(6,TWest,Rev_B_BDF_Marine_A_F,PRIVATE,-15,-15);
+					GROUP_UNIT(7,TWest,Rev_B_BDF_Marine_medic_F,PRIVATE,20,-20);
+				};
+				class Rev_B_BDF_InfSquad_Weapons_M
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfSquad_Weapons0;
+					side = TWest;
+					faction = Revolucion_BLU_BDF_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Marine_SL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_Marine_AR_F,PRIVATE,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_BDF_Marine_GL_F,CORPORAL,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_BDF_Marine_M_F,PRIVATE,10,-10);
+					GROUP_UNIT(4,TWest,Rev_B_BDF_Marine_AT_F,PRIVATE,-10,-10);
+					GROUP_UNIT(5,TWest,Rev_B_BDF_Marine_F,PRIVATE,15,-15);
+					GROUP_UNIT(6,TWest,Rev_B_BDF_Marine_A_F,PRIVATE,-15,-15);
+					GROUP_UNIT(7,TWest,Rev_B_BDF_Marine_medic_F,PRIVATE,20,-20);
+				};
+				class Rev_B_BDF_InfTeam_M
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam0;
+					side = TWest;
+					faction = Revolucion_BLU_BDF_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Marine_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_Marine_AR_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_BDF_Marine_GL_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_BDF_Marine_LAT_F,PRIVATE,10,-10);
+				};
+				class Rev_B_BDF_InfTeam_AT_M
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AT0;
+					side = TWest;
+					faction = Revolucion_BLU_BDF_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Marine_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_Marine_AT_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_BDF_Marine_AT_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_BDF_Marine_F,PRIVATE,10,-10);
+				};
+				class Rev_B_BDF_InfTeam_AA_M
+				{
+					name = $STR_A3_CfgGroups_West_BLU_F_Infantry_BUS_InfTeam_AA0;
+					side = TWest;
+					faction = Revolucion_BLU_BDF_F;
+					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_inf.paa";
+					GROUP_UNIT(0,TWest,Rev_B_BDF_Marine_TL_F,SERGEANT,0,0);
+					GROUP_UNIT(1,TWest,Rev_B_BDF_Marine_AA_F,CORPORAL,5,-5);
+					GROUP_UNIT(2,TWest,Rev_B_BDF_Marine_AA_F,PRIVATE,-5,-5);
+					GROUP_UNIT(3,TWest,Rev_B_BDF_Marine_F,PRIVATE,10,-10);
+				};
+			};
 			class Support
 			{
 				name = $STR_A3_CfgGroups_West_BLU_F_Support0;

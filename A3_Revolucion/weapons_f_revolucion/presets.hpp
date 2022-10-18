@@ -442,6 +442,54 @@ class arifle_SA80_GL_blk_ARCO_IR_snds_F: arifle_SA80_GL_blk_F
     };
 };
 
+// Fort 652 6.5 mm + ARCO + IR Pointer + Silencer
+class arifle_Fort652_blk_ARCO_IR_snds_F: arifle_Fort652_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_H;
+		};
+    };
+};
+
+//  Fort 652 GL 6.5 mm (Black) + ARCO + IR Pointer + Silencer
+class arifle_Fort652_GL_blk_ARCO_IR_snds_F: arifle_Fort652_GL_F
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = muzzle_snds_H;
+		};
+    };
+};
+
 // Velko R4 5.56 mm + ACO (red)
 class rev_arifle_Velko_lxWS_ACO_F: arifle_Velko_lxWS
 {
@@ -469,6 +517,62 @@ class rev_arifle_Velko_lxWS_LRCO_blk_F: arifle_Velko_lxWS
 		};
     };
 };
+
+// Velko R5 5.56 mm + ACO (red)
+class rev_arifle_VelkoR5_lxWS_ACO_F: arifle_VelkoR5_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO;
+		};
+    };
+};
+
+// Velko R5 5.56 mm + LRCO (black)
+class rev_arifle_VelkoR5_lxWS_LRCO_blk_F: arifle_VelkoR5_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+    };
+};
+// Velko R5 GL 5.56 mm + ACO (red)
+class rev_arifle_VelkoR5_GL_lxWS_ACO_F: arifle_VelkoR5_GL_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO;
+		};
+    };
+};
+
+// Velko R5 GL 5.56 mm + LRCO (black)
+class rev_arifle_VelkoR5_GL_lxWS_LRCO_blk_F: arifle_VelkoR5_GL_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+    };
+};
+
 
 // SLR 7.62 mm + DMS
 class rev_arifle_SLR_V_lxWS_DMS_F: arifle_SLR_V_lxWS
@@ -674,8 +778,8 @@ class Rev_arifle_Katiba_GL_ARCO_Laser_Snds_blk_F: arifle_Katiba_GL_F
     };
 };
 
-// Zafir 7.62 mm (Black) + Flashlight
-class LMG_Zafir_black_FL_F: LMG_Zafir_black_F
+// TNG-7 7.62 mm (Black) + Flashlight
+class LMG_Negev_FL_F: Atlas_LMG_Negev_black_F
 {
 	author = $STR_A3_A_Ravenholme;
 	class LinkedItems
@@ -688,8 +792,8 @@ class LMG_Zafir_black_FL_F: LMG_Zafir_black_F
     };
 };
 
-// Zafir 7.62 mm (Black) + ARCO + IR Pointer + Silencer Black
-class LMG_Zafir_black_ARCO_IR_Snds_F: LMG_Zafir_black_F
+// TNG-7 7.62 mm (Black) + ARCO + IR Pointer + Silencer Black
+class LMG_Negev_ARCO_IR_Snds_F: Atlas_LMG_Negev_black_F
 {
 	author = $STR_A3_A_Ravenholme;
 	class LinkedItems
@@ -708,6 +812,25 @@ class LMG_Zafir_black_ARCO_IR_Snds_F: LMG_Zafir_black_F
 		{
 			slot = MuzzleSlot;
 			item = muzzle_snds_M;
+		};
+    };
+};
+
+// SA-77 Compact 7.62 mm (Black) + LRCO
+class LMG_S77_Compact_lxWS_LRCO_FL_F: LMG_S77_Compact_lxWS
+{
+	author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+        class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_LRCO_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight;
 		};
     };
 };

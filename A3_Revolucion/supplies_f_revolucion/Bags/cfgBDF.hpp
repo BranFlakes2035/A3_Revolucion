@@ -144,3 +144,22 @@ class B_Kitbag_rgr_BDF_ReconExp_F: B_Kitbag_rgr
 		item_xx(MineDetector,1);
 	};
 };
+class B_Carryall_oli_BDF_Marine_Ammo_F: B_Carryall_oli
+{
+    author = $STR_A3_A_Ravenholme;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(35Rnd_556x45_velko_lxWS,6);
+		mag_xx(100Rnd_762x51_s77_yellow_lxws,1);
+		mag_xx(MRAWS_HEAT55_F,1);
+		mag_xx(HandGrenade,2);
+		mag_xx(MiniGrenade,2);
+		mag_xx(1Rnd_HE_Grenade_shell,6);
+		mag_xx(20rnd_762x51_slr_lxWS,2);
+	};
+    class TransportItems
+	{
+		item_xx(FirstAidKit,4);
+	};
+};

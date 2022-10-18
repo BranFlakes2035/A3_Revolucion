@@ -1630,6 +1630,40 @@
                     <Japanese>レイヴンヘルメット (Cover W)</Japanese>
                     <Turkish>Avcı Miğfer (Cover W)</Turkish>
                 </Key>
+                <Key ID="STR_A3_R_CfgWeapons_H_HelmetB_plain_atacsix_F0">
+					<Original>Combat Helmet [FDB Marines] (Covered)</Original>
+					<Chinese>Combat Helmet [FDB Marines] (Covered)</Chinese>
+					<French>Combat Helmet [FDB Marines] (Covered)</French>
+					<Spanish>Combat Helmet [FDB Marines] (Covered)</Spanish>
+					<Italian>Combat Helmet [FDB Marines] (Covered)</Italian>
+					<Polish>Combat Helmet [FDB Marines] (Covered)</Polish>
+					<Russian>Combat Helmet [FDB Marines] (Covered)</Russian>
+					<German>Combat Helmet [FDB Marines] (Covered)</German>
+					<Czech>Combat Helmet [FDB Marines] (Covered)</Czech>
+					<English>Combat Helmet [FDB Marines] (Covered)</English>
+					<Portuguese>Combat Helmet [FDB Marines] (Covered)</Portuguese>
+					<Korean>Combat Helmet [FDB Marines] (Covered)</Korean>
+					<Chinesesimp>Combat Helmet [FDB Marines] (Covered)</Chinesesimp>
+					<Japanese>Combat Helmet [FDB Marines] (Covered)</Japanese>
+					<Turkish>Combat Helmet [FDB Marines] (Covered)</Turkish>
+				</Key>
+                <Key ID="STR_A3_R_CfgWeapons_H_HelmetSpecB_plain_atacsix_F0">
+					<Original>Combat Helmet [FDB Marines] (Covered, Enhanced)</Original>
+					<Chinese>Combat Helmet [FDB Marines] (Covered, Enhanced)</Chinese>
+					<French>Combat Helmet [FDB Marines] (Covered, Enhanced)</French>
+					<Spanish>Combat Helmet [FDB Marines] (Covered, Enhanced)</Spanish>
+					<Italian>Combat Helmet [FDB Marines] (Covered, Enhanced)</Italian>
+					<Polish>Combat Helmet [FDB Marines] (Covered, Enhanced)</Polish>
+					<Russian>Combat Helmet [FDB Marines] (Covered, Enhanced)</Russian>
+					<German>Combat Helmet [FDB Marines] (Covered, Enhanced)</German>
+					<Czech>Combat Helmet [FDB Marines] (Covered, Enhanced)</Czech>
+					<English>Combat Helmet [FDB Marines] (Covered, Enhanced)</English>
+					<Portuguese>Combat Helmet [FDB Marines] (Covered, Enhanced)</Portuguese>
+					<Korean>Combat Helmet [FDB Marines] (Covered, Enhanced)</Korean>
+					<Chinesesimp>Combat Helmet [FDB Marines] (Covered, Enhanced)</Chinesesimp>
+					<Japanese>Combat Helmet [FDB Marines] (Covered, Enhanced)</Japanese>
+					<Turkish>Combat Helmet [FDB Marines] (Covered, Enhanced)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_Rev_H_OPSCORE_01_dazzle_01_F0">
                     <Original>CTRG Light Combat Helmet (Dark Tropic)</Original>
                     <Chinese>CTRG Light Combat Helmet (Dark Tropic)</Chinese>

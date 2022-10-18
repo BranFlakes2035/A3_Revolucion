@@ -23,10 +23,13 @@ class cfgWeapons
 
     // Arma 3 West Sahara CDLC
     class arifle_Velko_lxWS;
+    class arifle_VelkoR5_lxWS;
+    class arifle_VelkoR5_GL_lxWS;
     class arifle_Galat_lxWS;
     class arifle_SLR_lxWS;
     class arifle_SLR_V_lxWS;
     class arifle_SLR_V_GL_lxWS;
+    class LMG_S77_Compact_lxWS;
 
     // Arma 3 Aegis/Atlas
     class arifle_NCAR15_F;
@@ -41,6 +44,10 @@ class cfgWeapons
     class arifle_scar_L_grip_black_F;
     class arifle_SCAR_GL_black_F;
     class hgun_G17_black_F;
+    class arifle_FORT651_F;
+    class arifle_FORT652_F;
+    class arifle_FORT652_GL_F;
+    class Atlas_LMG_Negev_black_F;
    
     // Presets
     #include "presets.hpp"

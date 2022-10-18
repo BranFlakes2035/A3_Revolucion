@@ -27,7 +27,7 @@ class CfgWeapons
     class H_HelmetB_plain_atacsix_F: H_HelmetB
     {
       author = $STR_A3_A_AveryTheKitty;
-      displayName = "Combat Helmet [FDB Marines] (Covered)";
+      displayName = $STR_A3_R_CfgWeapons_H_HelmetB_plain_atacsix_F0;
       //picture = "\A3_coldfront\Characters_F_coldfront\Headgear\Data\UI\icon_H_HelmetB_plain_white_CA.paa";
       hiddenSelectionsMaterials[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\MICH.rvmat"};
       hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_Helmet_ECH_Marines_CO.paa"};
@@ -36,7 +36,7 @@ class CfgWeapons
     class H_HelmetSpecB_plain_atacsix_F: H_HelmetSpecB
     {
       author = $STR_A3_A_AveryTheKitty;
-      displayName = "Combat Helmet [FDB Marines] (Covered, Enhanced)";
+      displayName = $STR_A3_R_CfgWeapons_H_HelmetSpecB_plain_atacsix_F0;
       //picture = "\A3_coldfront\Characters_F_coldfront\Headgear\Data\UI\icon_H_HelmetSpecB_white_CA.paa";
       hiddenSelectionsMaterials[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\MICH.rvmat"};
       hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_Helmet_ECH_Marines_CO.paa"};
