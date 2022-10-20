@@ -149,7 +149,7 @@ class CfgWeapons
 			};
 		};
 	};
-	class V_VZ_CarrierRig_Lite_F: V_PlateCarrier1_rgr 
+	/*class V_VZ_CarrierRig_Lite_F: V_PlateCarrier1_rgr 
 	{
 		author = "Jamie";
 		scope = public;
@@ -307,5 +307,5 @@ class CfgWeapons
 				};
 			};
 		};
-	};
+	};*/
 };
