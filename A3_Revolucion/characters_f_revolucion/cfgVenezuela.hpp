@@ -9,6 +9,7 @@ class Rev_O_VZ_Man_Base_F: O_A_soldier_base_F
 	{
 		LanguageGRE_F,
 		Head_Greek,
+		Head_Latino,
 		G_HAF_default
 	};
 };

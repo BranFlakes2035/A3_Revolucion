@@ -9,6 +9,7 @@ class Rev_B_PNB_Man_base_F: I_Soldier_F
 	{
 		LanguageGRE_F,
 		Head_Greek,
+		Head_Latino,
 		G_HAF_default
 	};
 	headgearList[]={};

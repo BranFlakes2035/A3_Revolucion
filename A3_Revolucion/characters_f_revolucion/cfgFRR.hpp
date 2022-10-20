@@ -9,6 +9,7 @@ class Rev_B_FRR_Man_base_F: I_G_Soldier_base_F
 	{
 		LanguageGRE_F,
 		Head_Greek,
+		Head_Latino,
 		G_HAF_default
 	};
 	allowedHeadgear[] =

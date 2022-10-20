@@ -8,6 +8,7 @@ class Rev_O_FASR_Man_Base_F: I_Soldier_base_F
 	{
 		LanguageGRE_F,
 		Head_Greek,
+		Head_Latino,
 		G_HAF_default
 	};
 	side = TEast;

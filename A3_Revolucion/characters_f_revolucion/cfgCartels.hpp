@@ -9,6 +9,7 @@ class Rev_I_CDB_Soldier_base_F: I_C_Soldier_base_F
 	{
 		LanguageGRE_F,
 		Head_Greek,
+		Head_Latino,
 		G_HAF_default
 	};
 	headgearList[]={};
