@@ -138,4 +138,22 @@ class CfgWeapons
         picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_03_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
         hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_03_CO.paa"};
     };
+    class H_HelmetHBK_base_F;
+    class H_HelmetHBK_fdbsf_F: H_HelmetHBK_base_F
+    {
+        author = $STR_A3_A_BranFlakes;
+        scope = public;
+        displayName = "Advanced Modular Helmet [FDB SF]";
+        //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_F_CA.paa";
+        hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\HBK_Baracas_CO.paa"};
+    };
+    class H_HelmetHBK_headset_base_F;
+    class H_HelmetHBK_fdbsf_headset_F: H_HelmetHBK_headset_base_F
+    {
+        author = $STR_A3_A_BranFlakes;
+        scope = public;
+        displayName = "Advanced Modular Helmet [FDB SF] (Headset)";
+        //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_headset_F_CA.paa";
+        hiddenSelectionsTextures[] = {"\A3_Atlas\Characters_F_Atlas\Headgear\Data\H_HelmetHBK_01_aucamo_CO.paa"};
+    };
 };
