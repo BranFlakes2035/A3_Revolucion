@@ -61,21 +61,21 @@ class Rev_B_BDF_Sweater_01_F: I_E_Uniform_01_sweater_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_Sweater_CO.paa",
 	};
 };
-class Rev_B_BDF_SF_Uniform_01_F: I_soldier_F
+class Rev_B_BDF_marina_Uniform_01_F: I_soldier_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_F;
+	uniformClass = Rev_U_B_BDF_marina_Uniform_01_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_SF_CO.paa",
 	};
 };
-class Rev_B_BDF_SF_Uniform_01_shortsleeve_F: I_soldier_lite_F
+class Rev_B_BDF_marina_Uniform_01_shortsleeve_F: I_soldier_lite_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_B_BDF_marina_Uniform_01_shortsleeve_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_SF_CO.paa",
@@ -89,6 +89,46 @@ class Rev_B_BDF_Coveralls_01_F: B_Soldier_04_f
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\coveralls_BDF_CO.paa",
+	};
+};
+class Rev_B_BDF_SF_Uniform_01_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_BDFSF_CO.paa",
+	};
+};
+class Rev_B_BDF_SF_Uniform_01_shortsleeve_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_BDFSF_CO.paa",
+	};
+};
+class Rev_B_BDF_SF2_Uniform_01_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_BDFSF2_CO.paa",
+	};
+};
+class Rev_B_BDF_SF2_Uniform_01_shortsleeve_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_BDFSF2_CO.paa",
 	};
 };
 /* Cartels */
@@ -466,5 +506,16 @@ class Rev_O_DS_Uniform_01_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_DS_CO.paa",
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_DS_Pants_CO.paa"
+	};
+};
+class C_Man_casual_1_F;
+class Rev_C_Man_casual_baracasfc_F: C_Man_casual_1_F
+	{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_C_baracasfc_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\ig_poloshirt_1_baracasfc_co.paa"
 	};
 };

@@ -1311,7 +1311,7 @@ class Rev_B_BDF_Soldier_Recon_Base: Rev_B_BDF_Soldier_Base_F
 	role = Rifleman;
 	camouflage = 0.6;
 	detectSkill = 18;
-	uniformClass = Rev_U_B_BDF_Sweater_01_F;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_F;
 };
 class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 {
@@ -1320,6 +1320,7 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_AR_F0;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
 	cost = 220000;
 	icon = iconManMG;
 	role = MachineGunner;
@@ -1386,6 +1387,7 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
 	detectSkill = 38;
 	icon = iconManExplosive;
 	picture = pictureExplosive;
+	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_shortsleeve_F;
 	role = Sapper;
 	weapons[] =
     {
@@ -1501,6 +1503,8 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
 	displayName = $STR_A3_B_CTRG_Soldier_JTAC_tna_F0;
 	role = SpecialOperative;
 	backpack = B_RadioBag_01_green_F;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+
 	weapons[] =
     {
         arifle_Fort652_blk_ARCO_IR_snds_F,
@@ -1644,6 +1648,8 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
 	icon = iconManMedic;
 	picture = pictureHeal;
 	role = CombatLifeSaver;
+	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_F;
+
     threat[] = 
 	{
 		1,
@@ -1704,6 +1710,7 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_B_CTRG_Soldier_tna_F0;
+	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
 	weapons[] =
     {
         arifle_Fort652_blk_ARCO_IR_snds_F,
@@ -1759,6 +1766,7 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
 	scopeCurator = public;
 	displayName = $STR_A3_B_CTRG_Soldier_LAT_tna_F0;
 	backpack = B_AssaultPack_khk_BDF_ReconAT_F;
+	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_F;
 	cost = 130000;
 	threat[] = 
 	{
@@ -1826,6 +1834,7 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_CTRG_Soldier_LAT2_tna_F0;
 	backpack = B_AssaultPack_khk_BDF_ReconLAT_F;
+	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_shortsleeve_F;
 	cost = 130000;
 	threat[] = 
 	{
@@ -1895,6 +1904,7 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 	cost = 250000;
 	icon = iconManLeader;
 	role = Rifleman;
+	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_F;
     threat[] = 
 	{
 		1,
@@ -1957,7 +1967,7 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 class Rev_B_BDF_Marine_base_F: Rev_B_BDF_Soldier_base_F
 {
 	scope = private;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_F;
+	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_F;
 	headgearList[]={};
 	editorSubcategory = EdSubcat_Personnel_Marines;
     weapons[] =
@@ -2028,7 +2038,7 @@ class Rev_B_BDF_Marine_AR_F: Rev_B_BDF_Marine_base_F
     scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_shortsleeve_F;
 	role = MachineGunner;
 	icon = iconManMG;
 	cost = 125000;
@@ -2194,7 +2204,7 @@ class Rev_B_BDF_Marine_Exp_F: Rev_B_BDF_Marine_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_shortsleeve_F;
     canDeactivateMines = true;
 	detectSkill = 38;
 	cost = 93000;
@@ -2433,7 +2443,7 @@ class Rev_B_BDF_Marine_AT_F: Rev_B_BDF_Marine_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_AT_F0;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_shortsleeve_F;
 	backpack = B_AssaultPack_khk_BDF_ReconAT_F;
 	cost = 200000;
 	icon = iconManAT;
@@ -2623,7 +2633,7 @@ class Rev_B_BDF_Marine_TL_F: Rev_B_BDF_Marine_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_shortsleeve_F;
 	role = Grenadier;
 	icon = iconManLeader;
     cost = 500000;
