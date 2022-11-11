@@ -73,7 +73,7 @@ class CfgWeapons
     class rev_H_HelmetSpecter_cover_whex_CO: H_HelmetSpecter_cover_base_F
     {
         author = $STR_A3_A_AveryTheKitty_Deathstruck_and_Midnas;
-        scope = public;
+        scope = protected;
         displayName = $STR_A3_A_CfgWeapons_rev_H_HelmetSpecter_cover_whex_F0;
         picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\rev_H_HelmetSpecter_cover_whex_CO_CA.paa";
         hiddenSelectionsTextures[] =
