@@ -48,7 +48,14 @@ class cfgWeapons
     class arifle_FORT652_F;
     class arifle_FORT652_GL_F;
     class Atlas_LMG_Negev_black_F;
-   
+    class Aegis_arifle_AK74_oak_F;
+    class Aegis_arifle_AK74_GL_oak_F;
+    class Aegis_arifle_AKS74_oak_F;
+    class Aegis_arifle_AKM74_F;
+    class Aegis_arifle_AKM74_GL_F;
+    class Aegis_arifle_AK103_F;
+    class Aegis_arifle_AK103_GL_F;
+
     // Presets
     #include "presets.hpp"
 };

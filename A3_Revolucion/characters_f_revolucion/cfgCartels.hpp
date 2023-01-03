@@ -219,12 +219,12 @@ class Rev_I_CDB_Soldier_Bandit_4_F: Rev_I_CDB_Soldier_Bandit_base_F
     uniformClass = U_I_L_Uniform_01_tshirt_olive_f;
     weapons[] =
 	{
-		arifle_AK12U_545_ACO_AK_F,
+		Rev_arifle_AKS74_oak_ACO_AK_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_ACO_AK_F,
+		Rev_arifle_AKS74_oak_ACO_AK_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -263,12 +263,12 @@ class Rev_I_CDB_Soldier_Bandit_5_F: Rev_I_CDB_Soldier_Bandit_base_F
     uniformClass = Rev_U_B_FRR_Uniform_01_F;
 	weapons[] =
 	{
-		arifle_AK12_545_ACO_AK_FL_F,
+		Rev_arifle_AK74_oak_ACO_AK_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_545_ACO_AK_FL_F,
+		Rev_arifle_AK74_oak_ACO_AK_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -308,12 +308,12 @@ class Rev_I_CDB_Soldier_Bandit_6_F: Rev_I_CDB_Soldier_Bandit_base_F
     uniformClass = U_BG_Guerilla2_3;
 	weapons[] =
 	{
-		arifle_AK12_GL_545_F,
+		Aegis_arifle_AK74_GL_oak_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_GL_545_F,
+		Aegis_arifle_AK74_GL_oak_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -401,12 +401,12 @@ class Rev_I_CDB_Soldier_Bandit_8_F: Rev_I_CDB_Soldier_Bandit_base_F
     uniformClass = U_BG_Guerilla2_2;
     weapons[] =
 	{
-		arifle_AK12U_545_F,
+		Aegis_arifle_AKS74_oak_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_545_F,
+		Aegis_arifle_AKS74_oak_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -689,27 +689,27 @@ class Rev_I_CDB_Soldier_Bandit_Officer_F: Rev_I_CDB_Soldier_Bandit_base_F
 	uniformClass = U_C_Commoner1_3;
 	weapons[] =
 	{
-		arifle_AK12_GL_F,
+		Aegis_arifle_AK103_GL_F,
 		hgun_Mk26_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_GL_F,
+		Aegis_arifle_AK103_GL_F,
 		hgun_Mk26_F,
         DefaultManWeapons,
 		Binocular
 	};
 	magazines[] =
 	{
-		mag_4(30Rnd_762x39_AK12_Mag_F),
+		mag_4(30Rnd_762x39_Mag_F),
 		mag_2(7Rnd_127x33_Mag),
         mag_4(1Rnd_HE_Grenade_shell)
 	};
 	respawnMagazines[] =
 	{
-		mag_4(30Rnd_762x39_AK12_Mag_F),
+		mag_4(30Rnd_762x39_Mag_F),
 		mag_2(7Rnd_127x33_Mag),
         mag_4(1Rnd_HE_Grenade_shell)
 	};
@@ -745,13 +745,13 @@ class Rev_I_CDB_Soldier_Para_TL_F: Rev_I_CDB_Soldier_base_F
     uniformClass = Rev_U_I_CDB_CombatUniform_shortsleeve_F;
     weapons[] =
 	{
-		arifle_AK12_GL_ARCO_AK_FL_F,
+		Rev_arifle_AK103_GL_ARCO_AK_FL_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_GL_ARCO_AK_FL_F,
+		Rev_arifle_AK103_GL_ARCO_AK_FL_F,
 		hgun_Pistol_01_F,
 		DefaultManWeapons
 	};
@@ -810,12 +810,12 @@ class Rev_I_CDB_Soldier_Para_GL_F: Rev_I_CDB_Soldier_base_F
     uniformClass = Rev_U_I_CDB_CombatUniform_F;
     weapons[] =
 	{
-		arifle_AK12_GL_ACO_AK_FL_F,
+		Rev_arifle_AK103_GL_ACO_AK_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_GL_ACO_AK_FL_F,
+		Rev_arifle_AK103_GL_ACO_AK_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -888,12 +888,12 @@ class Rev_I_CDB_Soldier_Para_Medic_F: Rev_I_CDB_Soldier_base_F
 	backpack = B_Kitbag_blk_Para_Medic_F;
 	weapons[] =
 	{
-		arifle_AK12U_ACO_AK_FL_F,
+		Rev_arifle_AK103_ACO_AK_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_ACO_AK_FL_F,
+		Rev_arifle_AK103_ACO_AK_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -952,12 +952,12 @@ class Rev_I_CDB_Soldier_Para_F: Rev_I_CDB_Soldier_base_F
 	uniformClass = Rev_U_I_CDB_CombatUniform_F;
     weapons[] =
 	{
-		arifle_AK12_ACO_AK_FL_F,
+		Rev_arifle_AK103_ACO_AK_FL_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12_ACO_AK_FL_F,
+		Rev_arifle_AK103_ACO_AK_FL_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -1031,13 +1031,13 @@ class Rev_I_CDB_Soldier_Para_AT_F: Rev_I_CDB_Soldier_base_F
 	backpack = B_Kitbag_blk_Para_AT_F;
     weapons[] =
 	{
-		arifle_AK12U_ACO_AK_FL_F,
+		Rev_arifle_AK103_ACO_AK_FL_F,
 		launch_RPG7_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_AK12U_ACO_AK_FL_F,
+		Rev_arifle_AK103_ACO_AK_FL_F,
 		launch_RPG7_F,
         DefaultManWeapons
 	};

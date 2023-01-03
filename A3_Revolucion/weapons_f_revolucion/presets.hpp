@@ -109,6 +109,153 @@ class arifle_AK12_GL_ARCO_AK_FL_F: arifle_AK12_GL_F
     };
 };
 
+// AKS-74 5.45 mm (Oak) + ACO AK
+class Rev_arifle_AKS74_oak_ACO_AK_F: Aegis_arifle_AKS74_oak_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_AK_F;
+		};
+    };
+};
+
+// AK-74 5.45 mm (Oak) + ACO AK + Flashlight
+class Rev_arifle_AK74_oak_ACO_AK_FL_F: Aegis_arifle_AK74_oak_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_AK_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
+		};
+    };
+};
+
+// AK-74M GL 5.45 mm + ACO AK + Flashlight
+class Rev_arifle_AKM74_GL_ACO_AK_FL_F: Aegis_arifle_AKM74_GL_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_AK_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
+		};
+    };
+};
+
+// AK-74M GL 5.45 mm + ARCO AK + Flashlight
+class Rev_arifle_AKM74_GL_ARCO_AK_FL_F: Aegis_arifle_AKM74_GL_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_AK_blk_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
+		};
+    };
+};
+
+// AK-74M 5.45 mm + ACO AK + Flashlight
+class Rev_arifle_AKM74_ACO_AK_FL_F: Aegis_arifle_AKM74_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_AK_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
+		};
+    };
+};
+
+// AK-103 GL 7.62 mm + ACO AK + Flashlight
+class Rev_arifle_AK103_GL_ACO_AK_FL_F: Aegis_arifle_AK103_GL_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_AK_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
+		};
+    };
+};
+
+// AK-103 GL 7.62 mm + ARCO AK + Flashlight
+class Rev_arifle_AK103_GL_ARCO_AK_FL_F: Aegis_arifle_AK103_GL_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ARCO_AK_blk_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
+		};
+    };
+};
+
+// AK-103 7.62 mm + ARCO AK + Flashlight
+class Rev_arifle_AK103_ACO_AK_FL_F: Aegis_arifle_AK103_F
+{
+    author = $STR_A3_A_Ravenholme;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_ACO_grn_AK_F;
+		};
+        class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_flashlight_pistol;
+		};
+    };
+};
+
 // NCAR-15B 5.8 mm + ACO
 class arifle_NCAR15B_ACO_grn_F: arifle_NCAR15B_F
 {
