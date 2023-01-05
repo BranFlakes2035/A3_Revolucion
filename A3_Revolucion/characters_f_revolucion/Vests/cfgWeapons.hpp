@@ -63,7 +63,7 @@ class CfgWeapons
 		hiddenSelectionsMaterials[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_CTRG.rvmat"};
     };
     class V_lxWS_UN_Vest_F;
-	class v_lxWS_VZ_Vest_F: V_lxWS_UN_Vest_F
+	/*class v_lxWS_VZ_Vest_F: V_lxWS_UN_Vest_F
 	{
 		author = $STR_A3_A_BranFlakes;
 		displayName = "VZ Infantry Vest (Woodland Hex)";
@@ -95,7 +95,7 @@ class CfgWeapons
 			"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\equip_IA_Vest01_whex_CO.paa",
 			"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\GA_Carrier_GL_Rig_whex_CO.paa"
 		};
-	};
+	};*/
 	class V_Press_F;
 	class Rev_V_Press_bnp_F: V_Press_F
 	{
@@ -104,7 +104,7 @@ class CfgWeapons
 		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\rev_V_Press_bnp_F_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\FlakVest_bnp_CO.paa"};
 	};
-	class V_VZ_CarrierRig_F: V_PlateCarrier1_rgr 
+	/*class V_VZ_CarrierRig_F: V_PlateCarrier1_rgr 
 	{
 		author = "Jamie";
 		scope = public;
@@ -149,7 +149,7 @@ class CfgWeapons
 			};
 		};
 	};
-	/*class V_VZ_CarrierRig_Lite_F: V_PlateCarrier1_rgr 
+	class V_VZ_CarrierRig_Lite_F: V_PlateCarrier1_rgr 
 	{
 		author = "Jamie";
 		scope = public;
@@ -308,4 +308,315 @@ class CfgWeapons
 			};
 		};
 	};*/
+    class Rev_V_BlindajeRig_CQB_F: V_PlateCarrier1_rgr 
+	{
+		author = $STR_A3_A_JC980_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Blindaje Armor CQC Rig [ATACS FG]";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\Atlas_V_OCarrierRig_CQB_Hex_F_ca.paa";
+        hiddenSelections[] = {camo,camo1,camo2};
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa",
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_GL_FDB_CO.paa"
+		};
+		model = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_CQB_F.p3d";
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_CQB_F.p3d";
+			hiddenSelections[] = {camo,camo1,camo2};
+			hiddenSelectionsTextures[] = 
+			{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_GL_FDB_CO.paa"
+			};
+			containerClass = Supply140;
+			mass = 35;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	class Rev_V_BlindajeRig_Vest_F: V_PlateCarrier1_rgr 
+	{
+		author = $STR_A3_A_JC980_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Blindaje Armor Vest [ATACS FG]";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\Atlas_V_OCarrierRig_Hex_F_ca.paa";
+        hiddenSelections[] = {camo,camo1};
+		hiddenSelectionsTextures[] = 
+		{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa"
+		};
+		model = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_F.p3d";
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_F.p3d";
+			hiddenSelections[] = {camo,camo1};
+			hiddenSelectionsTextures[] = 
+			{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa"
+			};
+			containerClass = Supply60;
+			mass = 20;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	class Rev_V_BlindajeRig_GL_F: V_PlateCarrier1_rgr 
+	{
+		author = $STR_A3_A_JC980_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Blindaje Armor GL Rig [ATACS FG]";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\Atlas_V_OCarrierRig_CQB_Hex_F_ca.paa";
+        hiddenSelections[] = {camo,camo1,camo2};
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa",
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_GL_FDB_CO.paa"
+		};
+		model = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_GL_F.p3d";
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_GL_F.p3d";
+			hiddenSelections[] = {camo,camo1,camo2};
+			hiddenSelectionsTextures[] = 
+			{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_GL_FDB_CO.paa"
+			};
+			containerClass = Supply140;
+			mass = 35;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Pelvis
+				{
+					hitpointName = "HitPelvis";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	class Rev_V_BlindajeRig_Lite_F: V_PlateCarrier1_rgr 
+	{
+		author = $STR_A3_A_JC980_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Blindaje Carrier Lite Rig [ATACS FG]";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\Atlas_V_OCarrierRig_Hex_F_ca.paa";
+        hiddenSelections[] = {camo,camo1};
+		hiddenSelectionsTextures[] = 
+		{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa"
+		};
+		model = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_Lite_F.p3d";
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_Lite_F.p3d";
+			hiddenSelections[] = {camo,camo1};
+			hiddenSelectionsTextures[] = 
+			{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa"
+			};
+			containerClass = Supply140;
+			mass = 20;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
+	class Rev_V_BlindajeRig_crew_F: V_PlateCarrier1_rgr 
+	{
+		author = $STR_A3_A_JC980_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Blindaje Carrier Crew Rig [ATACS FG]";
+		//picture = "\A3_Atlas\Characters_F_Atlas\Vests\Data\UI\Atlas_V_OCarrierRig_Hex_F_ca.paa";
+        hiddenSelections[] = {camo,camo1};
+		hiddenSelectionsTextures[] = 
+		{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa"
+		};
+		model = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_Crew_F_V1.p3d";
+		class ItemInfo : VestItem
+		{
+			uniformModel = "\A3_Revolucion\Characters_F_Revolucion\Vests\V_ProtectorRig_Crew_F_V1.p3d";
+			hiddenSelections[] = {camo,camo1};
+			hiddenSelectionsTextures[] = 
+			{
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierRig_FDB_CO.paa",
+				"\A3_Revolucion\Characters_F_Revolucion\Vests\data\ORigLBV_FDB_CO.paa"
+			};
+			containerClass = Supply140;
+			mass = 20;
+			class HitpointsProtectionInfo
+			{
+				class Neck
+				{
+					hitpointName = "HitNeck";
+					armor = 0.5;
+					passThrough = 0.5;
+				};
+				class Chest
+				{
+					hitpointName	= "HitChest";
+					armor			= 12;
+					passThrough		= 0.1;
+				};
+				class Diaphragm
+				{
+					hitpointName	= "HitDiaphragm";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Abdomen
+				{
+					hitpointName	= "HitAbdomen";
+					armor			= 12;
+					passThrough		= 0.15;
+				};
+				class Body
+				{
+					hitpointName	= "HitBody";
+					passThrough		= 0.1;
+				};
+			};
+		};
+	};
 };
