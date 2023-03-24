@@ -139,8 +139,8 @@ class Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F: Heli_Attack_02_dynamicLoadout_ba
 	};
 	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Attack_02_dynamicLoadout_F.jpg";
     //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = protected;
+	scopeCurator = protected;
     displayName = "Mi-48 Caimán";
 	side = TEast;
 	faction = Revolucion_OPF_VZ_F;
