@@ -52,14 +52,14 @@ class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -100,14 +100,14 @@ class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -148,14 +148,14 @@ class Rev_B_BDF_soldier_AAR_F: rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -216,15 +216,15 @@ class Rev_B_BDF_Soldier_AR_F: Rev_B_BDF_Soldier_Base_F
         SmokeShell
 	};
 	linkedItems[] =
-	{
-		V_PlateCarrierIA2_oli,
+	{Atlas_V_OCarrierRig_CQB_oli_F
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -284,14 +284,14 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -499,14 +499,14 @@ class Rev_B_BDF_Soldier_GL_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		Atlas_V_OCarrierRig_GL_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		Atlas_V_OCarrierRig_GL_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -607,13 +607,13 @@ class Rev_B_BDF_Soldier_M_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_Booniehat_mgrn_hs,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_Booniehat_mgrn_hs,
 		DefaultManLinkedItems
 	};
@@ -714,14 +714,14 @@ class Rev_B_BDF_Soldier_F: Rev_B_BDF_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -778,14 +778,14 @@ class Rev_B_BDF_soldier_AA_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -849,14 +849,14 @@ class Rev_B_BDF_Soldier_AT_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -906,14 +906,14 @@ class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -968,14 +968,14 @@ class Rev_B_BDF_Soldier_TL_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		Atlas_V_OCarrierRig_GL_oli_F,
 		H_MK7_atacsfg_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		Atlas_V_OCarrierRig_GL_oli_F,
 		H_MK7_atacsfg_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -1011,14 +1011,14 @@ class Rev_B_BDF_RadioOperator_F: Rev_B_BDF_Soldier_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -1105,14 +1105,14 @@ class Rev_B_BDF_Soldier_CQ_F: Rev_B_BDF_Soldier_Base_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA2_oli,
+		Atlas_V_OCarrierRig_CQB_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -1150,14 +1150,14 @@ class Rev_B_BDF_unarmed_F: Rev_B_BDF_Soldier_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		DefaultManLinkedItems
@@ -1206,7 +1206,7 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		B_UavTerminal,
@@ -1214,7 +1214,7 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_oli_F,
 		H_MK7_atacsfg_F,
 		Goggles_grn_F,
 		B_UavTerminal,
@@ -1332,19 +1332,19 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 	};
 	weapons[] =
     {
-        LMG_Negev_ARCO_IR_Snds_F,
+        LMG_03_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        LMG_Negev_ARCO_IR_Snds_F,
+        LMG_03_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_3(150rnd_762x51_box_yellow),
+        mag_3(200Rnd_556x45_Box_Red_F),
 		mag_2(16rnd_9x21_mag_v2),
         MiniGrenade,
         mag_2(SmokeShell),
@@ -1352,7 +1352,7 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
     };
     respawnMagazines[] =
     {
-        mag_3(150rnd_762x51_box_yellow),
+        mag_3(200Rnd_556x45_Box_Red_F),
 		mag_2(16rnd_9x21_mag_v2),
         MiniGrenade,
         mag_2(SmokeShell),
@@ -1360,19 +1360,21 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
@@ -1391,19 +1393,19 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
 	role = Sapper;
 	weapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
@@ -1412,7 +1414,7 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_3(APERSMine_Range_Mag),
         mag_2(MiniGrenade),
@@ -1421,19 +1423,21 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Bandanna_Sport,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Bandanna_Sport,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
@@ -1447,19 +1451,19 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
 	role = Grenadier;
 	weapons[] =
     {
-        arifle_Fort652_GL_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_GL_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_Fort652_GL_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_GL_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(MiniGrenade),
@@ -1469,7 +1473,7 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(MiniGrenade),
@@ -1479,19 +1483,21 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
@@ -1507,21 +1513,21 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
 
 	weapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     respawnWeapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Laserdesignator_03
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
@@ -1532,7 +1538,7 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         mag_2(B_IR_Grenade),
@@ -1543,19 +1549,21 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 class Rev_B_BDF_Recon_M_F: Rev_B_BDF_Soldier_Recon_Base
@@ -1619,21 +1627,21 @@ class Rev_B_BDF_Recon_M_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
-		G_Bandanna_oli,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
-		G_Bandanna_oli,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
@@ -1658,19 +1666,19 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	weapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1679,7 +1687,7 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1688,19 +1696,21 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
@@ -1713,21 +1723,21 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
 	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
 	weapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Binocular
     };
     respawnWeapons[] =
     {
-       	arifle_Fort652_blk_ARCO_IR_snds_F,
+       	arifle_SCAR_L_short_black_snds_RCO_F,
         Rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Binocular
     };
     magazines[] =
     {
-        mag_10(30Rnd_65x39_caseless_msbs_mag),
+        mag_10(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -1735,7 +1745,7 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-    	mag_10(30Rnd_65x39_caseless_msbs_mag),
+    	mag_10(30Rnd_556x45_Stanag_red),
         mag_2(9Rnd_45ACP_Mag),
         mag_2(MiniGrenade),
         mag_2(SmokeShell),
@@ -1743,19 +1753,21 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
@@ -1779,21 +1791,21 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
 	role = MissileSpecialist;
 	weapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         rev_hgun_P07_blk_snds_F,
 		launch_NLAW_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         rev_hgun_P07_blk_snds_F,
 		launch_NLAW_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
 		NLAW_F,
         mag_2(MiniGrenade),
@@ -1802,7 +1814,7 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
 		NLAW_F,
         mag_2(MiniGrenade),
@@ -1811,19 +1823,21 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
@@ -1847,21 +1861,21 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
 	role = MissileSpecialist;
 	weapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         rev_hgun_P07_blk_snds_F,
 		launch_MRAWS_Green_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         rev_hgun_P07_blk_snds_F,
 		launch_MRAWS_Green_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
 		MRAWS_HEAT_F,
         mag_2(MiniGrenade),
@@ -1870,7 +1884,7 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_6(30Rnd_65x39_caseless_msbs_mag),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
 		MRAWS_HEAT_F,
         mag_2(MiniGrenade),
@@ -1879,19 +1893,21 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
@@ -1913,22 +1929,22 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	weapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     respawnWeapons[] =
     {
-        arifle_Fort652_blk_ARCO_IR_snds_F,
+        arifle_SCAR_L_short_black_snds_RCO_F,
         rev_hgun_P07_blk_snds_F,
         DefaultManWeapons,
         Rangefinder
     };
     magazines[] =
     {
-        mag_4(30Rnd_65x39_caseless_msbs_mag),
-        mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
+        mag_4(30Rnd_556x45_Stanag_red),
+        mag_2(30Rnd_556x45_Stanag_red_Tracer),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1937,8 +1953,8 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
     };
     respawnMagazines[] =
     {
-        mag_4(30Rnd_65x39_caseless_msbs_mag),
-        mag_2(30Rnd_65x39_caseless_msbs_mag_Tracer),
+        mag_4(30Rnd_556x45_Stanag_red),
+        mag_2(30Rnd_556x45_Stanag_red_Tracer),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -1947,19 +1963,21 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_Chestrig_rgr,
-		H_Booniehat_atacs_F,
+		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
+		G_Balaclava_light_blk_F,
 		ItemGPS,
 		DefaultManLinkedItems,
-		NVGoggles_INDEP
+		NVGoggles_OPFOR
 	};
 };
 
@@ -1998,14 +2016,14 @@ class Rev_B_BDF_Marine_base_F: Rev_B_BDF_Soldier_base_F
 	};
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		 H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		 H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2076,14 +2094,14 @@ class Rev_B_BDF_Marine_AR_F: Rev_B_BDF_Marine_base_F
     };
     linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2131,14 +2149,14 @@ class Rev_B_BDF_Marine_Medic_F: Rev_B_BDF_Marine_base_F
     };
     linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetSpecB_plain_atacsix_F
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetSpecB_plain_atacsix_F
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2184,14 +2202,14 @@ class Rev_B_BDF_Marine_Engineer_F: Rev_B_BDF_Marine_base_F
     };
     linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_CQB_alt_oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_CQB_alt_oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2231,14 +2249,14 @@ class Rev_B_BDF_Marine_Exp_F: Rev_B_BDF_Marine_base_F
     };
     linkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		Atlas_V_OCarrierRig_GL_alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		Atlas_V_OCarrierRig_GL_alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2285,14 +2303,14 @@ class Rev_B_BDF_Marine_GL_F: Rev_B_BDF_Marine_base_F
     };
     linkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		Atlas_V_OCarrierRig_GL_alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIAGL_oli,
+		Atlas_V_OCarrierRig_GL_alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2337,14 +2355,14 @@ class Rev_B_BDF_Marine_M_F: Rev_B_BDF_Marine_base_F
 	};
     linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2412,14 +2430,14 @@ class Rev_B_BDF_Marine_AA_F: Rev_B_BDF_Marine_base_F
     };
     linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2481,14 +2499,14 @@ class Rev_B_BDF_Marine_AT_F: Rev_B_BDF_Marine_base_F
     };
     linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2555,14 +2573,14 @@ class Rev_B_BDF_Marine_LAT_F: Rev_B_BDF_Marine_base_F
     };
     linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
@@ -2613,14 +2631,14 @@ class Rev_B_BDF_Marine_SL_F: Rev_B_BDF_Marine_base_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetSpecB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLeaderLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetSpecB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLeaderLinkedItems
@@ -2676,14 +2694,14 @@ class Rev_B_BDF_Marine_TL_F: Rev_B_BDF_Marine_base_F
     };
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_CQB_alt_oli_F,
 		H_HelmetSpecB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLeaderLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_CQB_alt_oli_F,
 		H_HelmetSpecB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		DefaultManLeaderLinkedItems
@@ -2711,7 +2729,7 @@ class Rev_B_BDF_Marine_UAV_F: Rev_B_BDF_Marine_base_F
 	backpack = B_UAV_01_backpack_F;
 	linkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetSpecB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		B_UAVTerminal,
@@ -2719,7 +2737,7 @@ class Rev_B_BDF_Marine_UAV_F: Rev_B_BDF_Marine_base_F
 	};
 	respawnLinkedItems[] =
 	{
-		V_PlateCarrierIA1_oli,
+		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
 		H_HelmetSpecB_plain_atacsix_F,
 		NVGoggles_INDEP,
 		B_UAVTerminal,

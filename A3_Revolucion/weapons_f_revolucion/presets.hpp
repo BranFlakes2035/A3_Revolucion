@@ -1711,3 +1711,69 @@ class hgun_ACPC2_black_snds_F: hgun_ACPC2_black_F
 		};
 	};
 };
+class arifle_SCAR_L_short_black_snds_RCO_F: arifle_SCAR_L_short_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = suppressor_l_lxWS;
+		};
+	};
+};
+class arifle_SCAR_L_GL_black_snds_RCO_F: arifle_SCAR_L_GL_black_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = suppressor_l_lxWS;
+		};
+	};
+};
+class LMG_03_snds_RCO_F: LMG_03_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Hamr;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+		class LinkedItemsMuzzle
+		{
+			slot = MuzzleSlot;
+			item = suppressor_l_lxWS;
+		};
+	};
+};

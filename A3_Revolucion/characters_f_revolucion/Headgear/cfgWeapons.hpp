@@ -82,6 +82,20 @@ class CfgWeapons
             "\A3_revolucion\Characters_F_Revolucion\Headgear\Data\H_HelmetSpecter_cover_whex_CO.paa"
         };
     };
+    class Aegis_H_Helmet_FASTMT_Cover_rgr_F;
+    class Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F: Aegis_H_Helmet_FASTMT_Cover_rgr_F
+    {
+        author = $STR_A3_A_JC980_Jamie;
+        scope = public;
+        displayName = "Operator Helmet (ATACS) [Cover]";
+        picture = "\A3_Aegis\Characters_F_Aegis\Headgear\Data\UI\Aegis_H_Helmet_FASTMT_Cover_rgr_F_ca.paa";
+        hiddenSelectionsTextures[] =
+        {
+            "\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetFASTMT_rgr_CO.paa",
+            "\A3_revolucion\Characters_F_Revolucion\Headgear\Data\H_HelmetFASTMT_Cover_ATACS_CO.paa",
+            "\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_oli_CO.paa"
+        };
+    };
 
 
 
