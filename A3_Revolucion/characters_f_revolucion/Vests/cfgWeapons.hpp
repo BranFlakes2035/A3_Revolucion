@@ -8,7 +8,8 @@ class CfgWeapons
     class V_CarrierRigKBT_01_light_base_F;
     class V_CarrierRigKBT_01_heavy_base_F;
 	class V_PlateCarrier_CTRG_lxWS;
-
+	class Aegis_V_CarrierRigKBT_01_recon_base_F;
+	
     /* Items */  
     
     class V_PlateCarrierL_cartel_F: V_PlateCarrier1_rgr
@@ -62,6 +63,18 @@ class CfgWeapons
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_CTRG_CO.paa"};
 		hiddenSelectionsMaterials[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\CarrierRigKBT_01_CTRG.rvmat"};
     };
+	class Rev_V_CarrierRigKBT_01_recon_CTRG_trp_F: Aegis_V_CarrierRigKBT_01_recon_base_F
+	{
+		author = $STR_A3_A_Grave;
+		scope = public;
+		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_recon_CTRG_G9_F0;
+		picture = "\A3_Aegis\characters_f_aegis\Vests\Data\UI\Icon_CarrierRigKBT_01_recon_CTRGJ_F_CA.paa";
+		hiddenSelectionsTextures[]=
+		{
+			"A3_Revolucion\characters_f_revolucion\Vests\Data\CarrierRigKBT_01_CTRG9_CO.paa",
+			""
+		};
+	};
     class V_lxWS_UN_Vest_F;
 	/*class v_lxWS_VZ_Vest_F: V_lxWS_UN_Vest_F
 	{
