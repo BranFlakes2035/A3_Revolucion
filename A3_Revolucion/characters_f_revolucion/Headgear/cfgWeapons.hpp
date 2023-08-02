@@ -153,7 +153,7 @@ class CfgWeapons
         hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_03_CO.paa"};
     };
     class H_HelmetHBK_base_F;
-    class H_HelmetHBK_fdbsf_F: H_HelmetHBK_base_F
+    /*class H_HelmetHBK_fdbsf_F: H_HelmetHBK_base_F
     {
         author = $STR_A3_A_BranFlakes;
         scope = public;
@@ -177,5 +177,5 @@ class CfgWeapons
         displayName = "Modular Helmet (ATACS-FG)";
         //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
         hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\headgear_helmet_canvas_FDB_CO.paa"};
-    };
+    };*/
 };

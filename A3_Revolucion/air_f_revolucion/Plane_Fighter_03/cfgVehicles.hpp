@@ -12,12 +12,12 @@ class CfgVehicles
 		{
 			class BDF
 			{
-				displayName = "BDF";
+				displayName = "FDB";
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-					"\A3_revolucion\Air_F_revolucion\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_bdf_CO.paa",
-        			"\A3_revolucion\Air_F_revolucion\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_bdf_CO.paa",
+					"\A3_revolucion\Air_F_revolucion\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_FDB_CO.paa",
+        			"\A3_revolucion\Air_F_revolucion\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_FDB_CO.paa",
 				};
 				factions[] = {};
 			};

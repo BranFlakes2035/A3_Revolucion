@@ -1596,6 +1596,23 @@
                     <Japanese>モジュラーキャリア GL リグ(Woodland Hex)</Japanese>
                     <Turkish>Modüler Taşıyıcı GL Yelek (Woodland Hex)</Turkish>
                 </Key>
+                <Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_recon_FDB_F0">
+					<Original>Modular Carrier Recon Rig (ATACS AU)</Original>
+					<Chinese>Modular Carrier Recon Rig (ATACS AU)</Chinese>
+					<French>Modular Carrier Recon Rig (ATACS AU)</French>
+					<Spanish>Cartuchera modular de Recon (ATACS AU)</Spanish>
+					<Italian>Gilet tattico Recon modulare (ATACS AU)</Italian>
+					<Polish>Modular Carrier Recon Rig (ATACS AU)</Polish>
+					<Russian>Modular Carrier Recon Rig (ATACS AU)</Russian>
+					<German>Modular Carrier Recon Rig (ATACS AU)</German>
+					<Czech>Modulární nosič plátů Recon (ATACS AU)</Czech>
+					<English>Modular Carrier Recon Rig (ATACS AU)</English>
+					<Portuguese>Colete modular Recon (ATACS AU)</Portuguese>
+					<Korean>모듈식 캐리어 Recon 리그 (ATACS AU)</Korean>
+					<Chinesesimp>模块化背心 Recon (ATACS AU)</Chinesesimp>
+					<Japanese>モジュラーキャリア Recon (ATACS AU)</Japanese>
+					<Turkish>Modüler Taşıyıcı Recon Yelek (ATACS AU)</Turkish>
+				</Key>
 			</Container>
 			<Container name="Headgear">
 				<Key ID="STR_A3_R_CfgWeapons_H_mk7_atacsfg0">

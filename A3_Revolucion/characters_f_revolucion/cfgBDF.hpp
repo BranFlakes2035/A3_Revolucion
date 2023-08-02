@@ -18,6 +18,50 @@ class Rev_B_BDF_Soldier_base_F: Rev_B_BDF_Man_base_F
 {
 	uniformClass = Rev_U_B_BDF_Uniform_01_F;
 };
+class rev_B_BDF_Fighter_Pilot_F: Rev_B_BDF_Soldier_base_F
+{
+    author = $STR_A3_A_BranFlakes;
+    //editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_M_Helipilot_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_B_Fighter_Pilot_name;
+    uniformClass = Rev_U_B_BDF_Coveralls_01_F;
+    linkedItems[] =
+    {
+        V_TacVest_camo,
+        H_PilotHelmetFighter_I_E,
+        DefaultManLinkedItems,
+    };
+    respawnLinkedItems[] =
+    {
+        V_TacVest_camo,
+        H_PilotHelmetFighter_I_E,
+        DefaultManLinkedItems,
+    };
+    weapons[] =
+    {
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        hgun_P07_blk_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+        mag_2(16rnd_9x21_mag_v2),
+        SMOKESHELLS_BLUFOR
+    };
+    respawnMagazines[] =
+    {
+        mag_2(16rnd_9x21_mag_v2),
+        SMOKESHELLS_BLUFOR
+    };
+    camouflage = 2;
+    cost = 160000;
+    role = Crewman;
+};
 class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
 {
 	author = $STR_A3_A_BranFlakes;
@@ -1360,7 +1404,7 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1369,7 +1413,7 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1423,7 +1467,7 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Bandanna_Sport,
 		ItemGPS,
@@ -1432,7 +1476,7 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Bandanna_Sport,
 		ItemGPS,
@@ -1483,7 +1527,7 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1492,7 +1536,7 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1549,7 +1593,7 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1558,7 +1602,7 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1627,7 +1671,7 @@ class Rev_B_BDF_Recon_M_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1636,7 +1680,7 @@ class Rev_B_BDF_Recon_M_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1696,7 +1740,7 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1705,7 +1749,7 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1753,7 +1797,7 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1762,7 +1806,7 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1823,7 +1867,7 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1832,7 +1876,7 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1893,7 +1937,7 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1902,7 +1946,7 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1963,7 +2007,7 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,
@@ -1972,7 +2016,7 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_Coyote_F,
+		Rev_V_CarrierRigKBT_01_recon_FDB_F,
 		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
 		G_Balaclava_light_blk_F,
 		ItemGPS,

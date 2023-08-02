@@ -134,8 +134,8 @@ class Rev_B_BDF_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoado
     textureList[] = {BDF,1};
 	hiddenSelectionsTextures[] =
 	{
-        "\A3_revolucion\Air_F_revolucion\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_bdf_CO.paa",
-        "\A3_revolucion\Air_F_revolucion\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_bdf_CO.paa",
+        "\A3_revolucion\Air_F_revolucion\Plane_Fighter_03\Data\Plane_Fighter_03_body_1_FDB_CO.paa",
+        "\A3_revolucion\Air_F_revolucion\Plane_Fighter_03\Data\Plane_Fighter_03_body_2_FDB_CO.paa",
 	};
 
 	class AnimationSources: AnimationSources

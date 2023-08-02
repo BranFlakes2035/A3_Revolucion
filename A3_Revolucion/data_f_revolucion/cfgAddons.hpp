@@ -7,6 +7,7 @@ class CfgAddons
 			list[] =
 			{
                 A3_Revolucion_Air_F_Revolucion,
+                A3_revolucion_Air_F_revolucion_Plane_Fighter_04,
                 A3_Revolucion_Armor_F_Revolucion,
                 A3_Revolucion_Characters_F_Revolucion,
                 A3_Revolucion_Characters_F_Revolucion_Uniforms,

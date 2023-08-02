@@ -68,7 +68,7 @@ class Rev_B_BDF_marina_Uniform_01_F: I_soldier_F
 	uniformClass = Rev_U_B_BDF_marina_Uniform_01_F;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_SF_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_Pants_Marinas_CO.paa",
 	};
 };
 class Rev_B_BDF_marina_Uniform_01_shortsleeve_F: I_soldier_lite_F
@@ -78,7 +78,7 @@ class Rev_B_BDF_marina_Uniform_01_shortsleeve_F: I_soldier_lite_F
 	uniformClass = Rev_U_B_BDF_marina_Uniform_01_shortsleeve_F;
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_SF_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_Pants_Marinas_CO.paa",
 	};
 };
 class Rev_B_BDF_Coveralls_01_F: B_Soldier_04_f
@@ -129,6 +129,26 @@ class Rev_B_BDF_SF2_Uniform_01_shortsleeve_F: I_soldier_lite_F
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_BDFSF2_CO.paa",
+	};
+};
+class Rev_B_BDF_SF3_Uniform_01_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_BDF_SF3_Uniform_01_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_BDFSF3_CO.paa",
+	};
+};
+class Rev_B_BDF_SF2_Uniform_03_shortsleeve_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_B_BDF_SF3_Uniform_01_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_BDFSF3_CO.paa",
 	};
 };
 /* Cartels */

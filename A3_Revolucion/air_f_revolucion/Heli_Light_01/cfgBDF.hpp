@@ -8,9 +8,9 @@ class Rev_B_BDF_Heli_Light_01_F: I_Heli_Light_01_F
 	editorPreview = "\A3_revolucion\EditorPreviews_F_revolucion\Data\CfgVehicles\Rev_B_BDF_Heli_Light_01_F.jpg";
     textureList[]=
 	{
-		Digital,1,
+		FDB,1,
 	};
-	hiddenSelectionsTextures[]={"\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"};
+	hiddenSelectionsTextures[]={"A3_Revolucion\Air_F_Revolucion\Heli_Light_01\Data\Heli_Light_01_ext_FDB_CO.paa"};
 	/* Inventory */
 	class TransportMagazines
 	{
@@ -42,9 +42,9 @@ class Rev_B_BDF_Heli_Light_01_dynamicLoadout_F: I_Heli_Light_01_dynamicLoadout_F
 	editorPreview = "\A3_revolucion\EditorPreviews_F_revolucion\Data\CfgVehicles\Rev_B_BDF_Heli_Light_01_dynamicLoadout_F.jpg";
     textureList[]=
 	{
-		Digital,1,
+		FDB,1,
 	};
-	hiddenSelectionsTextures[]={"\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa"};
+	hiddenSelectionsTextures[]={"A3_Revolucion\Air_F_Revolucion\Heli_Light_01\Data\Heli_Light_01_ext_FDB_CO.paa"};
 	/* Inventory */
 	class TransportMagazines
 	{
