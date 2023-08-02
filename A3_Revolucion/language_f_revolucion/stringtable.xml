@@ -1545,6 +1545,23 @@
                     <Japanese>モジュラーキャリア GL リグ[CTRG]</Japanese>
                     <Turkish>Modüler Taşıyıcı GL Yelek [CTRG]</Turkish>
                 </Key>
+				<Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_recon_CTRG_G9_F0">
+					<Original>Modular Carrier Recon Rig [CTRG G9]</Original>
+					<Chinese>Modular Carrier Recon Rig [CTRG G9]</Chinese>
+					<French>Modular Carrier Recon Rig [CTRG G9]</French>
+					<Spanish>Cartuchera modular de Recon [CTRG G9]</Spanish>
+					<Italian>Gilet tattico Recon modulare [CTRG G9]</Italian>
+					<Polish>Modular Carrier Recon Rig [CTRG G9]</Polish>
+					<Russian>Modular Carrier Recon Rig [CTRG G9]</Russian>
+					<German>Modular Carrier Recon Rig [CTRG G9]</German>
+					<Czech>Modulární nosič plátů Recon [CTRG G9]</Czech>
+					<English>Modular Carrier Recon Rig [CTRG G9]</English>
+					<Portuguese>Colete modular Recon [CTRG G9]</Portuguese>
+					<Korean>모듈식 캐리어 Recon 리그 [CTRG G9]</Korean>
+					<Chinesesimp>模块化背心 Recon 装备 [CTRG G9]</Chinesesimp>
+					<Japanese>モジュラーキャリア Recon リグ [CTRG G9]</Japanese>
+					<Turkish>Modüler Taşıyıcı Recon Yelek [CTRG G9]</Turkish>
+				</Key>
                 <Key ID="STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_whex_F0">
                     <Original>Modular Carrier Vest (Woodland Hex)</Original>
                     <Chinese>模組化負載背心(Woodland Hex)</Chinese>
