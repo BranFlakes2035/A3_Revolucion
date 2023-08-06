@@ -150,145 +150,89 @@ class Rev_B_BDF_Plane_Fighter_03_dynamicLoadout_F: Plane_Fighter_03_dynamicLoado
 	weapons[] = {CMFlareLauncher};
 	magazines[] = {120Rnd_CMFlare_Chaff_Magazine};
 	class Components: Components
-	{
-		class TransportPylonsComponent: TransportPylonsComponent
-		{
-            class Pylons: Pylons
+        {
+            class TransportPylonsComponent
             {
-                class Pylons1: Pylons1
+                uiPicture = "\A3\Air_F_Gamma\Plane_Fighter_03\Data\UI\Plane_A143_3DEN_CA.paa";
+                class Pylons
                 {
-                    hardpoints[] =
+                    class Pylons1
                     {
-                        O_MISSILE_PYLON,
-                        O_R73
+                        hardpoints[] = {"B_MISSILE_PYLON","B_ZEPHYR"};
+                        attachment = "PylonRack_1Rnd_LG_scalpel";
+                        priority = 5;
+                        maxweight = 200;
+                        UIposition[] = {0.35,0.08};
                     };
-                    attachment = PylonRack_1Rnd_Missile_AA_03_F;
-                };
-                class Pylons2: Pylons2
-                {
-                    hardpoints[] =
+                    class Pylons2: Pylons1
                     {
-                        O_MISSILE_PYLON,
-                        O_R73
+                        priority = 4;
+                        attachment = "PylonRack_1Rnd_AAA_missiles";
+                        maxweight = 320;
+                        UIposition[] = {0.345,0.13};
                     };
-                    attachment = PylonRack_20Rnd_Rocket_03_HE_F;
-                };
-                class Pylons3: Pylons3
-                {
-                    hardpoints[] =
+                    class Pylons3: Pylons1
                     {
-                        O_MISSILE_PYLON,
-                        O_BOMB_PYLON,
-                        SCALPEL_1RND,
-                        UNI_SCALPEL,
-                        O_R73,
-                        O_R77
+                        hardpoints[] = {"B_ZEPHYR","B_MISSILE_PYLON","B_BOMB_PYLON"};
+                        priority = 3;
+                        attachment = "PylonMissile_1Rnd_Bomb_04_F";
+                        maxweight = 400;
+                        UIposition[] = {0.34,0.18};
                     };
-                    attachment = PylonRack_1Rnd_Missile_AGM_01_F;
-                };
-                class Pylons4: Pylons4
-                {
-                    attachment = PylonWeapon_300Rnd_20mm_shells;
-                    hardpoints[] = {B_A143_BUZZARD_CENTER_PYLON};
-                };
-                class Pylons5: Pylons3
-                {
-                    UIposition[] =
+                    class Pylons4: Pylons1
                     {
-                        0.33,   // X
-                        0.3     // Y
+                        priority = 2;
+                        attachment = "PylonWeapon_300Rnd_20mm_shells";
+                        maxweight = 500;
+                        UIposition[] = {0.27,0.28};
+                        hardpoints[] = {"B_A143_BUZZARD_CENTER_PYLON"};
                     };
-                    mirroredMissilePos = 3;
-                };
-                class Pylons6: pylons2
-                {
-                    UIposition[] =
+                    class Pylons5: Pylons3
                     {
-                        0.33,   // X
-                        0.35    // Y
+                        UIposition[] = {0.33,0.38};
+                        mirroredMissilePos = 3;
                     };
-                    mirroredMissilePos = 2;
-                };
-                class Pylons7: Pylons1
-                {
-                    UIposition[] =
+                    class Pylons6: Pylons2
                     {
-                        0.34,   // X
-                        0.4     // Y
+                        UIposition[] = {0.33,0.43};
+                        mirroredMissilePos = 2;
                     };
-                    mirroredMissilePos = 1;
-                };
-            };
-            class Presets: Presets
-            {
-                class Default: Default
-                {
-                    attachment[] =
+                    class Pylons7: Pylons1
                     {
-                        PylonRack_1Rnd_Missile_AA_03_F,
-                        PylonRack_20Rnd_Rocket_03_HE_F,
-                        PylonRack_1Rnd_Missile_AGM_01_F,
-                        PylonWeapon_300Rnd_20mm_shells,
-                        PylonRack_1Rnd_Missile_AGM_01_F,
-                        PylonRack_20Rnd_Rocket_03_HE_F,
-                        PylonRack_1Rnd_Missile_AA_03_F
+                        UIposition[] = {0.34,0.48};
+                        mirroredMissilePos = 1;
                     };
                 };
-                class AT: AT
+                class Presets
                 {
-                    attachment[] =
+                    class Empty
                     {
-                        PylonRack_1Rnd_Missile_AA_03_F,
-                        PylonMissile_1Rnd_LG_scalpel,
-                        PylonMissile_1Rnd_Bomb_03_F,
-                        PylonWeapon_300Rnd_20mm_shells,
-                        PylonMissile_1Rnd_Bomb_03_F,
-                        PylonMissile_1Rnd_LG_scalpel,
-                        PylonRack_1Rnd_Missile_AA_03_F
+                        displayName = "$STR_empty";
+                        attachment[] = {};
                     };
-                };
-                class AA: AA
-                {
-                    attachment[] =
+                    class Default
                     {
-                        PylonRack_1Rnd_Missile_AA_03_F,
-                        PylonRack_1Rnd_Missile_AA_03_F,
-                        PylonRack_1Rnd_Missile_AA_03_F,
-                        PylonWeapon_300Rnd_20mm_shells,
-                        PylonRack_1Rnd_Missile_AA_03_F,
-                        PylonRack_1Rnd_Missile_AA_03_F,
-                        PylonRack_1Rnd_Missile_AA_03_F
+                        displayName = "$STR_vehicle_default";
+                        attachment[] = {"PylonRack_1Rnd_Missile_AA_04_F","PylonRack_7Rnd_Rocket_04_HE_F","PylonRack_1Rnd_Missile_AGM_02_F","PylonWeapon_300Rnd_20mm_shells","PylonRack_1Rnd_Missile_AGM_02_F","PylonRack_7Rnd_Rocket_04_HE_F","PylonRack_1Rnd_Missile_AA_04_F"};
                     };
-                };
-                class CAS: CAS
-                {
-                    attachment[] =
+                    class AA
                     {
-                        PylonMissile_1Rnd_LG_scalpel,
-                        PylonRack_20Rnd_Rocket_03_HE_F,
-                        PylonRack_1Rnd_Missile_AGM_01_F,
-                        PylonWeapon_300Rnd_20mm_shells,
-                        PylonRack_1Rnd_Missile_AGM_01_F,
-                        PylonRack_20Rnd_Rocket_03_HE_F,
-                        PylonMissile_1Rnd_LG_scalpel
+                        displayName = "$STR_A3_cfgmagazines_titan_aa_dns";
+                        attachment[] = {"PylonRack_1Rnd_Missile_AA_04_F","PylonRack_1Rnd_GAA_missiles","PylonRack_1Rnd_GAA_missiles","PylonWeapon_300Rnd_20mm_shells","PylonRack_1Rnd_GAA_missiles","PylonRack_1Rnd_GAA_missiles","PylonRack_1Rnd_Missile_AA_04_F"};
                     };
-                };
-                class Cluster: Cluster
-                {
-                    attachment[] =
+                    class AT
                     {
-                        PylonRack_1Rnd_Missile_AA_03_F,
-                        PylonRack_20Rnd_Rocket_03_HE_F,
-                        PylonMissile_1Rnd_BombCluster_02_cap_F,
-                        PylonWeapon_300Rnd_20mm_shells,
-                        PylonMissile_1Rnd_BombCluster_02_cap_F,
-                        PylonRack_20Rnd_Rocket_03_HE_F,
-                        PylonRack_1Rnd_Missile_AA_03_F
+                        displayName = "$STR_A3_cfgmagazines_titan_at_dns";
+                        attachment[] = {"PylonRack_1Rnd_Missile_AA_04_F","PylonRack_1Rnd_LG_scalpel","PylonMissile_1Rnd_Bomb_04_F","PylonWeapon_300Rnd_20mm_shells","PylonMissile_1Rnd_Bomb_04_F","PylonRack_1Rnd_LG_scalpel","PylonRack_1Rnd_Missile_AA_04_F"};
+                    };
+                    class CAS
+                    {
+                        displayName = "$STR_A3_CAS_PRESET_DISPLAYNAME";
+                        attachment[] = {"PylonRack_1Rnd_LG_scalpel","PylonRack_7Rnd_Rocket_04_HE_F","PylonRack_1Rnd_Missile_AGM_02_F","PylonWeapon_300Rnd_20mm_shells","PylonRack_1Rnd_Missile_AGM_02_F","PylonRack_7Rnd_Rocket_04_HE_F","PylonRack_1Rnd_LG_scalpel"};
                     };
                 };
             };
-		};
-	};
+        };
 	class EjectionSystem: EjectionSystem
 	{
 		EjectionSeatClass = Rev_B_BDF_Ejection_Seat_Plane_Fighter_03_F;

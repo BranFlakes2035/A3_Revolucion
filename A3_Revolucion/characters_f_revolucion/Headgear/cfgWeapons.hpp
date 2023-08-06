@@ -169,13 +169,13 @@ class CfgWeapons
         displayName = "Advanced Modular Helmet [FDB SF] (Headset)";
         //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetHBK_aucamo_headset_F_CA.paa";
         hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\HBK_Baracas_CO.paa"};
-    };
+    };*/
     class H_HelmetIA;
     class Rev_H_O_Helmet_canvas_FDB: H_HelmetIA
     {
         author = $STR_A3_A_BranFlakes;
-        displayName = "Modular Helmet (ATACS-FG)";
+        displayName = "Modular Helmet [FDB Marines]";
         //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
-        hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\headgear_helmet_canvas_FDB_CO.paa"};
-    };*/
+        hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\headgear_helmet_canvas_Marinas_CO.paa"};
+    };
 };

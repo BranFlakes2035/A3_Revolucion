@@ -84,13 +84,13 @@ class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
 	};
 	magazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -132,13 +132,13 @@ class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -180,13 +180,13 @@ class Rev_B_BDF_soldier_AAR_F: rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -312,7 +312,7 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         mag_2(SmokeShell),
@@ -320,7 +320,7 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         mag_2(SmokeShell),
@@ -424,13 +424,13 @@ class Rev_B_BDF_Engineer_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         mag_2(SmokeShell)
 	};
@@ -477,14 +477,14 @@ class Rev_B_BDF_Soldier_Exp_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -746,13 +746,13 @@ class Rev_B_BDF_Soldier_F: Rev_B_BDF_Soldier_base_F
 	};
 	magazines[] =
 	{
-		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_10(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_10(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -808,14 +808,14 @@ class Rev_B_BDF_soldier_AA_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         Titan_AA,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         Titan_AA,
         mag_2(HandGrenade),
         mag_2(SmokeShell)
@@ -879,14 +879,14 @@ class Rev_B_BDF_Soldier_AT_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
 		MRAWS_HEAT55_F,
         HandGrenade,
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
 		MRAWS_HEAT55_F,
         HandGrenade,
         mag_2(SmokeShell)
@@ -934,7 +934,7 @@ class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_8(35Rnd_556x45_velko_lxWS),
+		mag_8(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         mag_4(SmokeShell),
@@ -942,7 +942,7 @@ class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 	};
 	respawnMagazines[] =
 	{
-		mag_8(35Rnd_556x45_velko_lxWS),
+		mag_8(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         mag_4(SmokeShell),
@@ -1043,13 +1043,13 @@ class Rev_B_BDF_RadioOperator_F: Rev_B_BDF_Soldier_F
 	};
 	magazines[] =
 	{
-		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_10(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_10(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -1089,13 +1089,13 @@ class Rev_B_BDF_Soldier_lite_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_6(35Rnd_556x45_velko_lxWS),
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -1238,13 +1238,13 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_10(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_10(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
         HandGrenade,
         SmokeShell
 	};
@@ -2034,41 +2034,41 @@ class Rev_B_BDF_Marine_base_F: Rev_B_BDF_Soldier_base_F
 	editorSubcategory = EdSubcat_Personnel_Marines;
     weapons[] =
 	{
-		rev_arifle_VelkoR5_lxWS_ACO_F,
+		Aegis_arifle_M4A1_Holo_IR_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_VelkoR5_lxWS_ACO_F,
+		Aegis_arifle_M4A1_Holo_IR_F,
 		hgun_P07_blk_F,
 		DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_10(30Rnd_556x45_Stanag_red),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	respawnMagazines[] =
 	{
-		mag_10(35Rnd_556x45_velko_lxWS),
+		mag_10(30Rnd_556x45_Stanag_red),
 		mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         mag_2(SmokeShell)
 	};
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		 H_HelmetB_plain_atacsix_F,
+		Atlas_V_OCarrierRig_CQB_alt_oli_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		 H_HelmetB_plain_atacsix_F,
+		Atlas_V_OCarrierRig_CQB_alt_oli_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2138,15 +2138,15 @@ class Rev_B_BDF_Marine_AR_F: Rev_B_BDF_Marine_base_F
     };
     linkedItems[] =
 	{
-		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Atlas_V_OCarrierRig_CQB_alt_oli_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Atlas_V_OCarrierRig_CQB_alt_oli_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2175,9 +2175,21 @@ class Rev_B_BDF_Marine_Medic_F: Rev_B_BDF_Marine_base_F
 	camouflage = 1.6;
 	attendant = true;
 	backpack = B_AssaultPack_khk_BDF_Medic_F;
+	weapons[] =
+	{
+		Aegis_arifle_M4A1_Holo_IR_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_M4A1_Holo_IR_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
 	magazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         SmokeShell,
@@ -2185,7 +2197,7 @@ class Rev_B_BDF_Marine_Medic_F: Rev_B_BDF_Marine_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         SmokeShell,
@@ -2194,14 +2206,14 @@ class Rev_B_BDF_Marine_Medic_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetSpecB_plain_atacsix_F
+		Rev_H_O_Helmet_canvas_FDB
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetSpecB_plain_atacsix_F
+		Rev_H_O_Helmet_canvas_FDB
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2228,9 +2240,21 @@ class Rev_B_BDF_Marine_Engineer_F: Rev_B_BDF_Marine_base_F
     };
 	camouflage = 1.6;
 	backpack = B_Carryall_oli_BDF_Eng_F;
+	weapons[] =
+	{
+		Aegis_arifle_M4A1_Short_Holo_IR_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_M4A1_Short_Holo_IR_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
 	magazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         SmokeShell,
@@ -2238,7 +2262,7 @@ class Rev_B_BDF_Marine_Engineer_F: Rev_B_BDF_Marine_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         SmokeShell,
@@ -2247,14 +2271,14 @@ class Rev_B_BDF_Marine_Engineer_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_alt_oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_alt_oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2275,9 +2299,21 @@ class Rev_B_BDF_Marine_Exp_F: Rev_B_BDF_Marine_base_F
 	picture = pictureExplosive;
 	role = Sapper;
 	backpack = B_Carryall_oli_BDF_Exp_F;
+	weapons[] =
+	{
+		Aegis_arifle_M4A1_Short_Holo_IR_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		Aegis_arifle_M4A1_Short_Holo_IR_F,
+		hgun_P07_blk_F,
+		DefaultManWeapons
+	};
 	magazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade),
@@ -2285,7 +2321,7 @@ class Rev_B_BDF_Marine_Exp_F: Rev_B_BDF_Marine_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_3(APERSMine_Range_Mag),
         mag_2(HandGrenade),
@@ -2294,14 +2330,14 @@ class Rev_B_BDF_Marine_Exp_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2317,19 +2353,19 @@ class Rev_B_BDF_Marine_GL_F: Rev_B_BDF_Marine_base_F
 	cost = 200000;
 	weapons[] =
     {
-        rev_arifle_VelkoR5_GL_lxWS_ACO_F,
+        Aegis_arifle_M4A1_GL_Holo_IR_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        rev_arifle_VelkoR5_GL_lxWS_ACO_F,
+        Aegis_arifle_M4A1_GL_Holo_IR_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -2338,7 +2374,7 @@ class Rev_B_BDF_Marine_GL_F: Rev_B_BDF_Marine_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_6(1Rnd_HE_Grenade_shell),
         mag_2(HandGrenade),
@@ -2348,14 +2384,14 @@ class Rev_B_BDF_Marine_GL_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2400,14 +2436,14 @@ class Rev_B_BDF_Marine_M_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2444,21 +2480,21 @@ class Rev_B_BDF_Marine_AA_F: Rev_B_BDF_Marine_base_F
 	threat[] = {1,0.7,0.3};
 	weapons[] =
     {
-       	rev_arifle_VelkoR5_lxWS_ACO_F,
+       	Aegis_arifle_M4A1_Grip_Holo_IR_F,
 		launch_B_Titan_Olive_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        rev_arifle_VelkoR5_lxWS_ACO_F,
+        Aegis_arifle_M4A1_Grip_Holo_IR_F,
 		launch_B_Titan_Olive_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
 	magazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         Titan_AA,
         mag_2(HandGrenade),
@@ -2466,7 +2502,7 @@ class Rev_B_BDF_Marine_AA_F: Rev_B_BDF_Marine_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         Titan_AA,
         mag_2(HandGrenade),
@@ -2475,14 +2511,14 @@ class Rev_B_BDF_Marine_AA_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2513,21 +2549,21 @@ class Rev_B_BDF_Marine_AT_F: Rev_B_BDF_Marine_base_F
 	threat[] = {1,0.7,0.3};
 	weapons[] =
     {
-        rev_arifle_VelkoR5_lxWS_ACO_F,
+        Aegis_arifle_M4A1_Grip_Holo_IR_F,
 		launch_NLAW_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        rev_arifle_VelkoR5_lxWS_ACO_F,
+        Aegis_arifle_M4A1_Grip_Holo_IR_F,
 		launch_NLAW_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
 	magazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         NLAW_F,
         mag_2(HandGrenade),
@@ -2535,7 +2571,7 @@ class Rev_B_BDF_Marine_AT_F: Rev_B_BDF_Marine_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         NLAW_F,
         mag_2(HandGrenade),
@@ -2544,14 +2580,14 @@ class Rev_B_BDF_Marine_AT_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2587,21 +2623,21 @@ class Rev_B_BDF_Marine_LAT_F: Rev_B_BDF_Marine_base_F
 	backpack = B_AssaultPack_khk_BDF_AT_F;
 	weapons[] =
     {
-        rev_arifle_VelkoR5_lxWS_ACO_F,
+        Aegis_arifle_M4A1_Grip_Holo_IR_F,
 		launch_MRAWS_Green_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        rev_arifle_VelkoR5_lxWS_ACO_F,
+        Aegis_arifle_M4A1_Grip_Holo_IR_F,
 		launch_MRAWS_Green_F,
         hgun_P07_blk_F,
         DefaultManWeapons
     };
 	magazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         MRAWS_HEAT55_F,
         mag_2(HandGrenade),
@@ -2609,7 +2645,7 @@ class Rev_B_BDF_Marine_LAT_F: Rev_B_BDF_Marine_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         MRAWS_HEAT55_F,
         mag_2(HandGrenade),
@@ -2618,14 +2654,14 @@ class Rev_B_BDF_Marine_LAT_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -2643,21 +2679,21 @@ class Rev_B_BDF_Marine_SL_F: Rev_B_BDF_Marine_base_F
 	camouflage = 1.4;
 	weapons[] =
     {
-        rev_arifle_VelkoR5_lxWS_LRCO_blk_F,
+        Aegis_arifle_M4A1_Grip_ACOG_IR_F,
         hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
     };
     respawnWeapons[] =
     {
-        rev_arifle_VelkoR5_lxWS_LRCO_blk_F,
+        Aegis_arifle_M4A1_Grip_ACOG_IR_F,
         hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
     };
     magazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         mag_2(B_IR_Grenade),
@@ -2666,7 +2702,7 @@ class Rev_B_BDF_Marine_SL_F: Rev_B_BDF_Marine_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(HandGrenade),
         mag_2(B_IR_Grenade),
@@ -2675,15 +2711,15 @@ class Rev_B_BDF_Marine_SL_F: Rev_B_BDF_Marine_base_F
     };
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetSpecB_plain_atacsix_F,
+		Atlas_V_OCarrierRig_cqb_Alt_Oli_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLeaderLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetSpecB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLeaderLinkedItems
 	};
@@ -2702,21 +2738,21 @@ class Rev_B_BDF_Marine_TL_F: Rev_B_BDF_Marine_base_F
 	camouflage = 1.4;
 	weapons[] =
     {
-        rev_arifle_VelkoR5_GL_lxWS_LRCO_blk_F,
+        Aegis_arifle_M4A1_GL_ACOG_IR_F,
         hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
     };
     respawnWeapons[] =
     {
-        rev_arifle_VelkoR5_GL_lxWS_LRCO_blk_F,
+        Aegis_arifle_M4A1_GL_ACOG_IR_F,
         hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
     };
     magazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_6(1Rnd_HE_Grenade_shell),
         HandGrenade,
@@ -2727,7 +2763,7 @@ class Rev_B_BDF_Marine_TL_F: Rev_B_BDF_Marine_base_F
     };
     respawnMagazines[] =
     {
-        mag_6(35Rnd_556x45_velko_lxWS),
+        mag_6(30Rnd_556x45_Stanag_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_6(1Rnd_HE_Grenade_shell),
         HandGrenade,
@@ -2739,14 +2775,14 @@ class Rev_B_BDF_Marine_TL_F: Rev_B_BDF_Marine_base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_alt_oli_F,
-		H_HelmetSpecB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLeaderLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_alt_oli_F,
-		H_HelmetSpecB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLeaderLinkedItems
 	};
@@ -2774,7 +2810,7 @@ class Rev_B_BDF_Marine_UAV_F: Rev_B_BDF_Marine_base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetSpecB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		B_UAVTerminal,
 		DefaultManLinkedItems
@@ -2782,7 +2818,7 @@ class Rev_B_BDF_Marine_UAV_F: Rev_B_BDF_Marine_base_F
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		H_HelmetSpecB_plain_atacsix_F,
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		B_UAVTerminal,
 		DefaultManinkedItems

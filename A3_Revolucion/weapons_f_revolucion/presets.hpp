@@ -28,7 +28,7 @@ class arifle_AK12_545_ACO_AK_FL_F: arifle_AK12_545_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -47,7 +47,7 @@ class arifle_AK12_ACO_AK_FL_F: arifle_AK12_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -66,7 +66,7 @@ class arifle_AK12U_ACO_AK_FL_F: arifle_AK12U_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -85,7 +85,7 @@ class arifle_AK12_GL_ACO_AK_FL_F: arifle_AK12_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -104,7 +104,7 @@ class arifle_AK12_GL_ARCO_AK_FL_F: arifle_AK12_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -137,7 +137,7 @@ class Rev_arifle_AK74_oak_ACO_AK_FL_F: Aegis_arifle_AK74_oak_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight_pistol;
+			item = saber_light_lxWS_pistol;
 		};
     };
 };
@@ -156,7 +156,7 @@ class Rev_arifle_AKM74_GL_ACO_AK_FL_F: Aegis_arifle_AKM74_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight_pistol;
+			item = saber_light_lxWS_pistol;
 		};
     };
 };
@@ -175,7 +175,7 @@ class Rev_arifle_AKM74_GL_ARCO_AK_FL_F: Aegis_arifle_AKM74_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight_pistol;
+			item = saber_light_lxWS_pistol;
 		};
     };
 };
@@ -194,7 +194,7 @@ class Rev_arifle_AKM74_ACO_AK_FL_F: Aegis_arifle_AKM74_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight_pistol;
+			item = saber_light_lxWS_pistol;
 		};
     };
 };
@@ -213,7 +213,7 @@ class Rev_arifle_AK103_GL_ACO_AK_FL_F: Aegis_arifle_AK103_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight_pistol;
+			item = saber_light_lxWS_pistol;
 		};
     };
 };
@@ -232,7 +232,7 @@ class Rev_arifle_AK103_GL_ARCO_AK_FL_F: Aegis_arifle_AK103_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight_pistol;
+			item = saber_light_lxWS_pistol;
 		};
     };
 };
@@ -251,7 +251,7 @@ class Rev_arifle_AK103_ACO_AK_FL_F: Aegis_arifle_AK103_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight_pistol;
+			item = saber_light_lxWS_pistol;
 		};
     };
 };
@@ -265,7 +265,7 @@ class arifle_NCAR15B_ACO_grn_F: arifle_NCAR15B_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_ACO_grn;
+			item = Aegis_optic_ROS;
 		};
     };
 };
@@ -345,7 +345,7 @@ class arifle_NCAR15_ACO_grn_F: arifle_NCAR15_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_ACO_grn;
+			item = Aegis_optic_ROS;
 		};
     };
 };
@@ -359,12 +359,12 @@ class arifle_NCAR15_ACO_grn_FL_F: arifle_NCAR15_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_ACO_grn;
+			item = Aegis_optic_ROS;
 		};
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -427,7 +427,7 @@ class arifle_NCAR15_MRCO_FL_F: arifle_NCAR15_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -470,12 +470,12 @@ class arifle_NCAR15_GL_ACO_grn_FL_F: arifle_NCAR15_GL_F
 		class LinkedItemsOptic
 		{
 			slot = CowsSlot;
-			item = optic_ACO_grn;
+			item = Aegis_optic_ROS;
 		};
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -494,7 +494,7 @@ class arifle_CTAR_GL_blk_MRCO_grn_FL_F: arifle_CTAR_GL_blk_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -999,7 +999,7 @@ class arifle_RPK12_ACO_AK_FL_F: arifle_RPK12_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -1018,7 +1018,7 @@ class arifle_CTARS_blk_ACO_grn_FL_F: arifle_CTARS_blk_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -1140,7 +1140,7 @@ class LMG_Negev_FL_F: Atlas_LMG_Negev_black_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -1183,7 +1183,7 @@ class LMG_S77_Compact_lxWS_LRCO_FL_F: LMG_S77_Compact_lxWS
 		class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
     };
 };
@@ -1205,7 +1205,7 @@ class srifle_DMR_03_ARCO_FL_BI_F: srifle_DMR_03_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight;
+			item = saber_light_lxWS;
 		};
 		class LinkedItemsUnder
 		{
@@ -1318,7 +1318,7 @@ class Rev_hgun_P07_blk_fl_snds_F: hgun_P07_blk_F
 		class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = acc_flashlight_pistol;
+			item = saber_light_lxWS_pistol;
 		};
 	};
 };
@@ -1776,4 +1776,110 @@ class LMG_03_snds_RCO_F: LMG_03_F
 			item = suppressor_l_lxWS;
 		};
 	};
+};
+class Aegis_arifle_M4A1_F;
+class Aegis_arifle_M4A1_Holo_IR_F: Aegis_arifle_M4A1_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+class Aegis_arifle_M4A1_grip_F;
+class Aegis_arifle_M4A1_Grip_Holo_IR_F: Aegis_arifle_M4A1_grip_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+class Aegis_arifle_M4A1_short_F;
+class Aegis_arifle_M4A1_Short_Holo_IR_F: Aegis_arifle_M4A1_short_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+class Aegis_arifle_M4A1_GL_F;
+class Aegis_arifle_M4A1_GL_Holo_IR_F: Aegis_arifle_M4A1_GL_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Holosight_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+class Aegis_arifle_M4A1_Grip_ACOG_IR_F: Aegis_arifle_M4A1_grip_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};
+class Aegis_arifle_M4A1_GL_ACOG_IR_F: Aegis_arifle_M4A1_GL_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
 };
