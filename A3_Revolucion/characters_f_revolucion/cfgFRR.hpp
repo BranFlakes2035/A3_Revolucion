@@ -484,12 +484,12 @@ class Rev_B_FRR_Soldier_GL_F: Rev_B_FRR_Soldier_Base_F
 	uniformClass = Rev_U_B_FRR_Uniform_05_F;
 	weapons[] =
 	{
-		arifle_SPAR_01_GL_blk_F,
+		Aegis_arifle_M4A1_GL_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_GL_blk_F,
+		Aegis_arifle_M4A1_GL_F,
         DefaultManWeapons
 	};
 	magazines[] =
@@ -843,14 +843,14 @@ class Rev_B_FRR_Soldier_SL_F: Rev_B_FRR_Soldier_Base_F
 	uniformClass = Rev_U_B_FRR_Uniform_05_F;
 	weapons[] =
 	{
-		rev_arifle_SPAR_01_blk_MRCO_F,
+		rev_arifle_M4A1_blk_ACOG_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SPAR_01_blk_MRCO_F,
+		rev_arifle_M4A1_blk_ACOG_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
@@ -912,14 +912,14 @@ class Rev_B_FRR_Soldier_TL_F: Rev_B_FRR_Soldier_Base_F
 	uniformClass = Rev_U_O_FASR_FieldJacket_tanktop_F;
 	weapons[] =
 	{
-		rev_arifle_SPAR_01_GL_blk_ACO_grn_F,
+		rev_arifle_M4A1_GL_blk_RDS_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SPAR_01_GL_blk_ACO_grn_F,
+		rev_arifle_M4A1_GL_blk_RDS_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
