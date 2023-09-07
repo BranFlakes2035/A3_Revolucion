@@ -1777,7 +1777,6 @@ class LMG_03_snds_RCO_F: LMG_03_F
 		};
 	};
 };
-class Aegis_arifle_M4A1_F;
 class Aegis_arifle_M4A1_Holo_IR_F: Aegis_arifle_M4A1_F
 {
 	author = $STR_A3_A_BranFlakes;
@@ -1795,7 +1794,6 @@ class Aegis_arifle_M4A1_Holo_IR_F: Aegis_arifle_M4A1_F
 		};
     };
 };
-class Aegis_arifle_M4A1_grip_F;
 class Aegis_arifle_M4A1_Grip_Holo_IR_F: Aegis_arifle_M4A1_grip_F
 {
 	author = $STR_A3_A_BranFlakes;
@@ -1813,7 +1811,6 @@ class Aegis_arifle_M4A1_Grip_Holo_IR_F: Aegis_arifle_M4A1_grip_F
 		};
     };
 };
-class Aegis_arifle_M4A1_short_F;
 class Aegis_arifle_M4A1_Short_Holo_IR_F: Aegis_arifle_M4A1_short_F
 {
 	author = $STR_A3_A_BranFlakes;
@@ -1831,7 +1828,6 @@ class Aegis_arifle_M4A1_Short_Holo_IR_F: Aegis_arifle_M4A1_short_F
 		};
     };
 };
-class Aegis_arifle_M4A1_GL_F;
 class Aegis_arifle_M4A1_GL_Holo_IR_F: Aegis_arifle_M4A1_GL_F
 {
 	author = $STR_A3_A_BranFlakes;
@@ -1882,4 +1878,46 @@ class Aegis_arifle_M4A1_GL_ACOG_IR_F: Aegis_arifle_M4A1_GL_F
 			item = acc_pointer_IR;
 		};
     };
+};
+
+// M4A1 5.56mm (Black) + ACOG
+class rev_arifle_M4A1_blk_ACOG_F : Aegis_arifle_M4A1_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+	};
+};
+
+// M4A1 5.56mm (Black) + RDS (High)
+class rev_arifle_M4A1_blk_RDS_F : Aegis_arifle_M4A1_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_r1_high_lxWS;
+		};
+	};
+};
+
+// M4A1 GL 5.56mm (Black) + RDS (High)
+class rev_arifle_M4A1_GL_blk_RDS_F : Aegis_arifle_M4A1_GL_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_r1_high_lxWS;
+		};
+	};
 };

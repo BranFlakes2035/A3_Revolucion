@@ -140,12 +140,12 @@ class Rev_B_FRR_Soldier_A_F: Rev_B_FRR_Soldier_base_F
 	uniformClass = U_I_L_Uniform_01_tshirt_black_F;
 	weapons[] =
 	{
-		arifle_SPAR_01_blk_F,
+		Aegis_arifle_M4A1_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_F,
+		Aegis_arifle_M4A1_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -263,12 +263,12 @@ class Rev_B_FRR_Medic_F: Rev_B_FRR_Soldier_Base_F
 	backpack = B_FieldPack_green_FRR_Medic_F;
     weapons[] =
 	{
-		arifle_SPAR_01_blk_F,
+		Aegis_arifle_M4A1_F,
 		DefaultManWeapons,
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_F,
+		Aegis_arifle_M4A1_F,
 		DefaultManWeapons,
 	};
 	magazines[] =
@@ -423,12 +423,12 @@ class Rev_B_FRR_Soldier_Exp_F: Rev_B_FRR_Soldier_Base_F
     backpack = B_Carryall_oli_FRR_Exp_F;
 	weapons[] =
 	{
-		rev_arifle_SPAR_01_blk_ACO_grn_F,
+		rev_arifle_M4A1_blk_RDS_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SPAR_01_blk_ACO_grn_F,
+		rev_arifle_M4A1_blk_RDS_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -593,14 +593,14 @@ class Rev_B_FRR_Officer_F: Rev_B_FRR_Soldier_Base_F
 	uniformClass = Rev_U_B_FRR_Uniform_03_F;
 	weapons[] =
 	{
-		rev_arifle_SPAR_01_blk_ACO_grn_F,
+		rev_arifle_M4A1_blk_RDS_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SPAR_01_blk_ACO_grn_F,
+		rev_arifle_M4A1_blk_RDS_F,
 		hgun_P07_blk_F,
         DefaultManWeapons,
 		Binocular
@@ -658,12 +658,12 @@ class Rev_B_FRR_Soldier_F: Rev_B_FRR_Soldier_base_F
 	cost = 100000;
 	weapons[] =
 	{
-		rev_arifle_SPAR_01_blk_ACO_grn_F,
+		rev_arifle_M4A1_blk_RDS_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		rev_arifle_SPAR_01_blk_ACO_grn_F,
+		rev_arifle_M4A1_blk_RDS_F,
 		DefaultManWeapons
 	};
 	magazines[] =
@@ -723,13 +723,13 @@ class Rev_B_FRR_Soldier_AT_F: Rev_B_FRR_Soldier_Base_F
 	uniformClass = Rev_U_O_FASR_FieldJacket_tshirt_F;
 	weapons[] =
 	{
-		arifle_SPAR_01_blk_F,
+		Aegis_arifle_M4A1_F,
 		launch_MRAWS_Green_rail_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_F,
+		Aegis_arifle_M4A1_F,
 		launch_MRAWS_Green_rail_F,
         DefaultManWeapons
 	};
@@ -972,12 +972,12 @@ class Rev_B_FRR_Soldier_lite_F: Rev_B_FRR_Soldier_Base_F
 	uniformClass = U_I_C_Soldier_Bandit_3_F;
 	weapons[] =
 	{
-		arifle_SPAR_01_blk_F,
+		Aegis_arifle_M4A1_F,
 		DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		arifle_SPAR_01_blk_F,
+		Aegis_arifle_M4A1_F,
 		DefaultManWeapons
 	};
 	magazines[] =

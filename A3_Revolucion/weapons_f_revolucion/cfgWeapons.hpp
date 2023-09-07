@@ -55,6 +55,10 @@ class cfgWeapons
     class Aegis_arifle_AKM74_GL_F;
     class Aegis_arifle_AK103_F;
     class Aegis_arifle_AK103_GL_F;
+    class Aegis_arifle_M4A1_F;
+    class Aegis_arifle_M4A1_grip_F;
+    class Aegis_arifle_M4A1_short_F;
+    class Aegis_arifle_M4A1_GL_F;
 
     // Presets
     #include "presets.hpp"
