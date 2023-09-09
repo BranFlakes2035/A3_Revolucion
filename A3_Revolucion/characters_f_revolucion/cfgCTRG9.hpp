@@ -1083,7 +1083,7 @@ class Rev_B_CTRG_Story_Howard_King: Rev_B_CTRG_Soldier_G9_F
 		LanguageENG_F,
 		Revolucion_CTRG_Howard_King
 	};
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Marshall_Lacroix.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Marshall_Lacroix.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Howard King";
@@ -1155,7 +1155,7 @@ class Rev_B_CTRG_Story_Martin_Kennedy: Rev_B_CTRG_Soldier_G9_F
 		LanguageENG_F,
 		Revolucion_CTRG_Martin_Kennedy
 	};
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Marshall_Lacroix.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CTRG_Story_Marshall_Lacroix.jpg";
     scope = public;
     scopeCurator = public;
     displayName = "Martin Kennedy";
@@ -1220,7 +1220,7 @@ class Rev_B_CTRG_Story_Martin_Kennedy: Rev_B_CTRG_Soldier_G9_F
 class Rev_B_N_Story_Luca_Woods: Rev_B_CTRG_Soldier_TL_G9_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Luca_Woods.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Luca_Woods.jpg";
     scope = public;
     faction = Revolucion_BLU_CTRG_F;
     scopeCurator = public;
@@ -1371,7 +1371,7 @@ class Rev_B_CTRG_Story_Grant_MacKenzie: Rev_B_CTRG_Soldier_G9_F
 class Rev_B_N_Story_Jacob_Keith: Rev_B_CTRG_Soldier_G9_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Jacob_Keith.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Jacob_Keith.jpg";
     scope = public;
     faction = Revolucion_BLU_CTRG_F;
     scopeCurator = public;
@@ -1443,7 +1443,7 @@ class Rev_B_N_Story_Jacob_Keith: Rev_B_CTRG_Soldier_G9_F
 class Rev_B_N_Story_Chad_Williams: Rev_B_CTRG_Soldier_G9_F
 {
 	author = $STR_A3_A_BranFlakes;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Chad_Williams.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_N_Story_Chad_Williams.jpg";
     scope = public;
     faction = Revolucion_BLU_CTRG_F;
     scopeCurator = public;
