@@ -1218,8 +1218,8 @@ class Rev_O_FASR_Soldier_DS_F: Rev_O_FASR_Soldier_DS_base_F
 {
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_DS_F.jpg";
 	author = $STR_A3_A_Ravenholme;
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] =
 	{
@@ -1272,8 +1272,8 @@ class Rev_O_FASR_Soldier_TL_DS_F: Rev_O_FASR_Soldier_DS_base_F
 {
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_TL_DS_F.jpg";
 	author = $STR_A3_A_Ravenholme;
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
 	displayName = $STR_B_Soldier_TL_F0;
 	linkedItems[] =
 	{
@@ -1336,8 +1336,8 @@ class Rev_O_FASR_Soldier_Exp_DS_F: Rev_O_FASR_Soldier_DS_base_F
 {
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_Exp_DS_F.jpg";
 	author = $STR_A3_A_Ravenholme;
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
 	displayName = $STR_B_Soldier_exp_F0;
 	backpack = B_FieldPack_Green_FASR_DS_Exp_F;
 	linkedItems[] =
@@ -1400,8 +1400,8 @@ class Rev_O_FASR_Soldier_AR_DS_F: Rev_O_FASR_Soldier_DS_base_F
 {
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_AR_DS_F.jpg";
 	author = $STR_A3_A_BranFlakes;
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
 	displayName = $STR_B_soldier_AR_F0;
 	linkedItems[] =
 	{
@@ -1462,8 +1462,8 @@ class Rev_O_FASR_Soldier_M_DS_F: Rev_O_FASR_Soldier_DS_base_F
 {
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_M_DS_F.jpg";
 	author = $STR_A3_A_Ravenholme;
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
 	displayName = $STR_B_soldier_M_F0;
 	linkedItems[] =
 	{
@@ -1525,8 +1525,8 @@ class Rev_O_FASR_Soldier_Medic_DS_F: Rev_O_FASR_Soldier_DS_base_F
 {
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_Medic_DS_F.jpg";
 	author = $STR_A3_A_Ravenholme;
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
 	displayName = $STR_B_medic_F0;
 	backpack = B_FieldPack_Green_FASR_DS_Medic_F;
 	linkedItems[] =
@@ -1591,8 +1591,8 @@ class Rev_O_FASR_Soldier_GL_DS_F: Rev_O_FASR_Soldier_DS_base_F
 {
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_GL_DS_F.jpg";
 	author = $STR_A3_A_Ravenholme;
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
 	displayName = $STR_B_Soldier_GL_F0;
 	linkedItems[] =
 	{
@@ -1656,8 +1656,8 @@ class Rev_O_FASR_Soldier_LAT_DS_F: Rev_O_FASR_Soldier_DS_base_F
 {
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_LAT_DS_F.jpg";
 	author = $STR_A3_A_Ravenholme;
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
 	displayName = $STR_B_soldier_LAT_F0;
 	backpack = B_FieldPack_Green_FASR_DS_AT_F;
 	linkedItems[] =
@@ -1723,8 +1723,8 @@ class Rev_O_FASR_Soldier_JTAC_DS_F: Rev_O_FASR_Soldier_DS_base_F
 {
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Soldier_JTAC_DS_F.jpg";
 	author = $STR_A3_A_Ravenholme;
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
 	displayName = $STR_A3_C_B_W_RadioOperator_F0;
 	backpack = B_RadioBag_01_m81_F;
 	linkedItems[] =
@@ -1802,8 +1802,8 @@ class Rev_O_FASR_Officer_DS_F: Rev_O_FASR_Soldier_DS_base_F
 	textPlural = $STR_A3_nameSound_veh_infantry_officer_p;
 	nameSound = veh_infantry_officer_s;
 	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_Officer_DS_F.jpg";
-    scope = public;
-    scopeCurator = public;
+    scope = protected;
+    scopeCurator = protected;
     displayName = $STR_B_officer_F0;
     role = Rifleman;
 	icon = iconManOfficer;
