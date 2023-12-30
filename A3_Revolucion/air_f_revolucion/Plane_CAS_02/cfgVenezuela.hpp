@@ -176,12 +176,12 @@ class Rev_O_VZ_Plane_CAS_02_dynamicLoadout_ghex_F: Plane_CAS_02_dynamicLoadout_b
 	typicalCargo[] = {Rev_O_VZ_Fighter_Pilot_F};
 	textureList[] =
 	{
-		GreenHex,1
+		VZHex,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext01_ghex_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_CAS_02\Data\Fighter02_ext02_ghex_CO.paa"
+		"\A3_Revolucion\air_f_revolucion\Plane_CAS_02\Data\Rev_Fighter02_ext01_VZ_CO.paa",
+		"\A3_Revolucion\air_f_revolucion\Plane_CAS_02\Data\Rev_Fighter02_ext02_VZ_CO.paa"
 	};
     class EjectionSystem: EjectionSystem
 	{

@@ -1,4 +1,3 @@
-class O_MBT_02_cannon_F;
 class Rev_O_VZ_MBT_02_cannon_ghex_F: O_MBT_02_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
@@ -15,13 +14,13 @@ class Rev_O_VZ_MBT_02_cannon_ghex_F: O_MBT_02_cannon_F
 		REV_O_VZ_Crew_F,
 		REV_O_VZ_Crew_F
 	};
-	textureList[] = {GreenHex,1};
+	textureList[] = {VZHex,1};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3\Armor_F_Exp\MBT_02\Data\MBT_02_body_ghex_CO.paa",
-		"\A3\Armor_F_Exp\MBT_02\Data\MBT_02_turret_ghex_CO.paa",
-		"\A3\Armor_F_Exp\MBT_02\Data\MBT_02_ghex_CO.paa",
-		"\A3\Armor_F\Data\camonet_CSAT_Hex_Green_CO.paa"
+		"\A3_Revolucion\Armor_F_Revolucion\MBT_02\Data\rev_MBT_02_body_VZ_CO.paa",
+		"\A3_Revolucion\Armor_F_Revolucion\MBT_02\Data\rev_MBT_02_turret_VZ_CO.paa",
+		"\A3_Revolucion\Armor_F_Revolucion\MBT_02\Data\rev_MBT_02_VZ_CO.paa",
+		"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 	};
 	class TransportMagazines
 	{

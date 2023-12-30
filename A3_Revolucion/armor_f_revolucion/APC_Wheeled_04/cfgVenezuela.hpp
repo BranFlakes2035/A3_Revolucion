@@ -9,12 +9,12 @@ class Rev_O_VZ_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
 	faction = Revolucion_OPF_VZ_F;
 	crew = REV_O_VZ_Crew_F;
 	typicalCargo[] = {REV_O_VZ_Crew_F};
-    textureList[] = {Green,1};
+    textureList[] = {VZHex,1};
 	hiddenSelectionsTextures[] =
     {
-        "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_RUkhk_CO.paa",
-        "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_RUkhk_CO.paa",
-        "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_tow_RUkhk_CO.paa",
+        "\A3_revolucion\Armor_F_revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_body_VZ_CO.paa",
+        "\A3_revolucion\Armor_F_revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_body2_VZ_CO.paa",
+        "\A3_revolucion\Armor_F_revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_tow_VZ_CO.paa",
         "\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa",
         "\A3_Aegis\Armor_F_Aegis\Data\cage_RUkhk_CO.paa"
     };

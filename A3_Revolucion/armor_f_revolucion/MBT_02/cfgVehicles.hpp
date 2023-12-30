@@ -1,6 +1,6 @@
 class CfgVehicles
 {
-	/* Inheritance Tree */
+	// Arma 3
 	class LandVehicle;
 	class Tank: LandVehicle
 	{
@@ -12,179 +12,43 @@ class CfgVehicles
 		{
 			class MainTurret: NewTurret
 			{
-				class Turrets
+				class Turrets;
+			};
+		};
+	};
+	class MBT_02_base_F: Tank_F
+	{
+		class Turrets: Turrets
+		{
+			class MainTurret: MainTurret
+			{
+				class Turrets: Turrets
 				{
 					class CommanderOptics;
 				};
 			};
 		};
 	};
-
-    /* Bases */
-	class MBT_02_base_F: Tank_F
+    class O_MBT_02_base_F: MBT_02_base_F
 	{
-        /* Turrets */
-		class Turrets: Turrets
+		class TextureSources
 		{
-			class MainTurret: MainTurret
+			class VZHex
 			{
-				class Turrets: Turrets
+				displayName = $STR_A3_R_TextureSources_VZHex0;
+				author = $STR_A3_A_BranFlakes;
+				textures[] = 
 				{
-					class CommanderOptics: CommanderOptics
-					{
-                        /* Weapons & Ammunition */
-						magazines[] =
-						{
-							mag_2(150Rnd_127x108_Ball),
-							SmokeLauncherMag
-						};
-
-                        /* Sensors & Components */
-                        class Components
-						{
-							class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftCommander
-							{
-								class Components: components
-								{
-									class SensorDisplay
-									{
-										componentType = SensorsDisplayComponent;
-										range[] =
-                                        {
-                                            1000,
-                                            2000,
-                                            4000,
-                                            8000
-                                        };
-										resource = RscCustomInfoSensors;
-									};
-								};
-							};
-							class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightCommander
-							{
-								defaultDisplay = SensorDisplay;
-								class Components: components
-								{
-									class SensorDisplay
-									{
-										componentType = SensorsDisplayComponent;
-										range[] =
-                                        {
-                                            1000,
-                                            2000,
-                                            4000,
-                                            8000
-                                        };
-										resource = RscCustomInfoSensors;
-									};
-								};
-							};
-                        };
-					};
+					"\A3_Revolucion\Armor_F_Revolucion\MBT_02\Data\rev_MBT_02_body_VZ_CO.paa",
+					"\A3_Revolucion\Armor_F_Revolucion\MBT_02\Data\rev_MBT_02_turret_VZ_CO.paa",
+					"\A3_Revolucion\Armor_F_Revolucion\MBT_02\Data\rev_MBT_02_VZ_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
 				};
-                /* Weapons & Ammunition */
-				weapons[] =
-				{
-					cannon_125mm,
-					LMG_coax
-				};
-				magazines[] =
-				{
-					16Rnd_125mm_APFSDS_T_Green,
-					12Rnd_125mm_HEAT_T_Green,
-					12Rnd_125mm_HE_T_Green,
-					mag_20(200Rnd_762x51_Belt_Green),
-					4Rnd_125mm_cannon_missiles
-				};
-
-                /* Sensors & Components */
-				class Components
-				{
-					class VehicleSystemsDisplayManagerComponentLeft: VehicleSystemsTemplateLeftCommander
-					{
-						class Components: components
-						{
-							class SensorDisplay
-							{
-								componentType = SensorsDisplayComponent;
-								range[] =
-                                {
-                                    1000,
-                                    2000,
-                                    4000,
-                                    8000
-                                };
-								resource = RscCustomInfoSensors;
-							};
-						};
-					};
-					class VehicleSystemsDisplayManagerComponentRight: VehicleSystemsTemplateRightCommander
-					{
-						defaultDisplay = SensorDisplay;
-						class Components: components
-						{
-							class SensorDisplay
-							{
-								componentType = SensorsDisplayComponent;
-								range[] =
-                                {
-                                    1000,
-                                    2000,
-                                    4000,
-                                    8000
-                                };
-								resource = RscCustomInfoSensors;
-							};
-						};
-					};
-				};
-			};
-		};
-
-		animationList[] =
-		{
-			showCamonetHull,0,
-			showCamonetCannon,0,
-			showCamonetTurret,0,
-			showLog,1
-		};
-		class O_MBT_02_cannon_F;
-
-        /* Inventory */
-		class TransportItems
-		{
-			item_xx(FirstAidKit,10);
-			item_xx(Toolkit,1);
-			item_xx(Medikit,1);
-		};
-		class TransportBackpacks
-		{
-			bag_xx(B_FieldPack_ocamo,2);
-		};
-	};
-	class MBT_02_arty_base_F: MBT_02_base_F
-	{
-        /* Turrets */
-		class Turrets: Turrets
-		{
-			class MainTurret: MainTurret
-			{
-				class Turrets: Turrets
-				{
-					class CommanderOptics: CommanderOptics
-					{
-                        /* Weapons & Ammunition */
-						magazines[] =
-						{
-							64Rnd_40mm_G_belt,
-							mag_2(200Rnd_127x99_mag_Tracer_Green),
-							SmokeLauncherMag
-						};
-					};
-				};
+				faction[] = {};
 			};
 		};
 	};
+    class O_MBT_02_cannon_F: O_MBT_02_base_F{};
 
     /* Factions */
     #include "cfgVenezuela.hpp" // Venezuela
