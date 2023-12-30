@@ -68,7 +68,7 @@ class CfgWeapons
 		author = $STR_A3_A_Grave;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_recon_CTRG_G9_F0;
-		picture = "\A3_Aegis\characters_f_aegis\Vests\Data\UI\Icon_CarrierRigKBT_01_recon_CTRGJ_F_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\Rev_V_CarrierRigKBT_01_recon_CTRG_trp_F_ca.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"A3_Revolucion\characters_f_revolucion\Vests\Data\CarrierRigKBT_01_CTRG9_CO.paa",
@@ -122,7 +122,7 @@ class CfgWeapons
 		author = $STR_A3_A_Grave;
 		scope = public;
 		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_recon_EAF_F0;
-		picture = "\A3_Aegis\characters_f_aegis\Vests\Data\UI\Icon_CarrierRigKBT_01_recon_EAF_F_CA.paa";
+		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\Rev_V_CarrierRigKBT_01_recon_FDB_F_CA.paa";
 		hiddenSelectionsTextures[]=
 		{
 			"A3_Revolucion\Characters_F_Revolucion\vests\data\CarrierRigKBT_01_FDB_CO.paa",

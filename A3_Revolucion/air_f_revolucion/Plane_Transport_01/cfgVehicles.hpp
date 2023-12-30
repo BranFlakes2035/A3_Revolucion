@@ -16,7 +16,8 @@ class CfgVehicles
 				{
 					"\A3_revolucion\Air_F_revolucion\Plane_Transport_01\Data\Plane_Transport_01_body_BDF_CO.paa",
 					"\A3_revolucion\Air_F_revolucion\Plane_Transport_01\Data\Plane_Transport_01_wings_BDF_CO.paa",
-					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+					"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+					"\A3_revolucion\Air_F_revolucion\Plane_Transport_01\Data\Plane_Transport_01_decal_BDF_CO.paa"
 				};
 				factions[] = {};
 			};

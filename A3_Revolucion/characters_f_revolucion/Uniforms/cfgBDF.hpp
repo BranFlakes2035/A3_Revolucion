@@ -71,7 +71,7 @@ class Rev_U_B_BDF_SF_Uniform_01_F: Uniform_Base
 	author = $STR_A3_A_Branflakes;
 	scope = public;
 	displayName = "Operator Uniform [FDB SF] (Camo Shirt)";
-	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_Uniform_01_F_CA.paa";
+	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_SF_Uniform_01_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
@@ -88,7 +88,7 @@ class Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F: Uniform_Base
 	author = $STR_A3_A_Branflakes;
 	scope = public;
 	displayName = "Operator Uniform [FDB SF] (Camo Shirt, Rolledup)";
-	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_Uniform_01_shortsleeve_F_CA.paa";
+	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
@@ -105,7 +105,7 @@ class Rev_U_B_BDF_SF2_Uniform_01_F: Uniform_Base
 	author = $STR_A3_A_Branflakes;
 	scope = public;
 	displayName = "Operator Uniform [FDB SF] (Black Shirt)";
-	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_Uniform_01_F_CA.paa";
+	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_SF2_Uniform_01_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
@@ -122,7 +122,7 @@ class Rev_U_B_BDF_SF2_Uniform_01_shortsleeve_F: Uniform_Base
 	author = $STR_A3_A_Branflakes;
 	scope = public;
 	displayName = "Operator Uniform [FDB SF] (Black Shirt, Rolledup)";
-	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_Uniform_01_shortsleeve_F_CA.paa";
+	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_SF2_Uniform_01_shortsleeve_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
@@ -139,7 +139,7 @@ class Rev_U_B_BDF_SF3_Uniform_01_F: Uniform_Base
 	author = $STR_A3_A_Branflakes;
 	scope = public;
 	displayName = "Operator Uniform [FDB SF] (Jeans)";
-	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_Uniform_01_F_CA.paa";
+	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_SF3_Uniform_01_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};
@@ -156,7 +156,7 @@ class Rev_U_B_BDF_SF3_Uniform_01_shortsleeve_F: Uniform_Base
 	author = $STR_A3_A_Branflakes;
 	scope = public;
 	displayName = "Operator Uniform [FDB SF] (Jeans, Rolled-Up)";
-	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_Uniform_01_shortsleeve_F_CA.paa";
+	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_B_BDF_SF3_Uniform_01_shortsleeve_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_CO.paa"};

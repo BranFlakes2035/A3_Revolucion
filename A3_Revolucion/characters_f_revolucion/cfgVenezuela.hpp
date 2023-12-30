@@ -1543,7 +1543,7 @@ class Rev_O_VZ_Soldier_recon_base: Rev_O_VZ_Soldier_Base_F
     textSingular = $STR_A3_nameSound_veh_infantry_SF_s;
     textPlural = $STR_A3_nameSound_veh_infantry_SF_p;
     nameSound = veh_infantry_SF_s;
-    uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
+    uniformClass = Rev_U_VZ_CombatUniform_SF_shortsleeve_F;
     editorsubcategory = EdSubcat_Personnel_SpecialForces;
 	items[] =
 	{
@@ -1567,15 +1567,17 @@ class Rev_O_VZ_Recon_F: Rev_O_VZ_Soldier_recon_base
 	displayName = $STR_B_recon_F0;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		lxWS_h_bmask_base,
+		V_CarrierRigKBT_01_light_Olive_F,
+		Aegis_G_Armband_CSAT_F,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		lxWS_h_bmask_base,
+		V_CarrierRigKBT_01_light_Olive_F,
+		Aegis_G_Armband_CSAT_F,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1619,15 +1621,17 @@ class Rev_O_VZ_recon_TL_F: Rev_O_VZ_Soldier_recon_base
 	displayName = $STR_B_Recon_TL_F0;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		H_Booniehat_mgrn_hs,
+		V_CarrierRigKBT_01_light_Olive_F,
+		G_Headset_lxWS,
+		H_Beret_CSAT_01_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		H_MilCap_grn,
+		V_CarrierRigKBT_01_light_Olive_F,
+		G_Headset_lxWS,
+		H_Beret_CSAT_01_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1685,17 +1689,20 @@ class Rev_O_VZ_recon_exp_F: Rev_O_VZ_Soldier_recon_base
     scopeCurator = public;
 	displayName = $STR_B_Recon_exp_F0;
 	backpack = B_Carryall_owcamo_OWExp_F;
+	uniformClass = Rev_U_VZ_CombatUniform_SF_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_black_f,
-		H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_heavy_Olive_f,
+		G_Combat_lxWS,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_black_f,
-		H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_heavy_Olive_f,
+		G_Combat_lxWS,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1750,15 +1757,17 @@ class Rev_O_VZ_recon_AR_F: Rev_O_VZ_Soldier_recon_base
 	displayName = $STR_A3_C_O_R_recon_AR_F0;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		lxWS_h_bmask_base,
+		V_CarrierRigKBT_01_light_Olive_f,
+		H_HelmetSpecter_headset_F,
+		Aegis_G_Condor_EyePro_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		lxWS_h_bmask_base,
+		V_CarrierRigKBT_01_light_Olive_f,
+		H_HelmetSpecter_headset_F,
+		Aegis_G_Condor_EyePro_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1808,17 +1817,20 @@ class Rev_O_VZ_recon_M_F: Rev_O_VZ_Soldier_recon_base
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_recon_M_F0;
+	uniformClass = Rev_U_VZ_CombatUniform_SF_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		H_Booniehat_mgrn_hs,
+		V_CarrierRigKBT_01_light_Olive_f,
+		H_Beret_CSAT_01_F,
+		G_Headset_Tactical,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		H_Booniehat_mgrn_hs,
+		V_CarrierRigKBT_01_light_Olive_f,
+		H_Beret_CSAT_01_F,
+		G_Headset_Tactical,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1872,15 +1884,17 @@ class Rev_O_VZ_recon_medic_F: Rev_O_VZ_Soldier_recon_base
 	backpack = B_FieldPack_owcamo_OWMedic_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_light_Olive_f,
+		G_Shemag_Tactical,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		H_HelmetSpecter_black_headset_F,
+		V_CarrierRigKBT_01_light_Olive_f,
+		G_Shemag_Tactical,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1935,15 +1949,17 @@ class Rev_O_VZ_recon_GL_F: Rev_O_VZ_Soldier_recon_base
 	displayName = $STR_A3_C_O_R_recon_GL_F0;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_black_f,
-		lxWS_h_bmask_base,
+		V_CarrierRigKBT_01_heavy_Olive_f,
+		G_Bandanna_Shades,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_heavy_black_f,
-		lxWS_h_bmask_base,
+		V_CarrierRigKBT_01_heavy_Olive_f,
+		G_Bandanna_Shades,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -1999,15 +2015,17 @@ class Rev_O_VZ_recon_LAT_F: Rev_O_VZ_Soldier_recon_base
 	backpack = B_FieldPack_owcamo_OVZLAT_F;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		lxWS_h_bmask_base,
+		V_CarrierRigKBT_01_light_Olive_f,
+		Aegis_G_Condor_EyePro_F,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
-		lxWS_h_bmask_base,
+		V_CarrierRigKBT_01_light_Olive_f,
+		Aegis_G_Condor_EyePro_F,
+		H_HelmetSpecter_headset_F,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
@@ -2063,15 +2081,17 @@ class Rev_O_VZ_recon_JTAC_F: Rev_O_VZ_Soldier_recon_base
 	displayName = $STR_B_recon_JTAC_F0;
 	linkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
+		V_CarrierRigKBT_01_light_Olive_f,
 		H_HelmetSpecter_black_headset_F,
+		G_Shemag_Shades,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		V_CarrierRigKBT_01_light_black_f,
+		V_CarrierRigKBT_01_light_Olive_f,
 		H_HelmetSpecter_black_headset_F,
+		G_Shemag_Shades,
 		DefaultManLeaderLinkedItems,
 		NVGoggles_OPFOR
 	};

@@ -141,7 +141,7 @@ class rev_B_Plane_Fighter_04_F: Plane_Fighter_04_Base_F
 		verticalOffsetWorld = -0.079;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_B_M_Plane_Fighter_04_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\rev_B_Plane_Fighter_04_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TWest;

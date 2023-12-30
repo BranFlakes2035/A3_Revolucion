@@ -384,11 +384,12 @@ class Rev_Policia_CombatUniform_shortsleeve_F: I_soldier_lite_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\uniform_U_policia_CO.paa"
 	};
 };
+/* Venezuela */
 class Rev_VZ_CombatUniform_F: I_soldier_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Rev_U_Policia_CombatUniform_F;
+	uniformClass = Rev_U_VZ_CombatUniform_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_F.paa"
@@ -398,10 +399,30 @@ class Rev_VZ_CombatUniform_shortsleeve_F: I_soldier_lite_F
 {
   	scope = protected;
   	scopeCurator = private;
-	uniformClass = Rev_U_Policia_CombatUniform_shortsleeve_F;
+	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	hiddenSelectionsTextures[] =
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_F.paa"
+	};
+};
+class Rev_VZ_CombatUniform_SF_F: I_soldier_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_VZ_CombatUniform_SF_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_VZSF_CO.paa"
+	};
+};
+class Rev_VZ_CombatUniform_SF_shortsleeve_F: I_soldier_lite_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = Rev_U_VZ_CombatUniform_SF_shortsleeve_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_VZSF_CO.paa"
 	};
 };
 /* CTRG */

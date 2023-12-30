@@ -16,7 +16,8 @@ class Rev_B_BDF_Plane_Transport_01_infantry_F: Plane_Transport_01_infantry_base_
 	{
 		"\A3_revolucion\Air_F_revolucion\Plane_Transport_01\Data\Plane_Transport_01_body_BDF_CO.paa",
 		"\A3_revolucion\Air_F_revolucion\Plane_Transport_01\Data\Plane_Transport_01_wings_BDF_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+		"\A3_revolucion\Air_F_revolucion\Plane_Transport_01\Data\Plane_Transport_01_decal_BDF_CO.paa"
 	};
 };
 class Rev_B_BDF_Plane_Transport_01_vehicle_F: Plane_Transport_01_vehicle_base_F
@@ -36,6 +37,7 @@ class Rev_B_BDF_Plane_Transport_01_vehicle_F: Plane_Transport_01_vehicle_base_F
 	{
 		"\A3_revolucion\Air_F_revolucion\Plane_Transport_01\Data\Plane_Transport_01_body_BDF_CO.paa",
 		"\A3_revolucion\Air_F_revolucion\Plane_Transport_01\Data\Plane_Transport_01_wings_BDF_CO.paa",
-		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa"
+		"\A3_Aegis\Air_F_Aegis\Plane_Transport_01\Data\Plane_Transport_01_interior_CO.paa",
+		"\A3_revolucion\Air_F_revolucion\Plane_Transport_01\Data\Plane_Transport_01_decal_BDF_CO.paa"
 	};
 };

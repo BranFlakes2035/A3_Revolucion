@@ -1101,6 +1101,40 @@
 					<Japanese>Combat Fatigues [Venezuela] (Rolled-up)</Japanese>
 					<Turkish>Combat Fatigues [Venezuela] (Rolled-up)</Turkish>
 				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_VZ_SF_CombatUniform_F0">
+					<Original>Combat Fatigues (Dark Hex)</Original>
+					<Chinese>Combat Fatigues (Dark Hex)</Chinese>
+					<French>Combat Fatigues (Dark Hex)</French>
+					<Spanish>Combat Fatigues (Dark Hex)</Spanish>
+					<Italian>Combat Fatigues (Dark Hex)</Italian>
+					<Polish>Combat Fatigues (Dark Hex)</Polish>
+					<Russian>Combat Fatigues (Dark Hex)</Russian>
+					<German>Combat Fatigues (Dark Hex)</German>
+					<Czech>Combat Fatigues (Dark Hex)</Czech>
+					<English>Combat Fatigues (Dark Hex)</English>
+					<Portuguese>Combat Fatigues (Dark Hex)</Portuguese>
+					<Korean>Combat Fatigues (Dark Hex)</Korean>
+					<Chinesesimp>Combat Fatigues (Dark Hex)</Chinesesimp>
+					<Japanese>Combat Fatigues (Dark Hex)</Japanese>
+					<Turkish>Combat Fatigues (Dark Hex)</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_VZ_CombatUniform_SF_shortsleeve_F0">
+					<Original>Combat Fatigues (Dark Hex, Rolled-up)</Original>
+					<Chinese>Combat Fatigues (Dark Hex, (Dark Hex, Rolled-up)</Chinese>
+					<French>Combat Fatigues (Dark Hex, Rolled-up)</French>
+					<Spanish>Combat Fatigues (Dark Hex, Rolled-up)</Spanish>
+					<Italian>Combat Fatigues (Dark Hex, Rolled-up)</Italian>
+					<Polish>Combat Fatigues (Dark Hex, Rolled-up)</Polish>
+					<Russian>Combat Fatigues (Dark Hex, Rolled-up)</Russian>
+					<German>Combat Fatigues (Dark Hex, Rolled-up)</German>
+					<Czech>Combat Fatigues (Dark Hex, Rolled-up)</Czech>
+					<English>Combat Fatigues (Dark Hex, Rolled-up)</English>
+					<Portuguese>Combat Fatigues (Dark Hex, Rolled-up)</Portuguese>
+					<Korean>Combat Fatigues (Dark Hex, Rolled-up)</Korean>
+					<Chinesesimp>Combat Fatigues (Dark Hex, Rolled-up)</Chinesesimp>
+					<Japanese>Combat Fatigues (Dark Hex, Rolled-up)</Japanese>
+					<Turkish>Combat Fatigues (Dark Hex, Rolled-up)</Turkish>
+				</Key>
 				<Key ID="STR_A3_R_CfgWeapons_U_O_FASR_Uniform_02_F0">
 					<Original>Combat Fatigues (UCP)</Original>
 					<Chinese>Combat Fatigues (UCP)</Chinese>
