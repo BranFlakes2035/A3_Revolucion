@@ -27,7 +27,7 @@ class CfgVehicles
 			class CargoTurret_05: CargoTurret_01{};
 		};
 		/* Liveries */
-		/*class TextureSources
+		class TextureSources
 		{
 			class VZHex
 			{
@@ -35,15 +35,15 @@ class CfgVehicles
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{
-					"\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_01_WHEX_CO.paa",
-					"\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_02_WHEX_CO.paa",
-					"\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_03_WHEX_CO.paa",
+					"\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_01_VZ_CO.paa",
+					"\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_02_VZ_CO.paa",
+					"\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_03_VZ_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
 					"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
 				};
 				factions[] = {};
 			};
-		};*/
+		};
     };
 	class LSV_02_armed_base_F: LSV_02_base_F
 	{

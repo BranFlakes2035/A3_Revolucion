@@ -95,13 +95,13 @@ class Rev_O_VZ_LSV_02_armed_F: LSV_02_armed_base_F
 	textureList[] =
 	{
 		Black,0,
-		GreenHex,1
+		VZHex,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_ghex_CO.paa"
+		"\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_01_VZ_CO.paa",
+        "\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_02_VZ_CO.paa",
+        "\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_03_VZ_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -225,13 +225,13 @@ class Rev_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
     typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] =
 	{
-		GreenHex,1
+		VZHex,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_ghex_CO.paa"
+		"\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_01_VZ_CO.paa",
+        "\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_02_VZ_CO.paa",
+        "\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_03_VZ_CO.paa"
 	};
 	class TransportMagazines
 	{
@@ -353,13 +353,13 @@ class Rev_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
     typicalCargo[] = {Rev_O_VZ_Soldier_F};
 	textureList[] =
 	{
-		GreenHex,1
+		VZHex,1
 	};
 	hiddenSelectionsTextures[] =
 	{
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_01_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_02_ghex_CO.paa",
-		"\A3_Aegis\Soft_F_Aegis\LSV_02\Data\CSAT_LSV_03_ghex_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_01_VZ_CO.paa",
+        "\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_02_VZ_CO.paa",
+        "\A3_Revolucion\Soft_F_Revolucion\LSV_02\Data\CSAT_LSV_03_VZ_CO.paa"
 		"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa",
 		"\A3\Weapons_F_Tank\Launchers\Vorona\Data\Vorona_green_F_CO.paa"
 	};
