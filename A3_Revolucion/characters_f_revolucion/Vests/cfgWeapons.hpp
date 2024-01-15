@@ -121,7 +121,7 @@ class CfgWeapons
 	{
 		author = $STR_A3_A_Grave;
 		scope = public;
-		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_recon_EAF_F0;
+		displayName = $STR_A3_A_CfgWeapons_V_CarrierRigKBT_01_recon_FDB_F0;
 		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\Rev_V_CarrierRigKBT_01_recon_FDB_F_CA.paa";
 		hiddenSelectionsTextures[]=
 		{
