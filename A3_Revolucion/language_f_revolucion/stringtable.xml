@@ -1475,6 +1475,23 @@
                     <Japanese>Guerilla Garb (Commander)</Japanese>
                     <Turkish>Guerilla Garb (Commander)</Turkish>
                 </Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_C_BaracasFC_F0">
+                    <Original>Casual Clothes (Baracas F.C.)</Original>
+                    <Chinese>Casual Clothes (Baracas F.C.)</Chinese>
+                    <French>Casual Clothes (Baracas F.C.)</French>
+                    <Spanish>Casual Clothes (Baracas F.C.)</Spanish>
+                    <Italian>Casual Clothes (Baracas F.C.)</Italian>
+                    <Polish>Casual Clothes (Baracas F.C.)</Polish>
+                    <Russian>Casual Clothes (Baracas F.C.)</Russian>
+                    <German>Casual Clothes (Baracas F.C.)</German>
+                    <Czech>Casual Clothes (Baracas F.C.)</Czech>
+                    <English>Casual Clothes (Baracas F.C.)</English>
+                    <Portuguese>Casual Clothes (Baracas F.C.)</Portuguese>
+                    <Korean>Casual Clothes (Baracas F.C.)</Korean>
+                    <Chinesesimp>Casual Clothes (Baracas F.C.)</Chinesesimp>
+                    <Japanese>Casual Clothes (Baracas F.C.)</Japanese>
+                    <Turkish>Casual Clothes (Baracas F.C.)</Turkish>
+                </Key>
 			</Container>
 			<Container name="Vests">
 				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_cartel_F0">
