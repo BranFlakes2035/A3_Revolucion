@@ -1,6 +1,6 @@
 class Rev_O_VZ_Truck_02_F: O_Truck_02_covered_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -91,7 +91,7 @@ class Rev_O_VZ_Truck_02_F: O_Truck_02_covered_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Truck_02_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -107,9 +107,9 @@ class Rev_O_VZ_Truck_02_F: O_Truck_02_covered_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };
-class Atlas_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
+class Rev_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
 {
-    author = $STR_A3_A_AveryTheKitty;
+    author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -200,7 +200,7 @@ class Atlas_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_transport_F.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Truck_02_cargo_F.jpg";
     scope = public;
     scopeCurator = public;
     side = TEast;
@@ -218,11 +218,12 @@ class Atlas_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
 };
 class Rev_O_VZ_Truck_02_box_F: O_Truck_02_box_F
 {
-	author = $STR_A3_A_AveryTheKitty;
-	//editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_box_F.jpg";
+	author = $STR_A3_A_BranFlakes;
+	//editorPreview = "\A3_Atlas\EditorPreviews_F_Revolucion\Data\CfgVehicles\O_W_Truck_02_box_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Truck_02_box_F.jpg";
 	faction = revolucion_OPF_VZ_F;
 	crew = Rev_O_VZ_Soldier_F;
 	typicalCargo[] = {Rev_O_VZ_Soldier_F};
@@ -238,7 +239,7 @@ class Rev_O_VZ_Truck_02_box_F: O_Truck_02_box_F
 };
 class Rev_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -329,7 +330,7 @@ class Rev_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Truck_02_medical_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -347,7 +348,7 @@ class Rev_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
 };
 class Rev_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -438,7 +439,7 @@ class Rev_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Truck_02_Ammo_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	scopeArsenal = private;
@@ -459,7 +460,7 @@ class Rev_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 };
 class Rev_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 	{
 		eden = true;
@@ -550,7 +551,7 @@ class Rev_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
 		verticalOffsetWorld = -0.202;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Truck_02_fuel_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -568,7 +569,7 @@ class Rev_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
 };
 class Rev_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 		{
 			eden = true;
@@ -578,7 +579,7 @@ class Rev_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 			verticalOffsetWorld = -0.202;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_cargo_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Truck_02_cargo_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_cargo_base_F0;
@@ -598,7 +599,7 @@ class Rev_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 };
 class Rev_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class SimpleObject
 		{
 			eden = true;
@@ -608,7 +609,7 @@ class Rev_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 			verticalOffsetWorld = -0.202;
 			init = "[this, '', []] call bis_fnc_initVehicle";
 		};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Truck_02_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Truck_02_flatbed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_Truck_02_flatbed_base_F0;
@@ -624,5 +625,161 @@ class Rev_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
+	};
+};
+class O_Truck_02_MRL_F;
+class Rev_O_VZ_Truck_02_MRL_F: O_Truck_02_MRL_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class SimpleObject
+	{
+		eden = true;
+		animate[] =
+        {
+            {damagehidevez,0},
+            {damagehidehlaven,0},
+            {wheel_1_1_destruct,0},
+            {wheel_1_2_destruct,0},
+            {wheel_1_3_destruct,0},
+            {wheel_1_4_destruct,0},
+            {wheel_2_1_destruct,0},
+            {wheel_2_2_destruct,0},
+            {wheel_2_3_destruct,0},
+            {wheel_2_4_destruct,0},
+            {wheel_1_1_destruct_unhide,0},
+            {wheel_1_2_destruct_unhide,0},
+            {wheel_1_3_destruct_unhide,0},
+            {wheel_1_4_destruct_unhide,0},
+            {wheel_2_1_destruct_unhide,0},
+            {wheel_2_2_destruct_unhide,0},
+            {wheel_2_3_destruct_unhide,0},
+            {wheel_2_4_destruct_unhide,0},
+            {wheel_1_4_damage,0},
+            {wheel_2_4_damage,0},
+            {wheel_1_4_damper_damage_backanim,0},
+            {wheel_2_4_damper_damage_backanim,0},
+            {glass1_destruct,0},
+            {glass2_destruct,0},
+            {glass3_destruct,0},
+            {glass4_destruct,0},
+            {glass5_destruct,0},
+            {glass6_destruct,0},
+            {wheel_1_1,0},
+            {wheel_2_1,0},
+            {wheel_1_2,0},
+            {wheel_2_2,0},
+            {daylights,0},
+            {reverse_light,1},
+            {pedal_thrust,0},
+            {pedal_brake,0},
+            {wheel_1_1_damage,0},
+            {wheel_1_2_damage,0},
+            {wheel_1_3_damage,0},
+            {wheel_2_1_damage,0},
+            {wheel_2_2_damage,0},
+            {wheel_2_3_damage,0},
+            {wheel_1_1_damper_damage_backanim,0},
+            {wheel_1_2_damper_damage_backanim,0},
+            {wheel_1_3_damper_damage_backanim,0},
+            {wheel_2_1_damper_damage_backanim,0},
+            {wheel_2_2_damper_damage_backanim,0},
+            {wheel_2_3_damper_damage_backanim,0},
+            {commander_turret,0},
+            {commander_gun,0.2},
+            {base,0},
+            {tower,0.2},
+            {tower_fake,0.2},
+            {elevator,0.2},
+            {elevator_2,0.2},
+            {elevator_3,0.2},
+            {elevator_piston,0.2},
+            {turret_control_x,0},
+            {turret_control_y,0},
+            {launcher001_hide,1},
+            {launcher001_unhide,1},
+            {missile_move_001,1},
+            {launcher002_hide,1},
+            {launcher002_unhide,1},
+            {missile_move_002,1},
+            {launcher003_hide,1},
+            {launcher003_unhide,1},
+            {missile_move_003,1},
+            {launcher004_hide,1},
+            {launcher004_unhide,1},
+            {missile_move_004,1},
+            {launcher005_hide,1},
+            {launcher005_unhide,1},
+            {missile_move_005,1},
+            {launcher006_hide,1},
+            {launcher006_unhide,1},
+            {missile_move_006,1},
+            {launcher007_hide,1},
+            {launcher007_unhide,1},
+            {missile_move_007,1},
+            {launcher008_hide,1},
+            {launcher008_unhide,1},
+            {missile_move_008,1},
+            {launcher009_hide,1},
+            {launcher009_unhide,1},
+            {missile_move_009,1},
+            {launcher010_hide,1},
+            {launcher010_unhide,1},
+            {missile_move_010,1},
+            {launcher011_hide,1},
+            {launcher011_unhide,1},
+            {missile_move_011,1},
+            {launcher012_hide,1},
+            {launcher012_unhide,1},
+            {missile_move_012,1},
+            {wheel_1_3,0},
+            {wheel_2_3,0},
+            {wheel_1_1_damper,0},
+            {wheel_2_1_damper,0},
+            {wheel_1_2_damper,0},
+            {wheel_2_2_damper,0},
+            {wheel_1_3_damper,0},
+            {wheel_2_3_damper,0},
+            {damagehide,0},
+            {damagehide_turret,0},
+            {indicatorspeed,0},
+            {indicatorrpm,0},
+            {ventilate,0},
+            {indicatoroiltemp,0},
+            {fuel,1},
+            {drivingwheel,0},
+            {steering_1_1,0},
+            {steering_2_1,0},
+            {hide_mfd_and_pip_screen,1},
+            {hide_mfd_elements,1}
+        };
+		hide[] =
+		{
+			clan,
+			zasleh,
+			light_l,
+			light_r,
+			"zadni svetlo",
+			"brzdove svetlo",
+			"podsvit pristroju",
+			poskozeni
+		};
+		verticalOffset = 2.445;
+		verticalOffsetWorld = -0.207;
+		init = "''";
+	};
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Truck_02_MRL_F.jpg";
+	scope = public;
+	scopeCurator = public;
+	side = TEast;
+	faction = revolucion_OPF_VZ_F;
+	crew = Rev_O_VZ_Soldier_F;
+	typicalCargo[] = {Rev_O_VZ_Soldier_F};
+	textureList[] = {VZHex,1};
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
+		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_MRL_VZ_CO.paa",
+		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
 };

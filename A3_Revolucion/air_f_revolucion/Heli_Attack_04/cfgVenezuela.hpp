@@ -2,7 +2,7 @@
 class Rev_O_VZ_Heli_Attack_04_F: Aegis_Heli_Attack_04_base_F
 {
 	author = $STR_A3_A_Grave;
-	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Attack_04_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Attack_04_F.jpg";
 	displayName = "Mi-35 Orinoco";
 	scope = public;
 	scopeCurator = public;

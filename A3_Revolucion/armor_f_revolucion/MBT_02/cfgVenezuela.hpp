@@ -1,7 +1,7 @@
 class Rev_O_VZ_MBT_02_cannon_ghex_F: O_MBT_02_cannon_F
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_MBT_02_cannon_ghex_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_MBT_02_cannon_ghex_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = "T-100 Tejón";

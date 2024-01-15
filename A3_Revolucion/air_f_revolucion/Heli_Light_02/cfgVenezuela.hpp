@@ -124,8 +124,7 @@ class Rev_O_VZ_Heli_Light_02_dynamicLoadout_F: Heli_Light_02_dynamicLoadout_base
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Light_02_dynamicLoadout_F.jpg";
-    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Light_02_dynamicLoadout_F.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Light_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;
@@ -276,8 +275,7 @@ class Rev_O_VZ_Heli_Light_02_unarmed_F: Heli_Light_02_unarmed_base_F
 		verticalOffsetWorld = 0.005;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Light_02_unarmed_F.jpg";
-    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Light_02_unarmed_F.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Light_02_dynamicLoadout_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	scopeArsenal = private;

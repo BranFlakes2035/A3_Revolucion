@@ -84,7 +84,7 @@ class Rev_O_VZ_LSV_02_armed_F: LSV_02_armed_base_F
 		verticalOffsetWorld = -0.131;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_armed_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_LSV_02_armed_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	displayName = "Quimera (Minigun)";
@@ -215,7 +215,7 @@ class Rev_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_unarmed_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_LSV_02_unarmed_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = "Quimera";
@@ -343,7 +343,7 @@ class Rev_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
 		verticalOffsetWorld = -0.132;
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
-	editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_LSV_02_AT_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_LSV_02_AT_F.jpg";
 	scope = public;
 	scopeCurator = public;
     displayName = "Quimera (AT)";
