@@ -1990,7 +1990,7 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
     magazines[] =
     {
         mag_4(30Rnd_556x45_Stanag_red),
-        mag_2(30Rnd_556x45_Stanag_red_Tracer),
+        mag_2(30Rnd_556x45_Stanag_tracer_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
@@ -2000,7 +2000,7 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
     respawnMagazines[] =
     {
         mag_4(30Rnd_556x45_Stanag_red),
-        mag_2(30Rnd_556x45_Stanag_red_Tracer),
+        mag_2(30Rnd_556x45_Stanag_tracer_red),
         mag_2(16rnd_9x21_mag_v2),
         mag_2(MiniGrenade),
         SmokeShell,
