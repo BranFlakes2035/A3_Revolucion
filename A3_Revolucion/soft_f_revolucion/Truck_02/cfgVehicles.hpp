@@ -113,7 +113,7 @@ class CfgVehicles
 				textures[] =
 				{
 					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kab_VZ_CO.paa",
-					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_kuz_VZ_CO.paa",
+					"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_repair_VZ_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 					"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 					"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
