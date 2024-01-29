@@ -137,7 +137,7 @@ class Rev_arifle_AK74_oak_ACO_AK_FL_F: Aegis_arifle_AK74_oak_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = saber_light_lxWS_pistol;
+			item = acc_flashlight_pistol;
 		};
     };
 };
@@ -156,7 +156,7 @@ class Rev_arifle_AKM74_GL_ACO_AK_FL_F: Aegis_arifle_AKM74_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = saber_light_lxWS_pistol;
+			item = acc_flashlight_pistol;
 		};
     };
 };
@@ -175,7 +175,7 @@ class Rev_arifle_AKM74_GL_ARCO_AK_FL_F: Aegis_arifle_AKM74_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = saber_light_lxWS_pistol;
+			item = acc_flashlight_pistol;
 		};
     };
 };
@@ -194,7 +194,7 @@ class Rev_arifle_AKM74_ACO_AK_FL_F: Aegis_arifle_AKM74_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = saber_light_lxWS_pistol;
+			item = acc_flashlight_pistol;
 		};
     };
 };
@@ -213,7 +213,7 @@ class Rev_arifle_AK103_GL_ACO_AK_FL_F: Aegis_arifle_AK103_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = saber_light_lxWS_pistol;
+			item = acc_flashlight_pistol;
 		};
     };
 };
@@ -232,7 +232,7 @@ class Rev_arifle_AK103_GL_ARCO_AK_FL_F: Aegis_arifle_AK103_GL_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = saber_light_lxWS_pistol;
+			item = acc_flashlight_pistol;
 		};
     };
 };
@@ -251,7 +251,7 @@ class Rev_arifle_AK103_ACO_AK_FL_F: Aegis_arifle_AK103_F
         class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = saber_light_lxWS_pistol;
+			item = acc_flashlight_pistol;
 		};
     };
 };
@@ -1318,7 +1318,7 @@ class Rev_hgun_P07_blk_fl_snds_F: hgun_P07_blk_F
 		class LinkedItemsAcc
 		{
 			slot = PointerSlot;
-			item = saber_light_lxWS_pistol;
+			item = acc_flashlight_pistol;
 		};
 	};
 };
