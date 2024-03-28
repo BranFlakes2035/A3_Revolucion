@@ -560,3 +560,22 @@ class Rev_C_Man_casual_baracasfc_F: C_Man_casual_1_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\ig_poloshirt_1_baracasfc_co.paa"
 	};
 };
+/* Ghille */
+class I_sniper_F;
+class rev_B_BDF_GhillieSuit_01_F: I_sniper_F
+{
+  	scope = protected;
+  	scopeCurator = private;
+	uniformClass = rev_U_B_BDF_GhillieSuit;
+	hiddenSelections[] =
+    {
+		camo,
+		camo3,
+		insignia
+    };
+	hiddenSelectionsTextures[] =
+    {
+        "\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa",
+        "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\ghillie_olive_CO.paa"
+    };
+};

@@ -117,3 +117,20 @@ class Rev_U_B_FRR_Uniform_El_Jefe_F: Uniform_Base
 		mass = 40;
 	};
 };
+class rev_U_B_BDF_GhillieSuit: Uniform_Base
+{
+	author = $STR_A3_A_BranFlakes;
+	scope = public;
+	displayName = "Ghillie Suit (ATACS)";
+	picture = "\A3_Athena\Characters_f_Athena\Headgear\Data\UI\placeholder.paa";
+	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
+	hiddenSelections[] = {camo};
+	hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa"};
+	class ItemInfo: UniformItem
+	{
+		uniformModel = "-";
+		uniformClass = rev_B_BDF_GhillieSuit_01_F;
+		containerClass = Supply60;
+		mass = 60;
+	};
+};
