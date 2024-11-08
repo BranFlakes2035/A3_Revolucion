@@ -1883,7 +1883,7 @@ class Aegis_arifle_M4A1_GL_ACOG_IR_F: Aegis_arifle_M4A1_GL_F
 // M4A1 5.56mm (Black) + ACOG
 class rev_arifle_M4A1_blk_ACOG_F : Aegis_arifle_M4A1_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class LinkedItems
 	{
 		class LinkedItemsOptic
@@ -1897,7 +1897,7 @@ class rev_arifle_M4A1_blk_ACOG_F : Aegis_arifle_M4A1_F
 // M4A1 5.56mm (Black) + RDS (High)
 class rev_arifle_M4A1_blk_RDS_F : Aegis_arifle_M4A1_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
 	class LinkedItems
 	{
 		class LinkedItemsOptic
@@ -1911,7 +1911,66 @@ class rev_arifle_M4A1_blk_RDS_F : Aegis_arifle_M4A1_F
 // M4A1 GL 5.56mm (Black) + RDS (High)
 class rev_arifle_M4A1_GL_blk_RDS_F : Aegis_arifle_M4A1_GL_F
 {
-	author = $STR_A3_A_AveryTheKitty;
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_r1_high_lxWS;
+		};
+	};
+};
+
+// M16E4 5.56mm + RDS (High)
+class Aegis_arifle_M16A4_F;
+class rev_arifle_M16A4_blk_RDS_F : Aegis_arifle_M16A4_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_r1_high_lxWS;
+		};
+	};
+};
+
+// M16E4 5.56mm + ACOG
+class rev_arifle_M16A4_blk_ACOG_F : Aegis_arifle_M16A4_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = Aegis_optic_ACOG;
+		};
+	};
+};
+
+// M16E4 (FG) 5.56mm + RDS (High)
+class Aegis_arifle_M16A4_FG_F;
+class rev_arifle_M16A4_FG_blk_RDS_F : Aegis_arifle_M16A4_FG_F
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_r1_high_lxWS;
+		};
+	};
+};
+
+// M16E4 (GL) 5.56mm + RDS (High)
+class Aegis_arifle_M16A4_GL_F;
+class rev_arifle_M16A4_GL_blk_RDS_F : Aegis_arifle_M16A4_GL_F
+{
+	author = $STR_A3_A_BranFlakes;
 	class LinkedItems
 	{
 		class LinkedItemsOptic

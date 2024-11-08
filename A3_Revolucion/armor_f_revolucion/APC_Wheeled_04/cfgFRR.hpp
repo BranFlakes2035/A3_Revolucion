@@ -3,8 +3,8 @@ class Rev_B_FRR_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
 {
     author = $STR_A3_A_AveryTheKitty_and_Lakarak;
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FRR_APC_Wheeled_04_cannon_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = protected;
+	scopeCurator = protected;
     forceInGarage = false;
 	side = TWest;
 	faction = Revolucion_BLU_FRR_F;
@@ -68,4 +68,74 @@ class Rev_O_FRR_APC_Wheeled_04_cannon_F: Rev_B_FRR_APC_Wheeled_04_cannon_F
 	faction = Revolucion_OPF_FRR_F;
 	crew = Rev_O_FRR_Crew_F;
 	typicalCargo[] = {Rev_O_FRR_Crew_F};
+};
+class Aegis_I_APC_Wheeled_04_export_F;
+class Rev_B_FRR_APC_Wheeled_04_export_F: Aegis_I_APC_Wheeled_04_export_F
+{
+    author = $STR_A3_A_AveryTheKitty_Lukin_Lakarak;
+    displayName = $STR_A3_A_CfgVehicles_I_APC_Wheeled_04_export_F0;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_G_APC_Wheeled_04_export_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    side = TWest;
+    faction = Revolucion_BLU_FRR_F;
+    crew = Rev_B_FRR_Crew_F;
+    typicalCargo[] = {Rev_B_FRR_Crew_F};
+    textureList[] = 
+    {
+        Guerrilla_01,1,
+    };
+    hiddenSelectionsTextures[] =
+    {
+        "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body_export_FIA_CO.paa",
+        "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\Data\APC_Wheeled_04_body2_FIA_CO.paa",
+        "\A3_Aegis\Armor_F_Aegis\APC_Wheeled_04\data\btr100a_turret_FIA_co.paa"
+    };
+    /* Inventory */
+    class TransportWeapons
+    {
+         weap_xx(Aegis_arifle_M16A4_F,2);
+    };
+    class TransportMagazines
+    {
+        mag_xx(30Rnd_556x45_Stanag,10);
+        mag_xx(200Rnd_556x45_Box_F,6);
+        mag_xx(HandGrenade,6);
+        mag_xx(1Rnd_HE_Grenade_shell,6);
+        mag_xx(1Rnd_Smoke_Grenade_shell,3);
+        mag_xx(1Rnd_SmokeBlue_Grenade_shell,3);
+        mag_xx(1Rnd_SmokeOrange_Grenade_shell,3);
+        mag_xx(1Rnd_SmokeGreen_Grenade_shell,3);
+        mag_xx(SmokeShell,8);
+        mag_xx(SmokeShellBlue,8);
+        mag_xx(SmokeShellGreen,8);
+        mag_xx(SmokeShellOrange,8);
+        mag_xx(MRAWS_HEAT55_F,8);
+    };
+    class TransportItems
+    {
+        item_xx(FirstAidKit,10);
+        item_xx(Toolkit,1);
+        item_xx(Medikit,1);
+    };
+    class TransportBackpacks
+    {
+        bag_xx(B_FieldPack_green_F,2);
+    };
+};
+class Rev_I_FRR_APC_Wheeled_04_export_F: Rev_B_FRR_APC_Wheeled_04_export_F
+{
+    side = TGuerrila;
+    faction = Revolucion_IND_FRR_F;
+    crew = Rev_I_FRR_Crew_F;
+    typicalCargo[] = {Rev_I_FRR_Crew_F};
+};
+
+/* FRR - OPFOR */
+class Rev_O_FRR_APC_Wheeled_04_export_F: Rev_B_FRR_APC_Wheeled_04_export_F
+{
+    side = TEast;
+    faction = Revolucion_OPF_FRR_F;
+    crew = Rev_O_FRR_Crew_F;
+    typicalCargo[] = {Rev_O_FRR_Crew_F};
 };
