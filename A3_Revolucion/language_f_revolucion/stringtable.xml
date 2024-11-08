@@ -1870,6 +1870,26 @@
                     <Japanese>CTRG Light Combat Helmet (Urban, Enhanced)</Japanese>
                     <Turkish>CTRG Light Combat Helmet (Urban, Enhanced)</Turkish>
                 </Key>
+        </Container>
+		<Container name="Armor_F">
+            <Container name="DisplayName">
+				<Key ID="STR_A3_A_CfgVehicles_B_FRR_APC_Wheeled_04_export_F0">
+                    <Original>BTR-100A Hacha</Original>
+                    <Chinese>BTR-100A Hacha</Chinese>
+                    <French>BTR-100A Hacha</French>
+                    <Spanish>BTR-100A Hacha</Spanish>
+                    <Italian>BTR-100A Hacha</Italian>
+                    <Polish>BTR-100A Hacha</Polish>
+                    <Russian>БТР-100А Hacha</Russian>
+                    <German>BTR-100A Hacha</German>
+                    <Czech>BTR-100A Hacha</Czech>
+                    <English>BTR-100A Hacha</English>
+                    <Portuguese>BTR-100A Hacha</Portuguese>
+                    <Korean>BTR-100A Hacha</Korean>
+                    <Chinesesimp>BTR-100A Hacha</Chinesesimp>
+                    <Japanese>BTR-100A Hacha</Japanese>
+                    <Turkish>BTR-100A Hacha</Turkish>
+                </Key>
 		</Container>
         <Container name="Supplies_F">
 			<Container name="Ammoboxes">

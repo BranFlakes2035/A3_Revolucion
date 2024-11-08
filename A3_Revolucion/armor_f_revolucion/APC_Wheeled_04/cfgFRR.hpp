@@ -73,7 +73,7 @@ class Aegis_I_APC_Wheeled_04_export_F;
 class Rev_B_FRR_APC_Wheeled_04_export_F: Aegis_I_APC_Wheeled_04_export_F
 {
     author = $STR_A3_A_AveryTheKitty_Lukin_Lakarak;
-    displayName = $STR_A3_A_CfgVehicles_I_APC_Wheeled_04_export_F0;
+    displayName = $STR_A3_A_CfgVehicles_B_FRR_APC_Wheeled_04_export_F0;
     editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_G_APC_Wheeled_04_export_F.jpg";
     scope = public;
     scopeCurator = public;

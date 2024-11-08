@@ -22,7 +22,7 @@ class CfgVehicles
 		{
 			class BDF
 			{
-				displayName = "BDF";
+				displayName = "FDB";
 				author = $STR_A3_A_BranFlakes;
 				textures[] =
 				{

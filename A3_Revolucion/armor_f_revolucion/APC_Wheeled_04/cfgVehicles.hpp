@@ -33,10 +33,30 @@ class CfgVehicles
                 };
             };
         };
+
+    };
+    class APC_Wheeled_04_export_base_F: APC_Wheeled_04_base_F
+    {
+        class TextureSources
+        {
+            class BDF
+            {
+                displayName = "FDB";
+                author = $STR_A3_A_BranFlakes;
+                textures[] =
+                {
+                    "\A3_revolucion\Armor_F_Revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_body_FDB_CO.paa",
+                    "\A3_revolucion\Armor_F_Revolucion\APC_Wheeled_04\Data\APC_Wheeled_04_body2_FDB_CO.paa",
+                    "\A3_revolucion\Armor_F_Revolucion\APC_Wheeled_04\data\btr100a_turret_FDB_co.paa"
+                };
+            };
+        };
+        
     };
     class O_R_APC_Wheeled_04_cannon_F: APC_Wheeled_04_base_F{};
 
     /* Factions */
     #include "cfgFRR.hpp"   // FRR
     #include "cfgVenezuela.hpp" // Venezuela
+    #include "cfgFDB.hpp"       //Baracas
 };
