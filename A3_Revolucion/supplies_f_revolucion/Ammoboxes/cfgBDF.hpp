@@ -11,7 +11,7 @@ class Rev_Box_BDF_Wps_F: Box_NATO_Wps_F
 	class TransportMagazines
 	{
 		mag_xx(35Rnd_556x45_velko_lxWS,8);
-		mag_xx(150rnd_762x51_box_yellow,2);
+		mag_xx(Atlas_150rnd_762x51_box_yellow,2);
 		mag_xx(20rnd_762x51_slr_lxWS,6);
         mag_xx(6Rnd_HE_Grenade_shell,1);
 	};
@@ -37,7 +37,7 @@ class Rev_Box_BDF_Ammo_F: Box_NATO_Ammo_F
 	class TransportMagazines
 	{
 		mag_xx(35Rnd_556x45_velko_lxWS,48);
-		mag_xx(150rnd_762x51_box_yellow,8);
+		mag_xx(Atlas_150rnd_762x51_box_yellow,8);
 		mag_xx(20rnd_762x51_slr_lxWS,6);
 	};
 	class TransportWeapons{};
@@ -95,7 +95,7 @@ class Rev_B_BDF_supplyCrate_F: O_supplyCrate_F
 		mag_xx(30Rnd_9x21_Mag_smg_02,6);
 		mag_xx(6Rnd_HE_Grenade_shell,1);
 		mag_xx(35Rnd_556x45_velko_lxWS,32);
-        mag_xx(150rnd_762x51_box_yellow,6);
+        mag_xx(Atlas_150rnd_762x51_box_yellow,6);
 		mag_xx(20rnd_762x51_slr_lxWS,6);
 		mag_xx(16Rnd_9x21_Mag_v2,2);
 		mag_xx(chemlight_green,2);

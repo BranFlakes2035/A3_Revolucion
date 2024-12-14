@@ -247,16 +247,14 @@ class Rev_B_BDF_Soldier_AR_F: Rev_B_BDF_Soldier_Base_F
 	};
 	magazines[] =
 	{
-		mag_3(150rnd_762x51_box_yellow),
-		//mag_3(Atlas_150rnd_762x51_box_yellow), //Change to this with next Atlas update
+		mag_3(Atlas_150rnd_762x51_box_yellow),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         SmokeShell
 	};
 	respawnMagazines[] =
 	{
-		mag_3(150rnd_762x51_box_yellow),
-		//mag_3(Atlas_150rnd_762x51_box_yellow), //Change to this with next Atlas update
+		mag_3(Atlas_150rnd_762x51_box_yellow),
 		mag_2(16rnd_9x21_mag_v2),
         HandGrenade,
         SmokeShell
