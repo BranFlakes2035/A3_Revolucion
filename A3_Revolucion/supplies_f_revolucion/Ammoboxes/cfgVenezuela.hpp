@@ -17,17 +17,17 @@ class Rev_Box_VZ_Wps_F: Box_T_East_Wps_F
     editorSubcategory = EdSubcat_Ammo_VZ;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_580x42_mag_F,8);
-		mag_xx(200Rnd_556x45_Box_Red_F,2);
-		mag_xx(20Rnd_762x51_Mag,2);
+		mag_xx(30Rnd_762x39_ak12_Mag_F,8);
+		mag_xx(200Rnd_556x45_Box_F,2);
+		mag_xx(Aegis_10Rnd_762x54_SVD_Green_Mag_F,4);
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_NCAR15_F,4);
-		weap_xx(arifle_NCAR15_GL_F,2);
-		weap_xx(arifle_NCAR15B_F,2);
+		weap_xx(arifle_AK12_F,4);
+		weap_xx(arifle_AK12_GL_F,2);
+		weap_xx(arifle_AK12U_F,2);
 		weap_xx(LMG_03_F,2);
-		weap_xx(srifle_DMR_06_black_F,2);
+		weap_xx(Aegis_srifle_SVD_blk_f,2);
 	};
 	class TransportItems{};
 };
@@ -50,9 +50,9 @@ class Rev_Box_VZ_Ammo_F: Box_T_East_Ammo_F
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		mag_xx(30Rnd_580x42_mag_F,48);
-		mag_xx(200Rnd_556x45_Box_Red_F,6);
-		mag_xx(20Rnd_762x51_Mag,12);
+		mag_xx(30Rnd_762x39_ak12_Mag_F,48);
+		mag_xx(200Rnd_556x45_Box_F,6);
+		mag_xx(Aegis_10Rnd_762x54_SVD_Green_Mag_F,12);
 	};
 	class TransportWeapons{};
 	class TransportItems{};
@@ -79,7 +79,7 @@ class Rev_Box_VZ_WpsLaunch_F: Box_T_East_WpsLaunch_F
 		mag_xx(DemoCharge_Remote_Mag,5);
 		mag_xx(APERSMine_Range_Mag,3);
 		mag_xx(MiniGrenade,5);
-		mag_xx(HandGrenade,5);
+		mag_xx(HandGrenade_East,5);
 		mag_xx(RPG7_F,8);
 		mag_xx(Titan_AA,3);
 		mag_xx(Titan_AT,3);
@@ -132,16 +132,16 @@ class Rev_O_VZ_supplyCrate_F: ReammoBox_F
 	class TransportMagazines
 	{
 		mag_xx(1Rnd_HE_Grenade_shell,6);
-		mag_xx(30Rnd_580x42_mag_F,24);
-		mag_xx(200Rnd_556x45_Box_Red_F,3);
-		mag_xx(20Rnd_762x51_Mag,6);
+		mag_xx(30Rnd_762x39_ak12_Mag_F,24);
+		mag_xx(200Rnd_556x45_Box_F,3);
+		mag_xx(Aegis_10Rnd_762x54_SVD_Green_Mag_F,4);
 		mag_xx(17rnd_9x21_Mag,2);
 		mag_xx(chemlight_red,2);
 		mag_xx(UGL_FlareRed_F,2);
 		mag_xx(UGL_FlareWhite_F,2);
 		mag_xx(RPG7_F,6);
 		mag_xx(MiniGrenade,6);
-		mag_xx(HandGrenade,6);
+		mag_xx(HandGrenade_East,6);
 		mag_xx(SmokeShellRed,2);
 		mag_xx(SmokeShell,2);
 		mag_xx(1Rnd_SmokeRed_Grenade_shell,2);
@@ -149,11 +149,11 @@ class Rev_O_VZ_supplyCrate_F: ReammoBox_F
 	};
 	class TransportWeapons
 	{
-		weap_xx(arifle_NCAR15_F,2);
-		weap_xx(arifle_NCAR15_GL_F,1);
-		weap_xx(arifle_NCAR15B_F,1);
+		weap_xx(arifle_AK12_F,2);
+		weap_xx(arifle_AK12_GL_F,1);
+		weap_xx(arifle_AK12U_F,1);
 		weap_xx(LMG_03_F,1);
-		weap_xx(srifle_DMR_06_black_F,1);
+		weap_xx(Aegis_srifle_SVD_blk_f,1);
 		weap_xx(launch_RPG7_F,1);
 	};
 	class TransportItems

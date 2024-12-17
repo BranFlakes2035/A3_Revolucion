@@ -1980,3 +1980,35 @@ class rev_arifle_M16A4_GL_blk_RDS_F : Aegis_arifle_M16A4_GL_F
 		};
 	};
 };
+
+// SVD 7.62 mm (Black) + Kahlia
+class Rev_srifle_SVD_blk_kh_F : Aegis_srifle_SVD_blk_f
+{
+	author = $STR_A3_A_BranFlakes;
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_KHS_blk;
+		};
+	};
+};
+
+// GPMG 7.62 + ARCO (Black) + Laser Pointer
+class Rev_MMG_FNMAG_ARCO_LP_F: Aegis_MMG_FNMAG_F
+{
+	class LinkedItems
+	{
+		class LinkedItemsOptic
+		{
+			slot = CowsSlot;
+			item = optic_Arco_blk_F;
+		};
+		class LinkedItemsAcc
+		{
+			slot = PointerSlot;
+			item = acc_pointer_IR;
+		};
+    };
+};

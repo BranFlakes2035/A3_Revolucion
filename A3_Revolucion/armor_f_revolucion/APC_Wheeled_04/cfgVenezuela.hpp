@@ -26,7 +26,7 @@ class Rev_O_VZ_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
     class TransportMagazines
     {
         mag_xx(30Rnd_762x39_ak12_Mag_F,10);
-        mag_xx(200Rnd_556x45_Box_Red_F,4);
+        mag_xx(200Rnd_556x45_Box_F,4);
         mag_xx(HandGrenade_East,8);
         mag_xx(1Rnd_HE_Grenade_shell,6);
         mag_xx(1Rnd_Smoke_Grenade_shell,3);
@@ -46,4 +46,5 @@ class Rev_O_VZ_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
     {
         bag_xx(B_FieldPack_owcamo,2);
     };
+    #include "SimpleObject.hpp"
 };

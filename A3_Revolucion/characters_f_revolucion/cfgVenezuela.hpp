@@ -227,14 +227,14 @@ class Rev_O_VZ_AR_F: Rev_O_VZ_Soldier_Base_F
     };
     magazines[] =
     {
-		mag_3(200Rnd_556x45_Box_Red_F),
+		mag_3(200Rnd_556x45_Box_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-		mag_3(200Rnd_556x45_Box_Red_F),
+		mag_3(200Rnd_556x45_Box_F),
         mag_2(17Rnd_9x21_Mag),
         HandGrenade_East,
         mag_2(SmokeShell)
@@ -332,26 +332,26 @@ class Rev_O_VZ_M_F: Rev_O_VZ_Soldier_Base_F
 	};
 	weapons[] =
     {
-        srifle_dmr_06_blk_kh_bp_F,
+        Rev_srifle_SVD_blk_kh_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     respawnWeapons[] =
     {
-        srifle_dmr_06_blk_kh_bp_F,
+        Rev_srifle_SVD_blk_kh_F,
         hgun_G17_black_F,
         DefaultManWeapons
     };
     magazines[] =
     {
-		mag_8(20rnd_762x51_mag),
+		mag_8(Aegis_10Rnd_762x54_SVD_Green_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
     };
     respawnMagazines[] =
     {
-		mag_8(20rnd_762x51_mag),
+		mag_8(Aegis_10Rnd_762x54_SVD_Green_Mag_F),
         mag_2(17Rnd_9x21_Mag),
         mag_2(HandGrenade_East),
         mag_2(SmokeShell)
@@ -1535,6 +1535,77 @@ class Rev_O_VZ_survivor_F: Rev_O_VZ_Soldier_Base_F
 	respawnLinkedItems[] = {};
 	role = Unarmed;
 };
+class Rev_O_VZ_HeavyGunner_F: Rev_O_VZ_AR_F
+{
+    author = $STR_A3_A_Ravenholme;
+    class SpeechVariants
+    {
+        class Default
+        {
+            speechSingular[] = {veh_infantry_MG_s};
+            speechPlural[] = {veh_infantry_MG_p};
+        };
+    };
+    textSingular = $STR_A3_nameSound_veh_infantry_MG_s;
+    textPlural = $STR_A3_nameSound_veh_infantry_MG_p;
+    nameSound = veh_infantry_MG_s;
+    editorPreview = "\A3_Aegis\EditorPreviews_F_Aegis\Data\CfgVehicles\Aegis_I_Soldier_MG_F.jpg";
+    scope = public;
+    scopeCurator = public;
+    displayName = $STR_A3_cfgVehicles_B_HeavyGunner_F0;
+    role = MachineGunner;
+    icon = iconManMG;
+    cost = 125000;
+    threat[] =
+    {
+        1.0,    // Soft
+        0.1,    // Armor
+        0.3     // Air
+    };
+    uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
+	backpack = B_FieldPack_owcamo_OVZHG_F;
+	linkedItems[] =
+	{
+		Atlas_V_OCarrierLuchnik_CQB_WHex_F,
+		H_HelmetLuchnik_cover_whex_F,
+		DefaultManLinkedItems,
+		Goggles_grn_F
+	};
+	respawnLinkedItems[] =
+	{
+		Atlas_V_OCarrierLuchnik_CQB_WHex_F,
+		H_HelmetLuchnik_cover_whex_F,
+		DefaultManLinkedItems,
+		Goggles_grn_F
+	};
+    weapons[] =
+    {
+        Rev_MMG_FNMAG_ARCO_LP_F,
+        hgun_G17_black_F,
+        DefaultManWeapons
+    };
+    respawnWeapons[] =
+    {
+        Rev_MMG_FNMAG_ARCO_LP_F,
+        hgun_G17_black_F,
+        DefaultManWeapons
+    };
+    magazines[] =
+    {
+		mag_2(Aegis_200rnd_762x51_MAG_Green_F),
+        mag_2(17Rnd_9x21_Mag),
+        HandGrenade_East,
+        mag_2(SmokeShell)
+    };
+    respawnMagazines[] =
+    {
+		mag_2(Aegis_200rnd_762x51_MAG_Green_F),
+        mag_2(17Rnd_9x21_Mag),
+        HandGrenade_East,
+        mag_2(SmokeShell)
+    };
+};
+
 //Recon Loadouts
 class Rev_O_VZ_Soldier_recon_base: Rev_O_VZ_Soldier_Base_F
 {

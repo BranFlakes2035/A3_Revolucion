@@ -4,6 +4,7 @@ class CfgVehicles
     class Wheeled_APC_F;
     class APC_Wheeled_04_base_F: Wheeled_APC_F
     {
+        class Turrets;
         class TextureSources
         {
             class Guerrila_FRR
@@ -51,12 +52,17 @@ class CfgVehicles
                 };
             };
         };
+        class Turrets: Turrets
+        {
+            class MainTurret;
+        };
         
     };
     class O_R_APC_Wheeled_04_cannon_F: APC_Wheeled_04_base_F{};
 
     /* Factions */
-    #include "cfgFRR.hpp"   // FRR
-    #include "cfgVenezuela.hpp" // Venezuela
-    #include "cfgFDB.hpp"       //Baracas
+    #include "cfgFRR.hpp"           // FRR
+    #include "cfgVenezuela.hpp"     // Venezuela
+    #include "cfgFDB.hpp"           // Baracas
+    #include "cfgFASR.hpp"          // FASR
 };

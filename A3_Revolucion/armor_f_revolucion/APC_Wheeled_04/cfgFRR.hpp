@@ -122,6 +122,7 @@ class Rev_B_FRR_APC_Wheeled_04_export_F: Aegis_I_APC_Wheeled_04_export_F
     {
         bag_xx(B_FieldPack_green_F,2);
     };
+    #include "SimpleObject.hpp"
 };
 class Rev_I_FRR_APC_Wheeled_04_export_F: Rev_B_FRR_APC_Wheeled_04_export_F
 {

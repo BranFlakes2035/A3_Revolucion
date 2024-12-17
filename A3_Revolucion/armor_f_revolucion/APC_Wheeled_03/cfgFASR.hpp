@@ -200,8 +200,8 @@ class Rev_O_FASR_APC_Wheeled_03_cannon_F: I_APC_Wheeled_03_cannon_F
 		init = "[this, '', []] call bis_fnc_initVehicle";
 	};
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_FASR_APC_Wheeled_03_cannon_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = protected;
+	scopeCurator = protected;
 	displayName = "AFV-4 Basilisco";
 	side = TEast;
 	faction = Revolucion_OPF_FASR_F;

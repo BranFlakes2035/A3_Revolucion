@@ -59,6 +59,11 @@ class cfgWeapons
     class Aegis_arifle_M4A1_grip_F;
     class Aegis_arifle_M4A1_short_F;
     class Aegis_arifle_M4A1_GL_F;
+    class Aegis_srifle_SVD_f;
+    class Aegis_srifle_SVD_blk_f;
+    class Aegis_srifle_SVD_plum_f;
+    class Aegis_SMG_Gepard_blk_F;
+    class Aegis_MMG_FNMAG_F;
 
     // Presets
     #include "presets.hpp"
