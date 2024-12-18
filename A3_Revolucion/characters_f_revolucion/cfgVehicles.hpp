@@ -36,6 +36,7 @@ class CfgVehicles
     #include "cfgVenezuela.hpp" // CSAT Venezuela
     #include "cfgPNB.hpp"     // Policia Nacional de Baracas
     #include "cfgCTRG9.hpp"   //CTRG Group 9
+    #include "cfgCivil.hpp"   // Baracan Civilians
 
     /* Uniforms */
     #include "cfgUniforms.hpp"

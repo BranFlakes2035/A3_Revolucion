@@ -549,7 +549,6 @@ class Rev_O_DS_Uniform_01_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_DS_Pants_CO.paa"
 	};
 };
-class C_Man_casual_1_F;
 class Rev_C_Man_casual_baracasfc_F: C_Man_casual_1_F
 	{
   	scope = protected;

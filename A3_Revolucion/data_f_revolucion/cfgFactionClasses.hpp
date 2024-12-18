@@ -80,4 +80,12 @@ class CfgFactionClasses
 		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_BLU_PNB_CA.paa";
 		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_PNB_CO.paa";		
 	};
+	class Revolucion_CIV_F											// Civilians (Baracas)
+	{
+		displayName = $STR_A3_R_CfgFactionClasses_CIV_BAR_F0;
+		priority = 3;
+		side = TCivilian;
+		icon = "\A3_Revolucion\Data_F_Revolucion\FactionIcons\CfgFactionClasses_BLU_BDF_CA.paa";
+		flag = "\A3_Revolucion\Data_F_Revolucion\Flags\flag_BDF_CO.paa";
+	};
 };
