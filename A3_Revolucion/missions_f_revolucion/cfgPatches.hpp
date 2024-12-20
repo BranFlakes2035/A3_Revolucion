@@ -8,7 +8,7 @@ class CfgPatches
 		author = $STR_A3_A_BranFlakes;
 		name = "Arma 3 Revolución - Mission Configuration";
 		url = linkRevolucion;
-		requiredAddons[] = {A3_Aegis_Data_F_Aegis_Loadorder};
+		requiredAddons[] = {A3_Revolucion_Data_F_Revolucion};
 		requiredVersion = 0.1;
 		units[] = {/* Automated */};
 		weapons[] = {/* Automated */};

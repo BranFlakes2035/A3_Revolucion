@@ -175,6 +175,23 @@
 					<Japanese>CTRG (Group 9)</Japanese>
 					<Turkish>CTRG (Group 9)</Turkish>
 				</Key>
+				<Key ID="STR_A3_R_CfgFactionClasses_CIV_BAR_F0">
+                    <Original>Civilians (Baracas)</Original>
+                    <Chinese>Civilians (Baracas)</Chinese>
+                    <French>Civilians (Baracas)</French>
+                    <Spanish>Civilians (Baracas)</Spanish>
+                    <Italian>Civilians (Baracas)</Italian>
+                    <Polish>Civilians (Baracas)</Polish>
+                    <Russian>Civilians (Baracas)</Russian>
+                    <German>Civilians (Baracas)</German>
+                    <Czech>Civilians (Baracas)</Czech>
+                    <English>Civilians (Baracas)</English>
+                    <Portuguese>Civilians (Baracas)</Portuguese>
+                    <Korean>Civilians (Baracas)</Korean>
+                    <Chinesesimp>Civilians (Baracas)</Chinesesimp>
+                    <Japanese>Civilians (Baracas)</Japanese>
+                    <Turkish>Civilians (Baracas)</Turkish>
+				</Key>
 			</Container>
 			<Container name="VhC">
 				<Key ID="STR_A3_R_TEXTURESOURCES_VZHex0">
