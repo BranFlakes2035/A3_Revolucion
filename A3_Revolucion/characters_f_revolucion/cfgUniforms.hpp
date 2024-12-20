@@ -5,6 +5,57 @@ class I_E_Uniform_01_tanktop_F;
 class I_E_Uniform_01_officer_F;
 class I_E_Uniform_01_sweater_F;
 class B_Soldier_04_f;
+class Atlas_UniformBDU_03_oli_F;
+class Atlas_UniformBDU_04_oli_F;
+
+class rev_UniformBDU_03_fdb_F: Atlas_UniformBDU_03_oli_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  rev_U_UniformBDU_03_fdb_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fdb_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fdb_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_blk_co.paa"
+	};
+};
+class rev_UniformBDU_04_fdb_F: Atlas_UniformBDU_04_oli_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  rev_U_UniformBDU_04_fdb_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fdb_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fdb_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_blk_co.paa"
+	};
+};
+class rev_UniformBDU_03_fdbmarines_F: Atlas_UniformBDU_03_oli_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  rev_U_UniformBDU_03_fdbmarines_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fdbmarines_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fdbmarines_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_blk_co.paa"
+	};
+};
+class rev_UniformBDU_04_fdbmarines_F: Atlas_UniformBDU_04_oli_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  rev_U_UniformBDU_04_fdbmarines_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fdbmarines_CO.paa",
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fdbmarines_CO.paa",
+		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_blk_co.paa"
+	};
+};
 class Rev_B_BDF_Uniform_01_F: I_E_Uniform_01_F
 {
   	scope = protected;
@@ -175,6 +226,28 @@ class Rev_I_CDB_CombatUniform_shortsleeve_F: I_soldier_lite_F
 /*FASR*/
 class I_C_Soldier_Camo_F;
 class I_Support_MG_F;
+class Atlas_UniformBDU_01_oli_F;
+class Atlas_UniformBDU_02_oli_F;
+class rev_UniformBDU_01_fasr_F: Atlas_UniformBDU_01_oli_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  rev_U_UniformBDU_01_fasr_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fasr_CO.paa"
+	};
+};
+class rev_UniformBDU_02_fasr_F: Atlas_UniformBDU_02_oli_F
+{
+    scope = protected;
+    scopeCurator = private;
+	uniformClass =  rev_U_UniformBDU_02_fasr_F;
+	hiddenSelectionsTextures[] =
+	{
+		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fasr_CO.paa"
+	};
+};
 class Rev_O_FASR_FieldJacket_F: I_C_Soldier_Camo_F
 {
   	scope = protected;

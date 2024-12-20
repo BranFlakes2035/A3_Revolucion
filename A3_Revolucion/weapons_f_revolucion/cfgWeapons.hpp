@@ -1,6 +1,7 @@
 class cfgWeapons
 {
     // Arma 3
+    class ItemInfo;
     class arifle_AK12U_545_F;
     class arifle_AK12_545_F;
     class arifle_AK12_F;
@@ -64,6 +65,43 @@ class cfgWeapons
     class Aegis_srifle_SVD_plum_f;
     class Aegis_SMG_Gepard_blk_F;
     class Aegis_MMG_FNMAG_F;
+    class Aegis_NV_G_Armband_Blu_F;
+    class Aegis_NV_G_Armband_Blu_Alt_F;
+
+    class rev_NV_G_Armband_fasr_F: Aegis_NV_G_Armband_Blu_F
+    {
+        author = $STR_A3_A_Jamie;
+        displayName = "Armband [FASR]";
+        picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+        hiddenSelectionsTextures[] = 
+        {
+            "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
+            };
+        };
+    };
+    class rev_NV_G_Armband_fasr_alt_F: Aegis_NV_G_Armband_Blu_Alt_F
+    {
+        author = $STR_A3_A_Jamie;
+        displayName = "Armband [FASR] (Alt)";
+        picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+        hiddenSelectionsTextures[] = 
+        {
+            "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
+            };
+        };
+    };
 
     // Presets
     #include "presets.hpp"
