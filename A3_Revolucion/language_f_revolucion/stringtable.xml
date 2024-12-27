@@ -1785,6 +1785,23 @@
 					<Japanese>Combat Helmet [FDB Marines] (Covered, Enhanced)</Japanese>
 					<Turkish>Combat Helmet [FDB Marines] (Covered, Enhanced)</Turkish>
 				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_rev_Headgear_EF_H_MCH_BasicNet_fdbmarine0">
+					<Original>Marine Combat Helmet [FDB Marines] (Basic)</Original>
+					<Chinese>Marine Combat Helmet [FDB Marines] (Basic)</Chinese>
+					<French>Marine Combat Helmet [FDB Marines] (Basic)</French>
+					<Spanish>Marine Combat Helmet [FDB Marines] (Basic)</Spanish>
+					<Italian>Marine Combat Helmet [FDB Marines] (Basic)</Italian>
+					<Polish>Marine Combat Helmet [FDB Marines] (Basic)</Polish>
+					<Russian>Marine Combat Helmet [FDB Marines] (Basic)</Russian>
+					<German>Marine Combat Helmet [FDB Marines] (Basic)</German>
+					<Czech>Marine Combat Helmet [FDB Marines] (Basic)</Czech>
+					<English>Marine Combat Helmet [FDB Marines] (Basic)</English>
+					<Portuguese>Marine Combat Helmet [FDB Marines] ((Basic)</Portuguese>
+					<Korean>Marine Combat Helmet [FDB Marines] (Basic)</Korean>
+					<Chinesesimp>Marine Combat Helmet [FDB Marines] (Basic)</Chinesesimp>
+					<Japanese>Marine Combat Helmet [FDB Marines] (Basic)</Japanese>
+					<Turkish>Marine Combat Helmet [FDB Marines] (Basic)</Turkish>
+				</Key>
 				<Key ID="STR_A3_A_CfgWeapons_Rev_H_OPSCORE_01_dazzle_01_F0">
                     <Original>CTRG Light Combat Helmet (Dark Tropic)</Original>
                     <Chinese>CTRG Light Combat Helmet (Dark Tropic)</Chinese>
