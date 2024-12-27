@@ -11,8 +11,6 @@ class CfgAddons
                 A3_Revolucion_Armor_F_Revolucion,
                 A3_Revolucion_Characters_F_Revolucion,
                 A3_Revolucion_Characters_F_Revolucion_Uniforms,
-                A3_Revolucion_Characters_F_Revolucion_ef,
-                A3_revolucion_Characters_F_revolucion_Headgear_ef,
                 A3_Revolucion_Data_F_Revolucion,
                 A3_Revolucion_Data_F_Revolucion_Loadorder,
                 A3_Revolucion_EditorPreviews_F_Revolucion,

@@ -6,10 +6,10 @@ class CfgWeapons
 	class H_MK7_Base_F;
     class H_Booniehat_khk;
     class H_MilCap_ocamo;
-    class Headgear_EF_H_MCH_BasicNet_Olive;
+    class EF_H_MCH_BasicNet_Olive;
 	
     // Arma 3 Revolucion
-    class rev_Headgear_EF_H_MCH_BasicNet_fdbmarine: Headgear_EF_H_MCH_BasicNet_Olive
+    class Rev_H_MCH_BasicNet_FDB_Marine_EF: EF_H_MCH_BasicNet_Olive
     {
         author = "Tiny Gecko Studios";
         scope = public;
