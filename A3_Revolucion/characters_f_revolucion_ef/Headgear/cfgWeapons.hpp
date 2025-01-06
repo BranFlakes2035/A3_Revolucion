@@ -17,7 +17,7 @@ class CfgWeapons
         //picture = "\ef\ef_marines\data\ui\EF_H_MCH_BasicNet_Olive_CA.paa";
         hiddenSelectionsTextures[] = 
         {
-            "\ef\ef_marines\data\mch_base_co.paa", 
+            "\A3_Revolucion\Characters_F_Revolucion_ef\headgear\data\mch_base_od_co.paa", 
             "\A3_Revolucion\Characters_F_Revolucion_ef\headgear\data\mch_cover_fdb_co.paa"
         };
     };

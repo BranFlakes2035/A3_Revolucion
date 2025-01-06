@@ -16,7 +16,7 @@ class Rev_B_BDF_Man_base_F: I_Soldier_F
 };
 class Rev_B_BDF_Soldier_base_F: Rev_B_BDF_Man_base_F
 {
-	uniformClass = Rev_U_B_BDF_Uniform_01_F;
+	uniformClass = rev_U_UniformBDU_03_fdb_F;
 };
 class rev_B_BDF_Fighter_Pilot_F: Rev_B_BDF_Soldier_base_F
 {
@@ -69,7 +69,7 @@ class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-	uniformClass = Rev_U_B_BDF_Uniform_01_tanktop_F;
+	uniformClass = rev_U_UniformBDU_04_fdb_F;
 	cost = 100000;
 	backpack = B_Carryall_oli_BDF_Ammo_F;	
 	weapons[] =
@@ -97,15 +97,15 @@ class Rev_B_BDF_Soldier_A_F: Rev_B_BDF_Soldier_base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -119,7 +119,7 @@ class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
 	role = Assistant;
 	displayName = $STR_B_soldier_AAA_F0;
 	backpack = B_Carryall_oli_BDF_AAA_F;
-	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniformClass = rev_U_UniformBDU_04_fdb_F;
 	weapons[] =
 	{
 		rev_arifle_Velko_lxWS_ACO_F,
@@ -145,15 +145,15 @@ class Rev_B_BDF_soldier_AAA_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -193,15 +193,15 @@ class Rev_B_BDF_soldier_AAR_F: rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -232,7 +232,7 @@ class Rev_B_BDF_Soldier_AR_F: Rev_B_BDF_Soldier_Base_F
         0.1,    // Armor
         0.3     // Air
     };
-	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniformClass = rev_U_UniformBDU_04_fdb_F;
     weapons[] =
 	{
 		LMG_Negev_FL_F,
@@ -262,15 +262,15 @@ class Rev_B_BDF_Soldier_AR_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -329,15 +329,15 @@ class Rev_B_BDF_Medic_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -352,7 +352,7 @@ class Rev_B_BDF_Crew_F: Rev_B_BDF_Soldier_Base_F
 	cost = 90000;
 	camouflage = 1.6;
     engineer = true;
-	uniformClass = Rev_U_B_BDF_Uniform_01_tanktop_F;
+	uniformClass = rev_U_UniformBDU_04_fdb_F;
 	weapons[] =
 	{
 		SMG_05_F,
@@ -379,14 +379,14 @@ class Rev_B_BDF_Crew_F: Rev_B_BDF_Soldier_Base_F
 	{
 		V_TacVest_camo,
 		H_HelmetCrew_I,
-		Goggles_grn_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_TacVest_camo,
 		H_HelmetCrew_I,
-		Goggles_grn_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -437,14 +437,14 @@ class Rev_B_BDF_Engineer_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_EOD_olive_F,
-		H_MK7_atacsfg_F,
+		H_PASGT_basic_olive_F,
 		G_Combat,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_EOD_olive_F,
-		H_MK7_atacsfg_F,
+		H_PASGT_basic_olive_F,
 		G_Combat,
 		DefaultManLinkedItems
 	};
@@ -463,7 +463,7 @@ class Rev_B_BDF_Soldier_Exp_F: Rev_B_BDF_Soldier_Base_F
 	icon = iconManExplosive;
 	picture = pictureExplosive;
 	role = Sapper;
-	uniform = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniform = rev_U_UniformBDU_04_fdb_F;
     backpack = B_Carryall_oli_BDF_Exp_F;
 	weapons[] =
 	{
@@ -492,15 +492,15 @@ class Rev_B_BDF_Soldier_Exp_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		V_EOD_olive_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		V_EOD_olive_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -544,15 +544,15 @@ class Rev_B_BDF_Soldier_GL_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -577,7 +577,7 @@ class Rev_B_BDF_Helipilot_F: Rev_B_BDF_Soldier_Base_F
 	role = Crewman;
 	cost = 160000;
 	camouflage = 2;
-	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniformClass = rev_U_UniformBDU_04_fdb_F;
 	weapons[] =
 	{
 		SMG_05_F,
@@ -624,7 +624,7 @@ class Rev_B_BDF_Soldier_M_F: Rev_B_BDF_Soldier_Base_F
 	displayName = $STR_B_soldier_M_F0;
 	role = Marksman;
 	cost = 250000;
-	uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniformClass = rev_U_UniformBDU_04_fdb_F;
 	weapons[] =
 	{
 		rev_arifle_SLR_V_lxWS_DMS_F,
@@ -759,15 +759,15 @@ class Rev_B_BDF_Soldier_F: Rev_B_BDF_Soldier_base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -823,15 +823,15 @@ class Rev_B_BDF_soldier_AA_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -864,7 +864,7 @@ class Rev_B_BDF_Soldier_AT_F: Rev_B_BDF_Soldier_Base_F
     };
 	secondaryAmmoCoef = 0.5;
     backpack = B_AssaultPack_khk_BDF_AT_F;
-	uniform = Rev_U_B_BDF_Uniform_01_tanktop_F;
+	uniform = rev_U_UniformBDU_04_fdb_F;
 	weapons[] =
 	{
 		rev_arifle_Velko_lxWS_ACO_F,
@@ -894,15 +894,15 @@ class Rev_B_BDF_Soldier_AT_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -917,7 +917,7 @@ class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 	icon = iconManLeader;
     cost = 500000;
 	camouflage = 1.4;
-	uniform = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniform = rev_U_UniformBDU_04_fdb_F;
 	weapons[] =
 	{
 		rev_arifle_Velko_lxWS_LRCO_blk_F,
@@ -951,14 +951,14 @@ class Rev_B_BDF_Soldier_SL_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
+		H_PASGT_basic_olive_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
+		H_PASGT_basic_olive_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -1013,14 +1013,14 @@ class Rev_B_BDF_Soldier_TL_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_oli_F,
-		H_MK7_atacsfg_F,
+		H_PASGT_basic_olive_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_oli_F,
-		H_MK7_atacsfg_F,
+		H_PASGT_basic_olive_F,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
@@ -1056,15 +1056,15 @@ class Rev_B_BDF_RadioOperator_F: Rev_B_BDF_Soldier_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -1076,7 +1076,7 @@ class Rev_B_BDF_Soldier_lite_F: Rev_B_BDF_Soldier_Base_F
     scopeCurator = public;
 	displayName = $STR_B_Soldier_lite_F0;
 	cost = 100000;
-	uniform = Rev_U_B_BDF_Uniform_01_tanktop_F;
+	uniform = rev_U_UniformBDU_04_fdb_F;
 	weapons[] =
 	{
 		arifle_Velko_lxWS,
@@ -1120,7 +1120,7 @@ class Rev_B_BDF_Soldier_CQ_F: Rev_B_BDF_Soldier_Base_F
     scopeCurator = public;
 	cost = 100000;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
-	uniform = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+	uniform = rev_U_UniformBDU_04_fdb_F;
     weapons[] =
 	{
 		sgun_M4_F,
@@ -1150,15 +1150,15 @@ class Rev_B_BDF_Soldier_CQ_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_CQB_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 };
@@ -1195,15 +1195,15 @@ class Rev_B_BDF_unarmed_F: Rev_B_BDF_Soldier_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		DefaultManLinkedItems
 	};
 	role = Unarmed;
@@ -1224,7 +1224,7 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	uavHacker = true;
     cost = 150000;
 	role = SpecialOperative;
-    uniformClass = Rev_U_B_BDF_Uniform_01_shortsleeve_F;
+    uniformClass = rev_U_UniformBDU_04_fdb_F;
 	backpack = B_UAV_01_backpack_F;
 	weapons[] =
 	{
@@ -1251,16 +1251,16 @@ class Rev_B_BDF_Soldier_UAV_F: Rev_B_BDF_Soldier_Base_F
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		B_UavTerminal,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_oli_F,
-		H_MK7_atacsfg_F,
-		Goggles_grn_F,
+		H_PASGT_basic_olive_F,
+		Aegis_Goggles_Cover_grn_F,
 		B_UavTerminal,
 		DefaultManLinkedItems
 	};
@@ -1355,7 +1355,7 @@ class Rev_B_BDF_Soldier_Recon_Base: Rev_B_BDF_Soldier_Base_F
 	role = Rifleman;
 	camouflage = 0.6;
 	detectSkill = 18;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_F;
+	uniformClass = Rev_U_B_BDF_marina_Uniform_01_F;
 };
 class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 {
@@ -1364,7 +1364,7 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_AR_F0;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_B_BDF_marina_Uniform_01_F;
 	cost = 220000;
 	icon = iconManMG;
 	role = MachineGunner;
@@ -1404,18 +1404,16 @@ class Rev_B_BDF_Recon_AR_F: Rev_B_BDF_Soldier_Recon_base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1433,7 +1431,7 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
 	detectSkill = 38;
 	icon = iconManExplosive;
 	picture = pictureExplosive;
-	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_B_BDF_marina_Uniform_01_shortsleeve_F;
 	role = Sapper;
 	weapons[] =
     {
@@ -1467,18 +1465,16 @@ class Rev_B_BDF_Recon_Exp_F: Rev_B_BDF_Soldier_recon_base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Bandanna_Sport,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Bandanna_Sport,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1527,18 +1523,16 @@ class Rev_B_BDF_Recon_GL_F: Rev_B_BDF_Soldier_Recon_base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1553,7 +1547,6 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
 	displayName = $STR_A3_B_CTRG_Soldier_JTAC_tna_F0;
 	role = SpecialOperative;
 	backpack = B_RadioBag_01_green_F;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
 
 	weapons[] =
     {
@@ -1593,18 +1586,16 @@ class Rev_B_BDF_Recon_JTAC_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1671,18 +1662,16 @@ class Rev_B_BDF_Recon_M_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1700,7 +1689,6 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
 	icon = iconManMedic;
 	picture = pictureHeal;
 	role = CombatLifeSaver;
-	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_F;
 
     threat[] = 
 	{
@@ -1740,18 +1728,16 @@ class Rev_B_BDF_Recon_Medic_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1764,7 +1750,6 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_A3_B_CTRG_Soldier_tna_F0;
-	uniformClass = Rev_U_B_BDF_SF_Uniform_01_shortsleeve_F;
 	weapons[] =
     {
         arifle_SCAR_L_short_black_snds_RCO_F,
@@ -1797,18 +1782,16 @@ class Rev_B_BDF_Recon_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1822,7 +1805,6 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
 	scopeCurator = public;
 	displayName = $STR_A3_B_CTRG_Soldier_LAT_tna_F0;
 	backpack = B_AssaultPack_khk_BDF_ReconAT_F;
-	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_F;
 	cost = 130000;
 	threat[] = 
 	{
@@ -1867,18 +1849,16 @@ class Rev_B_BDF_Recon_AT_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1892,7 +1872,7 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
 	scopeCurator = public;
 	displayName = $STR_A3_A_CfgVehicles_CTRG_Soldier_LAT2_tna_F0;
 	backpack = B_AssaultPack_khk_BDF_ReconLAT_F;
-	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_shortsleeve_F;
+	uniformClass = Rev_U_B_BDF_marina_Uniform_01_shortsleeve_F;
 	cost = 130000;
 	threat[] = 
 	{
@@ -1937,18 +1917,16 @@ class Rev_B_BDF_Recon_LAT_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -1964,7 +1942,6 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 	cost = 250000;
 	icon = iconManLeader;
 	role = Rifleman;
-	uniformClass = Rev_U_B_BDF_SF2_Uniform_01_F;
     threat[] = 
 	{
 		1,
@@ -2007,18 +1984,16 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
     };
 	linkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
 	};
 	respawnLinkedItems[] =
 	{
-		Rev_V_CarrierRigKBT_01_recon_FDB_F,
-		Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F,
-		G_Balaclava_light_blk_F,
+		Aegis_V_CarrierRigKBT_01_recon_olive_F,
+		Aegis_H_Helmet_FASTMT_Headset_rgr_F,
 		ItemGPS,
 		DefaultManLinkedItems,
 		NVGoggles_OPFOR
@@ -2029,7 +2004,7 @@ class Rev_B_BDF_Recon_TL_F: Rev_B_BDF_Soldier_Recon_Base
 class Rev_B_BDF_Marine_base_F: Rev_B_BDF_Soldier_base_F
 {
 	scope = private;
-	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_F;
+	uniformClass = rev_U_UniformBDU_03_fdbmarines_F;
 	headgearList[]={};
 	editorSubcategory = EdSubcat_Personnel_Marines;
     weapons[] =
@@ -2100,7 +2075,7 @@ class Rev_B_BDF_Marine_AR_F: Rev_B_BDF_Marine_base_F
     scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AR_F0;
-	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_shortsleeve_F;
+	uniformClass = rev_U_UniformBDU_04_fdbmarines_F;
 	role = MachineGunner;
 	icon = iconManMG;
 	cost = 125000;
@@ -2290,7 +2265,7 @@ class Rev_B_BDF_Marine_Exp_F: Rev_B_BDF_Marine_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
-	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_shortsleeve_F;
+	uniformClass = rev_U_UniformBDU_04_fdbmarines_F;
     canDeactivateMines = true;
 	detectSkill = 38;
 	cost = 93000;
@@ -2541,7 +2516,7 @@ class Rev_B_BDF_Marine_AT_F: Rev_B_BDF_Marine_base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_AT_F0;
-	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_shortsleeve_F;
+	uniformClass = rev_U_UniformBDU_04_fdbmarines_F;
 	backpack = B_AssaultPack_khk_BDF_ReconAT_F;
 	cost = 200000;
 	icon = iconManAT;
@@ -2731,7 +2706,7 @@ class Rev_B_BDF_Marine_TL_F: Rev_B_BDF_Marine_base_F
     scope = public;
     scopeCurator = public;
     displayName = $STR_B_Soldier_TL_F0;
-	uniformClass = Rev_U_B_BDF_Marina_Uniform_01_shortsleeve_F;
+	uniformClass = rev_U_UniformBDU_04_fdbmarines_F;
 	role = Grenadier;
 	icon = iconManLeader;
     cost = 500000;
