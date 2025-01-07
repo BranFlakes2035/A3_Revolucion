@@ -25,6 +25,36 @@ class CfgVehicles
 				};
 				factions[] = {Revolucion_BLU_BDF_F};
 			};
+			class CDB_01
+			{
+				displayName = "Cartel";
+				author = $STR_A3_A_BranFlakes;
+				textures[] = 
+				{
+					"\A3_revolucion\Soft_F_revolucion_RF\pickup_01\Data\rev_pickup_01_ext_cdb_co.paa",
+					"\lxRF\vehicles_rf\pickup_01\Data\pickup_01_adds_black_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_AAT_olive_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_launcher_co.paa",
+					"\A3_revolucion\Soft_F_revolucion_RF\pickup_01\Data\rev_pickup_01_service_cdb_co.paa"
+				};
+				factions[] = {Revolucion_BLU_BDF_F};
+			};
+			class policia_01
+			{
+				displayName = "Policia Nacional";
+				author = $STR_A3_A_BranFlakes;
+				textures[] = 
+				{
+					"\A3_revolucion\Soft_F_revolucion_RF\pickup_01\Data\rev_pickup_01_ext_policia_co.paa",
+					"\lxRF\vehicles_rf\pickup_01\Data\pickup_01_adds_nato_pacific_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_AAT_olive_co.paa",
+					"\lxrf\vehicles_rf\pickup_01\data\pickup_01_launcher_co.paa",
+					"\A3_revolucion\Soft_F_revolucion_RF\pickup_01\Data\rev_pickup_01_service_policia_co.paa"
+				};
+				factions[] = {Revolucion_BLU_BDF_F};
+			};
 		};
     };
     class Pickup_01_aat_base_rf;
@@ -60,4 +90,6 @@ class CfgVehicles
     
 	// Arma 3 Revolucion
 	#include "cfgBDF.hpp"               // BDF
+	#include "cfgCartel.hpp"            // Cartel
+	#include "cfgPolicia.hpp"           // Policia
 };
