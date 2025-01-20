@@ -28,6 +28,7 @@ class CfgPatches
 			Rev_B_BDF_Soldier_Exp_F,
 			Rev_B_BDF_Soldier_GL_F,
 			Rev_B_BDF_Helipilot_F,
+			Rev_B_BDF_HeliCrew_F,
 			Rev_B_BDF_Soldier_M_F,
 			Rev_B_BDF_Officer_F,
 			Rev_B_BDF_Soldier_F,

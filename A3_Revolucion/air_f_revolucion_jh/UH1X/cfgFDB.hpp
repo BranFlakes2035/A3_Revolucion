@@ -30,11 +30,11 @@ class Rev_B_FDB_JH_UH1X_armed_F: jj_uh1h_doorgunner_base
     {
         class uh1_LeftDoorGun: uh1_LeftDoorGun
         {
-            gunnerType = Rev_B_BDF_Helipilot_F;
+            gunnerType = Rev_B_BDF_HeliCrew_F;
         };
         class uh1_RightDoorGun: uh1_RightDoorGun
         {
-            gunnerType = Rev_B_BDF_Helipilot_F;
+            gunnerType = Rev_B_BDF_HeliCrew_F;
         };
     };
 	class TransportMagazines

@@ -17,7 +17,7 @@ class Rev_B_BDF_Soldier_PSRL_F: Rev_B_BDF_Soldier_Base_F
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_AT_F.jpg";
     scope = public;
     scopeCurator = public;
-	displayName = "Rifleman (Launcher)";
+	displayName = $STR_LXRF_B_soldier_Launcher;
 	role = MissileSpecialist;
 	icon = iconManAT;
 	cost = 130000;
@@ -90,7 +90,7 @@ class Rev_B_BDF_Marine_PSRL_F: Rev_B_BDF_Marine_base_F
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Marine_AT_F.jpg";
     scope = public;
     scopeCurator = public;
-	displayName = "Rifleman (Launcher)";
+	displayName = $STR_LXRF_B_soldier_Launcher;
 	uniformClass = rev_U_UniformBDU_04_fdbmarines_F;
 	backpack = B_Kitbag_ssg_BDF_PSRL_F;
 	cost = 200000;

@@ -615,6 +615,50 @@ class Rev_B_BDF_Helipilot_F: Rev_B_BDF_Soldier_Base_F
         NVGoggles_INDEP
     };
 };
+class Rev_B_BDF_HeliCrew_F: Rev_B_BDF_HeliPilot_F
+{
+	author = $STR_A3_A_Ravenholme;
+	displayName = $STR_B_helicrew_F0;
+	//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_HeliCrew_F.jpg";
+    scope = public;
+    scopeCurator = public;
+	weapons[] =
+	{
+		arifle_VelkoR5_lxws,
+        DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_VelkoR5_lxws,
+        DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_4(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
+		mag_2(SmokeShell),
+        SmokeShellGreen
+	};
+	respawnMagazines[] =
+	{
+		mag_4(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
+		mag_2(SmokeShell),
+        SmokeShellGreen
+	};
+	linkedItems[] =
+    {
+		V_TacVest_camo,
+        H_CrewHelmetHeli_I_E,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
+    respawnLinkedItems[] =
+    {
+		V_TacVest_camo,
+        H_CrewHelmetHeli_I_E,
+        DefaultManLinkedItems,
+        NVGoggles_INDEP
+    };
+};
 class Rev_B_BDF_Soldier_M_F: Rev_B_BDF_Soldier_Base_F
 {
     author = $STR_A3_A_Ravenholme;
