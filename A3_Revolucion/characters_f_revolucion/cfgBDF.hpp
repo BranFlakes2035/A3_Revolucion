@@ -2225,14 +2225,14 @@ class Rev_B_BDF_Marine_Medic_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		Rev_H_O_Helmet_canvas_FDB
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		Rev_H_O_Helmet_canvas_FDB
+		Rev_H_O_Helmet_canvas_FDB,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};

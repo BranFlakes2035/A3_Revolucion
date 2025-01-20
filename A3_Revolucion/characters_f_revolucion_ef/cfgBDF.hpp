@@ -180,14 +180,14 @@ class Rev_B_BDF_Marine_Medic_F: Rev_B_BDF_Marine_base_F
     linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		Rev_H_MCH_BasicNet_FDB_Marine_EF
+		Rev_H_MCH_BasicNet_FDB_Marine_EF,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};
 	respawnLinkedItems[] =
 	{
 		Atlas_V_OCarrierRig_Lite_Alt_Oli_F,
-		Rev_H_MCH_BasicNet_FDB_Marine_EF
+		Rev_H_MCH_BasicNet_FDB_Marine_EF,
 		NVGoggles_INDEP,
 		DefaultManLinkedItems
 	};

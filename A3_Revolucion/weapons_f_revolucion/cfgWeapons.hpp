@@ -21,6 +21,7 @@ class cfgWeapons
     class LMG_Zafir_black_F;
     class hgun_P07_blk_F;
     class arifle_ARX_blk_F;
+    class NVGoggles;
 
     // Arma 3 West Sahara CDLC
     class arifle_Velko_lxWS;
@@ -65,8 +66,14 @@ class cfgWeapons
     class Aegis_srifle_SVD_plum_f;
     class Aegis_SMG_Gepard_blk_F;
     class Aegis_MMG_FNMAG_F;
-    class Aegis_NV_G_Armband_Blu_F;
-    class Aegis_NV_G_Armband_Blu_Alt_F;
+    class Aegis_NV_G_Armband_Blu_F: NVGoggles
+    {
+        class ItemInfo;
+    };
+    class Aegis_NV_G_Armband_Blu_Alt_F: Aegis_NV_G_Armband_Blu_F
+    {
+        class ItemInfo;
+    };
 
     class rev_NV_G_Armband_fasr_F: Aegis_NV_G_Armband_Blu_F
     {

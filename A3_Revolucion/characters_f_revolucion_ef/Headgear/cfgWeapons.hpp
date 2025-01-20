@@ -6,6 +6,7 @@ class CfgWeapons
 	class H_MK7_Base_F;
     class H_Booniehat_khk;
     class H_MilCap_ocamo;
+    class EF_H_MCH_BasicNet_Des;
     class EF_H_MCH_BasicNet_Olive;
 	
     // Arma 3 Revolucion

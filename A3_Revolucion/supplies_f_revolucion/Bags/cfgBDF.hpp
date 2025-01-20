@@ -92,7 +92,7 @@ class B_AssaultPack_khk_BDF_AAR_F: B_AssaultPack_khk
     class TransportMagazines
 	{
 		mag_xx(Atlas_150rnd_762x51_box_yellow,2);
-		mag_xx(150rnd_762x51_box_tracer_yellow,1);
+		mag_xx(Atlas_150Rnd_762x51_Box_Tracer_Yellow,1);
 	};
 };
 class B_AssaultPack_khk_BDF_ReconMedic_F: B_AssaultPack_khk
