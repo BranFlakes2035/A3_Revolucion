@@ -6,6 +6,8 @@ class CfgVehicles
     /* Bases */
 	class jj_uh1h_base: Helicopter_Base_H
 	{
+		/* Turrets Inheritance - For Doorgunners*/
+		class Turrets;
 
         /* Liveries */
 		class TextureSources
@@ -29,6 +31,17 @@ class CfgVehicles
 			};
 		};
 	};
+	class jj_uh1h_doorgunner_base: jj_uh1h_base
+	{
+		/* Turrets Inheritance - For Doorgunners*/
+		class Turrets: Turrets
+		{
+			class uh1_LeftDoorGun;
+			class uh1_RightDoorGun;
+		};
+	};
+	class jj_uh1h_unarmed_base;
+	class jj_uh1h_medical_base;
 
     /* Factions */
 	#include "cfgFDB.hpp"		//Venezuela

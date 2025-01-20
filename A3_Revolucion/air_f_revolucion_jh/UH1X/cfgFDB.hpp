@@ -1,4 +1,3 @@
-class jj_uh1h_doorgunner_base;
 class Rev_B_FDB_JH_UH1X_armed_F: jj_uh1h_doorgunner_base
 {
 	author = "JohnHansen";
@@ -26,6 +25,18 @@ class Rev_B_FDB_JH_UH1X_armed_F: jj_uh1h_doorgunner_base
         "\A3_Revolucion\air_f_revolucion_jh\UH1X\data\Nose_fdb_co.paa",
         "JH_UH1X\data\uh1_ext_03_ca.paa"
     };
+    /* Turrets Inheritance - For Doorgunners*/
+    class Turrets: Turrets
+    {
+        class uh1_LeftDoorGun: uh1_LeftDoorGun
+        {
+            gunnerType = Rev_B_BDF_Helipilot_F;
+        };
+        class uh1_RightDoorGun: uh1_RightDoorGun
+        {
+            gunnerType = Rev_B_BDF_Helipilot_F;
+        };
+    };
 	class TransportMagazines
 	{
 		mag_xx(SmokeShell,2);
@@ -37,7 +48,7 @@ class Rev_B_FDB_JH_UH1X_armed_F: jj_uh1h_doorgunner_base
 		weap_xx(arifle_Velko_lxWS,2);
 	};
 };
-class jj_uh1h_unarmed_base;
+
 class Rev_B_FDB_JH_UH1X_unarmed_F: jj_uh1h_unarmed_base
 {
     author = "JohnHansen";
@@ -76,7 +87,6 @@ class Rev_B_FDB_JH_UH1X_unarmed_F: jj_uh1h_unarmed_base
         weap_xx(arifle_Velko_lxWS,2);
     };
 };
-class jj_uh1h_medical_base;
 class Rev_B_FDB_JH_UH1X_medical_F: jj_uh1h_unarmed_base
 {
     author = "JohnHansen";
