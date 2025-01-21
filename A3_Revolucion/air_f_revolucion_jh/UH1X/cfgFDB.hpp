@@ -36,6 +36,11 @@ class Rev_B_FDB_JH_UH1X_armed_F: jj_uh1h_doorgunner_base
         {
             gunnerType = Rev_B_BDF_HeliCrew_F;
         };
+        class uh1_CopilotTurret: uh1_CopilotTurret{};
+        class uh1_CargoTurret_01: uh1_CargoTurret_01{};
+        class uh1_CargoTurret_02: uh1_CargoTurret_02{};
+        class uh1_CargoTurret_Right: uh1_CargoTurret_Right{};
+        class uh1_CargoTurret_Left: uh1_CargoTurret_Left{};
     };
 	class TransportMagazines
 	{

@@ -1,14 +1,27 @@
 class CfgVehicles
 {
     /* Inheritance Tree */
-    class Helicopter_Base_H;
+	class Helicopter_Base_F;
+    class Helicopter_Base_H: Helicopter_base_F
+	{
+		/* Turrets Inheritance - For Doorgunners*/
+		class Turrets;
+	};
 
     /* Bases */
 	class jj_uh1h_base: Helicopter_Base_H
 	{
 		/* Turrets Inheritance - For Doorgunners*/
-		class Turrets;
-
+		class Turrets: Turrets
+		{
+			class uh1_LeftDoorGun;
+			class uh1_RightDoorGun;
+			class uh1_CopilotTurret;
+			class uh1_CargoTurret_01;
+			class uh1_CargoTurret_02;
+			class uh1_CargoTurret_Right;
+			class uh1_CargoTurret_Left;
+		};
         /* Liveries */
 		class TextureSources
 		{
@@ -31,16 +44,22 @@ class CfgVehicles
 			};
 		};
 	};
+	class jj_uh1h_unarmed_base;
 	class jj_uh1h_doorgunner_base: jj_uh1h_base
 	{
 		/* Turrets Inheritance - For Doorgunners*/
 		class Turrets: Turrets
 		{
-			class uh1_LeftDoorGun;
-			class uh1_RightDoorGun;
+			class uh1_LeftDoorGun: uh1_LeftDoorGun{};
+			class uh1_RightDoorGun: uh1_RightDoorGun{};
+			class uh1_CopilotTurret: uh1_CopilotTurret{};
+			class uh1_CargoTurret_01: uh1_CargoTurret_01{};
+			class uh1_CargoTurret_02: uh1_CargoTurret_02{};
+			class uh1_CargoTurret_Right: uh1_CargoTurret_Right{};
+			class uh1_CargoTurret_Left: uh1_CargoTurret_Left{};
 		};
 	};
-	class jj_uh1h_unarmed_base;
+	
 	class jj_uh1h_medical_base;
 
     /* Factions */
