@@ -15,7 +15,7 @@ class Rev_O_FASR_Man_Base_F: I_Soldier_base_F
 };
 class Rev_O_FASR_Soldier_Base_F: Rev_O_FASR_Man_Base_F
 {
-	uniformClass = Rev_U_O_FASR_FieldJacket_F;
+	uniformClass = rev_U_UniformBDU_01_fasr_F;
 };
 class Rev_O_FASR_Soldier_A_F: Rev_O_FASR_Soldier_Base_F
 {
@@ -73,7 +73,7 @@ class Rev_O_FASR_Soldier_AAA_F: Rev_O_FASR_Soldier_Base_F
 	role = Assistant;
 	displayName = $STR_B_soldier_AAA_F0;
 	backpack = B_Carryall_oli_FASR_AAA_F;
-	uniformClass = Rev_U_O_FASR_FieldJacket_tshirt_F;
+	uniformClass = rev_U_UniformBDU_02_fasr_F;
 	weapons[] =
 	{
 		arifle_NCAR15B_F,
@@ -200,7 +200,7 @@ class Rev_O_FASR_Medic_F: Rev_O_FASR_Soldier_Base_F
 	picture = pictureHeal;
 	camouflage = 1.6;
 	attendant = true;
-    uniformClass = Rev_U_O_FASR_FieldJacket_tshirt_F;
+    uniformClass = rev_U_UniformBDU_02_fasr_F;
 	backpack = B_Kitbag_rgr_FASR_Medic_F;
     weapons[] =
 	{
@@ -252,7 +252,7 @@ class Rev_O_FASR_Crew_F: Rev_O_FASR_Soldier_Base_F
 	cost = 90000;
 	camouflage = 1.6;
     engineer = true;
-	uniformClass = Rev_U_O_FASR_Sweater_01_F;
+	uniformClass = rev_U_UniformBDU_01_fasr_F;
 	weapons[] =
 	{
 		SMG_02_F,
@@ -476,7 +476,7 @@ class Rev_O_FASR_Helipilot_F: Rev_O_FASR_Soldier_Base_F
 	role = Crewman;
 	cost = 160000;
 	camouflage = 2;
-	uniformClass = Rev_U_O_FASR_FieldJacket_tanktop_F;
+	uniformClass = rev_U_UniformBDU_02_fasr_F;
 	weapons[] =
 	{
 		SMG_02_F,
@@ -833,7 +833,7 @@ class Rev_O_FASR_Soldier_HAT_F: Rev_O_FASR_Soldier_Base_F
         0.3     // Air
     };
 	secondaryAmmoCoef = 0.5;
-	uniformClass = Rev_U_O_FASR_FieldJacket_tanktop_F;
+	uniformClass = rev_U_UniformBDU_02_fasr_F;
     backpack = B_Kitbag_rgr_FASR_HAT_F;
 	weapons[] =
 	{
@@ -1052,7 +1052,7 @@ class Rev_O_FASR_Soldier_lite_F: Rev_O_FASR_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_lite_F0;
-	uniformClass = Rev_U_O_FASR_FieldJacket_tshirt_F;
+	uniformClass = rev_U_UniformBDU_02_fasr_F;
 	cost = 100000;
 	weapons[] =
 	{
@@ -1098,7 +1098,7 @@ class Rev_O_FASR_Soldier_CQ_F: Rev_O_FASR_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	cost = 100000;
-	uniformClass = Rev_U_O_FASR_FieldJacket_tanktop_F;
+	uniformClass = rev_U_UniformBDU_02_fasr_F;
     displayName = $STR_A3_A_CfgVehicles_B_Soldier_CQ_F0;
     weapons[] =
 	{
