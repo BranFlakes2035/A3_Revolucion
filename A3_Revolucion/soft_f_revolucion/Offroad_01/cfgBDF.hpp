@@ -73,8 +73,8 @@ class Rev_B_BDF_Offroad_01_covered_F: Offroad_01_military_covered_base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_01_covered_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = private;
+	scopeCurator = private;
 	accuracy = 1.25;
 	side = TWest;
 	faction = Revolucion_BLU_BDF_F;
@@ -121,8 +121,8 @@ class Rev_B_BDF_Offroad_01_comms_F: Offroad_01_military_comms_base_F
 {
 	author = $STR_A3_A_Ravenholme;
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Offroad_01_comms_F.jpg";
-	scope = public;
-	scopeCurator = public;
+	scope = private;
+	scopeCurator = private;
 	accuracy = 1.25;
 	side = TWest;
 	faction = Revolucion_BLU_BDF_F;
