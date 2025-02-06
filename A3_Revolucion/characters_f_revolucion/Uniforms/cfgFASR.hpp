@@ -2,7 +2,7 @@ class rev_U_UniformBDU_01_fasr_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
-	displayName = "Battledress Uniform [FASR]";
+	displayName = $STR_A3_R_CfgWeapons_U_UniformBDU_01_FASR_F0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_UniformBDU_01_oli_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -19,7 +19,7 @@ class rev_U_UniformBDU_02_fasr_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
-	displayName = "Battledress Uniform [FASR] (Rolled-up)";
+	displayName = $STR_A3_R_CfgWeapons_U_UniformBDU_02_FASR_F0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_UniformBDU_02_oli_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -35,7 +35,7 @@ class rev_U_UniformBDU_02_fasr_F: Uniform_Base
 class Rev_U_O_FASR_FieldJacket_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
-	scope = private;
+	scope = protected;
 	displayName = $STR_A3_R_CfgWeapons_U_O_FASR_Jacket_01_F0;
 	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_O_FASR_FieldJacket_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -52,7 +52,7 @@ class Rev_U_O_FASR_FieldJacket_F: Uniform_Base
 class Rev_U_O_FASR_Sweater_01_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
-	scope = private;
+	scope = protected;
 	displayName = $STR_A3_R_CfgWeapons_U_O_FASR_Sweater_01_F0;
 	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_O_FASR_Sweater_01_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -69,7 +69,7 @@ class Rev_U_O_FASR_Sweater_01_F: Uniform_Base
 class Rev_U_O_FASR_FieldJacket_tshirt_F: Uniform_Base
 {
 	author=$STR_A3_A_Ravenholme;
-	scope = private;
+	scope = protected;
 	displayName = $STR_A3_R_CfgWeapons_U_O_FASR_FieldJacket_tshirt_F0;
 	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_O_FASR_FieldJacket_tshirt_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -86,7 +86,7 @@ class Rev_U_O_FASR_FieldJacket_tshirt_F: Uniform_Base
 class Rev_U_O_FASR_FieldJacket_tanktop_F: Uniform_Base
 {
 	author = $STR_A3_A_Ravenholme;
-	scope = private;
+	scope = protected;
 	displayName = $STR_A3_R_CfgWeapons_U_O_FASR_FieldJacket_tanktop_F0;
 	picture = "\A3_revolucion\Characters_F_revolucion\uniforms\data\UI\Rev_U_O_FASR_FieldJacket_tanktop_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";

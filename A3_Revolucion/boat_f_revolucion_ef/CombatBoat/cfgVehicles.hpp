@@ -1,15 +1,17 @@
 class CfgVehicles
 {
-	/* Inheritance Tree */
-	class EF_CombatBoat_HMG_Base;
-	class EF_CombatBoat_HMG_West_Base: EF_CombatBoat_HMG_Base
-	{
+	/* Arma 3 Bases */
+	class Boat_F;
+
+	/* Expeditionary Forces Bases */
+	class EF_CombatBoat_Base: Boat_F
+    {
         /* Liveries */
 		class TextureSources
 		{
-			class fdb
+			class FDB
 			{
-				displayName = "FDB";
+				displayName = $STR_A3_R_CfgFactionClasses_BLU_BDF_F0;
 				author = $STR_A3_A_Branflakes;
 				textures[] =
 				{
@@ -25,6 +27,8 @@ class CfgVehicles
 			};
 		};
 	};
+	class EF_CombatBoat_HMG_West_Base;
+	class EF_CombatBoat_Unarmed_Base;
     /* Factions */
     #include "cfgFDB.hpp"       // FDB
 };

@@ -1509,6 +1509,108 @@
                     <Japanese>Casual Clothes (Baracas F.C.)</Japanese>
                     <Turkish>Casual Clothes (Baracas F.C.)</Turkish>
                 </Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_UniformBDU_03_FDB_F0">
+					<Original>Battledress Uniform [FDB]</Original>
+					<Chinese>Battledress Uniform [FDB]</Chinese>
+					<French>Battledress Uniform [FDB]</French>
+					<Spanish>Battledress Uniform [FDB]</Spanish>
+					<Italian>Battledress Uniform [FDB]</Italian>
+					<Polish>Battledress Uniform [FDB]</Polish>
+					<Russian>Battledress Uniform [FDB]</Russian>
+					<German>Battledress Uniform [FDB]</German>
+					<Czech>Battledress Uniform [FDB]</Czech>
+					<English>Battledress Uniform [FDB]</English>
+					<Portuguese>Battledress Uniform [FDB]</Portuguese>
+					<Korean>Battledress Uniform [FDB]</Korean>
+					<Chinesesimp>Battledress Uniform [FDB]</Chinesesimp>
+					<Japanese>Battledress Uniform [FDB]</Japanese>
+					<Turkish>Battledress Uniform [FDB]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_UniformBDU_04_FDB_F0">
+					<Original>Battledress Uniform [FDB] (Rolled-Up)</Original>
+					<Chinese>Battledress Uniform [FDB] (Rolled-Up)</Chinese>
+					<French>Battledress Uniform [FDB] (Rolled-Up)</French>
+					<Spanish>Battledress Uniform [FDB] (Rolled-Up)</Spanish>
+					<Italian>Battledress Uniform [FDB] (Rolled-Up)</Italian>
+					<Polish>Battledress Uniform [FDB] (Rolled-Up)</Polish>
+					<Russian>Battledress Uniform [FDB] (Rolled-Up)</Russian>
+					<German>Battledress Uniform [FDB] (Rolled-Up)</German>
+					<Czech>Battledress Uniform [FDB] (Rolled-Up)</Czech>
+					<English>Battledress Uniform [FDB] (Rolled-Up)</English>
+					<Portuguese>Battledress Uniform [FDB] (Rolled-Up)</Portuguese>
+					<Korean>Battledress Uniform [FDB] (Rolled-Up)</Korean>
+					<Chinesesimp>Battledress Uniform [FDB] (Rolled-Up)</Chinesesimp>
+					<Japanese>Battledress Uniform [FDB] (Rolled-Up)</Japanese>
+					<Turkish>Battledress Uniform [FDB] (Rolled-Up)</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_UniformBDU_03_FDB_Marines_F0">
+					<Original>Battledress Uniform [FDB Marines]</Original>
+					<Chinese>Battledress Uniform [FDB Marines]</Chinese>
+					<French>Battledress Uniform [FDB Marines]</French>
+					<Spanish>Battledress Uniform [FDB Marines]</Spanish>
+					<Italian>Battledress Uniform [FDB Marines]</Italian>
+					<Polish>Battledress Uniform [FDB Marines]</Polish>
+					<Russian>Battledress Uniform [FDB Marines]</Russian>
+					<German>Battledress Uniform [FDB Marines]</German>
+					<Czech>Battledress Uniform [FDB Marines]</Czech>
+					<English>Battledress Uniform [FDB Marines]</English>
+					<Portuguese>Battledress Uniform [FDB Marines]</Portuguese>
+					<Korean>Battledress Uniform [FDB Marines]</Korean>
+					<Chinesesimp>Battledress Uniform [FDB Marines]</Chinesesimp>
+					<Japanese>Battledress Uniform [FDB Marines]</Japanese>
+					<Turkish>Battledress Uniform [FDB Marines]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_UniformBDU_04_FDB_Marines_F0">
+					<Original>Battledress Uniform [FDB Marines] (Rolled-Up)</Original>
+					<Chinese>Battledress Uniform [FDB Marines] (Rolled-Up)</Chinese>
+					<French>Battledress Uniform [FDB Marines] (Rolled-Up)</French>
+					<Spanish>Battledress Uniform [FDB Marines] (Rolled-Up)</Spanish>
+					<Italian>Battledress Uniform [FDB Marines] (Rolled-Up)</Italian>
+					<Polish>Battledress Uniform [FDB Marines] (Rolled-Up)</Polish>
+					<Russian>Battledress Uniform [FDB Marines] (Rolled-Up)</Russian>
+					<German>Battledress Uniform [FDB Marines] (Rolled-Up)</German>
+					<Czech>Battledress Uniform [FDB Marines] (Rolled-Up)</Czech>
+					<English>Battledress Uniform [FDB Marines] (Rolled-Up)</English>
+					<Portuguese>Battledress Uniform [FDB Marines] (Rolled-Up)</Portuguese>
+					<Korean>Battledress Uniform [FDB Marines] (Rolled-Up)</Korean>
+					<Chinesesimp>Battledress Uniform [FDB Marines] (Rolled-Up)</Chinesesimp>
+					<Japanese>Battledress Uniform [FDB Marines] (Rolled-Up)</Japanese>
+					<Turkish>Battledress Uniform [FDB Marines] (Rolled-Up)</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_UniformBDU_01_FASR_F0">
+					<Original>Battledress Uniform [FASR]</Original>
+					<Chinese>Battledress Uniform [FASR]</Chinese>
+					<French>Battledress Uniform [FASR]</French>
+					<Spanish>Battledress Uniform [FASR]</Spanish>
+					<Italian>Battledress Uniform [FASR]</Italian>
+					<Polish>Battledress Uniform [FASR]</Polish>
+					<Russian>Battledress Uniform [FASR]</Russian>
+					<German>Battledress Uniform [FASR]</German>
+					<Czech>Battledress Uniform [FASR]</Czech>
+					<English>Battledress Uniform [FASR]</English>
+					<Portuguese>Battledress Uniform [FASR]</Portuguese>
+					<Korean>Battledress Uniform [FASR]</Korean>
+					<Chinesesimp>Battledress Uniform [FASR]</Chinesesimp>
+					<Japanese>Battledress Uniform [FASR]</Japanese>
+					<Turkish>Battledress Uniform [FASR]</Turkish>
+				</Key>
+				<Key ID="STR_A3_R_CfgWeapons_U_UniformBDU_02_FASR_F0">
+					<Original>Battledress Uniform [FASR] (Rolled-Up)</Original>
+					<Chinese>Battledress Uniform [FASR] (Rolled-Up)</Chinese>
+					<French>Battledress Uniform [FASR] (Rolled-Up)</French>
+					<Spanish>Battledress Uniform [FASR] (Rolled-Up)</Spanish>
+					<Italian>Battledress Uniform [FASR] (Rolled-Up)</Italian>
+					<Polish>Battledress Uniform [FASR] (Rolled-Up)</Polish>
+					<Russian>Battledress Uniform [FASR] (Rolled-Up)</Russian>
+					<German>Battledress Uniform [FASR] (Rolled-Up)</German>
+					<Czech>Battledress Uniform [FASR] (Rolled-Up)</Czech>
+					<English>Battledress Uniform [FASR] (Rolled-Up)</English>
+					<Portuguese>Battledress Uniform [FASR] (Rolled-Up)</Portuguese>
+					<Korean>Battledress Uniform [FASR] (Rolled-Up)</Korean>
+					<Chinesesimp>Battledress Uniform [FASR] (Rolled-Up)</Chinesesimp>
+					<Japanese>Battledress Uniform [FASR] (Rolled-Up)</Japanese>
+					<Turkish>Battledress Uniform [FASR] (Rolled-Up)</Turkish>
+				</Key>
 			</Container>
 			<Container name="Vests">
 				<Key ID="STR_A3_R_CfgWeapons_V_PlateCarrierL_cartel_F0">

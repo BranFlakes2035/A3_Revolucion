@@ -102,7 +102,13 @@ class Rev_B_BDF_Pickup_Comms_aat_F: B_Pickup_aat_rf
 		item_xx(FirstAidKit,4);
 	};
 };
-class O_Pickup_rcws_rf;
+class O_Pickup_rcws_rf: Pickup_01_rcws_base_rf
+{
+	class Turrets: Turrets
+	{
+		class MainTurret;
+	};
+};
 class Rev_B_BDF_Pickup_rcws_F: O_Pickup_rcws_rf
 {
 	author = $STR_A3_A_BranFlakes;
@@ -121,6 +127,13 @@ class Rev_B_BDF_Pickup_rcws_F: O_Pickup_rcws_rf
 		"\lxrf\vehicles_rf\pickup_01\data\pickup_01_ext2_co.paa",
 		"lxrf\vehicles_rf\pickup_01\Data\RCWS\rcws_black_co.paa",
 		"\A3_revolucion\Soft_F_revolucion_RF\pickup_01\Data\rev_pickup_01_service_fdb_co.paa"
+	};
+	class Turrets: Turrets
+	{
+		class MainTurret: MainTurret
+		{
+			magazines[] = {"1000Rnd_65x39_Belt_Tracer_Red", "1000Rnd_65x39_Belt_Tracer_Red", "1000Rnd_65x39_Belt_Tracer_Red", "1000Rnd_65x39_Belt_Tracer_Red", "SmokeLauncherMag"};
+		};
 	};
 	class TransportMagazines
 	{

@@ -2,7 +2,7 @@ class rev_U_UniformBDU_03_fdb_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
-	displayName = "Battledress Uniform [FDB]";
+	displayName = $STR_A3_R_CfgWeapons_U_UniformBDU_03_FDB_F0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_UniformBDU_01_reservist_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -19,7 +19,7 @@ class rev_U_UniformBDU_04_fdb_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
-	displayName = "Battledress Uniform [FDB] (Rolled-Up)";
+	displayName = $STR_A3_R_CfgWeapons_U_UniformBDU_04_FDB_F0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_UniformBDU_02_reservist_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -37,7 +37,7 @@ class rev_U_UniformBDU_03_fdbmarines_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
-	displayName = "Battledress Uniform [FDB Marines]";
+	displayName = $STR_A3_R_CfgWeapons_U_UniformBDU_03_FDB_Marines_F0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_UniformBDU_01_reservist_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
@@ -54,7 +54,7 @@ class rev_U_UniformBDU_04_fdbmarines_F: Uniform_Base
 {
 	author = $STR_A3_A_Jamie;
 	scope = public;
-	displayName = "Battledress Uniform [FDB Marines] (Rolled-Up)";
+	displayName = $STR_A3_R_CfgWeapons_U_UniformBDU_04_FDB_Marines_F0;
 	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_UniformBDU_02_reservist_F_CA.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
