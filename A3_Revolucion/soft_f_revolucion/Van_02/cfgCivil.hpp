@@ -23,6 +23,14 @@ class Rev_C_Van_02_service_F: C_Van_02_service_F
 	faction = Revolucion_CIV_F;
 	crew = Rev_C_Man_UtilityWorker_01_F;
 	typicalCargo[] = {Rev_C_Man_UtilityWorker_01_F};
+	textureList[] = {White,1};
+    hiddenSelectionsTextures[] = 
+	{
+		"\a3\Soft_F_Orange\Van_02\Data\van_body_White_CO.paa",
+		"\a3\soft_f_orange\van_02\data\van_wheel_co.paa",
+		"\a3\soft_f_orange\van_02\data\van_glass_utility_CA.paa",
+		"\a3\Soft_F_Orange\Van_02\Data\van_body_White_CO.paa"
+	};
 };
 class Rev_C_Van_02_medevac_F: C_Van_02_medevac_F
 {

@@ -26,7 +26,10 @@ class CfgPatches
             Rev_O_FRR_Boat_Transport_01_F,
 
             /* From "cfgVenezuela.hpp" */
-            Rev_O_VZ_Boat_Transport_01_F
+            Rev_O_VZ_Boat_Transport_01_F,
+            
+            /* From "cfgCivil.hpp" */
+            Rev_C_Rubberboat_F
         };
 		weapons[] = {/* Automated */};
 	};

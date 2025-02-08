@@ -16,7 +16,14 @@ class CfgPatches
             Rev_B_BDF_Boat_Transport_02_F,
 
             /* From "cfgCartels.hpp" */
-            Rev_I_CDB_Boat_Transport_02_F
+            Rev_I_CDB_Boat_Transport_02_F,
+
+            /* From "cfgPNB.hpp" */
+            Rev_B_PNB_Boat_Transport_02_F,
+            Rev_O_PNB_Boat_Transport_02_F,
+
+            /* From "cfgCivil.hpp" */
+            Rev_C_Boat_Transport_02_F
         };
 		weapons[] = {/* Automated */};
 	};
