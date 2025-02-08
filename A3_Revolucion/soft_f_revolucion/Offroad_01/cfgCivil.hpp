@@ -17,8 +17,8 @@ class Rev_C_Offroad_01_covered_F: C_Offroad_01_covered_F
 {
     author = $STR_A3_A_Ravenholme;
     faction = Revolucion_CIV_F;
-    crew = Rev_C_Man_casual_4_F;
-	typicalCargo[] = {Rev_C_Man_casual_4_F};
+    crew = Rev_C_Man_casual_7_F;
+	typicalCargo[] = {Rev_C_Man_casual_7_F};
 };
 class Rev_C_Offroad_01_comms_F: C_Offroad_01_comms_F
 {
