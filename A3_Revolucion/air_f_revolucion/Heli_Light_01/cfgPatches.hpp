@@ -20,7 +20,10 @@ class CfgPatches
 
 			/* From "cfgFASR.hpp" */
 			Rev_O_FASR_Heli_Light_01_F,
-			Rev_O_FASR_Heli_Light_01_dynamicLoadout_F
+			Rev_O_FASR_Heli_Light_01_dynamicLoadout_F,
+
+			/* From "cfgCivil.hpp" */
+			Rev_C_Heli_Light_01_Civil_F
         };
 		weapons[] = {/* Automated */};
 	};

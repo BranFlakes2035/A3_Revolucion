@@ -30,5 +30,6 @@ class CfgVehicles
     };
     
     #include "cfgBDF.hpp"      // Baracan Defence Force
+    #include "cfgCivil.hpp"    // Baracan Civs
 
 };

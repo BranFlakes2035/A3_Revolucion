@@ -24,7 +24,9 @@ class CfgVehicles
 	};
 	class Heli_Light_02_unarmed_base_F: Heli_Light_02_base_F{};
 	class Heli_Light_02_dynamicLoadout_base_F: Heli_Light_02_base_F{};
+	class C_Heli_Light_02_civil_F;
 
     /* Factions */
 	#include "cfgVenezuela.hpp"		// Venezuela
+	#include "cfgCivil.hpp"			// Baracan Civs
 };

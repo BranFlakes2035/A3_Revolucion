@@ -12,7 +12,11 @@ class CfgPatches
 		units[] =
         {
             /* From "cfgCartels.hpp" */
-			Rev_I_CDB_Plane_Civil_01_F
+			Rev_I_CDB_Plane_Civil_01_F,
+
+			/* From "cfgCivil.hpp" */
+			Rev_C_Plane_Civil_01_F,
+			Rev_C_Plane_Civil_01_racing_F
         };
 		weapons[] = {/* Automated */};
 	};

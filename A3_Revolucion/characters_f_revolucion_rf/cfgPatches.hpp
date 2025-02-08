@@ -17,6 +17,14 @@ class CfgPatches
 		skipWhenMissingDependencies = 1;
 		units[] =
         {
+			/* From "cfgBDF.hpp" */
+			Rev_B_BDF_Soldier_PSRL_F,
+			Rev_B_BDF_Marine_PSRL_F,
+
+			/* From "cfgCivil.hpp" */
+			Rev_C_Man_Firefighter_RF,
+			Rev_C_Pilot_RF,
+			Rev_C_Pilot_Rescue_RF
         };
 		weapons[] = {/* Automated */};
 	};

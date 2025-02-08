@@ -11,9 +11,12 @@ class CfgPatches
 		requiredVersion = 0.1;
 		units[] =
         {
-            /* From "cfgRUS.hpp" */
+            /* From "cfgVenezuela.hpp" */
             Rev_O_VZ_Heli_Light_02_dynamicLoadout_F,
             Rev_O_VZ_Heli_Light_02_unarmed_F,
+
+			/* From "cfgCivil.hpp" */
+			Rev_C_Heli_Light_02_civil_F
         };
 		weapons[] = {/* Automated */};
 	};
