@@ -1,0 +1,35 @@
+/* Baracan Civilian Vans */
+class Rev_C_Van_02_transport_F: C_Van_02_transport_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	faction = Revolucion_CIV_F;
+	crew = Rev_C_man_polo_1_F;
+	typicalCargo[] = {Rev_C_man_polo_1_F};
+};
+class Rev_C_Van_02_vehicle_F: C_Van_02_vehicle_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	faction = Revolucion_CIV_F;
+	crew = Rev_C_Man_Messenger_01_F;
+	typicalCargo[] = {Rev_C_Man_Messenger_01_F};
+};
+class Rev_C_Van_02_service_F: C_Van_02_service_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+	forceinGarage = 0;
+	faction = Revolucion_CIV_F;
+	crew = Rev_C_Man_UtilityWorker_01_F;
+	typicalCargo[] = {Rev_C_Man_UtilityWorker_01_F};
+};
+class Rev_C_Van_02_medevac_F: C_Van_02_medevac_F
+{
+	author = $STR_A3_A_BranFlakes;
+	scope = public;
+	displayName = $STR_A3_CfgVehicles_Van_02_medevac_base_F0;
+	faction = Revolucion_CIV_F;
+	crew = Rev_C_Man_Paramedic_01_F;
+	typicalCargo[] = {Rev_C_Man_Paramedic_01_F};
+};

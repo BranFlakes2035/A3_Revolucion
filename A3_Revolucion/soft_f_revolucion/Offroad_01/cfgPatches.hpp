@@ -55,7 +55,13 @@ class CfgPatches
 			Rev_B_PNB_Offroad_01_comms_F,
 			Rev_O_PNB_Offroad_01_policia_F,
 			Rev_O_PNB_Offroad_01_covered_F,
-			Rev_O_PNB_Offroad_01_comms_F
+			Rev_O_PNB_Offroad_01_comms_F,
+
+			/* From "cfgCivil.hpp" */
+			Rev_C_Offroad_01_F,
+			Rev_C_Offroad_01_covered_F,
+			Rev_C_Offroad_01_comms_F,
+			Rev_C_Offroad_01_repair_F
 
         };
 		weapons[] = {/* Automated */};

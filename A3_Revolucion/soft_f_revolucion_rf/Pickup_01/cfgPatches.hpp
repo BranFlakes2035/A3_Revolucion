@@ -10,7 +10,29 @@ class CfgPatches
 		};
 		skipWhenMissingDependencies = 1;
 		requiredVersion = 0.1;
-		units[] = {/* Auto-compiled by pboProject */};
+		units[] = 
+		{
+			/* From "cfgBDF.hpp" */
+			Rev_B_BDF_Pickup_F,
+			Rev_B_BDF_Pickup_Comms_F,
+			Rev_B_BDF_Pickup_mmg_F,
+			Rev_B_BDF_Pickup_aat_F,
+			Rev_B_BDF_Pickup_rcws_F,
+
+			/* From "cfgPolicia.hpp" */
+			Rev_B_PNB_Pickup_F,
+			Rev_O_PNB_Pickup_F,
+
+			/* From "cfgCartel.hpp" */
+			Rev_I_Cartel_Pickup_F,
+			Rev_I_Cartel_Pickup_Comms_F,
+			Rev_I_Cartel_Pickup_HMG_F,
+
+			/* From "cfgCivil.hpp" */
+			Rev_C_Pickup_RF,
+			Rev_C_Pickup_Covered_RF,
+			Rev_C_Pickup_Repair_RF
+		};
 		weapons[] = {/* Auto-compiled by pboProject */};
 	};
 };

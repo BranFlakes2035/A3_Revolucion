@@ -22,7 +22,12 @@ class CfgPatches
 			Rev_I_FRR_Van_01_Transport_F,
 			Rev_I_FRR_Van_01_Fuel_F,
 			Rev_O_FRR_Van_01_Transport_F,
-			Rev_O_FRR_Van_01_Fuel_F
+			Rev_O_FRR_Van_01_Fuel_F,
+
+			// Baracan Civs
+			Rev_C_Van_01_transport_F,
+			Rev_C_Van_01_box_F,
+			Rev_C_Van_01_fuel_F
 		};
 		weapons[] = {/* Automated */};
 	};

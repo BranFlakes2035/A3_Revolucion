@@ -8,4 +8,5 @@ class CfgVehicles
 
 	/* Arma 3 Revolucion */
 	#include "cfgCartels.hpp"	// Cartels De Baracas
+	#include "cfgCivil.hpp"		// Baracan Civilians
 };

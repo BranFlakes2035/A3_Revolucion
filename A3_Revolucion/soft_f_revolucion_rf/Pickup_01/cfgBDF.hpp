@@ -50,7 +50,7 @@ class Rev_B_BDF_Pickup_Comms_F: B_Pickup_Comms_rf
 		item_xx(FirstAidKit,4);
 	};
 };
-class Rev_B_BDF_Pickup_Comms_mmg_F: B_Pickup_mmg_rf
+class Rev_B_BDF_Pickup_mmg_F: B_Pickup_mmg_rf
 {
 	author = $STR_A3_A_BranFlakes;
 	side = TWest;
@@ -76,7 +76,7 @@ class Rev_B_BDF_Pickup_Comms_mmg_F: B_Pickup_mmg_rf
 		item_xx(FirstAidKit,4);
 	};
 };
-class Rev_B_BDF_Pickup_Comms_aat_F: B_Pickup_aat_rf
+class Rev_B_BDF_Pickup_aat_F: B_Pickup_aat_rf
 {
 	author = $STR_A3_A_BranFlakes;
 	side = TWest;

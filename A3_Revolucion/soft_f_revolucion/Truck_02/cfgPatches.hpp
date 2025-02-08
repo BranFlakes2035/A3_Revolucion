@@ -45,7 +45,15 @@ class CfgPatches
 			Rev_O_VZ_Truck_02_Ammo_F,
 			Rev_O_VZ_Truck_02_fuel_F,
 			Rev_O_VZ_Truck_02_cargo_F,
-			Rev_O_VZ_Truck_02_flatbed_F
+			Rev_O_VZ_Truck_02_flatbed_F,
+
+			/* From "cfgCivil.hpp" */
+			Rev_C_Truck_02_covered_F,
+			Rev_C_Truck_02_transport_F,
+			Rev_C_Truck_02_fuel_F,
+			Rev_C_Truck_02_box_F,
+			Rev_C_Truck_02_cargo_F,
+			Rev_C_Truck_02_flatbed_F
         };
 		weapons[] = {/* Automated */};
 	};

@@ -214,5 +214,6 @@ class CfgVehicles
 	#include "cfgCartel.hpp"			//Cartel
 	#include "cfgFRR.hpp"				// FRR
 	#include "cfgFASR.hpp"				// FASR
-	#include "cfgPolicia.hpp"			//Policia
+	#include "cfgPolicia.hpp"			// Policia
+	#include "cfgCivil.hpp"				// Baracan Civs
 };

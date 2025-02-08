@@ -289,4 +289,5 @@ class CfgVehicles
     #include "cfgBDF.hpp" // BDF
 	#include "cfgFASR.hpp"	// FASR
 	#include "cfgVenezuela.hpp"	//Venezuela
+	#include "cfgCivil.hpp"		// Baracan Civs
 };

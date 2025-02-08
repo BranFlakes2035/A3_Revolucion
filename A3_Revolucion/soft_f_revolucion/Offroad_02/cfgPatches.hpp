@@ -15,7 +15,10 @@ class CfgPatches
 			// Cartel De Baracas
 			Rev_I_CDB_Offroad_02_unarmed_F,
 			Rev_I_CDB_Offroad_02_LMG_F,
-			Rev_I_CDB_Offroad_02_AT_F
+			Rev_I_CDB_Offroad_02_AT_F,
+
+			// Baracan Civilians
+			Rev_C_Offroad_02_F
 		};
 		weapons[] = {/* Automated */};
 	};

@@ -52,7 +52,7 @@ class Rev_I_Cartel_Pickup_Comms_F: B_Pickup_Comms_rf
 	};
 };
 class I_G_Pickup_hmg_rf;
-class Rev_I_Cartel_Pickup_Comms_mmg_F: I_G_Pickup_hmg_rf
+class Rev_I_Cartel_Pickup_HMG_F: I_G_Pickup_hmg_rf
 {
 	author = $STR_A3_A_BranFlakes;
 	side = TGuerrila;

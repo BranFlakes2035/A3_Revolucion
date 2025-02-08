@@ -24,7 +24,10 @@ class CfgPatches
 			/* From "cfgFRR.hpp" */
 			Rev_B_FRR_Quadbike_01_F,
 			Rev_I_FRR_Quadbike_01_F,
-			Rev_O_FRR_Quadbike_01_F
+			Rev_O_FRR_Quadbike_01_F,
+
+			/* From "cfgCivil.hpp" */
+			Rev_C_Quadbike_01_F
 		};
 		weapons[] = {/* Automated */};
 	};

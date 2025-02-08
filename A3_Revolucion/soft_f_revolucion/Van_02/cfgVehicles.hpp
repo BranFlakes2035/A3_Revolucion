@@ -57,13 +57,18 @@ class CfgVehicles
 			};
 		};
 	};
-	class C_Van_02_Transport_F;
-	class C_Van_02_Vehicle_F;
 	class B_G_Van_02_Transport_F;
 	class B_G_Van_02_Vehicle_F;
+
+	/* Civilian Base Classes */
+	class C_Van_02_service_F;
+	class C_Van_02_transport_F;
+	class C_Van_02_vehicle_F;
+	class C_Van_02_medevac_F;
 
 	/* Arma 3 Revolucion */
 	#include "cfgCartels.hpp"	// Cartels De Baracas
 	#include "cfgFRR.hpp"		// FRR
 	#include "cfgPNB.hpp"		// Policia Nacional de Baracas
+	#include "cfgCivil.hpp"		// Baracan Civs
 };

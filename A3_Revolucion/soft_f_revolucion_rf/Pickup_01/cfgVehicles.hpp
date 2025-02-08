@@ -92,4 +92,5 @@ class CfgVehicles
 	#include "cfgBDF.hpp"               // BDF
 	#include "cfgCartel.hpp"            // Cartel
 	#include "cfgPolicia.hpp"           // Policia
+	#include "cfgCivil.hpp"				// Baracan Civs
 };
