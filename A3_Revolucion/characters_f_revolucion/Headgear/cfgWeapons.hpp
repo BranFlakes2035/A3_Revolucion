@@ -178,4 +178,20 @@ class CfgWeapons
         //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
         hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\headgear_helmet_canvas_Marinas_CO.paa"};
     };
+
+    //////////////////////////////
+    ///// VZ Luchnik 
+    //////////////////////////////
+    class H_HelmetLuchnik_cover_base_F;
+    class Rev_H_HelmetLuchnik_cover_vhex_F: H_HelmetLuchnik_cover_base_F
+    {
+        displayName = "Luchnik Helmet (Cover, Dark Hex)";
+        scope = Public;
+        picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetLuchnik_cover_ardi_F_CA.paa";
+        hiddenSelectionsTextures[] =
+        {
+            "\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetEAST_khk_CO.paa",
+            "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_HelmetEAST_Cover_dhex_CO.paa"
+        };
+    };
 };

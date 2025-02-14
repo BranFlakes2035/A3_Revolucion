@@ -129,4 +129,68 @@ class CfgWeapons
 			""
 		};
 	};
+	/////////////////////////////
+	//// VZ Luchnik /////////////
+	/////////////////////////////
+	class Aegis_V_OCarrierLuchnik_F;
+	class Rev_V_OCarrierLuchnik_vhex_F: Aegis_V_OCarrierLuchnik_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Luchnik Carrier Vest (Dark Hex)";
+		//picture = "";
+        hiddenSelections[] = {camo}; 
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierLuchnik_dhex_CO.paa"
+		};
+	};
+	class Aegis_V_OCarrierLuchnik_Lite_F;
+	class Rev_V_OCarrierLuchnik_Lite_vkhex_F: Aegis_V_OCarrierLuchnik_Lite_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Luchnik Carrier Lite (Dark Hex)";
+		//picture = "";
+        hiddenSelections[] = {camo,camo1}; 
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierLuchnik_dhex_CO.paa"
+			//"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierLuchnik_Pouches_Whex_CO.paa"
+		};
+	};
+	class Aegis_V_OCarrierLuchnik_GL_F;
+	class Rev_V_OCarrierLuchnik_GL_vkhex_F: Aegis_V_OCarrierLuchnik_GL_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Luchnik Carrier GL Rig (Dark Hex)";
+		//picture = "";
+        hiddenSelections[] = {camo,camo1,camo2}; 
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierLuchnik_dhex_CO.paa",
+			//"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierLuchnik_Pouches_Whex_CO.paa",
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierLuchnik_GL_dhex_CO.paa"
+		};
+	};
+	class Aegis_V_OCarrierLuchnik_CQB_F;
+	class Rev_V_OCarrierLuchnik_CQB_vhex_F: Aegis_V_OCarrierLuchnik_CQB_F
+	{
+		author = $STR_A3_A_Jamie;
+		scope = public;
+		scopeArsenal = public;
+		displayName = "Luchnik Carrier CQB Rig (Dark Hex)";
+		//picture = "";
+        hiddenSelections[] = {camo,camo1,camo2}; 
+		hiddenSelectionsTextures[] = 
+		{
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierLuchnik_dhex_CO.paa",
+			//"\A3_Atlas\Characters_F_Atlas\Vests\data\OCarrierLuchnik_Pouches_Whex_CO.paa",
+			"\A3_Revolucion\Characters_F_Revolucion\Vests\data\OCarrierLuchnik_GL_dhex_CO.paa"
+		};
+	};
 };

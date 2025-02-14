@@ -26,17 +26,17 @@ class Rev_O_VZ_Soldier_F: Rev_O_VZ_Soldier_Base_F
 	displayName = $STR_A3_CfgVehicles_B_Soldier_F0;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
     {
@@ -76,17 +76,17 @@ class Rev_O_VZ_TL_F: Rev_O_VZ_Soldier_Base_F
 	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_GL_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_GL_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_GL_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_GL_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
@@ -139,17 +139,17 @@ class Rev_O_VZ_GL_F: Rev_O_VZ_Soldier_Base_F
 	displayName = $STR_B_Soldier_GL_F0;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_GL_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_GL_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_GL_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_GL_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
@@ -201,17 +201,17 @@ class Rev_O_VZ_AR_F: Rev_O_VZ_Soldier_Base_F
 	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_CQB_WHex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_CQB_vhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_CQB_WHex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_CQB_vhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
@@ -259,17 +259,17 @@ class Rev_O_VZ_exp_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_Carryall_owcamo_OWExp_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_GL_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_GL_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_GL_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_GL_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
@@ -318,17 +318,17 @@ class Rev_O_VZ_M_F: Rev_O_VZ_Soldier_Base_F
 	displayName = $STR_B_Soldier_M_F0;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
     {
@@ -369,17 +369,17 @@ class Rev_O_VZ_medic_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_FieldPack_owcamo_OWMedic_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_CQB_WHex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_CQB_vhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_CQB_WHex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_CQB_vhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
@@ -430,17 +430,17 @@ class Rev_O_VZ_Soldier_LAT_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_FieldPack_owcamo_OVZLAT_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
@@ -485,17 +485,17 @@ class Rev_O_VZ_A_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_Carryall_owcamo_OVZAmmo_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -536,17 +536,17 @@ class Rev_O_VZ_Soldier_AAR_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_FieldPack_owcamo_OVZAAR_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -587,17 +587,17 @@ class Rev_O_VZ_support_MG_F: Rev_O_VZ_Soldier_Base_F
 	backpack = O_R_HMG_01_Weapon_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -640,17 +640,17 @@ class Rev_O_VZ_support_AMG_F: Rev_O_VZ_Soldier_Base_F
 	backpack = O_R_HMG_01_support_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -694,17 +694,17 @@ class Rev_O_VZ_support_Mort_F: Rev_O_VZ_Soldier_Base_F
 	backpack = O_R_Mortar_01_Weapon_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -747,17 +747,17 @@ class Rev_O_VZ_support_AMort_F: Rev_O_VZ_Soldier_Base_F
 	backpack = O_R_Mortar_01_support_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -800,17 +800,17 @@ class Rev_O_VZ_support_AHAT_F: Rev_O_VZ_Soldier_Base_F
 	Backpack = B_FieldPack_owcamo_OWHAT_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -853,17 +853,17 @@ class Rev_O_VZ_support_AAA_F: Rev_O_VZ_Soldier_Base_F
 	Backpack = B_Carryall_owcamo_OWAAA_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -906,17 +906,17 @@ class Rev_O_VZ_support_AAT_F: Rev_O_VZ_Soldier_Base_F
 	Backpack = B_Carryall_owcamo_OWAAT_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -1012,17 +1012,17 @@ class Rev_O_VZ_engineer_F: Rev_O_VZ_Soldier_Base_F
 	Backpack = B_Carryall_owcamo_OWEng_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
 	{
@@ -1186,17 +1186,17 @@ class Rev_O_VZ_Soldier_AA_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_FieldPack_owcamo_OWAA_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
@@ -1241,17 +1241,17 @@ class Rev_O_VZ_Soldier_AT_F: Rev_O_VZ_Soldier_Base_F
 	backpack = B_FieldPack_owcamo_OWAT_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
@@ -1388,17 +1388,17 @@ class Rev_O_VZ_SL_F: Rev_O_VZ_Soldier_Base_F
 	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
@@ -1445,17 +1445,17 @@ class Rev_O_VZ_RadioOperator_F: Rev_O_VZ_Soldier_F
 	backpack = B_RadioBag_01_whex_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	weapons[] =
     {
@@ -1498,17 +1498,17 @@ class Rev_O_VZ_Soldier_unarmed_F: Rev_O_VZ_Soldier_Base_F
 	respawnMagazines[] = {};
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_Lite_whex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	role = Unarmed;
 	threat[] =
@@ -1566,17 +1566,17 @@ class Rev_O_VZ_HeavyGunner_F: Rev_O_VZ_AR_F
 	backpack = B_FieldPack_owcamo_OVZHG_F;
 	linkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_CQB_WHex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_CQB_vhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
 	respawnLinkedItems[] =
 	{
-		Atlas_V_OCarrierLuchnik_CQB_WHex_F,
-		H_HelmetLuchnik_cover_whex_F,
+		Rev_V_OCarrierLuchnik_CQB_vhex_F,
+		Rev_H_HelmetLuchnik_cover_vhex_F,
 		DefaultManLinkedItems,
-		Goggles_grn_F
+		Aegis_Goggles_Cover_grn_F
 	};
     weapons[] =
     {
