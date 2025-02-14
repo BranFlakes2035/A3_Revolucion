@@ -1,7 +1,6 @@
 class cfgWeapons
 {
     // Arma 3
-    class ItemInfo;
     class arifle_AK12U_545_F;
     class arifle_AK12_545_F;
     class arifle_AK12_F;
@@ -84,7 +83,7 @@ class cfgWeapons
         {
             "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
         };
-        class ItemInfo: ItemInfo
+        class ItemInfo
         {
             hiddenSelectionsTextures[] = 
             {
@@ -101,7 +100,7 @@ class cfgWeapons
         {
             "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
         };
-        class ItemInfo: ItemInfo
+        class ItemInfo
         {
             hiddenSelectionsTextures[] = 
             {

@@ -11,10 +11,10 @@ class CfgPatches
 		requiredAddons[] =
         {
             A3_Revolucion_Data_F_Revolucion,
-            EF_Data,
 			EF_CombatBoat_C
         };
 		requiredVersion = 0.1;
+		skipWhenMissingDependencies = 1;
 		units[] = {/* Automated */};
 		weapons[] = {/* Automated */};
 	};
