@@ -69,10 +69,6 @@ class cfgWeapons
     {
         class ItemInfo;
     };
-    class Aegis_NV_G_Armband_Blu_Alt_F: Aegis_NV_G_Armband_Blu_F
-    {
-        class ItemInfo;
-    };
 
     class rev_NV_G_Armband_fasr_F: Aegis_NV_G_Armband_Blu_F
     {
@@ -83,7 +79,7 @@ class cfgWeapons
         {
             "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
         };
-        class ItemInfo
+        class ItemInfo: ItemInfo
         {
             hiddenSelectionsTextures[] = 
             {
@@ -91,21 +87,21 @@ class cfgWeapons
             };
         };
     };
-    class rev_NV_G_Armband_fasr_alt_F: Aegis_NV_G_Armband_Blu_Alt_F
+    class rev_NV_G_Armband_fasr_alt_F: rev_NV_G_Armband_fasr_F
     {
         author = $STR_A3_A_Jamie;
         displayName = "Armband [FASR] (Alt)";
+        model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
         picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
         hiddenSelectionsTextures[] = 
         {
             "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
         };
-        class ItemInfo
+        class ItemInfo: ItemInfo
         {
-            hiddenSelectionsTextures[] = 
-            {
-                "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
-            };
+            uniformModel = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
+            modelOff = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
+            mass = 2;
         };
     };
 
