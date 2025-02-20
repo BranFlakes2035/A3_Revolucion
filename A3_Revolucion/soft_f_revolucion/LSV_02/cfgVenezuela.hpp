@@ -258,6 +258,10 @@ class Rev_O_VZ_LSV_02_unarmed_F: LSV_02_unarmed_base_F
 	{
 		weap_xx(arifle_AK12_F,2);
 	};
+    class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
 class Rev_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
 {
@@ -388,4 +392,8 @@ class Rev_O_VZ_LSV_02_AT_F: LSV_02_AT_base_F
 	{
 		weap_xx(arifle_AK12_F,2);
 	};
+    class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };

@@ -34,7 +34,7 @@ class CfgVehicles
 	{
 		class TextureSources
 		{
-			class LDF
+			class Policia
 			{
 				displayName = "Policia";
 				author = $STR_A3_A_BranFlakes;
@@ -64,7 +64,26 @@ class CfgVehicles
 	class C_Van_02_service_F;
 	class C_Van_02_transport_F;
 	class C_Van_02_vehicle_F;
-	class C_Van_02_medevac_F;
+	class Van_02_medevac_base_F: Van_02_base_F
+	{
+		class TextureSources
+		{
+			class Baracas_Ambulance
+			{
+				displayName = "Baracas";
+				author = $STR_A3_A_BranFlakes;
+				textures[] = 
+				{
+					"A3_Revolucion\soft_f_Revolucion\van_02\Data\Van_Medevac_body_baracas_co.paa",
+					"\a3\soft_f_orange\van_02\data\van_wheel_transport_CO.paa",
+					"\A3_Revolucion\soft_f_Revolucion\van_02\data\Van_Medevac_glass_baracas_co.paa",
+					"\a3\soft_f_orange\van_02\data\van_ambulance_monitors_co.paa",
+					"A3_Revolucion\soft_f_Revolucion\van_02\Data\Van_Medevac_body_baracas_co.paa",
+				};
+				factions[] = {};
+			};
+		};
+	};
 
 	/* Arma 3 Revolucion */
 	#include "cfgCartels.hpp"	// Cartels De Baracas

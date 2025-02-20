@@ -44,7 +44,11 @@ class Rev_O_VZ_APC_Wheeled_04_cannon_F: O_R_APC_Wheeled_04_cannon_F
     };
     class TransportBackpacks
     {
-        bag_xx(B_FieldPack_owcamo,2);
+        bag_xx(B_FieldPack_vhex_F,2);
+    };
+    class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
     };
     #include "SimpleObject.hpp"
 };

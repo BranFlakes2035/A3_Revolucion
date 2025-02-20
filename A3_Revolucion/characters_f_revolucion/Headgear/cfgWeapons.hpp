@@ -190,7 +190,7 @@ class CfgWeapons
         picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetLuchnik_cover_ardi_F_CA.paa";
         hiddenSelectionsTextures[] =
         {
-            "\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetEAST_khk_CO.paa",
+            "\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetEAST_grn_CO.paa",
             "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_HelmetEAST_Cover_dhex_CO.paa"
         };
     };

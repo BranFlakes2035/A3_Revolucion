@@ -256,7 +256,7 @@ class Rev_O_VZ_exp_F: Rev_O_VZ_Soldier_Base_F
     scopeCurator = public;
 	displayName = $STR_B_Soldier_exp_F0;
 	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
-	backpack = B_Carryall_owcamo_OWExp_F;
+	backpack = B_Carryall_vhex_OVZExp_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_GL_vkhex_F,
@@ -366,7 +366,7 @@ class Rev_O_VZ_medic_F: Rev_O_VZ_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_medic_F0;
-	backpack = B_FieldPack_owcamo_OWMedic_F;
+	backpack = B_FieldPack_vhex_OVZMedic_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_CQB_vhex_F,
@@ -427,7 +427,7 @@ class Rev_O_VZ_Soldier_LAT_F: Rev_O_VZ_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_lat_F0;
-	backpack = B_FieldPack_owcamo_OVZLAT_F;
+	backpack = B_FieldPack_vhex_OVZLAT_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -482,7 +482,7 @@ class Rev_O_VZ_A_F: Rev_O_VZ_Soldier_Base_F
 	scope = public;
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_A_F0;
-	backpack = B_Carryall_owcamo_OVZAmmo_F;
+	backpack = B_Carryall_vhex_OVZAmmo_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -533,7 +533,7 @@ class Rev_O_VZ_Soldier_AAR_F: Rev_O_VZ_Soldier_Base_F
 	scopeCurator = public;
 	displayName = $STR_B_Soldier_AAR_F0;
 	uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
-	backpack = B_FieldPack_owcamo_OVZAAR_F;
+	backpack = B_FieldPack_vhex_OVZAAR_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -797,7 +797,7 @@ class Rev_O_VZ_support_AHAT_F: Rev_O_VZ_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_A3_CfgVehicles_O_Soldier_AHAT_F0;
-	Backpack = B_FieldPack_owcamo_OWHAT_F;
+	Backpack = B_FieldPack_vhex_OVZHAT_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -850,7 +850,7 @@ class Rev_O_VZ_support_AAA_F: Rev_O_VZ_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AAA_F0;
-	Backpack = B_Carryall_owcamo_OWAAA_F;
+	Backpack = B_Carryall_vhex_OVZAAA_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -903,7 +903,7 @@ class Rev_O_VZ_support_AAT_F: Rev_O_VZ_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_soldier_AAT_F0;
-	Backpack = B_Carryall_owcamo_OWAAT_F;
+	Backpack = B_Carryall_vhex_OVZAAT_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -1009,7 +1009,7 @@ class Rev_O_VZ_engineer_F: Rev_O_VZ_Soldier_Base_F
   	scope = public;
   	scopeCurator = public;
 	displayName = $STR_B_engineer_F0;
-	Backpack = B_Carryall_owcamo_OWEng_F;
+	Backpack = B_Carryall_vhex_OVZEng_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -1183,7 +1183,7 @@ class Rev_O_VZ_Soldier_AA_F: Rev_O_VZ_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_AA_F0;
-	backpack = B_FieldPack_owcamo_OWAA_F;
+	backpack = B_FieldPack_vhex_OVZAA_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -1238,7 +1238,7 @@ class Rev_O_VZ_Soldier_AT_F: Rev_O_VZ_Soldier_Base_F
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_Soldier_AT_F0;
-	backpack = B_FieldPack_owcamo_OWAT_F;
+	backpack = B_FieldPack_vhex_OVZAT_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -1442,7 +1442,7 @@ class Rev_O_VZ_RadioOperator_F: Rev_O_VZ_Soldier_F
 	author = $STR_A3_A_Bran STR_A3_A_BranFlakes;
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_RadioOperator_F.jpg";
     displayName = $STR_A3_C_B_W_RadioOperator_F0;
-	backpack = B_RadioBag_01_whex_F;
+	backpack = B_RadioBag_01_vhex_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_Lite_vkhex_F,
@@ -1563,7 +1563,7 @@ class Rev_O_VZ_HeavyGunner_F: Rev_O_VZ_AR_F
         0.3     // Air
     };
     uniformClass = Rev_U_VZ_CombatUniform_shortsleeve_F;
-	backpack = B_FieldPack_owcamo_OVZHG_F;
+	backpack = B_FieldPack_vhex_OVZHG_F;
 	linkedItems[] =
 	{
 		Rev_V_OCarrierLuchnik_CQB_vhex_F,
@@ -2083,7 +2083,7 @@ class Rev_O_VZ_recon_LAT_F: Rev_O_VZ_Soldier_recon_base
     scope = public;
     scopeCurator = public;
 	displayName = $STR_B_recon_LAT_F0;
-	backpack = B_FieldPack_owcamo_OVZLAT_F;
+	backpack = B_FieldPack_vhex_OVZLAT_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_f,

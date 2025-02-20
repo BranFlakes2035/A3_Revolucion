@@ -1,4 +1,4 @@
-class B_FieldPack_owcamo_OVZLAT_F: B_FieldPack_owcamo
+class B_FieldPack_vhex_OVZLAT_F: B_FieldPack_vhex_F
 {
 	author = $STR_A3_A_BranFlakes;
 	scope = protected;
@@ -7,7 +7,7 @@ class B_FieldPack_owcamo_OVZLAT_F: B_FieldPack_owcamo
 		mag_xx(RPG7_F,3);
 	};
 };
-class B_Carryall_owcamo_OVZAmmo_F: B_Carryall_owcamo
+class B_Carryall_vhex_OVZAmmo_F: B_Carryall_vhex_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -26,7 +26,7 @@ class B_Carryall_owcamo_OVZAmmo_F: B_Carryall_owcamo
 		item_xx(FirstAidKit,4);
 	};
 };
-class B_FieldPack_owcamo_OVZAAR_F: B_FieldPack_owcamo
+class B_FieldPack_vhex_OVZAAR_F: B_FieldPack_vhex_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -41,7 +41,7 @@ class B_FieldPack_owcamo_OVZAAR_F: B_FieldPack_owcamo
 		item_xx(muzzle_snds_B,1);
 	};
 };
-class B_FieldPack_owcamo_OVZHG_F: B_FieldPack_owcamo
+class B_FieldPack_vhex_OVZHG_F: B_FieldPack_vhex_F
 {
 	author = $STR_A3_A_AveryTheKitty;
 	scope = protected;
@@ -50,6 +50,96 @@ class B_FieldPack_owcamo_OVZHG_F: B_FieldPack_owcamo
 		mag_xx(Aegis_200rnd_762x51_MAG_Green_F,2);
 	};
 };
+class B_FieldPack_vhex_OVZHAT_F: B_FieldPack_vhex_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Vorona_HEAT,1);
+	};
+};
+class B_Carryall_vhex_OVZAAA_F: B_Carryall_vhex_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AA,3);
+	};
+};
+class B_Carryall_vhex_OVZAAT_F: B_Carryall_vhex_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AT,2);
+		mag_xx(Titan_AP,2);
+	};
+};
+class B_FieldPack_vhex_OVZMedic_F: B_FieldPack_vhex_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportItems
+	{
+		item_xx(Medikit,1);
+		item_xx(FirstAidKit,10);
+	};
+};
+class B_Carryall_vhex_OVZEng_F: B_Carryall_vhex_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(SatchelCharge_Remote_Mag,1);
+		mag_xx(DemoCharge_Remote_Mag,2);
+	};
+	class TransportItems
+	{
+		item_xx(ToolKit,1);
+		item_xx(MineDetector,1);
+	};
+};
+class B_Carryall_vhex_OVZExp_F: B_Carryall_vhex_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(APERSBoundingMine_Range_Mag,3);
+		mag_xx(ClaymoreDirectionalMine_Remote_Mag,2);
+		mag_xx(SLAMDirectionalMine_Wire_Mag,2);
+		mag_xx(DemoCharge_Remote_Mag,1);
+	};
+	class TransportItems
+	{
+		item_xx(ToolKit,1);
+		item_xx(MineDetector,1);
+	};
+};
+class B_FieldPack_vhex_OVZAA_F: B_FieldPack_vhex_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AA,1);
+	};
+};
+class B_FieldPack_vhex_OVZAT_F: B_FieldPack_vhex_F
+{
+	author = $STR_A3_A_AveryTheKitty;
+	scope = protected;
+	class TransportMagazines
+	{
+		mag_xx(Titan_AT,1);
+		mag_xx(Titan_AP,1);
+	};
+};
+
 class B_AssaultPackSpec_blk_PantherExp_F: B_AssaultPackSpec_blk
 {
 	author = $STR_A3_A_Ravenholme;
@@ -66,6 +156,7 @@ class B_AssaultPackSpec_blk_PantherExp_F: B_AssaultPackSpec_blk
 		item_xx(MineDetector,1);
 	};
 };
+
 class B_AssaultPackSpec_blk_PantherLAT_F: B_AssaultPackSpec_blk
 {
 	author = $STR_A3_A_Ravenholme;

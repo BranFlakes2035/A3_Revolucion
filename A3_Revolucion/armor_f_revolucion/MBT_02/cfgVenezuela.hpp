@@ -36,4 +36,8 @@ class Rev_O_VZ_MBT_02_cannon_ghex_F: O_MBT_02_cannon_F
 	{
 		bag_xx(B_FieldPack_owcamo,2);
 	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };

@@ -106,6 +106,10 @@ class Rev_O_VZ_Truck_02_F: O_Truck_02_covered_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
 class Rev_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
 {
@@ -215,6 +219,10 @@ class Rev_O_VZ_Truck_02_transport_F: O_Truck_02_transport_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
     };
+    class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
 class Rev_O_VZ_Truck_02_box_F: O_Truck_02_box_F
 {
@@ -236,6 +244,10 @@ class Rev_O_VZ_Truck_02_box_F: O_Truck_02_box_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
 class Rev_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
 {
@@ -345,6 +357,10 @@ class Rev_O_VZ_Truck_02_medical_F: O_Truck_02_medical_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
 class Rev_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 {
@@ -457,6 +473,10 @@ class Rev_O_VZ_Truck_02_Ammo_F: O_Truck_02_Ammo_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
 class Rev_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
 {
@@ -566,6 +586,10 @@ class Rev_O_VZ_Truck_02_fuel_F: O_Truck_02_fuel_F
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_int_RUkhk_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
 class Rev_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 {
@@ -596,6 +620,10 @@ class Rev_O_VZ_Truck_02_cargo_F: Truck_02_cargo_base_lxWS
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
 class Rev_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 {
@@ -626,6 +654,10 @@ class Rev_O_VZ_Truck_02_flatbed_F: Truck_02_flatbed_base_lxWS
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa",
 		"lxws\vehicles_f_lxws\Truck_02\data\addons_black_co.paa"
 	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
 class O_Truck_02_MRL_F;
 class Rev_O_VZ_Truck_02_MRL_F: O_Truck_02_MRL_F
@@ -782,4 +814,8 @@ class Rev_O_VZ_Truck_02_MRL_F: O_Truck_02_MRL_F
 		"\A3_Revolucion\Soft_F_Revolucion\Truck_02\Data\Truck_02_MRL_VZ_CO.paa",
 		"\A3_Aegis\Soft_F_Aegis\Truck_02\Data\Truck_02_chassis_RUkhk_CO.paa"
 	};
+	class EventHandlers
+    {
+        init = "_this#0 forceFlagTexture 'A3_revolucion\data_f_revolucion\flags\flag_Venezuela_CO.paa'";
+    };
 };
