@@ -32,7 +32,7 @@ class rev_U_UniformBDU_02_fasr_F: Uniform_Base
 		mass = 60;
 	};
 };
-class Rev_U_O_FASR_FieldJacket_F: Uniform_Base
+/*class Rev_U_O_FASR_FieldJacket_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
 	scope = protected;
@@ -133,4 +133,4 @@ class Rev_U_O_DS_Uniform_01_shortsleeve_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 40;
 	};
-};
+};*/

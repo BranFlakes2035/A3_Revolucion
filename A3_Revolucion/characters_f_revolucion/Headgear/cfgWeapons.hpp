@@ -8,39 +8,6 @@ class CfgWeapons
     class H_MilCap_ocamo;
 	
     // Arma 3 Revolucion
-	class H_MK7_atacsfg_F: H_MK7_Base_F
-    {
-        author = "Bran Flakes and TacticalDruid";
-        scope = public;
-        displayName = $STR_A3_R_CfgWeapons_H_mk7_atacsfg0;
-        picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\H_MK7_atacsfg_F_CA.paa";
-        model = "\A3_Aegis\Characters_F_Aegis\Headgear\H_Mk7_F";
-        hiddenSelections[] = { "Camo","Camo2","Camo3" };
-        hiddenSelectionsTextures[] =
-        {
-         	"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\MK7_atacsfg.tga",
-         	"\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetSpecter_01_brown_CO.paa",
-         	"\A3_Aegis\Characters_F_Aegis\Headgear\Data\equip_d_co.paa"
-        };
-    };
-    class H_HelmetB;
-    class H_HelmetB_plain_atacsix_F: H_HelmetB
-    {
-      author = $STR_A3_A_AveryTheKitty;
-      displayName = $STR_A3_R_CfgWeapons_H_HelmetB_plain_atacsix_F0;
-      //picture = "\A3_coldfront\Characters_F_coldfront\Headgear\Data\UI\icon_H_HelmetB_plain_white_CA.paa";
-      hiddenSelectionsMaterials[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\MICH.rvmat"};
-      hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_Helmet_ECH_Marines_CO.paa"};
-    };
-    class H_HelmetSpecB;
-    class H_HelmetSpecB_plain_atacsix_F: H_HelmetSpecB
-    {
-      author = $STR_A3_A_AveryTheKitty;
-      displayName = $STR_A3_R_CfgWeapons_H_HelmetSpecB_plain_atacsix_F0;
-      //picture = "\A3_coldfront\Characters_F_coldfront\Headgear\Data\UI\icon_H_HelmetSpecB_white_CA.paa";
-      hiddenSelectionsMaterials[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\MICH.rvmat"};
-      hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_Helmet_ECH_Marines_CO.paa"};
-    };
     class H_Booniehat_atacs_F: H_Booniehat_khk
     {
         author = "Bran Flakes";
@@ -83,7 +50,7 @@ class CfgWeapons
         };
     };
     class Aegis_H_Helmet_FASTMT_Cover_rgr_F;
-    class Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F: Aegis_H_Helmet_FASTMT_Cover_rgr_F
+    /*class Rev_Aegis_H_Helmet_FASTMT_Cover_ATACS_F: Aegis_H_Helmet_FASTMT_Cover_rgr_F
     {
         author = $STR_A3_A_JC980_Jamie;
         scope = public;
@@ -95,7 +62,7 @@ class CfgWeapons
             "\A3_revolucion\Characters_F_Revolucion\Headgear\Data\H_HelmetFASTMT_Cover_ATACS_CO.paa",
             "\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HeadsetWest_oli_CO.paa"
         };
-    };
+    };*/
 
 
 

@@ -67,7 +67,7 @@ class rev_U_UniformBDU_04_fdbmarines_F: Uniform_Base
 		mass = 60;
 	};
 };
-class Rev_U_B_BDF_Uniform_01_F: Uniform_Base
+/*class Rev_U_B_BDF_Uniform_01_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
 	scope = public;
@@ -100,7 +100,7 @@ class Rev_U_B_BDF_Uniform_01_shortsleeve_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 40;
 	};
-};
+};*/
 class Rev_U_B_BDF_marina_Uniform_01_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
@@ -135,7 +135,7 @@ class Rev_U_B_BDF_marina_Uniform_01_shortsleeve_F: Uniform_Base
 		mass = 40;
 	};
 };
-class Rev_U_B_BDF_SF_Uniform_01_F: Uniform_Base
+/*class Rev_U_B_BDF_SF_Uniform_01_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
 	scope = public;
@@ -253,7 +253,7 @@ class Rev_U_B_BDF_Uniform_01_tanktop_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 40;
 	};
-};
+};*/
 class Rev_U_B_BDF_Officer_01_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
@@ -271,7 +271,7 @@ class Rev_U_B_BDF_Officer_01_F: Uniform_Base
 		mass = 40;
 	};
 };
-class Rev_U_B_BDF_Sweater_01_F: Uniform_Base
+/*class Rev_U_B_BDF_Sweater_01_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;
 	scope = public;
@@ -287,7 +287,7 @@ class Rev_U_B_BDF_Sweater_01_F: Uniform_Base
 		containerClass = Supply40;
 		mass = 40;
 	};
-};
+};*/
 class Rev_U_B_BDF_Coveralls_01_F: Uniform_Base
 {
 	author = $STR_A3_A_Branflakes;

@@ -56,7 +56,7 @@ class rev_UniformBDU_04_fdbmarines_F: Atlas_UniformBDU_04_oli_F
 		"\A3_Aegis\Characters_F_Aegis\Uniforms\Data\combatgloves_blk_co.paa"
 	};
 };
-class Rev_B_BDF_Uniform_01_F: I_E_Uniform_01_F
+/*class Rev_B_BDF_Uniform_01_F: I_E_Uniform_01_F
 {
   	scope = protected;
   	scopeCurator = private;
@@ -90,7 +90,7 @@ class Rev_B_BDF_Uniform_01_tanktop_F: I_E_Uniform_01_tanktop_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa",
 		"\A3\Characters_F_Enoch\Uniforms\Data\I_E_Soldier_01_gloves_black_CO.paa"
 	};
-};
+};*/
 class Rev_B_BDF_Officer_01_F: I_E_Uniform_01_officer_F
 {
   	scope = protected;
@@ -102,7 +102,7 @@ class Rev_B_BDF_Officer_01_F: I_E_Uniform_01_officer_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_CombatFatigues_Pants_CO.paa",
 	};
 };
-class Rev_B_BDF_Sweater_01_F: I_E_Uniform_01_sweater_F
+/*class Rev_B_BDF_Sweater_01_F: I_E_Uniform_01_sweater_F
 {
   	scope = protected;
   	scopeCurator = private;
@@ -111,7 +111,7 @@ class Rev_B_BDF_Sweater_01_F: I_E_Uniform_01_sweater_F
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_B_Sweater_CO.paa",
 	};
-};
+};*/
 class Rev_B_BDF_marina_Uniform_01_F: I_soldier_F
 {
   	scope = protected;
@@ -142,7 +142,7 @@ class Rev_B_BDF_Coveralls_01_F: B_Soldier_04_f
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\coveralls_BDF_CO.paa",
 	};
 };
-class Rev_B_BDF_SF_Uniform_01_F: I_soldier_F
+/*class Rev_B_BDF_SF_Uniform_01_F: I_soldier_F
 {
   	scope = protected;
   	scopeCurator = private;
@@ -201,7 +201,7 @@ class Rev_B_BDF_SF2_Uniform_03_shortsleeve_F: I_soldier_lite_F
 	{
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\Uniform_CombatFatigues_BDFSF3_CO.paa",
 	};
-};
+};*/
 /* Cartels */
 class Rev_I_CDB_CombatUniform_F: I_soldier_F
 {
@@ -248,7 +248,7 @@ class rev_UniformBDU_02_fasr_F: Atlas_UniformBDU_02_oli_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\U_UniformBDU_fasr_CO.paa"
 	};
 };
-class Rev_O_FASR_FieldJacket_F: I_C_Soldier_Camo_F
+/*class Rev_O_FASR_FieldJacket_F: I_C_Soldier_Camo_F
 {
   	scope = protected;
   	scopeCurator = private;
@@ -318,7 +318,7 @@ class Rev_O_FASR_FieldJacket_tanktop_F: I_E_Uniform_01_tanktop_F
 			INJURY_PERSONALITY_MATERIALS
 		};
 	};
-};
+};*/
 /*FRR*/
 class Rev_FRR_Soldier_1_F: I_C_Soldier_base_F
 {
@@ -599,7 +599,7 @@ class Rev_Panther_CombatUniform_fde_F: O_G_Soldier_LAT_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_Panther_Sweater_fde_CO.paa"
 	};
 };
-class Rev_O_DS_Uniform_01_F: I_E_Uniform_01_F
+/*class Rev_O_DS_Uniform_01_F: I_E_Uniform_01_F
 {
   	scope = protected;
   	scopeCurator = private;
@@ -621,7 +621,7 @@ class Rev_O_DS_Uniform_01_shortsleeve_F: I_E_Uniform_01_shortsleeve_F
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_DS_CO.paa",
 		"\A3_Revolucion\Characters_F_revolucion\Uniforms\Data\rev_U_O_CombatFatigues_DS_Pants_CO.paa"
 	};
-};
+};*/
 class Rev_C_Man_casual_baracasfc_F: C_Man_casual_1_F
 	{
   	scope = protected;

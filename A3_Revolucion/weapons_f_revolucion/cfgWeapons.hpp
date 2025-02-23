@@ -104,6 +104,40 @@ class cfgWeapons
             mass = 2;
         };
     };
+    class rev_NV_G_Armband_vz_F: Aegis_NV_G_Armband_Blu_F
+    {
+        author = $STR_A3_A_Jamie;
+        displayName = "Armband [Venezuela]";
+        picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+        hiddenSelectionsTextures[] = 
+        {
+            "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_vz_CO.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            hiddenSelectionsTextures[] = 
+            {
+                "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_vz_CO.paa"
+            };
+        };
+    };
+    class rev_NV_G_Armband_vz_alt_F: rev_NV_G_Armband_fasr_F
+    {
+        author = $STR_A3_A_Jamie;
+        displayName = "Armband [Venezuela] (Alt)";
+        model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
+        picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+        hiddenSelectionsTextures[] = 
+        {
+            "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_vz_CO.paa"
+        };
+        class ItemInfo: ItemInfo
+        {
+            uniformModel = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
+            modelOff = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
+            mass = 2;
+        };
+    };
 
     // Presets
     #include "presets.hpp"

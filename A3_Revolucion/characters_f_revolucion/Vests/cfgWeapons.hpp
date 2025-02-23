@@ -117,7 +117,7 @@ class CfgWeapons
 		picture = "\A3_Revolucion\Characters_F_Revolucion\Vests\Data\UI\rev_V_Press_bnp_F_ca.paa";
 		hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Vests\Data\FlakVest_bnp_CO.paa"};
 	};
-	class Rev_V_CarrierRigKBT_01_recon_FDB_F: Aegis_V_CarrierRigKBT_01_recon_base_F
+	/*class Rev_V_CarrierRigKBT_01_recon_FDB_F: Aegis_V_CarrierRigKBT_01_recon_base_F
 	{
 		author = $STR_A3_A_Grave;
 		scope = public;
@@ -128,7 +128,7 @@ class CfgWeapons
 			"A3_Revolucion\Characters_F_Revolucion\vests\data\CarrierRigKBT_01_FDB_CO.paa",
 			""
 		};
-	};
+	};*/
 	/////////////////////////////
 	//// VZ Luchnik /////////////
 	/////////////////////////////
