@@ -78,7 +78,7 @@ class CfgWeapons
         author						= $STR_A3_A_AveryTheKitty;
         scope						= public;
         displayName					= $STR_A3_A_CfgWeapons_Rev_H_OPSCORE_01_dazzle_01_F0;
-        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_01_dazzle_01_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        picture						= "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_01_dazzle_01_CA.paa";
         hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_01_CO.paa"};
         hiddenSelectionsMaterials[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE.rvmat"};
     };
@@ -87,7 +87,7 @@ class CfgWeapons
         author						= $STR_A3_A_AveryTheKitty;
         scope						= public;
         displayName					= $STR_A3_A_CfgWeapons_Rev_H_OPSCORE_02_dazzle_01_F0;
-        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_01_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        picture						= "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_01_CA.paa";
         hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_01_CO.paa"};
         hiddenSelectionsMaterials[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE.rvmat"};
     };
@@ -96,13 +96,13 @@ class CfgWeapons
     class Rev_H_OPSCORE_01_dazzle_02: Rev_H_OPSCORE_01_dazzle_01
     {
         displayName					= $STR_A3_A_CfgWeapons_Rev_H_OPSCORE_01_dazzle_02_F0;
-        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_01_dazzle_02_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        picture						= "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_01_dazzle_02_CA.paa";
         hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_02_CO.paa"};
     };
     class Rev_H_OPSCORE_02_dazzle_02: Rev_H_OPSCORE_02_dazzle_01
     {
         displayName					= $STR_A3_A_CfgWeapons_Rev_H_OPSCORE_02_dazzle_02_F0;
-        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_02_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        picture						= "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_02_CA.paa";
         hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_02_CO.paa"};
     };
 
@@ -110,13 +110,13 @@ class CfgWeapons
     class Rev_H_OPSCORE_01_dazzle_03: Rev_H_OPSCORE_01_dazzle_01
     {
         displayName					= $STR_A3_A_CfgWeapons_Rev_H_OPSCORE_01_dazzle_03_F0;
-        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_01_dazzle_03_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        picture						= "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_01_dazzle_03_CA.paa";
         hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_03_CO.paa"};
     };
     class Rev_H_OPSCORE_02_dazzle_03: Rev_H_OPSCORE_02_dazzle_01
     {
         displayName					= $STR_A3_A_CfgWeapons_Rev_H_OPSCORE_02_dazzle_03_F0;
-        picture						= /*"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_03_CA.paa"*/ "\A3\Weapons_F\Data\Placeholder_CO.paa";
+        picture						= "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_OPSCORE_02_dazzle_03_CA.paa";
         hiddenSelectionsTextures[]	= {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\H_OPSCORE_dazzle_03_CO.paa"};
     };
     class H_HelmetHBK_base_F;
@@ -142,7 +142,7 @@ class CfgWeapons
     {
         author = $STR_A3_A_BranFlakes;
         displayName = "Modular Helmet [FDB Marines]";
-        //picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_O_Helmet_canvas_owcamo_CA.paa";
+        //picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_O_Helmet_canvas_FDB.paa";
         hiddenSelectionsTextures[] = {"\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\headgear_helmet_canvas_Marinas_CO.paa"};
     };
 
@@ -154,7 +154,7 @@ class CfgWeapons
     {
         displayName = "Luchnik Helmet (Cover, Dark Hex)";
         scope = Public;
-        picture = "\A3_Atlas\Characters_F_Atlas\Headgear\Data\UI\icon_H_HelmetLuchnik_cover_ardi_F_CA.paa";
+        picture = "\A3_Revolucion\Characters_F_Revolucion\Headgear\Data\UI\Rev_H_HelmetLuchnik_cover_vhex_F_ca.paa";
         hiddenSelectionsTextures[] =
         {
             "\A3_Aegis\Characters_F_Aegis\Headgear\Data\H_HelmetEAST_grn_CO.paa",

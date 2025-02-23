@@ -5,7 +5,7 @@ class Rev_B_PNB_Pickup_F: B_GEN_Pickup_covered_rf
 	side = TWest;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_B_PNB_Pickup_F.jpg";
 	weapons[] = {PoliceHorn};
 	faction = "Revolucion_BLU_PNB_F";
 	crew = "Rev_B_PNB_Soldier_F";
@@ -32,7 +32,7 @@ class Rev_O_PNB_Pickup_F: B_GEN_Pickup_covered_rf
 	side = TEast;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_B_PNB_Pickup_F.jpg";
 	weapons[] = {PoliceHorn};
 	faction = "Revolucion_OPF_PNB_F";
 	crew = "Rev_B_PNB_Soldier_F";

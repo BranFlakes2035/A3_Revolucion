@@ -4,7 +4,7 @@ class Rev_B_BDF_Pickup_F: B_Pickup_rf
 	side = TWest;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_B_BDF_Pickup_F.jpg";
 	faction = "Revolucion_BLU_BDF_F";
 	crew = "Rev_B_BDF_Soldier_F";
 	typicalCargo[] = {"Rev_B_BDF_Soldier_F"};
@@ -30,7 +30,7 @@ class Rev_B_BDF_Pickup_Comms_F: B_Pickup_Comms_rf
 	side = TWest;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_B_BDF_Pickup_Comms_F.jpg";
 	faction = "Revolucion_BLU_BDF_F";
 	crew = "Rev_B_BDF_Soldier_F";
 	typicalCargo[] = {"Rev_B_BDF_Soldier_F"};
@@ -56,7 +56,7 @@ class Rev_B_BDF_Pickup_mmg_F: B_Pickup_mmg_rf
 	side = TWest;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_B_BDF_Pickup_mmg_F.jpg";
 	faction = "Revolucion_BLU_BDF_F";
 	crew = "Rev_B_BDF_Soldier_F";
 	typicalCargo[] = {"Rev_B_BDF_Soldier_F"};
@@ -82,7 +82,7 @@ class Rev_B_BDF_Pickup_aat_F: B_Pickup_aat_rf
 	side = TWest;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_B_BDF_Pickup_aat_F.jpg";
 	faction = "Revolucion_BLU_BDF_F";
 	crew = "Rev_B_BDF_Soldier_F";
 	typicalCargo[] = {"Rev_B_BDF_Soldier_F"};
@@ -115,7 +115,7 @@ class Rev_B_BDF_Pickup_rcws_F: O_Pickup_rcws_rf
 	side = TWest;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_B_BDF_Pickup_rcws_F.jpg";
 	faction = "Revolucion_BLU_BDF_F";
 	crew = "Rev_B_BDF_Soldier_F";
 	typicalCargo[] = {"Rev_B_BDF_Soldier_F"};

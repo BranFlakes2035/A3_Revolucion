@@ -28,8 +28,14 @@ class CfgVehicles
     {
         class EventHandlers;
     };
+    class B_Support_Mort_F;
+    class O_Support_Mort_F;
     
     #include "cfgBDF.hpp"      // Baracan Defence Force
     #include "cfgCivil.hpp"    // Baracan Civs
-
+    #include "cfgPolicia.hpp"   // Policia
+    #include "cfgFRR.hpp"       // FRR
+    #include "cfgFASR.hpp"      // FASR
+    #include "cfgVenezuela.hpp" // Venezuela
+    //#include "cfgCartels.hpp"   // Cartels
 };

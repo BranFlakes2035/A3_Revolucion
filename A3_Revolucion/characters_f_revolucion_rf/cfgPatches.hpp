@@ -20,6 +20,27 @@ class CfgPatches
 			/* From "cfgBDF.hpp" */
 			Rev_B_BDF_Soldier_PSRL_F,
 			Rev_B_BDF_Marine_PSRL_F,
+			Rev_B_BDF_Support_CMort_F,
+
+			/* From "cfgCartels.hpp"*/
+
+			/* From "cfgFASR.hpp" */
+			Rev_O_FASR_Support_CMort_F,
+
+			/* From "cfgFRR.hpp" */
+			Rev_B_FRR_Support_CMort_F,
+			Rev_I_FRR_Support_CMort_F,
+			Rev_O_FRR_Support_CMort_F,
+			Rev_B_FRR_Sharpshooter_RF,
+			Rev_I_FRR_Sharpshooter_RF,
+			Rev_O_FRR_Sharpshooter_RF,
+
+			/* From "cfgPolicia.hpp" */
+			Rev_B_PNB_Sharpshooter_F,
+			Rev_O_PNB_Sharpshooter_F,
+
+			/* From "cfgVenezeula.hpp" */
+			Rev_O_VZ_Support_CMort_F,
 
 			/* From "cfgCivil.hpp" */
 			Rev_C_Man_Firefighter_RF,

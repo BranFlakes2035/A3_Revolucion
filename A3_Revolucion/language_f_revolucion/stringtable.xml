@@ -503,6 +503,23 @@
                 <Japanese>Policía (Marksman)</Japanese>
                 <Turkish>Policía (Marksman)</Turkish>
             </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Sharpshooter_F0">
+                <Original>Policía (Sharpshooter)</Original>
+                <Chinese>Policía (Sharpshooter)</Chinese>
+                <French>Policía (Sharpshooter)</French>
+                <Spanish>Policía (Sharpshooter)</Spanish>
+                <Italian>Policía (Sharpshooter)</Italian>
+                <Polish>Policía (Sharpshooter)</Polish>
+                <Russian>Policía (Sharpshooter)</Russian>
+                <German>Policía (Sharpshooter)</German>
+                <Czech>Policía (Sharpshooter)</Czech>
+                <English>Policía (Sharpshooter)</English>
+                <Portuguese>Policía (Sharpshooter)</Portuguese>
+                <Korean>Policía (Sharpshooter)</Korean>
+                <Chinesesimp>Policía (Sharpshooter)</Chinesesimp>
+                <Japanese>Policía (Sharpshooter)</Japanese>
+                <Turkish>Policía (Sharpshooter)</Turkish>
+            </Key>
 			<Key ID="STR_A3_R_cfgVehicles_B_PNB_Soldier_Rifle_F0">
                 <Original>Policía (Rifle)</Original>
                 <Chinese>Policía (Rifle)</Chinese>
@@ -689,6 +706,23 @@
                 <Chinesesimp>Panther Paramedic</Chinesesimp>
                 <Japanese>Panther Paramedic</Japanese>
                 <Turkish>Panther Paramedic</Turkish>
+            </Key>
+			<Key ID="STR_A3_R_cfgVehicles_B_FRR_Sharpshooter_RF0">
+                <Original>Sharpshooter (H6)</Original>
+                <Chinese>Sharpshooter (H6)</Chinese>
+                <French>Sharpshooter (H6)</French>
+                <Spanish>Sharpshooter (H6)</Spanish>
+                <Italian>Sharpshooter (H6)</Italian>
+                <Polish>Sharpshooter (H6)</Polish>
+                <Russian>Sharpshooter (H6)</Russian>
+                <German>Sharpshooter (H6)</German>
+                <Czech>Sharpshooter (H6)</Czech>
+                <English>Sharpshooter (H6)</English>
+                <Portuguese>Sharpshooter (H6)</Portuguese>
+                <Korean>Sharpshooter (H6)</Korean>
+                <Chinesesimp>Sharpshooter (H6)</Chinesesimp>
+                <Japanese>Sharpshooter (H6)</Japanese>
+                <Turkish>Sharpshooter (H6)</Turkish>
             </Key>
 			<Container name="Groups">
 				<Key ID="STR_A3_R_CfgGroups_Indep_IND_Infantry_I_CDB_BanditGang0">
