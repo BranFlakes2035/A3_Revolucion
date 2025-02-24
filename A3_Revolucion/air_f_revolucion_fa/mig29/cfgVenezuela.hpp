@@ -2,7 +2,7 @@ class FA_Mig29_CSAT;
 class rev_FA_Mig29_VZ_F: FA_Mig29_CSAT
 {
 	author = $STR_A3_A_AveryTheKitty;
-	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Plane_CAS_02_dynamicLoadout_ghex_F.jpg";
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\rev_FA_Mig29_VZ_F.jpg";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

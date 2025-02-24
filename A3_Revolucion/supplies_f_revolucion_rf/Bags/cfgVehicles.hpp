@@ -17,5 +17,6 @@ class CfgVehicles
     class B_AssaultPackSpec_blk;
     /* Factions */
     #include "cfgBDF.hpp"       // BDF
+    #include "cfgCartels.hpp"
 
 };

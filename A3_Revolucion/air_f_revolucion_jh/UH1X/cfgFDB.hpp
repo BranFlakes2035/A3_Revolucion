@@ -1,7 +1,7 @@
 class Rev_B_FDB_JH_UH1X_armed_F: jj_uh1h_doorgunner_base
 {
 	author = "JohnHansen";
-    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FDB_JH_UH1X_armed_F.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FDB_JH_UH1X_armed_F.jpg";
 	scope = Public;
 	scopeCurator = Public;
     displayName = "UH-1X Super Huey (Armed)";
@@ -56,7 +56,7 @@ class Rev_B_FDB_JH_UH1X_armed_F: jj_uh1h_doorgunner_base
 class Rev_B_FDB_JH_UH1X_unarmed_F: jj_uh1h_unarmed_base
 {
     author = "JohnHansen";
-   // editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FDB_JH_UH1X_unarmed_F.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FDB_JH_UH1X_unarmed_F.jpg";
     scope = Public;
     scopeCurator = Public;
     displayName = "UH-1X Super Huey";
@@ -93,8 +93,7 @@ class Rev_B_FDB_JH_UH1X_unarmed_F: jj_uh1h_unarmed_base
 class Rev_B_FDB_JH_UH1X_medical_F: jj_uh1h_unarmed_base
 {
     author = "JohnHansen";
-    editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\O_W_Heli_Attack_02_dynamicLoadout_F.jpg";
-    //editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F.jpg";
     scope = Public;
     scopeCurator = Public;
     displayName = "UH-1X Super Huey (Medevac)";

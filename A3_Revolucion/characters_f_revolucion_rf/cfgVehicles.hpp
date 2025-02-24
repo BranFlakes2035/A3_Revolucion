@@ -37,5 +37,5 @@ class CfgVehicles
     #include "cfgFRR.hpp"       // FRR
     #include "cfgFASR.hpp"      // FASR
     #include "cfgVenezuela.hpp" // Venezuela
-    //#include "cfgCartels.hpp"   // Cartels
+    #include "cfgCartels.hpp"   // Cartels
 };

@@ -2,7 +2,7 @@ class Rev_B_CombatBoat_HMG_FDB: EF_CombatBoat_HMG_West_Base
 {
     author = "Tiny Gecko Studios";
     DLC = "ef";
-    //editorPreview = "\ef\ef_data\editorpreviews\cfgvehicles\EF_B_CombatBoat_HMG_MJTF_Des.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CombatBoat_HMG_FDB.jpg";
     scope = 2;
     scopeCurator = 2;
     side = 1;
@@ -51,7 +51,7 @@ class Rev_B_CombatBoat_Unarmed_FDB: EF_CombatBoat_Unarmed_Base
 {
     author = "Tiny Gecko Studios";
     DLC = "ef";
-    //editorPreview = "\ef\ef_data\editorpreviews\cfgvehicles\EF_B_CombatBoat_HMG_MJTF_Des.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_CombatBoat_Unarmed_FDB.jpg";
     scope = 2;
     scopeCurator = 2;
     side = 1;
