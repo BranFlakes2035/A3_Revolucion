@@ -2,7 +2,7 @@ class O_T_APC_Tracked_02_30mm_lxWS;
 class Rev_O_VZ_APC_Tracked_02_30mm_lxWS: O_T_APC_Tracked_02_30mm_lxWS
 {
     editorPreview = "\A3_Atlas\EditorPreviews_F_Atlas\Data\CfgVehicles\Atlas_O_AR_APC_Tracked_02_30mm_lxWS.jpg";
-    displayName = $STR_A3_A_CfgVehicles_O_R_APC_Tracked_02_30mm_lxWS0;
+    displayName = "BTR-T Toro";
 	scope = public;
 	scopeCurator = public;
 	side = TEast;

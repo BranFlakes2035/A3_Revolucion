@@ -2,6 +2,7 @@ class CfgVehicles
 {
 	// Arma 3
 	class LandVehicle;
+	class MBT_02_railgun_base_F;
 	class Tank: LandVehicle
 	{
 		class NewTurret;
@@ -48,7 +49,31 @@ class CfgVehicles
 			};
 		};
 	};
+	class O_MBT_02_railgun_base_F: MBT_02_railgun_base_F
+	{
+		class TextureSources
+		{
+			class VZHex
+        	{
+            	displayName = $STR_A3_R_TextureSources_VZHex0;
+            	author = $STR_A3_A_BranFlakes;
+				textures[] = 
+				{
+					"\A3_Revolucion\Armor_F_Revolucion\MBT_02\Data\rev_MBT_02_body_VZ_CO.paa",
+					"\A3_Revolucion\Armor_F_Revolucion\MBT_02\Data\rev_MBT_02_turret_railgun_VZ_CO.paa",
+					"\A3_Revolucion\Armor_F_Revolucion\MBT_02\Data\rev_MBT_02_railgun_VZ_CO.paa",
+					"\A3_Aegis\Armor_F_Aegis\Data\camonet_RUS_Green_CO.paa"
+				};
+            	factions[] = {};
+        	};
+		};
+		class TransportBackpacks
+		{
+			bag_xx(B_FieldPack_ocamo,2);
+		};
+	};
     class O_MBT_02_cannon_F: O_MBT_02_base_F{};
+
 
     /* Factions */
     #include "cfgVenezuela.hpp" // Venezuela
