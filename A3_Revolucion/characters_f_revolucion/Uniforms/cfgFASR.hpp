@@ -3,7 +3,7 @@ class rev_U_UniformBDU_01_fasr_F: Uniform_Base
 	author = $STR_A3_A_Jamie;
 	scope = public;
 	displayName = $STR_A3_R_CfgWeapons_U_UniformBDU_01_FASR_F0;
-	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_UniformBDU_01_oli_F_CA.paa";
+	picture = "\A3_Revolucion\characters_f_revolucion\Uniforms\Data\UI\rev_U_UniformBDU_01_fasr_F_ca.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_co.paa"};
@@ -20,7 +20,7 @@ class rev_U_UniformBDU_02_fasr_F: Uniform_Base
 	author = $STR_A3_A_Jamie;
 	scope = public;
 	displayName = $STR_A3_R_CfgWeapons_U_UniformBDU_02_FASR_F0;
-	picture = "\A3_Atlas\Characters_F_Atlas\Uniforms\Data\UI\icon_Atlas_U_UniformBDU_02_oli_F_CA.paa";
+	picture = "\A3_Revolucion\characters_f_revolucion\Uniforms\Data\UI\rev_U_UniformBDU_02_fasr_F_ca.paa";
 	model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 	hiddenSelections[] = {camo};
 	hiddenSelectionsTextures[] = {"\A3\Characters_F\Common\Suitpacks\Data\suitpack_soldier_indep_co.paa"};

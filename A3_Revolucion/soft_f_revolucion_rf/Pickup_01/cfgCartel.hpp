@@ -5,7 +5,7 @@ class Rev_I_Cartel_Pickup_F: I_G_Pickup_rf
 	side = TGuerrila;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_I_Cartel_Pickup_F.jpg";
 	faction = "Revolucion_IND_CDB_F";
 	crew = "Rev_I_CDB_Soldier_Para_F";
 	typicalCargo[] = {"Rev_I_CDB_Soldier_Para_F"};
@@ -31,7 +31,7 @@ class Rev_I_Cartel_Pickup_Comms_F: B_Pickup_Comms_rf
 	side = TGuerrila;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_I_Cartel_Pickup_Comms_F.jpg";
 	faction = "Revolucion_IND_CDB_F";
 	crew = "Rev_I_CDB_Soldier_Para_F";
 	typicalCargo[] = {"Rev_I_CDB_Soldier_Para_F"};
@@ -58,7 +58,7 @@ class Rev_I_Cartel_Pickup_HMG_F: I_G_Pickup_hmg_rf
 	side = TGuerrila;
 	scope = public;
 	scopeCurator = public;
-	//editorPreview = "\lxRF\editorpreviews_rf\Data\CfgVehicles\B_T_Pickup_rf.jpg";
+	editorPreview = "\A3_Revolucion\editorpreviews_f_revolucion\Data\CfgVehicles\Rev_I_Cartel_Pickup_HMG_F.jpg";
 	faction = "Revolucion_IND_CDB_F";
 	crew = "Rev_I_CDB_Soldier_Para_F";
 	typicalCargo[] = {"Rev_I_CDB_Soldier_Para_F"};

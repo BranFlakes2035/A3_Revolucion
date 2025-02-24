@@ -71,6 +71,61 @@ class Rev_B_BDF_Soldier_PSRL_F: Rev_B_BDF_Soldier_Base_F
 		DefaultManLinkedItems
 	};
 };
+class Rev_B_BDF_Support_CMort_F: B_Support_Mort_F
+{
+	author = $STR_A3_A_Ravenholme;
+	scope = public;
+    scopeCurator = public;
+	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_BDF_Soldier_lite_F.jpg";
+	displayName = $STR_LXRF_Soldier_Mortar;
+	faction = Revolucion_BLU_BDF_F;
+	side = TWest;
+	genericNames = VenezuelanMen;
+	identityTypes[] =
+	{
+		LanguageGRE_F,
+		Head_Greek,
+		Head_Latino,
+		G_HAF_default
+	};
+	headgearList[]={};
+	uniformClass = rev_U_UniformBDU_04_fdb_F;
+	backpack = B_CommandoMortar_weapon_RF;
+	weapons[] =
+	{
+		arifle_Velko_lxWS,
+		DefaultManWeapons
+	};
+	respawnWeapons[] =
+	{
+		arifle_Velko_lxWS,
+		DefaultManWeapons
+	};
+	magazines[] =
+	{
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
+        HandGrenade,
+        SmokeShell
+	};
+	respawnMagazines[] =
+	{
+		mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
+        HandGrenade,
+        SmokeShell
+	};
+	linkedItems[] =
+	{
+		V_TacVest_camo,
+		H_Booniehat_mgrn,
+		DefaultManLinkedItems
+	};
+	respawnLinkedItems[] =
+	{
+		V_TacVest_camo,
+		H_Booniehat_mgrn,
+		DefaultManLinkedItems
+	};
+};
 /* Baracan Marines */
 class Rev_B_BDF_Marine_base_F;
 class Rev_B_BDF_Marine_PSRL_F: Rev_B_BDF_Marine_base_F

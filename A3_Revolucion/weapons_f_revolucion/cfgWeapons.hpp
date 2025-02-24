@@ -74,7 +74,7 @@ class cfgWeapons
     {
         author = $STR_A3_A_Jamie;
         displayName = "Armband [FASR]";
-        picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+        picture = "\A3_Revolucion\characters_f_revolucion\Facewear\data\UI\rev_NV_G_Armband_fasr_F_ca.paa";
         hiddenSelectionsTextures[] = 
         {
             "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
@@ -92,7 +92,7 @@ class cfgWeapons
         author = $STR_A3_A_Jamie;
         displayName = "Armband [FASR] (Alt)";
         model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
-        picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+        picture = "\A3_Revolucion\characters_f_revolucion\Facewear\data\UI\rev_NV_G_Armband_fasr_F_ca.paa";
         hiddenSelectionsTextures[] = 
         {
             "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
@@ -108,7 +108,7 @@ class cfgWeapons
     {
         author = $STR_A3_A_Jamie;
         displayName = "Armband [Venezuela]";
-        picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+        picture = "\A3_Revolucion\characters_f_revolucion\Facewear\data\UI\rev_NV_G_Armband_vz_F_ca.paa";
         hiddenSelectionsTextures[] = 
         {
             "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_vz_CO.paa"
@@ -126,7 +126,7 @@ class cfgWeapons
         author = $STR_A3_A_Jamie;
         displayName = "Armband [Venezuela] (Alt)";
         model = "\A3_Aegis\Characters_F_Aegis\Facewear\G_Armband_alt.p3d";
-        picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_IDAP_F_CA.paa";
+        picture = "\A3_Revolucion\characters_f_revolucion\Facewear\data\UI\rev_NV_G_Armband_vz_F_ca.paa";
         hiddenSelectionsTextures[] = 
         {
             "\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_vz_CO.paa"

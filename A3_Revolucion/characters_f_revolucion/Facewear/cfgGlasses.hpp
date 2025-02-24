@@ -7,7 +7,7 @@ class CfgGlasses
 		scope = public;
 		scopeArsenal = public;
 		displayName = "Armband [FASR]";
-		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_UNL_F_CA.paa";
+		picture = "\A3_Revolucion\characters_f_revolucion\Facewear\data\UI\rev_NV_G_Armband_fasr_F_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
@@ -21,7 +21,7 @@ class CfgGlasses
 		scope = public;
 		scopeArsenal = public;
 		displayName = "Armband [FASR] (Alt)";
-		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_UNL_F_CA.paa";
+		picture = "\A3_Revolucion\characters_f_revolucion\Facewear\data\UI\rev_NV_G_Armband_fasr_F_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_fasr_CO.paa"
@@ -34,7 +34,7 @@ class CfgGlasses
 		scope = public;
 		scopeArsenal = public;
 		displayName = "Armband [Venezuela]";
-		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_UNL_F_CA.paa";
+		picture = "\A3_Revolucion\characters_f_revolucion\Facewear\data\UI\rev_NV_G_Armband_vz_F_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_vz_CO.paa"
@@ -47,7 +47,7 @@ class CfgGlasses
 		scope = public;
 		scopeArsenal = public;
 		displayName = "Armband [Venezuela] (Alt)";
-		picture = "\A3_Aegis\Characters_F_Aegis\Facewear\Data\UI\icon_Aegis_G_Armband_UNL_F_CA.paa";
+		picture = "\A3_Revolucion\characters_f_revolucion\Facewear\data\UI\rev_NV_G_Armband_vz_F_ca.paa";
 		hiddenSelectionsTextures[] = 
 		{
 			"\A3_Revolucion\Characters_F_revolucion\Facewear\Data\G_Armband_vz_CO.paa"

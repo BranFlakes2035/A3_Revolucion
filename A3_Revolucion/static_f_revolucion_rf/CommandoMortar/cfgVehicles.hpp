@@ -1,0 +1,21 @@
+class CfgVehicles
+{
+	/* Inheritance Tree */
+	class StaticMGWeapon;
+	class Weapon_Bag_Base;
+
+    /* Bases */
+	class B_CommandoMortar_RF;
+	class B_CommandoMortar_weapon_RF;
+	class O_CommandoMortar_RF;
+	class O_CommandoMortar_weapon_RF;
+	class B_D_CTRG_CommandoMortar_RF;
+	class B_D_CTRG_CommandoMortar_weapon_RF;
+
+	/* Factions */
+	#include "cfgBDF.hpp"			// Baracan Defence Force
+	#include "cfgFASR.hpp"			// FASR
+	#include "cfgFRR.hpp"			// FRR
+	#include "cfgVenezuela.hpp"		// Venezuela
+
+};

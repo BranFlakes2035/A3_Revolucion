@@ -15,7 +15,7 @@ class CfgWeapons
         author = "Tiny Gecko Studios";
         scope = public;
         displayName = $STR_A3_R_CfgWeapons_rev_Headgear_EF_H_MCH_BasicNet_fdbmarine0;
-        //picture = "\ef\ef_marines\data\ui\EF_H_MCH_BasicNet_Olive_CA.paa";
+        picture = "\A3_Revolucion\characters_f_revolucion\Headgear\Data\UI\Rev_H_MCH_BasicNet_FDB_Marine_EF_ca.paa";
         hiddenSelectionsTextures[] = 
         {
             "\A3_Revolucion\Characters_F_Revolucion_ef\headgear\data\mch_base_od_co.paa", 
