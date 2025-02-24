@@ -1,6 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project name="Arma3Revolucion">
 	<Package name="Language_Revolucion">
+		<Container name="Air_F">
+			<Container name="DisplayName">
+				<Key ID="STR_A3_A_CfgVehicles_Rev_B_FDB_JH_UH1X_armed_F0">
+					<Original>UH-1X Super Huey (Armed)</Original>
+					<Chinese>UH-1X Super Huey（武裝）</Chinese>
+					<French>UH-1X Super Huey(armé)</French>
+					<Spanish>UH-1X Super Huey (con armas)</Spanish>
+					<Italian>UH-1X Super Huey (armato)</Italian>
+					<Polish>UH-1X Super Huey (uzbrojony)</Polish>
+					<Russian>UH-1X Super Huey (с оружием)</Russian>
+					<German>UH-1X Super Huey (Bewaffnet)</German>
+					<Czech>UH-1X Super Huey (ozbrojený)</Czech>
+					<English>UH-1X Super Huey (Armed)</English>
+					<Portuguese>UH-1X Super Huey (armado)</Portuguese>
+					<Korean>UH-1X Super Huey (무장)</Korean>
+					<Chinesesimp>UH-1X Super Huey（武装）</Chinesesimp>
+					<Japanese>UH-1X Super Huey （武装）</Japanese>
+					<Turkish>UH-1X Super Huey (Silahlı)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Rev_B_FDB_JH_UH1X_medical_F0">
+					<Original>UH-1X Super Huey (Medical)</Original>
+					<Chinese>UH-1X Super Huey（醫療用）</Chinese>
+					<French>UH-1X Super Huey(médical)</French>
+					<Spanish>UH-1X Super Huey (médico)</Spanish>
+					<Italian>UH-1X Super Huey (medico)</Italian>
+					<Polish>UH-1X Super Huey (sprzęt medyczny)</Polish>
+					<Russian>UH-1X Super Huey (медицинский)</Russian>
+					<German>UH-1X Super Huey (Medizin)</German>
+					<Czech>UH-1X Super Huey (zdravotnický)</Czech>
+					<English>UH-1X Super Huey (Medical)</English>
+					<Portuguese>UH-1X Super Huey (médico)</Portuguese>
+					<Korean>UH-1X Super Huey (의료)</Korean>
+					<Chinesesimp>UH-1X Super Huey（医疗）</Chinesesimp>
+					<Japanese>UH-1X Super Huey （医療）</Japanese>
+					<Turkish>UH-1X Super Huey (Sıhhiye)</Turkish>
+				</Key>
+				<Key ID="STR_A3_A_CfgVehicles_Rev_B_FDB_JH_UH1X_unarmed_F0">
+					<Original>UH-1X Super Huey</Original>
+					<Chinese>UH-1X Super Huey</Chinese>
+					<French>UH-1X Super Huey</French>
+					<Spanish>UH-1X Super Huey</Spanish>
+					<Italian>UH-1X Super Huey</Italian>
+					<Polish>UH-1X Super Huey</Polish>
+					<Russian>UH-1X Super Huey</Russian>
+					<German>UH-1X Super Huey</German>
+					<Czech>UH-1X Super Huey</Czech>
+					<English>UH-1X Super Huey</English>
+					<Portuguese>UH-1X Super Huey</Portuguese>
+					<Korean>UH-1X Super Huey</Korean>
+					<Chinesesimp>UH-1X Super Huey</Chinesesimp>
+					<Japanese>UH-1X Super Huey</Japanese>
+					<Turkish>UH-1X Super Huey</Turkish>
+				</Key>
+			</Container>
+		</Container>
 		<Container name="Data_F">
 			<Container name="ContentLicensing">
                 <Key ID="STR_A3_R_CfgMods_Revolucion_overview0">

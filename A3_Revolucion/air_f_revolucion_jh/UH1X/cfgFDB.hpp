@@ -4,7 +4,7 @@ class Rev_B_FDB_JH_UH1X_armed_F: jj_uh1h_doorgunner_base
     editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FDB_JH_UH1X_armed_F.jpg";
 	scope = Public;
 	scopeCurator = Public;
-    displayName = "UH-1X Super Huey (Armed)";
+    displayName = $STR_A3_A_CfgVehicles_Rev_B_FDB_JH_UH1X_armed_F0;
 	side = TWest;
 	faction = Revolucion_BLU_BDF_F;
 	crew = Rev_B_BDF_Helipilot_F;
@@ -59,7 +59,7 @@ class Rev_B_FDB_JH_UH1X_unarmed_F: jj_uh1h_unarmed_base
     editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FDB_JH_UH1X_unarmed_F.jpg";
     scope = Public;
     scopeCurator = Public;
-    displayName = "UH-1X Super Huey";
+    displayName = $STR_A3_A_CfgVehicles_Rev_B_FDB_JH_UH1X_unarmed_F0;
     side = TWest;
     faction = Revolucion_BLU_BDF_F;
     crew = Rev_B_BDF_Helipilot_F;
@@ -93,10 +93,10 @@ class Rev_B_FDB_JH_UH1X_unarmed_F: jj_uh1h_unarmed_base
 class Rev_B_FDB_JH_UH1X_medical_F: jj_uh1h_unarmed_base
 {
     author = "JohnHansen";
-    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Heli_Attack_02_dynamicLoadout_F.jpg";
+    editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_B_FDB_JH_UH1X_medical_F.jpg";
     scope = Public;
     scopeCurator = Public;
-    displayName = "UH-1X Super Huey (Medevac)";
+    displayName = $STR_A3_A_CfgVehicles_Rev_B_FDB_JH_UH1X_medical_F0;
     side = TWest;
     faction = Revolucion_BLU_BDF_F;
     crew = Rev_B_BDF_Helipilot_F;
