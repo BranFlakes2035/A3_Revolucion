@@ -720,7 +720,7 @@ class Rev_B_FRR_Soldier_AT_F: Rev_B_FRR_Soldier_Base_F
     };
 	secondaryAmmoCoef = 0.5;
     backpack = B_FieldPack_green_F_FRR_AT_F;
-	uniformClass = Rev_U_O_FASR_FieldJacket_tshirt_F;
+	uniformClass = Rev_U_B_FRR_Uniform_06_F;
 	weapons[] =
 	{
 		Aegis_arifle_M16A4_F,
@@ -909,7 +909,7 @@ class Rev_B_FRR_Soldier_TL_F: Rev_B_FRR_Soldier_Base_F
 	icon = iconManLeader;
     cost = 250000;
 	camouflage = 1.4;
-	uniformClass = Rev_U_O_FASR_FieldJacket_tanktop_F;
+	uniformClass = Rev_U_B_FRR_Uniform_02_F;
 	weapons[] =
 	{
 		rev_arifle_M16A4_GL_blk_RDS_F,
