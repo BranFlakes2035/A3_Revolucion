@@ -57,7 +57,10 @@ class CfgVehicles
 			class CargoTurret_05: CargoTurret_05{};
 		};
 	};
-	class LSV_02_unarmed_base_F;
+	class LSV_02_unarmed_base_F: LSV_02_base_F
+	{
+		class EventHandlers;
+	};
 	class LSV_02_AT_base_F;
 
 	/* Factions */
