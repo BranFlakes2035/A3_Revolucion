@@ -11,11 +11,5 @@ class CfgPatches
 		skipWhenMissingDependencies = 1;
 		requiredVersion = 0.1;
 		weapons[] = {/* Auto-compiled by pboProject */};
-		units[] =
-        {
-			Rev_B_FDB_JH_UH1X_armed_F,
-			Rev_B_FDB_JH_UH1X_unarmed_F,
-			Rev_B_FDB_JH_UH1X_medical_F
-		};
 	};
 };

@@ -515,32 +515,38 @@ class Rev_B_BDF_Soldier_GL_F: Rev_B_BDF_Soldier_Base_F
 	cost = 200000;
 	weapons[] =
 	{
-		GL_M32_F,
+		rev_arifle_VelkoR5_GL_lxWS_ACO_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	respawnWeapons[] =
 	{
-		GL_M32_F,
+		rev_arifle_VelkoR5_GL_lxWS_ACO_F,
 		hgun_P07_blk_F,
         DefaultManWeapons
 	};
 	magazines[] =
 	{
-		mag_4(16rnd_9x21_mag_v2),
-        mag_3(6Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
-        mag_2(SmokeShell),
-        6Rnd_Smoke_Grenade_shell
-	};
+        mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_BLUFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_BLUFOR
+    };
 	respawnMagazines[] =
 	{
-		mag_4(16rnd_9x21_mag_v2),
-        mag_3(6Rnd_HE_Grenade_shell),
-        mag_2(HandGrenade),
-        mag_2(SmokeShell),
-        6Rnd_Smoke_Grenade_shell
-	};
+        mag_6(35Rnd_556x45_Velko_reload_tracer_red_lxWS),
+        mag_2(16rnd_9x21_mag_v2),
+        mag_6(1Rnd_HE_Grenade_shell),
+        mag_2(HandGrenade_East),
+        SmokeShell,
+        SMOKESHELLS_BLUFOR,
+        1Rnd_Smoke_Grenade_shell,
+		SMOKEGRENADES_BLUFOR
+    };
 	linkedItems[] =
 	{
 		Atlas_V_OCarrierRig_GL_oli_F,

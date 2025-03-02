@@ -245,6 +245,8 @@ class CfgPatches
 			Rev_O_VZ_recon_LAT_F,
 			Rev_O_VZ_recon_JTAC_F,
 			Rev_O_VZ_Fighter_Pilot_F
+
+
         };
 		weapons[] = {/* Automated */};
 	};

@@ -1094,7 +1094,7 @@ class CfgGroups
 					side = TEast;
 					faction = Revolucion_OPF_VZ_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
-					GROUP_UNIT(0,TEast,Rev_O_VZ_APC_Wheeled_04_cannon_F,LIEUTENANT,0,0);
+					GROUP_UNIT(0,TEast,Rev_O_VZ_APC_Tracked_02_30mm_lxWS,LIEUTENANT,0,0);
 					GROUP_UNIT(1,TEast,Rev_O_VZ_SL_F,SERGEANT,5,-5);
 					GROUP_UNIT(2,TEast,Rev_O_VZ_RadioOperator_F,PRIVATE,-5,-5);
 					GROUP_UNIT(3,TEast,Rev_O_VZ_Soldier_LAT_F,CORPORAL,10,-10);
@@ -1110,7 +1110,7 @@ class CfgGroups
 					side = TEast;
 					faction = Revolucion_OPF_VZ_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
-					GROUP_UNIT(0,TEast,Rev_O_VZ_APC_Wheeled_04_cannon_F,LIEUTENANT,0,0);
+					GROUP_UNIT(0,TEast,Rev_O_VZ_APC_Tracked_02_30mm_lxWS,LIEUTENANT,0,0);
 					GROUP_UNIT(1,TEast,Rev_O_VZ_SL_F,SERGEANT,5,-5);
 					GROUP_UNIT(2,TEast,Rev_O_VZ_AR_F,CORPORAL,-5,-5);
 					GROUP_UNIT(3,TEast,Rev_O_VZ_Soldier_AT_F,PRIVATE,10,-10);
@@ -1126,7 +1126,7 @@ class CfgGroups
 					side = TEast;
 					faction = Revolucion_OPF_VZ_F;
 					icon = "\A3\UI_F\Data\Map\Markers\NATO\o_mech_inf.paa";
-					GROUP_UNIT(0,TEast,Rev_O_VZ_APC_Wheeled_04_cannon_F,LIEUTENANT,0,0);
+					GROUP_UNIT(0,TEast,Rev_O_VZ_APC_Tracked_02_30mm_lxWS,LIEUTENANT,0,0);
 					GROUP_UNIT(1,TEast,Rev_O_VZ_SL_F,SERGEANT,5,-5);
 					GROUP_UNIT(2,TEast,Rev_O_VZ_AR_F,CORPORAL,-5,-5);
 					GROUP_UNIT(3,TEast,Rev_O_VZ_Soldier_AA_F,PRIVATE,10,-10);

@@ -363,9 +363,24 @@ class Rev_O_VZ_medic_F: Rev_O_VZ_Soldier_Base_F
 {
 	author = $STR_A3_A_BranFlakes;
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_medic_F.jpg";
+	class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_medic_s};
+			speechPlural[] = {veh_infantry_medic_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
     scope = public;
-    scopeCurator = public;
+  	scopeCurator = public;
 	displayName = $STR_B_medic_F0;
+	role = CombatLifeSaver;
+	icon = iconManMedic;
+	picture = pictureHeal;
+	camouflage = 1.6;
+	attendant = true;
 	backpack = B_FieldPack_vhex_OVZMedic_F;
 	linkedItems[] =
 	{
@@ -410,9 +425,6 @@ class Rev_O_VZ_medic_F: Rev_O_VZ_Soldier_Base_F
         SMOKESHELLS_MEDIC
     };
 	cost = 300000;
-	icon = iconManMedic;
-	picture = pictureHeal;
-	role = CombatLifeSaver;
 	threat[] =
     {
         1.0,    // Soft
@@ -1949,10 +1961,25 @@ class Rev_O_VZ_recon_medic_F: Rev_O_VZ_Soldier_recon_base
 {
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_recon_medic_F.jpg";
 	author = $STR_A3_A_BranFlakes;
+    class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_medic_s};
+			speechPlural[] = {veh_infantry_medic_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
     scope = public;
-    scopeCurator = public;
-	displayName = $STR_B_recon_medic_F0;
-	backpack = B_FieldPack_owcamo_OWMedic_F;
+  	scopeCurator = public;
+	displayName = $STR_B_medic_F0;
+	role = CombatLifeSaver;
+	icon = iconManMedic;
+	picture = pictureHeal;
+	camouflage = 1.6;
+	attendant = true;
+	backpack = B_FieldPack_vhex_OVZMedic_F;
 	linkedItems[] =
 	{
 		V_CarrierRigKBT_01_light_Olive_f,
@@ -2001,9 +2028,6 @@ class Rev_O_VZ_recon_medic_F: Rev_O_VZ_Soldier_recon_base
         SMOKESHELLS_MEDIC,
         mag_2(Chemlight_red)
     };
-	icon = iconManMedic;
-	picture = pictureHeal;
-	role = CombatLifeSaver;
 	threat[] =
     {
         1.0,    // Soft
@@ -2679,10 +2703,24 @@ class Rev_O_VZ_Panther_medic_F: Rev_O_VZ_Soldier_Panther_base
 {
 	editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Rev_O_VZ_Panther_medic_F.jpg";
 	author = $STR_A3_A_BranFlakes;
+    class SpeechVariants
+	{
+		class Default
+		{
+			speechSingular[] = {veh_infantry_medic_s};
+			speechPlural[] = {veh_infantry_medic_p};
+		};
+	};
+	textSingular = $STR_A3_nameSound_veh_infantry_medic_s;
+	textPlural = $STR_A3_nameSound_veh_infantry_medic_p;
     scope = public;
-    scopeCurator = public;
-	displayName = $STR_A3_R_cfgVehicles_O_VZ_Panther_medic_F0;
-	uniformClass = Rev_U_O_Panther_Uniform_02_F;
+  	scopeCurator = public;
+	displayName = $STR_B_medic_F0;
+	role = CombatLifeSaver;
+	icon = iconManMedic;
+	picture = pictureHeal;
+	camouflage = 1.6;
+	attendant = true;
 	backpack = B_AssaultPackSpec_blk_PantherMedic_F;
 	linkedItems[] =
 	{
@@ -2734,9 +2772,6 @@ class Rev_O_VZ_Panther_medic_F: Rev_O_VZ_Soldier_Panther_base
         SMOKESHELLS_MEDIC,
         mag_2(Chemlight_red)
     };
-	icon = iconManMedic;
-	picture = pictureHeal;
-	role = CombatLifeSaver;
 	threat[] =
     {
         1.0,    // Soft
