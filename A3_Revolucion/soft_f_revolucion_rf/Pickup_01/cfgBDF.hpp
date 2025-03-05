@@ -102,14 +102,7 @@ class Rev_B_BDF_Pickup_aat_F: B_Pickup_aat_rf
 		item_xx(FirstAidKit,4);
 	};
 };
-class O_Pickup_rcws_rf: Pickup_01_rcws_base_rf
-{
-	class Turrets: Turrets
-	{
-		class MainTurret;
-	};
-};
-class Rev_B_BDF_Pickup_rcws_F: O_Pickup_rcws_rf
+class Rev_B_BDF_Pickup_rcws_F: Pickup_01_rcws_base_rf
 {
 	author = $STR_A3_A_BranFlakes;
 	side = TWest;

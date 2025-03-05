@@ -57,10 +57,16 @@ class CfgVehicles
 			};
 		};
     };
-    class Pickup_01_aat_base_rf;
+    class Pickup_01_aat_base_rf: Pickup_01_base_rf
+	{
+		class Turrets;
+	};
     class Pickup_01_rcws_base_rf: Pickup_01_aat_base_rf
     {
-		class Turrets;
+		class Turrets: Turrets
+		{
+			class MainTurret;		
+		};
         class AnimationSources;
 		class TextureSources
 		{
