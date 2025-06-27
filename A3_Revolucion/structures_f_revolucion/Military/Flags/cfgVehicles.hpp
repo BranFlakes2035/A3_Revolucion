@@ -138,8 +138,8 @@ class CfgVehicles
 			init = "''";
 		};
 		//editorPreview = "\A3_Revolucion\EditorPreviews_F_Revolucion\Data\CfgVehicles\Flag_PNB_F.jpg";
-		scope = public;
-		scopeCurator = public;
+		scope = private;
+		scopeCurator = private;
 		displayName = $STR_A3_R_CfgVehicles_Flag_PNB_F0;
 		class EventHandlers
 		{
